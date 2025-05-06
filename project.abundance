@@ -681,6 +681,24 @@
             "unitsKey": "Inches",
             "fileTypeVersion": 1,
             "compiledBom": []
+        },
+        {
+            "atomType": "Intersection",
+            "name": "Intersection",
+            "x": 0.703042328042328,
+            "y": 0.6183844011142061,
+            "uniqueID": 1746569550628,
+            "ioValues": [
+                {
+                    "name": "geometry1",
+                    "ioValue": 1746569019551
+                },
+                {
+                    "name": "geometry2",
+                    "ioValue": 1746569053861
+                }
+            ],
+            "description": "The space shared by two shapes."
         }
     ],
     "allConnectors": [
@@ -714,6 +732,13 @@
         },
         {
             "ap1Name": "geometry",
+            "ap2Name": "geometry1",
+            "ap2Primary": false,
+            "ap1ID": 1746569019551,
+            "ap2ID": 1746569550628
+        },
+        {
+            "ap1Name": "geometry",
             "ap2Name": "number or geometry",
             "ap2Primary": false,
             "ap1ID": 1746569047772,
@@ -739,6 +764,13 @@
             "ap2Primary": true,
             "ap1ID": 1746569053861,
             "ap2ID": 1746569063699
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry2",
+            "ap2Primary": false,
+            "ap1ID": 1746569053861,
+            "ap2ID": 1746569550628
         },
         {
             "ap1Name": "geometry",
