@@ -593,7 +593,7 @@
                         },
                         {
                             "name": "Angle",
-                            "ioValue": 10
+                            "ioValue": 30
                         }
                     ],
                     "description": "Defines a Replicad code block.",
@@ -732,6 +732,20 @@
                 }
             ],
             "description": "Extrudes a 2D shape. Input can be negitive. "
+        },
+        {
+            "atomType": "Gcode",
+            "name": "Gcode",
+            "x": 0.2037037037037037,
+            "y": 0.8272980501392758,
+            "uniqueID": 1746928368186,
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": 1746568616016
+                }
+            ],
+            "description": "Generates Maslow gcode from the input geometry."
         }
     ],
     "allConnectors": [
@@ -741,6 +755,13 @@
             "ap2Primary": true,
             "ap1ID": 1746568616016,
             "ap2ID": 1746569019551
+        },
+        {
+            "ap1Name": "Geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": false,
+            "ap1ID": 1746568616016,
+            "ap2ID": 1746928368186
         },
         {
             "ap1Name": "geometry",
