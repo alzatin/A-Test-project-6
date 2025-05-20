@@ -758,6 +758,20 @@
                 }
             ],
             "description": "Rotates the input geometry around the X, Y, or Z axis. Inputs are degrees."
+        },
+        {
+            "atomType": "Circle",
+            "name": "Circle",
+            "x": 0.8123324396782843,
+            "y": 0.28690807799442897,
+            "uniqueID": 1747776371176,
+            "ioValues": [
+                {
+                    "name": "diameter",
+                    "ioValue": 10
+                }
+            ],
+            "description": "Creates a new circle."
         }
     ],
     "allConnectors": [
