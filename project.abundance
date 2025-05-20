@@ -734,34 +734,6 @@
             "description": "Extrudes a 2D shape. Input can be negitive. "
         },
         {
-            "atomType": "Circle",
-            "name": "Circle",
-            "x": 0.7903439153439152,
-            "y": 0.2646239554317549,
-            "uniqueID": 1747773368032,
-            "ioValues": [
-                {
-                    "name": "diameter",
-                    "ioValue": 10
-                }
-            ],
-            "description": "Creates a new circle."
-        },
-        {
-            "atomType": "Circle",
-            "name": "Circle",
-            "x": 0.8713136729222519,
-            "y": 0.6685236768802229,
-            "uniqueID": 1747774370355,
-            "ioValues": [
-                {
-                    "name": "diameter",
-                    "ioValue": 10
-                }
-            ],
-            "description": "Creates a new circle."
-        },
-        {
             "atomType": "Rotate",
             "name": "Rotate",
             "x": 0.5,
