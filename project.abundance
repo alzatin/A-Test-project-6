@@ -718,8 +718,8 @@
         {
             "atomType": "Extrude",
             "name": "Extrude",
-            "x": 0.22486772486772486,
-            "y": 0.28690807799442897,
+            "x": 0.22156084656084654,
+            "y": 0.298050139275766,
             "uniqueID": 1746570381184,
             "ioValues": [
                 {
@@ -732,6 +732,20 @@
                 }
             ],
             "description": "Extrudes a 2D shape. Input can be negitive. "
+        },
+        {
+            "atomType": "Circle",
+            "name": "Circle",
+            "x": 0.7903439153439152,
+            "y": 0.2646239554317549,
+            "uniqueID": 1747773368032,
+            "ioValues": [
+                {
+                    "name": "diameter",
+                    "ioValue": 10
+                }
+            ],
+            "description": "Creates a new circle."
         }
     ],
     "allConnectors": [
