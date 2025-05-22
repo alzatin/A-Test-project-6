@@ -30,8 +30,8 @@
         {
             "atomType": "Molecule",
             "name": "Side",
-            "x": 0.1197089947089947,
-            "y": 0.6100278551532033,
+            "x": 0.10515873015873016,
+            "y": 0.7681564245810056,
             "uniqueID": 1746568616016,
             "ioValues": [],
             "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -285,8 +285,8 @@
         {
             "atomType": "Move",
             "name": "Move",
-            "x": 0.28439153439153436,
-            "y": 0.6072423398328691,
+            "x": 0.23412698412698413,
+            "y": 0.5949720670391061,
             "uniqueID": 1746569019551,
             "ioValues": [
                 {
@@ -475,8 +475,8 @@
         {
             "atomType": "GitHubMolecule",
             "name": "RotatePattern",
-            "x": 0.3783068783068783,
-            "y": 0.2757660167130919,
+            "x": 0.3816137566137566,
+            "y": 0.29608938547486036,
             "uniqueID": 1746569327881,
             "ioValues": [
                 {
