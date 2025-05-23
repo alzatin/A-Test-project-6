@@ -740,6 +740,33 @@
                 }
             ],
             "description": "Rotates the input geometry around the X, Y, or Z axis. Inputs are degrees."
+        },
+        {
+            "atomType": "Label",
+            "name": "Label",
+            "x": 0.8571428571428571,
+            "y": 0.7206703910614525,
+            "uniqueID": 1748036147007,
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": 1746569047772
+                },
+                {
+                    "name": "Text",
+                    "ioValue": "Label Text"
+                },
+                {
+                    "name": "Size",
+                    "ioValue": 100
+                }
+            ],
+            "description": "Adds a label to the geometry in 3D space.",
+            "position": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            }
         }
     ],
     "allConnectors": [
@@ -791,6 +818,13 @@
             "ap2Primary": false,
             "ap1ID": 1746569047772,
             "ap2ID": 1746569122638
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": 1746569047772,
+            "ap2ID": 1748036147007
         },
         {
             "ap1Name": "geometry",
