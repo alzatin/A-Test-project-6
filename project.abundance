@@ -744,8 +744,8 @@
         {
             "atomType": "Label",
             "name": "Label",
-            "x": 0.8748882931188562,
-            "y": 0.6927374301675977,
+            "x": 0.7645502645502645,
+            "y": 0.4273743016759776,
             "uniqueID": 1748040907692,
             "ioValues": [
                 {
@@ -754,16 +754,16 @@
                 },
                 {
                     "name": "text",
-                    "ioValue": "Label"
+                    "ioValue": "Label3"
                 },
                 {
                     "name": "length",
-                    "ioValue": 10
+                    "ioValue": 30
                 }
             ],
             "description": "Adds a label with text and a line to geometry.",
-            "text": "Label2",
-            "length": 10,
+            "text": "Label3",
+            "length": 30,
             "position": [
                 0,
                 0,
@@ -774,6 +774,32 @@
                 0,
                 0
             ]
+        },
+        {
+            "atomType": "Move",
+            "name": "Move",
+            "x": 0.878968253968254,
+            "y": 0.7541899441340782,
+            "uniqueID": 1748042093501,
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": 1748040907692
+                },
+                {
+                    "name": "xDist",
+                    "ioValue": 10
+                },
+                {
+                    "name": "yDist",
+                    "ioValue": 0
+                },
+                {
+                    "name": "zDist",
+                    "ioValue": 0
+                }
+            ],
+            "description": "Moves a shape laterally in X, Y, Z."
         }
     ],
     "allConnectors": [
@@ -874,6 +900,13 @@
             "ap2Primary": false,
             "ap1ID": 1746569076552,
             "ap2ID": 1746569047772
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": 1748040907692,
+            "ap2ID": 1748042093501
         }
     ],
     "unitsKey": "MM",
