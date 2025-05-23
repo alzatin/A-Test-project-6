@@ -415,8 +415,8 @@
         {
             "atomType": "CutLayout",
             "name": "Cut Layout",
-            "x": 0.7275132275132276,
-            "y": 0.8328690807799443,
+            "x": 0.7292225201072386,
+            "y": 0.8128491620111732,
             "uniqueID": 1746569122638,
             "ioValues": [
                 {
@@ -740,6 +740,40 @@
                 }
             ],
             "description": "Rotates the input geometry around the X, Y, or Z axis. Inputs are degrees."
+        },
+        {
+            "atomType": "Label",
+            "name": "Label",
+            "x": 0.8713136729222519,
+            "y": 0.7094972067039107,
+            "uniqueID": 1748040907692,
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": 1746569047772
+                },
+                {
+                    "name": "text",
+                    "ioValue": "Label"
+                },
+                {
+                    "name": "length",
+                    "ioValue": 10
+                }
+            ],
+            "description": "Adds a label with text and a line to geometry.",
+            "text": "Label2",
+            "length": 10,
+            "position": [
+                0,
+                0,
+                0
+            ],
+            "rotation": [
+                0,
+                0,
+                0
+            ]
         }
     ],
     "allConnectors": [
@@ -791,6 +825,13 @@
             "ap2Primary": false,
             "ap1ID": 1746569047772,
             "ap2ID": 1746569122638
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": 1746569047772,
+            "ap2ID": 1748040907692
         },
         {
             "ap1Name": "geometry",
