@@ -716,24 +716,6 @@
             "type": "number"
         },
         {
-            "atomType": "Extrude",
-            "name": "Extrude",
-            "x": 0.22156084656084654,
-            "y": 0.298050139275766,
-            "uniqueID": 1746570381184,
-            "ioValues": [
-                {
-                    "name": "geometry",
-                    "ioValue": ""
-                },
-                {
-                    "name": "height",
-                    "ioValue": 10
-                }
-            ],
-            "description": "Extrudes a 2D shape. Input can be negitive. "
-        },
-        {
             "atomType": "Rotate",
             "name": "Rotate",
             "x": 0.4669312169312169,
@@ -758,90 +740,6 @@
                 }
             ],
             "description": "Rotates the input geometry around the X, Y, or Z axis. Inputs are degrees."
-        },
-        {
-            "atomType": "Circle",
-            "name": "Circle",
-            "x": 0.7493386243386244,
-            "y": 0.25418994413407825,
-            "uniqueID": 1747776371176,
-            "ioValues": [
-                {
-                    "name": "diameter",
-                    "ioValue": 10
-                }
-            ],
-            "description": "Creates a new circle."
-        },
-        {
-            "atomType": "Point",
-            "name": "Point",
-            "x": 0.798941798941799,
-            "y": 0.9189944134078213,
-            "uniqueID": 1748015052852,
-            "ioValues": [],
-            "description": "Creates a point in 3D space."
-        },
-        {
-            "atomType": "Move",
-            "name": "Move",
-            "x": 0.9034391534391535,
-            "y": 0.26256983240223464,
-            "uniqueID": 1748015064187,
-            "ioValues": [
-                {
-                    "name": "geometry",
-                    "ioValue": 1747776371176
-                },
-                {
-                    "name": "xDist",
-                    "ioValue": 0
-                },
-                {
-                    "name": "yDist",
-                    "ioValue": 0
-                },
-                {
-                    "name": "zDist",
-                    "ioValue": -10
-                }
-            ],
-            "description": "Moves a shape laterally in X, Y, Z."
-        },
-        {
-            "atomType": "Loft",
-            "name": "Loft",
-            "x": 0.8511904761904762,
-            "y": 0.7458100558659219,
-            "uniqueID": 1748015109354,
-            "ioValues": [
-                {
-                    "name": "Shape 1",
-                    "ioValue": 1748015064187
-                },
-                {
-                    "name": "Shape 2",
-                    "ioValue": 1748015052852
-                },
-                {
-                    "name": "Shape 3",
-                    "ioValue": ""
-                },
-                {
-                    "name": "Shape 1",
-                    "ioValue": 1748015064187
-                },
-                {
-                    "name": "Shape 2",
-                    "ioValue": 1748015052852
-                },
-                {
-                    "name": "Shape 3",
-                    "ioValue": ""
-                }
-            ],
-            "description": "Joins two or more shapes into a single solid by filling in the space between them. Also called 'hull'",
-            "closedSelection": 0
         }
     ],
     "allConnectors": [
@@ -935,27 +833,6 @@
             "ap2Primary": false,
             "ap1ID": 1746569076552,
             "ap2ID": 1746569047772
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "geometry",
-            "ap2Primary": true,
-            "ap1ID": 1747776371176,
-            "ap2ID": 1748015064187
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "Shape 2",
-            "ap2Primary": false,
-            "ap1ID": 1748015052852,
-            "ap2ID": 1748015109354
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "Shape 1",
-            "ap2Primary": false,
-            "ap1ID": 1748015064187,
-            "ap2ID": 1748015109354
         }
     ],
     "unitsKey": "MM",
