@@ -742,40 +742,6 @@
             "description": "Rotates the input geometry around the X, Y, or Z axis. Inputs are degrees."
         },
         {
-            "atomType": "Label",
-            "name": "Label",
-            "x": 0.7645502645502645,
-            "y": 0.4273743016759776,
-            "uniqueID": 1748040907692,
-            "ioValues": [
-                {
-                    "name": "geometry",
-                    "ioValue": 1746569047772
-                },
-                {
-                    "name": "text",
-                    "ioValue": "Label3"
-                },
-                {
-                    "name": "length",
-                    "ioValue": 30
-                }
-            ],
-            "description": "Adds a label with text and a line to geometry.",
-            "text": "Label3",
-            "length": 30,
-            "position": [
-                0,
-                0,
-                0
-            ],
-            "rotation": [
-                0,
-                0,
-                0
-            ]
-        },
-        {
             "atomType": "Move",
             "name": "Move",
             "x": 0.878968253968254,
@@ -854,13 +820,6 @@
         },
         {
             "ap1Name": "geometry",
-            "ap2Name": "geometry",
-            "ap2Primary": true,
-            "ap1ID": 1746569047772,
-            "ap2ID": 1748040907692
-        },
-        {
-            "ap1Name": "geometry",
             "ap2Name": "Shape 2",
             "ap2Primary": false,
             "ap1ID": 1746569053861,
@@ -900,13 +859,6 @@
             "ap2Primary": false,
             "ap1ID": 1746569076552,
             "ap2ID": 1746569047772
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "geometry",
-            "ap2Primary": true,
-            "ap1ID": 1748040907692,
-            "ap2ID": 1748042093501
         }
     ],
     "unitsKey": "MM",
