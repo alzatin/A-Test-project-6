@@ -794,6 +794,34 @@
                 }
             ],
             "description": "Creates a new circle."
+        },
+        {
+            "atomType": "Circle",
+            "name": "Circle",
+            "x": 0.6931216931216931,
+            "y": 0.33798882681564246,
+            "uniqueID": 1748469395993,
+            "ioValues": [
+                {
+                    "name": "diameter",
+                    "ioValue": 10
+                }
+            ],
+            "description": "Creates a new circle."
+        },
+        {
+            "atomType": "Circle",
+            "name": "Circle",
+            "x": 0.8176943699731904,
+            "y": 0.547486033519553,
+            "uniqueID": 1748469407572,
+            "ioValues": [
+                {
+                    "name": "diameter",
+                    "ioValue": 10
+                }
+            ],
+            "description": "Creates a new circle."
         }
     ],
     "allConnectors": [
