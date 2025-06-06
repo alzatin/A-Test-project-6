@@ -82,7 +82,7 @@
                         },
                         {
                             "name": "height",
-                            "ioValue": 10
+                            "ioValue": 15
                         }
                     ],
                     "description": "Extrudes a 2D shape. Input can be negitive. "
@@ -108,8 +108,8 @@
                 {
                     "atomType": "Extrude",
                     "name": "Extrude",
-                    "x": 0.34854497354497355,
-                    "y": 0.6545961002785515,
+                    "x": 0.3485254691689008,
+                    "y": 0.6480446927374302,
                     "uniqueID": 1746568941505,
                     "ioValues": [
                         {
@@ -118,7 +118,7 @@
                         },
                         {
                             "name": "height",
-                            "ioValue": 10
+                            "ioValue": 15
                         }
                     ],
                     "description": "Extrudes a 2D shape. Input can be negitive. "
