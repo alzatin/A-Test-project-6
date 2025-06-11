@@ -22,7 +22,7 @@
             "ioValues": [
                 {
                     "name": "number or geometry",
-                    "ioValue": 1746569047772
+                    "ioValue": 1746569122638
                 }
             ],
             "description": "Connect geometry here to make it available in the next level up. "
@@ -433,42 +433,42 @@
                 },
                 {
                     "name": "Part Padding",
-                    "ioValue": 6
+                    "ioValue": 15
                 }
             ],
             "description": "Extracts all parts tagged for cutting and lays them out on a sheet to cut.",
             "placements": [
                 [
                     {
-                        "id": 0,
-                        "rotate": 270,
-                        "translate": {
-                            "x": 103.10000000000002,
-                            "y": 62.021568627450975
-                        }
-                    },
-                    {
                         "id": 1,
                         "rotate": 180,
                         "translate": {
-                            "x": 103.1,
-                            "y": 178.22156862745106
+                            "x": 107.60000000000002,
+                            "y": 66.52156862745099
                         }
                     },
                     {
-                        "id": 3,
-                        "rotate": 0,
+                        "id": 0,
+                        "rotate": 270,
                         "translate": {
-                            "x": 3.10000000000003,
-                            "y": 294.4215686274511
+                            "x": 107.59999997403555,
+                            "y": 191.721568627451
                         }
                     },
                     {
                         "id": 2,
                         "rotate": 270,
                         "translate": {
-                            "x": 3.1000000433566055,
-                            "y": 402.7784313725491
+                            "x": 7.599999974035534,
+                            "y": 309.078431372549
+                        }
+                    },
+                    {
+                        "id": 3,
+                        "rotate": 0,
+                        "translate": {
+                            "x": 7.600000000000023,
+                            "y": 442.12156862745087
                         }
                     }
                 ]
@@ -519,8 +519,8 @@
         {
             "atomType": "Gcode",
             "name": "Gcode",
-            "x": 0.8838248436103663,
-            "y": 0.7988826815642459,
+            "x": 0.8981233243967828,
+            "y": 0.7150837988826816,
             "uniqueID": 1749591439009,
             "ioValues": [
                 {
@@ -599,13 +599,6 @@
         },
         {
             "ap1Name": "geometry",
-            "ap2Name": "number or geometry",
-            "ap2Primary": false,
-            "ap1ID": 1746569047772,
-            "ap2ID": 1746568598187
-        },
-        {
-            "ap1Name": "geometry",
             "ap2Name": "geometry",
             "ap2Primary": false,
             "ap1ID": 1746569047772,
@@ -652,6 +645,13 @@
             "ap2Primary": false,
             "ap1ID": 1746569122638,
             "ap2ID": 1749591439009
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "number or geometry",
+            "ap2Primary": false,
+            "ap1ID": 1746569122638,
+            "ap2ID": 1746568598187
         },
         {
             "ap1Name": "geometry",
