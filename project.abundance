@@ -519,7 +519,7 @@
         {
             "atomType": "Gcode",
             "name": "Gcode",
-            "x": 0.8981233243967828,
+            "x": 0.9043789097408401,
             "y": 0.7150837988826816,
             "uniqueID": 1749591439009,
             "ioValues": [
@@ -533,7 +533,7 @@
                 },
                 {
                     "name": "passes",
-                    "ioValue": 6
+                    "ioValue": 1
                 },
                 {
                     "name": "speed",
@@ -559,8 +559,8 @@
         {
             "atomType": "Extrude",
             "name": "Extrude",
-            "x": 0.7585978835978836,
-            "y": 0.6480446927374302,
+            "x": 0.7345844504021447,
+            "y": 0.8324022346368716,
             "uniqueID": "2acb612d-362a-4b60-a01a-45bf2224f63a",
             "ioValues": [
                 {
@@ -573,6 +573,58 @@
                 }
             ],
             "description": "Extrudes a 2D shape. Input can be negitive. "
+        },
+        {
+            "atomType": "Move",
+            "name": "Move",
+            "x": 0.8016085790884718,
+            "y": 0.223463687150838,
+            "uniqueID": "50b73fa2-4cbe-4940-bf77-8e03336a488b",
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": 1746569122638
+                },
+                {
+                    "name": "xDist",
+                    "ioValue": -300
+                },
+                {
+                    "name": "yDist",
+                    "ioValue": 0
+                },
+                {
+                    "name": "zDist",
+                    "ioValue": 0
+                }
+            ],
+            "description": "Moves a shape laterally in X, Y, Z."
+        },
+        {
+            "atomType": "Gcode",
+            "name": "Gcode",
+            "x": 0.8820375335120644,
+            "y": 0.36033519553072624,
+            "uniqueID": "f21e2305-fa98-4c62-9148-046c6d73b824",
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": "50b73fa2-4cbe-4940-bf77-8e03336a488b"
+                },
+                {
+                    "name": "tool size",
+                    "ioValue": 6.35
+                },
+                {
+                    "name": "passes",
+                    "ioValue": 6
+                },
+                {
+                    "name": "speed",
+                    "ioValue": 500
+                }
+            ],
+            "description": "Generates Maslow gcode from the input geometry."
         }
     ],
     "allConnectors": [
@@ -657,6 +709,13 @@
             "ap1Name": "geometry",
             "ap2Name": "geometry",
             "ap2Primary": true,
+            "ap1ID": 1746569122638,
+            "ap2ID": "50b73fa2-4cbe-4940-bf77-8e03336a488b"
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
             "ap1ID": 1748453794850,
             "ap2ID": 1749071793346
         },
@@ -666,6 +725,13 @@
             "ap2Primary": true,
             "ap1ID": "5beda817-a9dc-4d07-b728-d6bea9a06c4e",
             "ap2ID": "2acb612d-362a-4b60-a01a-45bf2224f63a"
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": false,
+            "ap1ID": "50b73fa2-4cbe-4940-bf77-8e03336a488b",
+            "ap2ID": "f21e2305-fa98-4c62-9148-046c6d73b824"
         }
     ],
     "unitsKey": "MM",
