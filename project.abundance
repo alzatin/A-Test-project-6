@@ -541,6 +541,38 @@
                 }
             ],
             "description": "Generates Maslow gcode from the input geometry."
+        },
+        {
+            "atomType": "Circle",
+            "name": "Circle",
+            "x": 0.6686507936507937,
+            "y": 0.6955307262569833,
+            "uniqueID": "5beda817-a9dc-4d07-b728-d6bea9a06c4e",
+            "ioValues": [
+                {
+                    "name": "diameter",
+                    "ioValue": 10
+                }
+            ],
+            "description": "Creates a new circle."
+        },
+        {
+            "atomType": "Extrude",
+            "name": "Extrude",
+            "x": 0.7585978835978836,
+            "y": 0.6480446927374302,
+            "uniqueID": "2acb612d-362a-4b60-a01a-45bf2224f63a",
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": "5beda817-a9dc-4d07-b728-d6bea9a06c4e"
+                },
+                {
+                    "name": "height",
+                    "ioValue": 100
+                }
+            ],
+            "description": "Extrudes a 2D shape. Input can be negitive. "
         }
     ],
     "allConnectors": [
@@ -627,6 +659,13 @@
             "ap2Primary": true,
             "ap1ID": 1748453794850,
             "ap2ID": 1749071793346
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": "5beda817-a9dc-4d07-b728-d6bea9a06c4e",
+            "ap2ID": "2acb612d-362a-4b60-a01a-45bf2224f63a"
         }
     ],
     "unitsKey": "MM",
