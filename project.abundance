@@ -519,8 +519,8 @@
         {
             "atomType": "Gcode",
             "name": "Gcode",
-            "x": 0.8838248436103663,
-            "y": 0.8100558659217877,
+            "x": 0.8802502234137622,
+            "y": 0.7988826815642459,
             "uniqueID": 1749591439009,
             "ioValues": [
                 {
@@ -541,7 +541,7 @@
                 },
                 {
                     "name": "Cut Through",
-                    "ioValue": 1
+                    "ioValue": 0.1
                 }
             ],
             "description": "Generates Maslow gcode from the input geometry."
