@@ -519,25 +519,29 @@
         {
             "atomType": "Gcode",
             "name": "Gcode",
-            "x": 0.9043789097408401,
-            "y": 0.7150837988826816,
+            "x": 0.8838248436103663,
+            "y": 0.8100558659217877,
             "uniqueID": 1749591439009,
             "ioValues": [
                 {
-                    "name": "geometry",
-                    "ioValue": 1746569122638
+                    "name": "Geometry",
+                    "ioValue": "321cb00d-62b1-4f10-a630-4ee26326fbb2"
                 },
                 {
-                    "name": "tool size",
+                    "name": "Tool Size",
                     "ioValue": 6.35
                 },
                 {
-                    "name": "passes",
-                    "ioValue": 1
+                    "name": "Passes",
+                    "ioValue": 6
                 },
                 {
-                    "name": "speed",
+                    "name": "Speed",
                     "ioValue": 500
+                },
+                {
+                    "name": "Cut Through",
+                    "ioValue": 1
                 }
             ],
             "description": "Generates Maslow gcode from the input geometry."
@@ -608,20 +612,24 @@
             "uniqueID": "f21e2305-fa98-4c62-9148-046c6d73b824",
             "ioValues": [
                 {
-                    "name": "geometry",
+                    "name": "Geometry",
                     "ioValue": "50b73fa2-4cbe-4940-bf77-8e03336a488b"
                 },
                 {
-                    "name": "tool size",
+                    "name": "Tool Size",
                     "ioValue": 6.35
                 },
                 {
-                    "name": "passes",
+                    "name": "Passes",
                     "ioValue": 6
                 },
                 {
-                    "name": "speed",
+                    "name": "Speed",
                     "ioValue": 500
+                },
+                {
+                    "name": "Cut Through",
+                    "ioValue": 1
                 }
             ],
             "description": "Generates Maslow gcode from the input geometry."
@@ -629,8 +637,8 @@
         {
             "atomType": "Move",
             "name": "Move",
-            "x": 0.8605898123324397,
-            "y": 0.5782122905027933,
+            "x": 0.8123324396782843,
+            "y": 0.5810055865921787,
             "uniqueID": "321cb00d-62b1-4f10-a630-4ee26326fbb2",
             "ioValues": [
                 {
@@ -720,13 +728,6 @@
         {
             "ap1Name": "geometry",
             "ap2Name": "geometry",
-            "ap2Primary": false,
-            "ap1ID": 1746569122638,
-            "ap2ID": 1749591439009
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "geometry",
             "ap2Primary": true,
             "ap1ID": 1746569122638,
             "ap2ID": "50b73fa2-4cbe-4940-bf77-8e03336a488b"
@@ -754,7 +755,7 @@
         },
         {
             "ap1Name": "geometry",
-            "ap2Name": "geometry",
+            "ap2Name": "Geometry",
             "ap2Primary": false,
             "ap1ID": "50b73fa2-4cbe-4940-bf77-8e03336a488b",
             "ap2ID": "f21e2305-fa98-4c62-9148-046c6d73b824"
@@ -765,6 +766,13 @@
             "ap2Primary": false,
             "ap1ID": "321cb00d-62b1-4f10-a630-4ee26326fbb2",
             "ap2ID": 1746568598187
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "Geometry",
+            "ap2Primary": false,
+            "ap1ID": "321cb00d-62b1-4f10-a630-4ee26326fbb2",
+            "ap2ID": 1749591439009
         }
     ],
     "unitsKey": "MM",
