@@ -493,7 +493,7 @@
             "ioValues": [
                 {
                     "name": "diameter",
-                    "ioValue": 15
+                    "ioValue": -16.67
                 }
             ],
             "description": "Creates a new circle."
@@ -679,7 +679,7 @@
             "ioValues": [
                 {
                     "name": "inputShape",
-                    "ioValue": 1749071793346
+                    "ioValue": 10
                 },
                 {
                     "name": "dist",
