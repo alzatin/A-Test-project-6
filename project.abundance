@@ -22,7 +22,7 @@
             "ioValues": [
                 {
                     "name": "number or geometry",
-                    "ioValue": "321cb00d-62b1-4f10-a630-4ee26326fbb2"
+                    "ioValue": "2acb612d-362a-4b60-a01a-45bf2224f63a"
                 }
             ],
             "description": "Connect geometry here to make it available in the next level up. "
@@ -30,8 +30,8 @@
         {
             "atomType": "Molecule",
             "name": "Side",
-            "x": 0.10515873015873016,
-            "y": 0.7681564245810056,
+            "x": 0.11177248677248677,
+            "y": 0.6256983240223464,
             "uniqueID": 1746568616016,
             "ioValues": [],
             "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -283,198 +283,6 @@
             "compiledBom": []
         },
         {
-            "atomType": "Move",
-            "name": "Move",
-            "x": 0.23346560846560846,
-            "y": 0.6005586592178771,
-            "uniqueID": 1746569019551,
-            "ioValues": [
-                {
-                    "name": "geometry",
-                    "ioValue": 1746568616016
-                },
-                {
-                    "name": "xDist",
-                    "ioValue": 0
-                },
-                {
-                    "name": "yDist",
-                    "ioValue": -46
-                },
-                {
-                    "name": "zDist",
-                    "ioValue": 0
-                }
-            ],
-            "description": "Moves a shape laterally in X, Y, Z."
-        },
-        {
-            "atomType": "Assembly",
-            "name": "Assembly",
-            "x": 0.5575396825396826,
-            "y": 0.19273743016759776,
-            "uniqueID": 1746569047772,
-            "ioValues": [
-                {
-                    "name": "Shape 1",
-                    "ioValue": 1746569019551
-                },
-                {
-                    "name": "Shape 2",
-                    "ioValue": 1746569053861
-                },
-                {
-                    "name": "Shape 3",
-                    "ioValue": 1746569063699
-                },
-                {
-                    "name": "Shape 4",
-                    "ioValue": 1746569076552
-                }
-            ],
-            "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape"
-        },
-        {
-            "atomType": "Rotate",
-            "name": "Rotate",
-            "x": 0.3201058201058201,
-            "y": 0.770949720670391,
-            "uniqueID": 1746569053861,
-            "ioValues": [
-                {
-                    "name": "geometry",
-                    "ioValue": 1746569019551
-                },
-                {
-                    "name": "x-axis degrees",
-                    "ioValue": 0
-                },
-                {
-                    "name": "y-axis degrees",
-                    "ioValue": 0
-                },
-                {
-                    "name": "z-axis degrees",
-                    "ioValue": 90
-                }
-            ],
-            "description": "Rotates the input geometry around the X, Y, or Z axis. Inputs are degrees."
-        },
-        {
-            "atomType": "Rotate",
-            "name": "Rotate",
-            "x": 0.458994708994709,
-            "y": 0.8854748603351955,
-            "uniqueID": 1746569063699,
-            "ioValues": [
-                {
-                    "name": "geometry",
-                    "ioValue": 1746569053861
-                },
-                {
-                    "name": "x-axis degrees",
-                    "ioValue": 0
-                },
-                {
-                    "name": "y-axis degrees",
-                    "ioValue": 0
-                },
-                {
-                    "name": "z-axis degrees",
-                    "ioValue": 90
-                }
-            ],
-            "description": "Rotates the input geometry around the X, Y, or Z axis. Inputs are degrees."
-        },
-        {
-            "atomType": "Rotate",
-            "name": "Rotate",
-            "x": 0.6071428571428572,
-            "y": 0.8798882681564246,
-            "uniqueID": 1746569076552,
-            "ioValues": [
-                {
-                    "name": "geometry",
-                    "ioValue": 1746569063699
-                },
-                {
-                    "name": "x-axis degrees",
-                    "ioValue": 0
-                },
-                {
-                    "name": "y-axis degrees",
-                    "ioValue": 0
-                },
-                {
-                    "name": "z-axis degrees",
-                    "ioValue": 90
-                }
-            ],
-            "description": "Rotates the input geometry around the X, Y, or Z axis. Inputs are degrees."
-        },
-        {
-            "atomType": "CutLayout",
-            "name": "Cut Layout",
-            "x": 0.6881143878462913,
-            "y": 0.3770949720670391,
-            "uniqueID": 1746569122638,
-            "ioValues": [
-                {
-                    "name": "geometry",
-                    "ioValue": 1746569047772
-                },
-                {
-                    "name": "Sheet Width",
-                    "ioValue": 2438
-                },
-                {
-                    "name": "Sheet Height",
-                    "ioValue": 1219
-                },
-                {
-                    "name": "Part Padding",
-                    "ioValue": 15
-                }
-            ],
-            "description": "Extracts all parts tagged for cutting and lays them out on a sheet to cut.",
-            "placements": [
-                [
-                    {
-                        "id": 1,
-                        "rotate": 180,
-                        "translate": {
-                            "x": 107.60000000000002,
-                            "y": 66.52156862745099
-                        }
-                    },
-                    {
-                        "id": 0,
-                        "rotate": 270,
-                        "translate": {
-                            "x": 107.59999997403555,
-                            "y": 191.721568627451
-                        }
-                    },
-                    {
-                        "id": 2,
-                        "rotate": 270,
-                        "translate": {
-                            "x": 7.599999974035534,
-                            "y": 309.078431372549
-                        }
-                    },
-                    {
-                        "id": 3,
-                        "rotate": 0,
-                        "translate": {
-                            "x": 7.600000000000023,
-                            "y": 442.12156862745087
-                        }
-                    }
-                ]
-            ]
-        },
-        {
             "atomType": "Input",
             "name": "Wood Thickness",
             "x": 0.024749999999999998,
@@ -483,73 +291,6 @@
             "ioValues": [],
             "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
             "type": "number"
-        },
-        {
-            "atomType": "Circle",
-            "name": "Circle",
-            "x": 0.07584830339321358,
-            "y": 0.5446927374301677,
-            "uniqueID": 1748453794850,
-            "ioValues": [
-                {
-                    "name": "diameter",
-                    "ioValue": 6.3
-                }
-            ],
-            "description": "Creates a new circle."
-        },
-        {
-            "atomType": "Extrude",
-            "name": "Extrude",
-            "x": 0.1541005291005291,
-            "y": 0.26256983240223464,
-            "uniqueID": 1749071793346,
-            "ioValues": [
-                {
-                    "name": "geometry",
-                    "ioValue": ""
-                },
-                {
-                    "name": "height",
-                    "ioValue": 10
-                }
-            ],
-            "description": "Extrudes a 2D shape. Input can be negitive. "
-        },
-        {
-            "atomType": "Gcode",
-            "name": "Gcode",
-            "x": 0.8766756032171582,
-            "y": 0.776536312849162,
-            "uniqueID": 1749591439009,
-            "ioValues": [
-                {
-                    "name": "Geometry",
-                    "ioValue": "321cb00d-62b1-4f10-a630-4ee26326fbb2"
-                },
-                {
-                    "name": "Tool Size",
-                    "ioValue": 6.35
-                },
-                {
-                    "name": "Passes",
-                    "ioValue": 2
-                },
-                {
-                    "name": "Speed",
-                    "ioValue": 500
-                },
-                {
-                    "name": "Cut Through",
-                    "ioValue": 0.1
-                },
-                {
-                    "name": "Part Name",
-                    "ioValue": "A-Test-project-6"
-                }
-            ],
-            "description": "Generates Maslow gcode from the input geometry.",
-            "partName": "A-Test-project-6"
         },
         {
             "atomType": "Circle",
@@ -584,202 +325,43 @@
             "description": "Extrudes a 2D shape. Input can be negitive. "
         },
         {
-            "atomType": "Move",
-            "name": "Move",
-            "x": 0.8016085790884718,
-            "y": 0.223463687150838,
-            "uniqueID": "50b73fa2-4cbe-4940-bf77-8e03336a488b",
+            "atomType": "Rectangle",
+            "name": "Rectangle",
+            "x": 0.12962962962962962,
+            "y": 0.3770949720670391,
+            "uniqueID": "56a94d7f-d465-428f-a04b-2c4ddfb901f7",
+            "ioValues": [
+                {
+                    "name": "x length",
+                    "ioValue": 100
+                },
+                {
+                    "name": "y length",
+                    "ioValue": 100
+                }
+            ],
+            "description": "Creates a new rectangle."
+        },
+        {
+            "atomType": "Extrude",
+            "name": "Extrude",
+            "x": 0.26521164021164023,
+            "y": 0.5139664804469274,
+            "uniqueID": "4ae651c3-2dc5-4b4b-a097-76dc37ee152a",
             "ioValues": [
                 {
                     "name": "geometry",
-                    "ioValue": 1746569122638
-                },
-                {
-                    "name": "xDist",
-                    "ioValue": -300
-                },
-                {
-                    "name": "yDist",
-                    "ioValue": 0
-                },
-                {
-                    "name": "zDist",
-                    "ioValue": 0
-                }
-            ],
-            "description": "Moves a shape laterally in X, Y, Z."
-        },
-        {
-            "atomType": "Gcode",
-            "name": "Gcode",
-            "x": 0.8820375335120644,
-            "y": 0.36033519553072624,
-            "uniqueID": "f21e2305-fa98-4c62-9148-046c6d73b824",
-            "ioValues": [
-                {
-                    "name": "Geometry",
-                    "ioValue": "50b73fa2-4cbe-4940-bf77-8e03336a488b"
-                },
-                {
-                    "name": "Tool Size",
-                    "ioValue": 6.35
-                },
-                {
-                    "name": "Passes",
-                    "ioValue": 6
-                },
-                {
-                    "name": "Speed",
-                    "ioValue": 500
-                },
-                {
-                    "name": "Cut Through",
-                    "ioValue": 1
-                },
-                {
-                    "name": "Part Name",
-                    "ioValue": "A-Test-project-6"
-                }
-            ],
-            "description": "Generates Maslow gcode from the input geometry.",
-            "partName": "A-Test-project-6"
-        },
-        {
-            "atomType": "Move",
-            "name": "Move",
-            "x": 0.8123324396782843,
-            "y": 0.5810055865921787,
-            "uniqueID": "321cb00d-62b1-4f10-a630-4ee26326fbb2",
-            "ioValues": [
-                {
-                    "name": "geometry",
-                    "ioValue": 1746569122638
-                },
-                {
-                    "name": "xDist",
-                    "ioValue": 0
-                },
-                {
-                    "name": "yDist",
-                    "ioValue": 0
-                },
-                {
-                    "name": "zDist",
-                    "ioValue": -15
-                }
-            ],
-            "description": "Moves a shape laterally in X, Y, Z."
-        },
-        {
-            "atomType": "Code",
-            "name": "Code",
-            "x": 0.3412698412698413,
-            "y": 0.2877094972067039,
-            "uniqueID": "57a16af7-1240-4557-9f01-d62b3977108c",
-            "ioValues": [
-                {
-                    "name": "inputShape",
-                    "ioValue": 10
-                },
-                {
-                    "name": "dist",
-                    "ioValue": 10
+                    "ioValue": "56a94d7f-d465-428f-a04b-2c4ddfb901f7"
                 },
                 {
                     "name": "height",
-                    "ioValue": 10
+                    "ioValue": 100
                 }
             ],
-            "description": "Defines a Replicad code block.",
-            "codeVersion": 1,
-            "code": " \n      //Inputs:[inputShape, dist, height]\n      //This defines the molecules inputs and creates variables with the same names which can be referenced in the code\n      \n      //Takes the address and gets the shape from the library\n      let importedShape = library[inputShape]\n      \n      //This makes a new copy of of the shape (to prevent garbage collection issues),\n      //and moves it in the X direction. Note that this will not work if the input is an assembly\n      let movedShape = importedShape.geometry[0].clone().translate([dist,0,0])\n      \n      //Console.log works for debugging to better see what is happening under the hood\n      console.log(\"Shape:\")\n      console.log(importedShape);\n      \n      //Shapes stored in the library have tags, a color, a plane, and a bill of materials like this. We don't modify them here\n      let shape1 = {\n        geometry: [movedShape],\n        tags: importedShape.tags,\n        color: importedShape.color,\n        plane: importedShape.plane,\n        bom: importedShape.bom\n      }\n      \n      //We could at this point return shape1 as a complete shape and it will be automatically written to the library for us\n      //return shape1\n      \n      //We can also create a new shape from scratch\n      let createdRectangle = replicad.drawRectangle(5,7)\n      //This is the plane we are going to put our new shape on\n      const newPlane = new replicad.Plane().pivot(0, 'Y');\n      //And we extrude the shape to make it 3D\n      let createdShape = createdRectangle.sketchOnPlane(newPlane).extrude(height)\n      \n      //For our new geometry we need to define the tags, color, plane, etc\n      let shape2 = {\n          geometry: [createdShape], \n          tags: [\"aTag\"],\n          color: '#A3CE5B',\n          plane: newPlane,\n          bom: []\n      }\n      \n      //Then we can return our created shape in just the same way\n      //return shape2\n      \n      //If we want to return both shapes at once, we can create an assembly with them\n      let anAssembly = {\n        geometry: [shape1, shape2], \n        tags: [\"aNewTag\"],\n        color: '#A3CF5B',\n        plane: newPlane,\n        bom: []\n      }\n      \n      //And we can return that in the same way\n      return anAssembly\n      \n      \n          /**\n          To Use the Code Atom, enter your inputs to the input list a.e Inputs:[shape, height]\n          If your input is connected to another atom with a replicad geometry you can access its geometry by looking up its ID in your library. a.e library[Input1].geometry[0] \n          Use any replicad available methods to modify your geometry. Learn more about all of the available methods at \n          https://replicad.xyz/docs/introapp/UserGuide.html \n          Return a replicad object that includes geometry, color, tags and plane. \n      \n      \n          Example Code Atom:\n      \n            Inputs:[shape, x];\n      \n            let finalShape = library[shape].geometry[0].clone.translate[x,0,0]\n      \n            return {geometry: finalShape, color: library[shape].color, plane: library[shape].plane, tags: library[shape].tags }\n      \n            - See more examples at _______ \n      \n      \n          */\n      "
+            "description": "Extrudes a 2D shape. Input can be negitive. "
         }
     ],
     "allConnectors": [
-        {
-            "ap1Name": "Geometry",
-            "ap2Name": "geometry",
-            "ap2Primary": true,
-            "ap1ID": 1746568616016,
-            "ap2ID": 1746569019551
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "Shape 1",
-            "ap2Primary": false,
-            "ap1ID": 1746569019551,
-            "ap2ID": 1746569047772
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "geometry",
-            "ap2Primary": true,
-            "ap1ID": 1746569019551,
-            "ap2ID": 1746569053861
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "geometry",
-            "ap2Primary": false,
-            "ap1ID": 1746569047772,
-            "ap2ID": 1746569122638
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "Shape 2",
-            "ap2Primary": false,
-            "ap1ID": 1746569053861,
-            "ap2ID": 1746569047772
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "geometry",
-            "ap2Primary": true,
-            "ap1ID": 1746569053861,
-            "ap2ID": 1746569063699
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "geometry",
-            "ap2Primary": true,
-            "ap1ID": 1746569063699,
-            "ap2ID": 1746569076552
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "Shape 3",
-            "ap2Primary": false,
-            "ap1ID": 1746569063699,
-            "ap2ID": 1746569047772
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "Shape 4",
-            "ap2Primary": false,
-            "ap1ID": 1746569076552,
-            "ap2ID": 1746569047772
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "geometry",
-            "ap2Primary": true,
-            "ap1ID": 1746569122638,
-            "ap2ID": "50b73fa2-4cbe-4940-bf77-8e03336a488b"
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "geometry",
-            "ap2Primary": true,
-            "ap1ID": 1746569122638,
-            "ap2ID": "321cb00d-62b1-4f10-a630-4ee26326fbb2"
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "inputShape",
-            "ap2Primary": false,
-            "ap1ID": 1749071793346,
-            "ap2ID": "57a16af7-1240-4557-9f01-d62b3977108c"
-        },
         {
             "ap1Name": "geometry",
             "ap2Name": "geometry",
@@ -789,24 +371,17 @@
         },
         {
             "ap1Name": "geometry",
-            "ap2Name": "Geometry",
-            "ap2Primary": false,
-            "ap1ID": "50b73fa2-4cbe-4940-bf77-8e03336a488b",
-            "ap2ID": "f21e2305-fa98-4c62-9148-046c6d73b824"
-        },
-        {
-            "ap1Name": "geometry",
             "ap2Name": "number or geometry",
             "ap2Primary": false,
-            "ap1ID": "321cb00d-62b1-4f10-a630-4ee26326fbb2",
+            "ap1ID": "2acb612d-362a-4b60-a01a-45bf2224f63a",
             "ap2ID": 1746568598187
         },
         {
             "ap1Name": "geometry",
-            "ap2Name": "Geometry",
-            "ap2Primary": false,
-            "ap1ID": "321cb00d-62b1-4f10-a630-4ee26326fbb2",
-            "ap2ID": 1749591439009
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": "56a94d7f-d465-428f-a04b-2c4ddfb901f7",
+            "ap2ID": "4ae651c3-2dc5-4b4b-a097-76dc37ee152a"
         }
     ],
     "unitsKey": "MM",
