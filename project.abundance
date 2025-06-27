@@ -497,8 +497,8 @@
         {
             "atomType": "GitHubMolecule",
             "name": "Door-Pull",
-            "x": 0.5125661375661376,
-            "y": 0.6731843575418994,
+            "x": 0.3419312169312169,
+            "y": 0.5139664804469274,
             "uniqueID": "19ff5aff-ce81-4a23-a59b-8ba31266c214",
             "ioValues": [],
             "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -510,7 +510,12 @@
                     "x": 0.98,
                     "y": 0.5,
                     "uniqueID": "21ff1e7e-9661-4a0b-8eaf-354637c23175",
-                    "ioValues": [],
+                    "ioValues": [
+                        {
+                            "name": "number or geometry",
+                            "ioValue": "04a45c82-43a4-4073-8fa1-aa363fb1e656"
+                        }
+                    ],
                     "description": "Connect geometry here to make it available in the next level up. "
                 },
                 {
@@ -1976,7 +1981,12 @@
                             "x": 0.98,
                             "y": 0.5,
                             "uniqueID": "a7925ae5-2848-4f37-82d9-9a0fadb2e4e4",
-                            "ioValues": [],
+                            "ioValues": [
+                                {
+                                    "name": "number or geometry",
+                                    "ioValue": "61d0039f-256b-470d-9853-e6a1c0e9cc6a"
+                                }
+                            ],
                             "description": "Connect geometry here to make it available in the next level up. "
                         },
                         {
@@ -1992,7 +2002,7 @@
                                 },
                                 {
                                     "name": "radius",
-                                    "ioValue": 10
+                                    "ioValue": 3
                                 }
                             ],
                             "description": "Defines a Replicad code block.",
@@ -2120,7 +2130,7 @@
                     "ioValues": [
                         {
                             "name": "Geometry",
-                            "ioValue": "932234fc-c8ec-473e-98a3-c3242f662cda"
+                            "ioValue": "8eebca26-e653-4d9f-b26a-3cf141f699a5"
                         },
                         {
                             "name": "Offset",
@@ -2148,7 +2158,12 @@
                             "x": 0.98,
                             "y": 0.5,
                             "uniqueID": "aad01561-19ed-416a-b8a7-2e7811b1e534",
-                            "ioValues": [],
+                            "ioValues": [
+                                {
+                                    "name": "number or geometry",
+                                    "ioValue": "0648e898-1872-41cc-9ac0-56686aba1ab9"
+                                }
+                            ],
                             "description": "Connect geometry here to make it available in the next level up. "
                         },
                         {
@@ -2298,7 +2313,7 @@
                             "ioValues": [
                                 {
                                     "name": "geometry1",
-                                    "ioValue": "932234fc-c8ec-473e-98a3-c3242f662cda"
+                                    "ioValue": "8eebca26-e653-4d9f-b26a-3cf141f699a5"
                                 },
                                 {
                                     "name": "geometry2",
@@ -2943,7 +2958,7 @@
                     "ioValues": [
                         {
                             "name": "geometry",
-                            "ioValue": "9ee8f1ea-c881-4ba1-8055-ec4d958a9c7b"
+                            "ioValue": "9891cafc-5c30-4b59-9b75-6230328e42f1"
                         }
                     ],
                     "description": "Tags geometry so that it can be extracted later.",
@@ -2960,7 +2975,7 @@
                     "ioValues": [
                         {
                             "name": "Shape 1",
-                            "ioValue": "d62c119b-57f4-436f-a568-09d3984ec630"
+                            "ioValue": "dac27b9f-16e7-4317-ab96-b571a97dae5f"
                         },
                         {
                             "name": "Shape 2",
@@ -2982,7 +2997,7 @@
                     "ioValues": [
                         {
                             "name": "geometry",
-                            "ioValue": "4bcaa6e4-1f62-4c8f-b90a-5e58b21329d4"
+                            "ioValue": "2a6ef132-125a-4c99-8e1a-beaabcc8b014"
                         },
                         {
                             "name": "xDist",
@@ -3122,6 +3137,230 @@
                 "description": "A quick 3D printed Door Handle",
                 "contentURL": "https://raw.githubusercontent.com/BarbourSmith/Door-Pull/master/project.abundance?sanitize=true",
                 "svgURL": "https://raw.githubusercontent.com/BarbourSmith/Door-Pull/master/project.svg?sanitize=true",
+                "isLocal": false
+            },
+            "unitsKey": "MM",
+            "fileTypeVersion": 1,
+            "compiledBom": [
+                {
+                    "BOMitemName": "#6 Wood Screw",
+                    "numberNeeded": 2,
+                    "costUSD": 0.2,
+                    "source": "www.example.com"
+                }
+            ]
+        },
+        {
+            "atomType": "GitHubMolecule",
+            "name": "Maslow-M",
+            "x": 0.4708994708994709,
+            "y": 0.6983240223463687,
+            "uniqueID": "2ba530e6-1386-4b5e-809c-19ace83eac7b",
+            "ioValues": [
+                {
+                    "name": "Size",
+                    "ioValue": 10
+                }
+            ],
+            "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
+            "topLevel": false,
+            "allAtoms": [
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 0.98,
+                    "y": 0.5,
+                    "uniqueID": "cbc542aa-9756-4a3f-ba1f-e699fba6468f",
+                    "ioValues": [],
+                    "description": "Connect geometry here to make it available in the next level up. "
+                },
+                {
+                    "atomType": "Import",
+                    "name": "Import",
+                    "x": 0.30224867724867727,
+                    "y": 0.38268156424581,
+                    "uniqueID": "ecd02236-70b2-45d0-b498-da1f5ea863c7",
+                    "ioValues": [],
+                    "description": "Import Atom, let's you choose a type of file to import and use in your design.",
+                    "fileName": "MakerCAM Project.svg",
+                    "type": "SVG",
+                    "SVGwidth": 10
+                },
+                {
+                    "atomType": "Input",
+                    "name": "Size",
+                    "x": 0.024749999999999998,
+                    "y": 0.7374301675977654,
+                    "uniqueID": "55ca10c0-388b-4b12-b282-fe2bac4d0ec4",
+                    "ioValues": [],
+                    "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
+                    "type": "number"
+                },
+                {
+                    "atomType": "GitHubMolecule",
+                    "name": "Scale",
+                    "x": 0.5211640211640212,
+                    "y": 0.5949720670391061,
+                    "uniqueID": "aea229a1-6b66-4db3-9fbe-580a2aaf05df",
+                    "ioValues": [
+                        {
+                            "name": "Geometry",
+                            "ioValue": "532494d2-c3c4-4a4e-969a-f44a73d8630b"
+                        },
+                        {
+                            "name": "Scale Factor",
+                            "ioValue": 10
+                        }
+                    ],
+                    "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
+                    "topLevel": false,
+                    "allAtoms": [
+                        {
+                            "atomType": "Output",
+                            "name": "Output",
+                            "x": 0.98,
+                            "y": 0.5,
+                            "uniqueID": "694438bf-120a-46fd-8925-71adc5319b3f",
+                            "ioValues": [],
+                            "description": "Connect geometry here to make it available in the next level up. "
+                        },
+                        {
+                            "atomType": "Input",
+                            "name": "Geometry",
+                            "x": 0.024749999999999998,
+                            "y": 0.4692737430167598,
+                            "uniqueID": "787df646-e1b0-476c-ae91-57e95552545e",
+                            "ioValues": [],
+                            "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
+                            "type": "number"
+                        },
+                        {
+                            "atomType": "Input",
+                            "name": "Scale Factor",
+                            "x": 0.024749999999999998,
+                            "y": 0.6508379888268156,
+                            "uniqueID": "bc3fd1b8-8462-48c8-8fe4-26793e2f6551",
+                            "ioValues": [],
+                            "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
+                            "type": "number"
+                        },
+                        {
+                            "atomType": "Code",
+                            "name": "Code",
+                            "x": 0.4226190476190476,
+                            "y": 0.25139664804469275,
+                            "uniqueID": "6a67f842-a533-4333-aaf8-e3181d1a2841",
+                            "ioValues": [
+                                {
+                                    "name": "inputShape",
+                                    "ioValue": 10
+                                },
+                                {
+                                    "name": "scaleFactor",
+                                    "ioValue": 10
+                                }
+                            ],
+                            "description": "Defines a Replicad code block.",
+                            "codeVersion": 1,
+                            "code": " \n      //Inputs:[inputShape, scaleFactor]\n      //This defines the molecules inputs and creates variables with the same names which can be referenced in the code\n      \n      //Takes the address and gets the shape from the library\n      let importedShape = library[inputShape]\n\n      let scaledShape = await Scale(inputShape, scaleFactor);\n      \n      \n      //Shapes stored in the library have tags, a color, a plane, and a bill of materials like this. We don't modify them here\n      let shape1 = {\n        geometry: [scaledShape],\n        tags: importedShape.tags,\n        color: importedShape.color,\n        plane: importedShape.plane,\n        bom: importedShape.bom\n      }\n      \n      return shape1\n      \n      \n      \n          /**\n          To Use the Code Atom, enter your inputs to the input list a.e Inputs:[shape, height]\n          If your input is connected to another atom with a replicad geometry you can access its geometry by looking up its ID in your library. a.e library[Input1].geometry[0] \n          Use any replicad available methods to modify your geometry. Learn more about all of the available methods at \n          https://replicad.xyz/docs/introapp/UserGuide.html \n          Return a replicad object that includes geometry, color, tags and plane. \n      \n      \n          Example Code Atom:\n      \n            Inputs:[shape, x];\n      \n            let finalShape = library[shape].geometry[0].clone.translate[x,0,0]\n      \n            return {geometry: finalShape, color: library[shape].color, plane: library[shape].plane, tags: library[shape].tags }\n      \n            - See more examples at _______ \n      \n      \n          */\n      "
+                        }
+                    ],
+                    "allConnectors": [
+                        {
+                            "ap1Name": "number or geometry",
+                            "ap2Name": "inputShape",
+                            "ap2Primary": false,
+                            "ap1ID": "787df646-e1b0-476c-ae91-57e95552545e",
+                            "ap2ID": "6a67f842-a533-4333-aaf8-e3181d1a2841"
+                        },
+                        {
+                            "ap1Name": "number or geometry",
+                            "ap2Name": "scaleFactor",
+                            "ap2Primary": false,
+                            "ap1ID": "bc3fd1b8-8462-48c8-8fe4-26793e2f6551",
+                            "ap2ID": "6a67f842-a533-4333-aaf8-e3181d1a2841"
+                        },
+                        {
+                            "ap1Name": "geometry",
+                            "ap2Name": "number or geometry",
+                            "ap2Primary": false,
+                            "ap1ID": "6a67f842-a533-4333-aaf8-e3181d1a2841",
+                            "ap2ID": "694438bf-120a-46fd-8925-71adc5319b3f"
+                        }
+                    ],
+                    "parentRepo": {
+                        "privateRepo": false,
+                        "repoName": "Scale",
+                        "dateCreated": "2025-06-26T17:06:11Z",
+                        "readMe": "https://raw.githubusercontent.com/BarbourSmith/Scale/master/README.md?sanitize=true",
+                        "yyyy": 2025,
+                        "topMoleculeID": "4b6bc40a-44a9-438a-9ed9-ba4910815d8d",
+                        "githubMoleculesUsed": [],
+                        "html_url": "https://github.com/BarbourSmith/Scale",
+                        "topics": [],
+                        "parentRepo": null,
+                        "forks": 0,
+                        "dateModified": "739428",
+                        "ranking": 0,
+                        "searchField": "scale barboursmith scales the input 2d or 3d geometry by the scale factor ",
+                        "owner": "BarbourSmith",
+                        "description": "Scales the input 2D or 3D geometry by the scale factor",
+                        "contentURL": "https://raw.githubusercontent.com/BarbourSmith/Scale/master/project.abundance?sanitize=true",
+                        "svgURL": "https://raw.githubusercontent.com/BarbourSmith/Scale/master/project.svg?sanitize=true",
+                        "isLocal": false
+                    },
+                    "unitsKey": "Unitless",
+                    "fileTypeVersion": 1,
+                    "compiledBom": []
+                }
+            ],
+            "allConnectors": [
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "Geometry",
+                    "ap2Primary": false,
+                    "ap1ID": "ecd02236-70b2-45d0-b498-da1f5ea863c7",
+                    "ap2ID": "aea229a1-6b66-4db3-9fbe-580a2aaf05df"
+                },
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "Scale Factor",
+                    "ap2Primary": false,
+                    "ap1ID": "55ca10c0-388b-4b12-b282-fe2bac4d0ec4",
+                    "ap2ID": "aea229a1-6b66-4db3-9fbe-580a2aaf05df"
+                },
+                {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "number or geometry",
+                    "ap2Primary": false,
+                    "ap1ID": "aea229a1-6b66-4db3-9fbe-580a2aaf05df",
+                    "ap2ID": "cbc542aa-9756-4a3f-ba1f-e699fba6468f"
+                }
+            ],
+            "parentRepo": {
+                "privateRepo": false,
+                "repoName": "Maslow-M",
+                "dateCreated": "2025-06-18T22:46:57Z",
+                "readMe": "https://raw.githubusercontent.com/BarbourSmith/Maslow-M/master/README.md?sanitize=true",
+                "yyyy": 2025,
+                "topMoleculeID": "b8ee3a55-1a3e-4671-9953-7f2e8695f621",
+                "githubMoleculesUsed": [
+                    {
+                        "owner": "BarbourSmith",
+                        "repoName": "Scale"
+                    }
+                ],
+                "html_url": "https://github.com/BarbourSmith/Maslow-M",
+                "topics": [],
+                "parentRepo": null,
+                "forks": 0,
+                "dateModified": "739428",
+                "ranking": 0,
+                "searchField": "maslow-m barboursmith the maslow m logo ",
+                "owner": "BarbourSmith",
+                "description": "The Maslow M Logo",
+                "contentURL": "https://raw.githubusercontent.com/BarbourSmith/Maslow-M/master/project.abundance?sanitize=true",
+                "svgURL": "https://raw.githubusercontent.com/BarbourSmith/Maslow-M/master/project.svg?sanitize=true",
                 "isLocal": false
             },
             "unitsKey": "MM",
