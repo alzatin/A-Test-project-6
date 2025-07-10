@@ -26,7 +26,7 @@
             "ioValues": [
                 {
                     "name": "number or geometry",
-                    "ioValue": "072977df-2092-4273-b17b-006230524b86"
+                    "ioValue": "81cf8a94-39b6-44f3-ba24-9c536f36c7b7"
                 }
             ],
             "description": "Connect geometry here to make it available in the next level up. "
@@ -208,7 +208,7 @@
                 {
                     "atomType": "Input",
                     "name": "Wood Thickness",
-                    "x": 0.024749999999999998,
+                    "x": 0.03795,
                     "y": 0.19220055710306408,
                     "uniqueID": "3ed90480-e66a-4dea-b144-c88fd18ec870",
                     "ioValues": [],
@@ -217,7 +217,7 @@
                 {
                     "atomType": "Input",
                     "name": "A Thing",
-                    "x": 0.024749999999999998,
+                    "x": 0.03795,
                     "y": 0.76536312849162,
                     "uniqueID": "47187fce-adf9-45f8-a537-8f37c0730a29",
                     "ioValues": [],
@@ -341,7 +341,7 @@
                 {
                     "atomType": "Input",
                     "name": "Shape",
-                    "x": 0.024749999999999998,
+                    "x": 0.03795,
                     "y": 0.3788300835654596,
                     "uniqueID": "c282b44e-9a01-40c9-9caf-89cddc550f4d",
                     "ioValues": [],
@@ -350,7 +350,7 @@
                 {
                     "atomType": "Input",
                     "name": "Number",
-                    "x": 0.024749999999999998,
+                    "x": 0.03795,
                     "y": 0.8440111420612814,
                     "uniqueID": "e402e252-84a6-465f-9847-5b373b2fdc95",
                     "ioValues": [],
@@ -359,7 +359,7 @@
                 {
                     "atomType": "Input",
                     "name": "Angle",
-                    "x": 0.024749999999999998,
+                    "x": 0.03795,
                     "y": 0.5821727019498607,
                     "uniqueID": "fcfecdd7-3a57-46f4-8fd7-b5e2995509fe",
                     "ioValues": [],
@@ -520,8 +520,8 @@
         {
             "atomType": "CutLayout",
             "name": "Cut Layout",
-            "x": 0.7305389221556886,
-            "y": 0.5861111111111111,
+            "x": 0.7265469061876247,
+            "y": 0.6416666666666666,
             "uniqueID": "32191547-3ea8-404b-a782-dc3174cd930e",
             "ioValues": [
                 {
@@ -534,7 +534,7 @@
                 },
                 {
                     "name": "Sheet Height",
-                    "ioValue": 500
+                    "ioValue": 150
                 },
                 {
                     "name": "Part Padding",
@@ -545,59 +545,243 @@
             "placements": [
                 [
                     {
-                        "id": 16,
-                        "rotate": 0,
+                        "id": 5,
+                        "rotate": 140,
                         "translate": {
-                            "x": 23.287759931136208,
-                            "y": 14.089567403149617
+                            "x": 20.314580145862557,
+                            "y": 14.542175993227438
                         }
                     },
                     {
-                        "id": 5,
-                        "rotate": 0,
+                        "id": 23,
+                        "rotate": 140,
                         "translate": {
-                            "x": 22.49468763011523,
-                            "y": 38.390330501350185
+                            "x": 13.76402394868051,
+                            "y": 32.73353410677257
+                        }
+                    },
+                    {
+                        "id": 12,
+                        "rotate": 240,
+                        "translate": {
+                            "x": 12.123758854834914,
+                            "y": 63.19130968836846
+                        }
+                    },
+                    {
+                        "id": 16,
+                        "rotate": 280,
+                        "translate": {
+                            "x": 12.605567691343172,
+                            "y": 89.66840363981677
+                        }
+                    },
+                    {
+                        "id": 3,
+                        "rotate": 180,
+                        "translate": {
+                            "x": 39.04175971283682,
+                            "y": 68.36438070955137
+                        }
+                    },
+                    {
+                        "id": 25,
+                        "rotate": 280,
+                        "translate": {
+                            "x": 35.40981695478306,
+                            "y": 103.52008805304594
+                        }
+                    },
+                    {
+                        "id": 20,
+                        "rotate": 320,
+                        "translate": {
+                            "x": 26.037624901384923,
+                            "y": 118.2355153441342
+                        }
+                    },
+                    {
+                        "id": 14,
+                        "rotate": 220,
+                        "translate": {
+                            "x": 30.374164674012462,
+                            "y": 140.03322317484302
+                        }
+                    },
+                    {
+                        "id": 6,
+                        "rotate": 20,
+                        "translate": {
+                            "x": 44.15822942056341,
+                            "y": 30.274651948792755
+                        }
+                    },
+                    {
+                        "id": 21,
+                        "rotate": 60,
+                        "translate": {
+                            "x": 50.426647273992884,
+                            "y": 149.43322380134362
+                        }
+                    },
+                    {
+                        "id": 2,
+                        "rotate": 340,
+                        "translate": {
+                            "x": 19.97416437961187,
+                            "y": 160.83322390542014
+                        }
+                    },
+                    {
+                        "id": 15,
+                        "rotate": 80,
+                        "translate": {
+                            "x": 57.93803832231044,
+                            "y": 70.09058177233008
                         }
                     },
                     {
                         "id": 7,
                         "rotate": 0,
                         "translate": {
-                            "x": 14.089567431258006,
-                            "y": 73.6304590306534
-                        }
-                    },
-                    {
-                        "id": 1,
-                        "rotate": 0,
-                        "translate": {
-                            "x": 33.87466892566528,
-                            "y": 81.35864770240883
+                            "x": 60.158000631258005,
+                            "y": 101.4634961306534
                         }
                     },
                     {
                         "id": 10,
-                        "rotate": 0,
+                        "rotate": 160,
                         "translate": {
-                            "x": 29.140713372269726,
-                            "y": 99.87032114232275
+                            "x": 62.32260674748281,
+                            "y": 23.571081138579792
                         }
                     },
                     {
-                        "id": 28,
-                        "rotate": 0,
+                        "id": 29,
+                        "rotate": 200,
                         "translate": {
-                            "x": 37.57677295410649,
-                            "y": 111.918262831334
+                            "x": 50.439898646287205,
+                            "y": 177.59783390311014
+                        }
+                    },
+                    {
+                        "id": 11,
+                        "rotate": 100,
+                        "translate": {
+                            "x": 17.572294086288593,
+                            "y": 193.59549546314574
+                        }
+                    },
+                    {
+                        "id": 24,
+                        "rotate": 160,
+                        "translate": {
+                            "x": 47.56889351149219,
+                            "y": 198.75461660029637
+                        }
+                    },
+                    {
+                        "id": 27,
+                        "rotate": 260,
+                        "translate": {
+                            "x": 72.36635179368234,
+                            "y": 200.43632638910276
+                        }
+                    },
+                    {
+                        "id": 1,
+                        "rotate": 280,
+                        "translate": {
+                            "x": 74.92081900509608,
+                            "y": 42.12579418336881
                         }
                     },
                     {
                         "id": 19,
                         "rotate": 0,
                         "translate": {
-                            "x": 50.7038973666424,
-                            "y": 48.77796530570373
+                            "x": 81.12156630570374,
+                            "y": 167.59186403335758
+                        }
+                    },
+                    {
+                        "id": 28,
+                        "rotate": 120,
+                        "translate": {
+                            "x": 76.8720410370638,
+                            "y": 127.74333597104356
+                        }
+                    },
+                    {
+                        "id": 9,
+                        "rotate": 120,
+                        "translate": {
+                            "x": 85.86147397457569,
+                            "y": 76.12853630447123
+                        }
+                    },
+                    {
+                        "id": 22,
+                        "rotate": 320,
+                        "translate": {
+                            "x": 92.05113395962003,
+                            "y": 11.123759222684122
+                        }
+                    },
+                    {
+                        "id": 13,
+                        "rotate": 200,
+                        "translate": {
+                            "x": 51.00765273757181,
+                            "y": 222.82391214470428
+                        }
+                    },
+                    {
+                        "id": 18,
+                        "rotate": 220,
+                        "translate": {
+                            "x": 91.52389485604903,
+                            "y": 126.46146500524043
+                        }
+                    },
+                    {
+                        "id": 26,
+                        "rotate": 180,
+                        "translate": {
+                            "x": 95.95331641079555,
+                            "y": 200.32753230136547
+                        }
+                    },
+                    {
+                        "id": 17,
+                        "rotate": 200,
+                        "translate": {
+                            "x": 98.63378745071661,
+                            "y": 54.38879365604387
+                        }
+                    },
+                    {
+                        "id": 0,
+                        "rotate": 200,
+                        "translate": {
+                            "x": 106.89913450667818,
+                            "y": 108.68151568979017
+                        }
+                    },
+                    {
+                        "id": 4,
+                        "rotate": 280,
+                        "translate": {
+                            "x": 98.95909836597232,
+                            "y": 232.28490538522433
+                        }
+                    },
+                    {
+                        "id": 8,
+                        "rotate": 100,
+                        "translate": {
+                            "x": 20.776240693494664,
+                            "y": 227.8492815564088
                         }
                     }
                 ]
@@ -673,6 +857,50 @@
             ],
             "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape",
             "unionType": "Fusion"
+        },
+        {
+            "atomType": "Rectangle",
+            "name": "Rectangle",
+            "x": 0.7145708582834331,
+            "y": 0.22777777777777777,
+            "uniqueID": "ff87dede-758f-4324-8993-0d2b8a3f1226",
+            "ioValues": [
+                {
+                    "name": "x length",
+                    "ioValue": 500
+                },
+                {
+                    "name": "y length",
+                    "ioValue": 150
+                }
+            ],
+            "description": "Creates a new rectangle."
+        },
+        {
+            "atomType": "Move",
+            "name": "Move",
+            "x": 0.8512974051896207,
+            "y": 0.17222222222222222,
+            "uniqueID": "81cf8a94-39b6-44f3-ba24-9c536f36c7b7",
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": "ff87dede-758f-4324-8993-0d2b8a3f1226"
+                },
+                {
+                    "name": "xDist",
+                    "ioValue": 250
+                },
+                {
+                    "name": "yDist",
+                    "ioValue": 75
+                },
+                {
+                    "name": "zDist",
+                    "ioValue": 0
+                }
+            ],
+            "description": "Moves a shape laterally in X, Y, Z."
         }
     ],
     "allConnectors": [
@@ -762,13 +990,6 @@
         },
         {
             "ap1Name": "Geometry",
-            "ap2Name": "number or geometry",
-            "ap2Primary": false,
-            "ap1ID": "072977df-2092-4273-b17b-006230524b86",
-            "ap2ID": 1746568598187
-        },
-        {
-            "ap1Name": "Geometry",
             "ap2Name": "geometry",
             "ap2Primary": false,
             "ap1ID": "072977df-2092-4273-b17b-006230524b86",
@@ -794,6 +1015,20 @@
             "ap2Primary": true,
             "ap1ID": "b9c2969f-e898-4bf2-8d18-aa17dc8b4624",
             "ap2ID": "c15b0ff9-791f-49f3-a41c-bf36fd6eb5b2"
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": "ff87dede-758f-4324-8993-0d2b8a3f1226",
+            "ap2ID": "81cf8a94-39b6-44f3-ba24-9c536f36c7b7"
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "number or geometry",
+            "ap2Primary": false,
+            "ap1ID": "81cf8a94-39b6-44f3-ba24-9c536f36c7b7",
+            "ap2ID": 1746568598187
         }
     ],
     "unitsKey": "MM",
