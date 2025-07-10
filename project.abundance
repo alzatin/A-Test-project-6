@@ -26,7 +26,7 @@
             "ioValues": [
                 {
                     "name": "number or geometry",
-                    "ioValue": "2acb612d-362a-4b60-a01a-45bf2224f63a"
+                    "ioValue": "072977df-2092-4273-b17b-006230524b86"
                 }
             ],
             "description": "Connect geometry here to make it available in the next level up. "
@@ -805,13 +805,6 @@
         },
         {
             "ap1Name": "geometry",
-            "ap2Name": "number or geometry",
-            "ap2Primary": false,
-            "ap1ID": "2acb612d-362a-4b60-a01a-45bf2224f63a",
-            "ap2ID": 1746568598187
-        },
-        {
-            "ap1Name": "geometry",
             "ap2Name": "geometry",
             "ap2Primary": true,
             "ap1ID": "56a94d7f-d465-428f-a04b-2c4ddfb901f7",
@@ -879,6 +872,13 @@
             "ap2Primary": false,
             "ap1ID": "072977df-2092-4273-b17b-006230524b86",
             "ap2ID": "b6b154e7-4d27-4a0b-b61d-e9b6013c4097"
+        },
+        {
+            "ap1Name": "Geometry",
+            "ap2Name": "number or geometry",
+            "ap2Primary": false,
+            "ap1ID": "072977df-2092-4273-b17b-006230524b86",
+            "ap2ID": 1746568598187
         }
     ],
     "unitsKey": "MM",
