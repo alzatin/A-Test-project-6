@@ -34,7 +34,7 @@
         {
             "atomType": "Input",
             "name": "Wood Thickness",
-            "x": 0.024749999999999998,
+            "x": 0.03795,
             "y": 0.19220055710306408,
             "uniqueID": 1746570366118,
             "ioValues": [],
@@ -180,8 +180,8 @@
         {
             "atomType": "Molecule",
             "name": "Molecule",
-            "x": 0.34656084656084657,
-            "y": 0.7262569832402235,
+            "x": 0.13273453093812376,
+            "y": 0.5916666666666667,
             "uniqueID": "14ed4687-6537-4117-a284-8f9afd215787",
             "ioValues": [
                 {
@@ -232,7 +232,7 @@
         {
             "atomType": "Input",
             "name": "A Thing",
-            "x": 0.024749999999999998,
+            "x": 0.03795,
             "y": 0.7793296089385475,
             "uniqueID": "45800d99-312f-4c10-a95c-f46ab3178da1",
             "ioValues": [],
@@ -242,8 +242,8 @@
         {
             "atomType": "Rectangle",
             "name": "Rectangle",
-            "x": 0.2834331337325349,
-            "y": 0.9027777777777777,
+            "x": 0.2085828343313373,
+            "y": 0.663888888888889,
             "uniqueID": "0b0af4d7-9261-4074-ba27-2b43324772f5",
             "ioValues": [
                 {
@@ -260,13 +260,13 @@
         {
             "atomType": "Extrude",
             "name": "Extrude",
-            "x": 0.4211576846307385,
-            "y": 0.9055555555555556,
+            "x": 0.5349301397205589,
+            "y": 0.4916666666666667,
             "uniqueID": "c15b0ff9-791f-49f3-a41c-bf36fd6eb5b2",
             "ioValues": [
                 {
                     "name": "geometry",
-                    "ioValue": "0b0af4d7-9261-4074-ba27-2b43324772f5"
+                    "ioValue": "b9c2969f-e898-4bf2-8d18-aa17dc8b4624"
                 },
                 {
                     "name": "height",
@@ -278,8 +278,8 @@
         {
             "atomType": "Move",
             "name": "Move",
-            "x": 0.5219560878243513,
-            "y": 0.6166666666666666,
+            "x": 0.626746506986028,
+            "y": 0.45833333333333337,
             "uniqueID": "2b23e32e-3e46-4888-b7a6-f40467c2499b",
             "ioValues": [
                 {
@@ -292,7 +292,7 @@
                 },
                 {
                     "name": "yDist",
-                    "ioValue": 100
+                    "ioValue": 200
                 },
                 {
                     "name": "zDist",
@@ -304,8 +304,8 @@
         {
             "atomType": "GitHubMolecule",
             "name": "RotatePattern",
-            "x": 0.5558882235528942,
-            "y": 0.9166666666666667,
+            "x": 0.6017964071856288,
+            "y": 0.9194444444444444,
             "uniqueID": "072977df-2092-4273-b17b-006230524b86",
             "ioValues": [
                 {
@@ -520,8 +520,8 @@
         {
             "atomType": "CutLayout",
             "name": "Cut Layout",
-            "x": 0.7105788423153693,
-            "y": 0.5583333333333333,
+            "x": 0.7305389221556886,
+            "y": 0.5861111111111111,
             "uniqueID": "32191547-3ea8-404b-a782-dc3174cd930e",
             "ioValues": [
                 {
@@ -545,247 +545,134 @@
             "placements": [
                 [
                     {
-                        "id": 21,
-                        "rotate": 30,
+                        "id": 16,
+                        "rotate": 0,
                         "translate": {
-                            "x": -8.57559543755709,
-                            "y": -32.36724705335416
-                        }
-                    },
-                    {
-                        "id": 9,
-                        "rotate": 180,
-                        "translate": {
-                            "x": 18.199999999999992,
-                            "y": -16.27170054531937
-                        }
-                    },
-                    {
-                        "id": 29,
-                        "rotate": 120,
-                        "translate": {
-                            "x": 53.36126880245843,
-                            "y": 105.83612613676266
+                            "x": 23.287759931136208,
+                            "y": 14.089567403149617
                         }
                     },
                     {
                         "id": 5,
-                        "rotate": 60,
+                        "rotate": 0,
                         "translate": {
-                            "x": 0.4547409919012111,
-                            "y": 144.7098001121911
-                        }
-                    },
-                    {
-                        "id": 3,
-                        "rotate": 285,
-                        "translate": {
-                            "x": 55.80750600740373,
-                            "y": 76.7545909565643
-                        }
-                    },
-                    {
-                        "id": 13,
-                        "rotate": 285,
-                        "translate": {
-                            "x": 50.62699201562973,
-                            "y": 193.62531169105497
-                        }
-                    },
-                    {
-                        "id": 19,
-                        "rotate": 45,
-                        "translate": {
-                            "x": -13.009988374762756,
-                            "y": 124.19992842887726
-                        }
-                    },
-                    {
-                        "id": 10,
-                        "rotate": 105,
-                        "translate": {
-                            "x": -10.43257018262971,
-                            "y": 47.53668518663609
-                        }
-                    },
-                    {
-                        "id": 4,
-                        "rotate": 225,
-                        "translate": {
-                            "x": 22.051459947658767,
-                            "y": 137.28947849187082
-                        }
-                    },
-                    {
-                        "id": 15,
-                        "rotate": 210,
-                        "translate": {
-                            "x": 98.1123621761324,
-                            "y": 124.38122851134477
-                        }
-                    },
-                    {
-                        "id": 17,
-                        "rotate": 255,
-                        "translate": {
-                            "x": 53.328597007363896,
-                            "y": 263.4048044800215
-                        }
-                    },
-                    {
-                        "id": 14,
-                        "rotate": 135,
-                        "translate": {
-                            "x": 23.475611119257664,
-                            "y": 179.93711255105273
-                        }
-                    },
-                    {
-                        "id": 24,
-                        "rotate": 150,
-                        "translate": {
-                            "x": 95.01389936959649,
-                            "y": 191.85326143755717
-                        }
-                    },
-                    {
-                        "id": 12,
-                        "rotate": 195,
-                        "translate": {
-                            "x": 85.23983500014148,
-                            "y": -8.135644888195902
-                        }
-                    },
-                    {
-                        "id": 22,
-                        "rotate": 300,
-                        "translate": {
-                            "x": -3.786567212191045,
-                            "y": 253.78618240809874
-                        }
-                    },
-                    {
-                        "id": 0,
-                        "rotate": 120,
-                        "translate": {
-                            "x": -8.575596199352276,
-                            "y": 304.9976563698732
-                        }
-                    },
-                    {
-                        "id": 27,
-                        "rotate": 120,
-                        "translate": {
-                            "x": 99.97585860938631,
-                            "y": 114.75682461226916
-                        }
-                    },
-                    {
-                        "id": 11,
-                        "rotate": 300,
-                        "translate": {
-                            "x": 84.14387625637565,
-                            "y": 310.29214308208196
-                        }
-                    },
-                    {
-                        "id": 26,
-                        "rotate": 345,
-                        "translate": {
-                            "x": -10.803074294384267,
-                            "y": 243.60948014536473
-                        }
-                    },
-                    {
-                        "id": 8,
-                        "rotate": 135,
-                        "translate": {
-                            "x": -6.144856392500138,
-                            "y": 271.46475771595107
-                        }
-                    },
-                    {
-                        "id": 20,
-                        "rotate": 195,
-                        "translate": {
-                            "x": 97.39596040754097,
-                            "y": 343.96481824106377
+                            "x": 22.49468763011523,
+                            "y": 38.390330501350185
                         }
                     },
                     {
                         "id": 7,
-                        "rotate": 15,
+                        "rotate": 0,
                         "translate": {
-                            "x": 23.842787990864043,
-                            "y": 385.84769186658843
-                        }
-                    },
-                    {
-                        "id": 18,
-                        "rotate": 60,
-                        "translate": {
-                            "x": 20.873137600647716,
-                            "y": -30.432392337022506
-                        }
-                    },
-                    {
-                        "id": 25,
-                        "rotate": 225,
-                        "translate": {
-                            "x": 24.113697967167237,
-                            "y": 401.98101949667046
-                        }
-                    },
-                    {
-                        "id": 16,
-                        "rotate": 345,
-                        "translate": {
-                            "x": -18.270202173953614,
-                            "y": 394.5227108633044
-                        }
-                    },
-                    {
-                        "id": 23,
-                        "rotate": 315,
-                        "translate": {
-                            "x": 3.6226038694955776,
-                            "y": 185.51611712038698
+                            "x": 14.089567431258006,
+                            "y": 73.6304590306534
                         }
                     },
                     {
                         "id": 1,
-                        "rotate": 285,
+                        "rotate": 0,
                         "translate": {
-                            "x": 41.74821996098353,
-                            "y": 330.1410226553689
+                            "x": 33.87466892566528,
+                            "y": 81.35864770240883
                         }
                     },
                     {
-                        "id": 6,
-                        "rotate": 135,
+                        "id": 10,
+                        "rotate": 0,
                         "translate": {
-                            "x": -6.23765027130154,
-                            "y": 367.71619838011304
-                        }
-                    },
-                    {
-                        "id": 2,
-                        "rotate": 255,
-                        "translate": {
-                            "x": 25.68419109535169,
-                            "y": 349.4218677322064
+                            "x": 29.140713372269726,
+                            "y": 99.87032114232275
                         }
                     },
                     {
                         "id": 28,
-                        "rotate": 15,
+                        "rotate": 0,
                         "translate": {
-                            "x": 42.41207045341706,
-                            "y": 375.3639640257195
+                            "x": 37.57677295410649,
+                            "y": 111.918262831334
+                        }
+                    },
+                    {
+                        "id": 19,
+                        "rotate": 0,
+                        "translate": {
+                            "x": 50.7038973666424,
+                            "y": 48.77796530570373
                         }
                     }
                 ]
             ]
+        },
+        {
+            "atomType": "Rotate",
+            "name": "Rotate",
+            "x": 0.24051896207584827,
+            "y": 0.8638888888888889,
+            "uniqueID": "7bc883ef-f591-4184-b5d4-3694ad010796",
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": "0b0af4d7-9261-4074-ba27-2b43324772f5"
+                },
+                {
+                    "name": "x-axis degrees",
+                    "ioValue": 0
+                },
+                {
+                    "name": "y-axis degrees",
+                    "ioValue": 0
+                },
+                {
+                    "name": "z-axis degrees",
+                    "ioValue": 90
+                }
+            ],
+            "description": "Rotates the input geometry around the X, Y, or Z axis. Inputs are degrees."
+        },
+        {
+            "atomType": "Move",
+            "name": "Move",
+            "x": 0.39520958083832336,
+            "y": 0.8861111111111112,
+            "uniqueID": "cc93b5a4-2cba-4c75-96e1-8fb2114bc22d",
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": "7bc883ef-f591-4184-b5d4-3694ad010796"
+                },
+                {
+                    "name": "xDist",
+                    "ioValue": 12.5
+                },
+                {
+                    "name": "yDist",
+                    "ioValue": 10.5
+                },
+                {
+                    "name": "zDist",
+                    "ioValue": 0
+                }
+            ],
+            "description": "Moves a shape laterally in X, Y, Z."
+        },
+        {
+            "atomType": "Fusion",
+            "name": "Fusion",
+            "x": 0.44910179640718567,
+            "y": 0.6527777777777778,
+            "uniqueID": "b9c2969f-e898-4bf2-8d18-aa17dc8b4624",
+            "ioValues": [
+                {
+                    "name": "Shape 1",
+                    "ioValue": "cc93b5a4-2cba-4c75-96e1-8fb2114bc22d"
+                },
+                {
+                    "name": "Shape 2",
+                    "ioValue": "0b0af4d7-9261-4074-ba27-2b43324772f5"
+                }
+            ],
+            "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape",
+            "unionType": "Fusion"
         }
     ],
     "allConnectors": [
@@ -850,7 +737,14 @@
             "ap2Name": "geometry",
             "ap2Primary": true,
             "ap1ID": "0b0af4d7-9261-4074-ba27-2b43324772f5",
-            "ap2ID": "c15b0ff9-791f-49f3-a41c-bf36fd6eb5b2"
+            "ap2ID": "7bc883ef-f591-4184-b5d4-3694ad010796"
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "Shape 2",
+            "ap2Primary": false,
+            "ap1ID": "0b0af4d7-9261-4074-ba27-2b43324772f5",
+            "ap2ID": "b9c2969f-e898-4bf2-8d18-aa17dc8b4624"
         },
         {
             "ap1Name": "geometry",
@@ -879,6 +773,27 @@
             "ap2Primary": false,
             "ap1ID": "072977df-2092-4273-b17b-006230524b86",
             "ap2ID": "32191547-3ea8-404b-a782-dc3174cd930e"
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": "7bc883ef-f591-4184-b5d4-3694ad010796",
+            "ap2ID": "cc93b5a4-2cba-4c75-96e1-8fb2114bc22d"
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "Shape 1",
+            "ap2Primary": false,
+            "ap1ID": "cc93b5a4-2cba-4c75-96e1-8fb2114bc22d",
+            "ap2ID": "b9c2969f-e898-4bf2-8d18-aa17dc8b4624"
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": "b9c2969f-e898-4bf2-8d18-aa17dc8b4624",
+            "ap2ID": "c15b0ff9-791f-49f3-a41c-bf36fd6eb5b2"
         }
     ],
     "unitsKey": "MM",
