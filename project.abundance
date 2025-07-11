@@ -635,8 +635,8 @@
         {
             "atomType": "CutLayout",
             "name": "Cut Layout",
-            "x": 0.7584830339321358,
-            "y": 0.663888888888889,
+            "x": 0.751497005988024,
+            "y": 0.6666666666666666,
             "uniqueID": "38a0fc25-61d5-4003-9b64-3388836bb20e",
             "ioValues": [
                 {
@@ -905,8 +905,8 @@
         {
             "atomType": "Molecule",
             "name": "Optimal Packing",
-            "x": 0.5269461077844312,
-            "y": 0.8083333333333333,
+            "x": 0.6546906187624751,
+            "y": 0.8833333333333333,
             "uniqueID": "baaed5ed-3495-4ca2-bfec-fd02da1864b0",
             "ioValues": [
                 {
@@ -970,8 +970,8 @@
                 {
                     "atomType": "GitHubMolecule",
                     "name": "Linear-Pattern",
-                    "x": 0.4421157684630738,
-                    "y": 0.675,
+                    "x": 0.4031936127744511,
+                    "y": 0.6361111111111112,
                     "uniqueID": "8ec8a330-dd56-4d84-9f61-ca0d66e41d0d",
                     "ioValues": [
                         {
@@ -980,7 +980,7 @@
                         },
                         {
                             "name": "Dist",
-                            "ioValue": 17
+                            "ioValue": 14.5
                         },
                         {
                             "name": "Geometry",
@@ -1021,7 +1021,7 @@
                                 },
                                 {
                                     "name": "Dist",
-                                    "ioValue": 17
+                                    "ioValue": 14.5
                                 }
                             ],
                             "description": "Defines a Replicad code block.",
