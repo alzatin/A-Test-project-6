@@ -34,7 +34,7 @@
         {
             "atomType": "Input",
             "name": "Wood Thickness",
-            "x": 0.08744999999999999,
+            "x": 0.03795,
             "y": 0.19220055710306408,
             "uniqueID": 1746570366118,
             "ioValues": [],
@@ -208,7 +208,7 @@
                 {
                     "atomType": "Input",
                     "name": "Wood Thickness",
-                    "x": 0.08744999999999999,
+                    "x": 0.03795,
                     "y": 0.19220055710306408,
                     "uniqueID": "3ed90480-e66a-4dea-b144-c88fd18ec870",
                     "ioValues": [],
@@ -217,7 +217,7 @@
                 {
                     "atomType": "Input",
                     "name": "A Thing",
-                    "x": 0.08744999999999999,
+                    "x": 0.03795,
                     "y": 0.76536312849162,
                     "uniqueID": "47187fce-adf9-45f8-a537-8f37c0730a29",
                     "ioValues": [],
@@ -232,7 +232,7 @@
         {
             "atomType": "Input",
             "name": "A Thing",
-            "x": 0.08744999999999999,
+            "x": 0.03795,
             "y": 0.7793296089385475,
             "uniqueID": "45800d99-312f-4c10-a95c-f46ab3178da1",
             "ioValues": [],
@@ -260,8 +260,8 @@
         {
             "atomType": "Extrude",
             "name": "Extrude",
-            "x": 0.5349301397205589,
-            "y": 0.4916666666666667,
+            "x": 0.46906187624750495,
+            "y": 0.4944444444444444,
             "uniqueID": "c15b0ff9-791f-49f3-a41c-bf36fd6eb5b2",
             "ioValues": [
                 {
@@ -278,8 +278,8 @@
         {
             "atomType": "Move",
             "name": "Move",
-            "x": 0.626746506986028,
-            "y": 0.45833333333333337,
+            "x": 0.5868263473053892,
+            "y": 0.4694444444444444,
             "uniqueID": "2b23e32e-3e46-4888-b7a6-f40467c2499b",
             "ioValues": [
                 {
@@ -304,8 +304,8 @@
         {
             "atomType": "GitHubMolecule",
             "name": "RotatePattern",
-            "x": 0.5848303393213573,
-            "y": 0.7527777777777778,
+            "x": 0.7135728542914171,
+            "y": 0.44999999999999996,
             "uniqueID": "072977df-2092-4273-b17b-006230524b86",
             "ioValues": [
                 {
@@ -341,7 +341,7 @@
                 {
                     "atomType": "Input",
                     "name": "Shape",
-                    "x": 0.08744999999999999,
+                    "x": 0.03795,
                     "y": 0.3788300835654596,
                     "uniqueID": "c282b44e-9a01-40c9-9caf-89cddc550f4d",
                     "ioValues": [],
@@ -350,7 +350,7 @@
                 {
                     "atomType": "Input",
                     "name": "Number",
-                    "x": 0.08744999999999999,
+                    "x": 0.03795,
                     "y": 0.8440111420612814,
                     "uniqueID": "e402e252-84a6-465f-9847-5b373b2fdc95",
                     "ioValues": [],
@@ -359,7 +359,7 @@
                 {
                     "atomType": "Input",
                     "name": "Angle",
-                    "x": 0.08744999999999999,
+                    "x": 0.03795,
                     "y": 0.5821727019498607,
                     "uniqueID": "fcfecdd7-3a57-46f4-8fd7-b5e2995509fe",
                     "ioValues": [],
@@ -546,8 +546,8 @@
         {
             "atomType": "Move",
             "name": "Move",
-            "x": 0.39520958083832336,
-            "y": 0.8861111111111112,
+            "x": 0.344311377245509,
+            "y": 0.913888888888889,
             "uniqueID": "cc93b5a4-2cba-4c75-96e1-8fb2114bc22d",
             "ioValues": [
                 {
@@ -572,8 +572,8 @@
         {
             "atomType": "Fusion",
             "name": "Fusion",
-            "x": 0.44910179640718567,
-            "y": 0.6527777777777778,
+            "x": 0.3403193612774451,
+            "y": 0.5083333333333333,
             "uniqueID": "b9c2969f-e898-4bf2-8d18-aa17dc8b4624",
             "ioValues": [
                 {
@@ -635,8 +635,8 @@
         {
             "atomType": "CutLayout",
             "name": "Cut Layout",
-            "x": 0.7582697201017812,
-            "y": 0.5953002610966057,
+            "x": 0.7964071856287425,
+            "y": 0.5972222222222222,
             "uniqueID": "38a0fc25-61d5-4003-9b64-3388836bb20e",
             "ioValues": [
                 {
@@ -661,7 +661,7 @@
                 [
                     {
                         "id": 3,
-                        "rotate": 150,
+                        "rotate": 154,
                         "translate": {
                             "x": 20.77624094062043,
                             "y": 11.123758789392902
@@ -669,7 +669,7 @@
                     },
                     {
                         "id": 16,
-                        "rotate": 300,
+                        "rotate": 309,
                         "translate": {
                             "x": 14.54217614021357,
                             "y": 41.78694982236415
@@ -677,7 +677,7 @@
                     },
                     {
                         "id": 26,
-                        "rotate": 330,
+                        "rotate": 334,
                         "translate": {
                             "x": 26.19929639820213,
                             "y": 63.78482985269776
@@ -685,7 +685,7 @@
                     },
                     {
                         "id": 25,
-                        "rotate": 120,
+                        "rotate": 129,
                         "translate": {
                             "x": 13.764023773766702,
                             "y": 101.01893991717375
@@ -693,7 +693,7 @@
                     },
                     {
                         "id": 7,
-                        "rotate": 120,
+                        "rotate": 129,
                         "translate": {
                             "x": 33.34242989358762,
                             "y": 99.70315304613948
@@ -709,7 +709,7 @@
                     },
                     {
                         "id": 17,
-                        "rotate": 270,
+                        "rotate": 283,
                         "translate": {
                             "x": 56.50361715731418,
                             "y": 80.6962270373389
@@ -717,7 +717,7 @@
                     },
                     {
                         "id": 5,
-                        "rotate": 150,
+                        "rotate": 154,
                         "translate": {
                             "x": 52.70516495585039,
                             "y": 28.590644049878193
@@ -725,7 +725,7 @@
                     },
                     {
                         "id": 20,
-                        "rotate": 30,
+                        "rotate": 26,
                         "translate": {
                             "x": 69.12691452007398,
                             "y": 100.57856607687665
@@ -733,7 +733,7 @@
                     },
                     {
                         "id": 2,
-                        "rotate": 90,
+                        "rotate": 103,
                         "translate": {
                             "x": 73.54079813236883,
                             "y": 39.31640689689617
@@ -741,7 +741,7 @@
                     },
                     {
                         "id": 23,
-                        "rotate": 240,
+                        "rotate": 231,
                         "translate": {
                             "x": 17.518736582350805,
                             "y": 127.23115523193465
@@ -757,7 +757,7 @@
                     },
                     {
                         "id": 11,
-                        "rotate": 120,
+                        "rotate": 129,
                         "translate": {
                             "x": 82.04263582913906,
                             "y": 67.89905752837409
@@ -765,7 +765,7 @@
                     },
                     {
                         "id": 10,
-                        "rotate": 60,
+                        "rotate": 51,
                         "translate": {
                             "x": 74.24878931558075,
                             "y": 129.83109265574254
@@ -773,7 +773,7 @@
                     },
                     {
                         "id": 24,
-                        "rotate": 150,
+                        "rotate": 154,
                         "translate": {
                             "x": 94.80077811283296,
                             "y": 110.32979917805676
@@ -781,7 +781,7 @@
                     },
                     {
                         "id": 8,
-                        "rotate": 120,
+                        "rotate": 129,
                         "translate": {
                             "x": 94.40361220559137,
                             "y": 34.77822366585964
@@ -789,7 +789,7 @@
                     },
                     {
                         "id": 28,
-                        "rotate": 270,
+                        "rotate": 283,
                         "translate": {
                             "x": 108.36059628573858,
                             "y": 24.961356086224328
@@ -797,7 +797,7 @@
                     },
                     {
                         "id": 15,
-                        "rotate": 150,
+                        "rotate": 154,
                         "translate": {
                             "x": 110.66879607732979,
                             "y": 130.3453883801316
@@ -805,7 +805,7 @@
                     },
                     {
                         "id": 14,
-                        "rotate": 270,
+                        "rotate": 283,
                         "translate": {
                             "x": 106.49718603608856,
                             "y": 79.03213969436455
@@ -821,7 +821,7 @@
                     },
                     {
                         "id": 13,
-                        "rotate": 90,
+                        "rotate": 103,
                         "translate": {
                             "x": 129.3623609838417,
                             "y": 23.681648558867114
@@ -837,7 +837,7 @@
                     },
                     {
                         "id": 1,
-                        "rotate": 210,
+                        "rotate": 206,
                         "translate": {
                             "x": 138.3930247533128,
                             "y": 125.34916418716111
@@ -845,7 +845,7 @@
                     },
                     {
                         "id": 12,
-                        "rotate": 240,
+                        "rotate": 231,
                         "translate": {
                             "x": 147.8593297548349,
                             "y": 54.60665678836847
@@ -853,7 +853,7 @@
                     },
                     {
                         "id": 22,
-                        "rotate": 120,
+                        "rotate": 129,
                         "translate": {
                             "x": 147.94301698739443,
                             "y": 98.27772456910796
@@ -861,7 +861,7 @@
                     },
                     {
                         "id": 27,
-                        "rotate": 240,
+                        "rotate": 231,
                         "translate": {
                             "x": 164.72720905384858,
                             "y": 15.203745666360598
@@ -869,7 +869,7 @@
                     },
                     {
                         "id": 9,
-                        "rotate": 210,
+                        "rotate": 206,
                         "translate": {
                             "x": 169.70292739552877,
                             "y": 117.05790027457569
@@ -885,7 +885,7 @@
                     },
                     {
                         "id": 4,
-                        "rotate": 240,
+                        "rotate": 231,
                         "translate": {
                             "x": 175.0045096762384,
                             "y": 80.88617995858522
@@ -893,7 +893,7 @@
                     },
                     {
                         "id": 18,
-                        "rotate": 120,
+                        "rotate": 129,
                         "translate": {
                             "x": 172.09529892806472,
                             "y": 133.847216203526
@@ -901,6 +901,264 @@
                     }
                 ]
             ]
+        },
+        {
+            "atomType": "Molecule",
+            "name": "Molecule",
+            "x": 0.5049900199600799,
+            "y": 0.8194444444444444,
+            "uniqueID": "baaed5ed-3495-4ca2-bfec-fd02da1864b0",
+            "ioValues": [
+                {
+                    "name": "Geometry",
+                    "ioValue": "NaNb0ff9-791f-49f3-a41c-bf36fd6eb5b2"
+                }
+            ],
+            "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
+            "topLevel": false,
+            "allAtoms": [
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 0.98,
+                    "y": 0.5,
+                    "uniqueID": "74b86142-f40e-4ad8-a6b9-5b8528e3cb0d",
+                    "ioValues": [
+                        {
+                            "name": "number or geometry",
+                            "ioValue": "8ec8a330-dd56-4d84-9f61-ca0d66e41d0d"
+                        }
+                    ],
+                    "description": "Connect geometry here to make it available in the next level up. "
+                },
+                {
+                    "atomType": "Input",
+                    "name": "Geometry",
+                    "x": 0.03795,
+                    "y": 0.35833333333333334,
+                    "uniqueID": "bc50fdd7-d629-434c-8323-e00233e83cd1",
+                    "ioValues": [],
+                    "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
+                    "type": "number"
+                },
+                {
+                    "atomType": "Rotate",
+                    "name": "Rotate",
+                    "x": 0.2614770459081836,
+                    "y": 0.3638888888888889,
+                    "uniqueID": "bd805fb1-ab37-44e0-978f-4fe64fe73ba9",
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": "NaNb0ff9-791f-49f3-a41c-bf36fd6eb5b2"
+                        },
+                        {
+                            "name": "x-axis degrees",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "y-axis degrees",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "z-axis degrees",
+                            "ioValue": 45
+                        }
+                    ],
+                    "description": "Rotates the input geometry around the X, Y, or Z axis. Inputs are degrees."
+                },
+                {
+                    "atomType": "GitHubMolecule",
+                    "name": "Linear-Pattern",
+                    "x": 0.466067864271457,
+                    "y": 0.663888888888889,
+                    "uniqueID": "8ec8a330-dd56-4d84-9f61-ca0d66e41d0d",
+                    "ioValues": [
+                        {
+                            "name": "Number",
+                            "ioValue": 4
+                        },
+                        {
+                            "name": "Dist",
+                            "ioValue": 17
+                        },
+                        {
+                            "name": "Geometry",
+                            "ioValue": "NaN05fb1-ab37-44e0-978f-4fe64fe73ba9"
+                        }
+                    ],
+                    "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
+                    "topLevel": false,
+                    "allAtoms": [
+                        {
+                            "atomType": "Output",
+                            "name": "Output",
+                            "x": 0.98,
+                            "y": 0.5,
+                            "uniqueID": "946109de-bc97-45c5-a654-07316c23a78a",
+                            "ioValues": [
+                                {
+                                    "name": "number or geometry",
+                                    "ioValue": "2aebb769-cc9e-48bf-b95f-a3fe033bca75"
+                                }
+                            ],
+                            "description": "Connect geometry here to make it available in the next level up. "
+                        },
+                        {
+                            "atomType": "Code",
+                            "name": "Code",
+                            "x": 0.5112433862433863,
+                            "y": 0.4345403899721449,
+                            "uniqueID": "2aebb769-cc9e-48bf-b95f-a3fe033bca75",
+                            "ioValues": [
+                                {
+                                    "name": "Shape",
+                                    "ioValue": "NaN05fb1-ab37-44e0-978f-4fe64fe73ba9"
+                                },
+                                {
+                                    "name": "Number",
+                                    "ioValue": 10
+                                },
+                                {
+                                    "name": "Dist",
+                                    "ioValue": 17
+                                }
+                            ],
+                            "description": "Defines a Replicad code block.",
+                            "codeVersion": 1,
+                            "code": "//Inputs:[Shape, Number, Dist];\n\n\nlet shapesArray = [];\nfor (let i = 0; i < Number; i++) {\n    let rotatedShape = await Move(Shape, Dist * i, 0, 0);\n    shapesArray.push(rotatedShape);\n}\n\nlet assembledShape = await Assembly(shapesArray)\n\nreturn assembledShape;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n    /**\n    To Use the Code Atom, enter your inputs to the input list a.e Inputs:[shape, height]\n    If your input is connected to another atom with a replicad geometry you can access its geometry by looking up its ID in your library. a.e library[Input1].geometry[0] \n    Use any replicad available methods to modify your geometry. Learn more about all of the available methods at \n    https://replicad.xyz/docs/introapp/UserGuide.html \n    Return a replicad object that includes geometry, color, tags and plane. \n\n\n    Example Code Atom:\n\n      Inputs:[shape, x];\n\n      let finalShape = library[shape].geometry[0].clone.translate[x,0,0]\n\n      return {geometry: finalShape, color: library[shape].color, plane: library[shape].plane, tags: library[shape].tags }\n\n      - See more examples at _______ \n\n\n    */\n"
+                        },
+                        {
+                            "atomType": "Rectangle",
+                            "name": "Rectangle",
+                            "x": 0.27976190476190477,
+                            "y": 0.2116991643454039,
+                            "uniqueID": "580723f5-53bb-4aec-89ca-1a68732dfdcb",
+                            "ioValues": [
+                                {
+                                    "name": "x length",
+                                    "ioValue": 10
+                                },
+                                {
+                                    "name": "y length",
+                                    "ioValue": 10
+                                }
+                            ],
+                            "description": "Creates a new rectangle."
+                        },
+                        {
+                            "atomType": "Input",
+                            "name": "Number",
+                            "x": 0.03795,
+                            "y": 0.32869080779944293,
+                            "uniqueID": "c4d3c46b-5f4c-44da-a08a-b4193f94293f",
+                            "ioValues": [],
+                            "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
+                            "type": "number"
+                        },
+                        {
+                            "atomType": "Input",
+                            "name": "Dist",
+                            "x": 0.03795,
+                            "y": 0.6434540389972144,
+                            "uniqueID": "eb016a73-169b-45a3-9401-80e784d22d14",
+                            "ioValues": [],
+                            "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
+                            "type": "number"
+                        },
+                        {
+                            "atomType": "Input",
+                            "name": "Geometry",
+                            "x": 0.03795,
+                            "y": 0.9108635097493036,
+                            "uniqueID": "c26fe36a-9b68-4bbb-9247-5906b5369093",
+                            "ioValues": [],
+                            "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
+                            "type": "number"
+                        }
+                    ],
+                    "allConnectors": [
+                        {
+                            "ap1Name": "geometry",
+                            "ap2Name": "number or geometry",
+                            "ap2Primary": false,
+                            "ap1ID": "2aebb769-cc9e-48bf-b95f-a3fe033bca75",
+                            "ap2ID": "946109de-bc97-45c5-a654-07316c23a78a"
+                        },
+                        {
+                            "ap1Name": "number or geometry",
+                            "ap2Name": "Number",
+                            "ap2Primary": false,
+                            "ap1ID": "c4d3c46b-5f4c-44da-a08a-b4193f94293f",
+                            "ap2ID": "2aebb769-cc9e-48bf-b95f-a3fe033bca75"
+                        },
+                        {
+                            "ap1Name": "number or geometry",
+                            "ap2Name": "Dist",
+                            "ap2Primary": false,
+                            "ap1ID": "eb016a73-169b-45a3-9401-80e784d22d14",
+                            "ap2ID": "2aebb769-cc9e-48bf-b95f-a3fe033bca75"
+                        },
+                        {
+                            "ap1Name": "number or geometry",
+                            "ap2Name": "Shape",
+                            "ap2Primary": false,
+                            "ap1ID": "c26fe36a-9b68-4bbb-9247-5906b5369093",
+                            "ap2ID": "2aebb769-cc9e-48bf-b95f-a3fe033bca75"
+                        }
+                    ],
+                    "parentRepo": {
+                        "lastFoundGit": "2025-03-02T16:20:37.798Z",
+                        "privateRepo": false,
+                        "repoName": "Linear-Pattern",
+                        "dateCreated": "2025-02-19T00:40:13Z",
+                        "readMe": "https://raw.githubusercontent.com/BarbourSmith/Linear-Pattern/master/README.md?sanitize=true",
+                        "yyyy": 2025,
+                        "topMoleculeID": 1739925613779,
+                        "githubMoleculesUsed": [],
+                        "html_url": "https://github.com/BarbourSmith/Linear-Pattern",
+                        "topics": [],
+                        "parentRepo": null,
+                        "forks": 0,
+                        "dateModified": "739301",
+                        "ranking": 0,
+                        "searchField": "linear-pattern barboursmith returns the input shape formed into an assembly translated n times ",
+                        "owner": "BarbourSmith",
+                        "description": "Returns the input shape formed into an assembly translated n times",
+                        "contentURL": "https://raw.githubusercontent.com/BarbourSmith/Linear-Pattern/master/project.abundance?sanitize=true",
+                        "svgURL": "https://raw.githubusercontent.com/BarbourSmith/Linear-Pattern/master/project.svg?sanitize=true",
+                        "isLocal": false
+                    },
+                    "unitsKey": "MM",
+                    "fileTypeVersion": 1,
+                    "compiledBom": []
+                }
+            ],
+            "allConnectors": [
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": "bc50fdd7-d629-434c-8323-e00233e83cd1",
+                    "ap2ID": "bd805fb1-ab37-44e0-978f-4fe64fe73ba9"
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "Geometry",
+                    "ap2Primary": false,
+                    "ap1ID": "bd805fb1-ab37-44e0-978f-4fe64fe73ba9",
+                    "ap2ID": "8ec8a330-dd56-4d84-9f61-ca0d66e41d0d"
+                },
+                {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "number or geometry",
+                    "ap2Primary": false,
+                    "ap1ID": "8ec8a330-dd56-4d84-9f61-ca0d66e41d0d",
+                    "ap2ID": "74b86142-f40e-4ad8-a6b9-5b8528e3cb0d"
+                }
+            ],
+            "fileTypeVersion": 1,
+            "compiledBom": {}
         }
     ],
     "allConnectors": [
@@ -980,6 +1238,13 @@
             "ap2Primary": true,
             "ap1ID": "c15b0ff9-791f-49f3-a41c-bf36fd6eb5b2",
             "ap2ID": "2b23e32e-3e46-4888-b7a6-f40467c2499b"
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "Geometry",
+            "ap2Primary": false,
+            "ap1ID": "c15b0ff9-791f-49f3-a41c-bf36fd6eb5b2",
+            "ap2ID": "baaed5ed-3495-4ca2-bfec-fd02da1864b0"
         },
         {
             "ap1Name": "geometry",
