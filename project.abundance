@@ -113,7 +113,12 @@
                     "x": 0.98,
                     "y": 0.5,
                     "uniqueID": "87a0ccd6-1142-46c9-a7f0-d9ea517dfdca",
-                    "ioValues": [],
+                    "ioValues": [
+                        {
+                            "name": "number or geometry",
+                            "ioValue": "83c614f9-e7a8-4352-8175-ae923f7fb11c"
+                        }
+                    ],
                     "description": "Connect geometry here to make it available in the next level up. "
                 },
                 {
@@ -369,17 +374,17 @@
         {
             "atomType": "Rectangle",
             "name": "Rectangle",
-            "x": 0.45568783068783075,
-            "y": 0.18333333333333335,
+            "x": 0.45725806451612905,
+            "y": 0.17222222222222222,
             "uniqueID": "ff87dede-758f-4324-8993-0d2b8a3f1226",
             "ioValues": [
                 {
                     "name": "x length",
-                    "ioValue": 100
+                    "ioValue": 50
                 },
                 {
                     "name": "y length",
-                    "ioValue": 100
+                    "ioValue": 50
                 }
             ],
             "description": "Creates a new rectangle."
@@ -663,7 +668,7 @@
             "ioValues": [
                 {
                     "name": "Geometry",
-                    "ioValue": "NaNb0ff9-791f-49f3-a41c-bf36fd6eb5b2"
+                    "ioValue": "c15b0ff9-791f-49f3-a41c-bf36fd6eb5b2"
                 }
             ],
             "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -675,7 +680,12 @@
                     "x": 0.98,
                     "y": 0.5,
                     "uniqueID": "74b86142-f40e-4ad8-a6b9-5b8528e3cb0d",
-                    "ioValues": [],
+                    "ioValues": [
+                        {
+                            "name": "number or geometry",
+                            "ioValue": "cce8b22f-8e0e-42ac-bbc2-703a69a8d12d"
+                        }
+                    ],
                     "description": "Connect geometry here to make it available in the next level up. "
                 },
                 {
@@ -697,7 +707,7 @@
                     "ioValues": [
                         {
                             "name": "geometry",
-                            "ioValue": "NaNb0ff9-791f-49f3-a41c-bf36fd6eb5b2"
+                            "ioValue": "c15b0ff9-791f-49f3-a41c-bf36fd6eb5b2"
                         },
                         {
                             "name": "x-axis degrees",
@@ -731,7 +741,7 @@
                         },
                         {
                             "name": "Geometry",
-                            "ioValue": "NaN05fb1-ab37-44e0-978f-4fe64fe73ba9"
+                            "ioValue": "bd805fb1-ab37-44e0-978f-4fe64fe73ba9"
                         }
                     ],
                     "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -743,7 +753,12 @@
                             "x": 0.98,
                             "y": 0.5,
                             "uniqueID": "946109de-bc97-45c5-a654-07316c23a78a",
-                            "ioValues": [],
+                            "ioValues": [
+                                {
+                                    "name": "number or geometry",
+                                    "ioValue": "2aebb769-cc9e-48bf-b95f-a3fe033bca75"
+                                }
+                            ],
                             "description": "Connect geometry here to make it available in the next level up. "
                         },
                         {
@@ -755,7 +770,7 @@
                             "ioValues": [
                                 {
                                     "name": "Shape",
-                                    "ioValue": "NaN05fb1-ab37-44e0-978f-4fe64fe73ba9"
+                                    "ioValue": "bd805fb1-ab37-44e0-978f-4fe64fe73ba9"
                                 },
                                 {
                                     "name": "Number",
@@ -1054,11 +1069,11 @@
             "ioValues": [
                 {
                     "name": "x length",
-                    "ioValue": 200
+                    "ioValue": 75
                 },
                 {
                     "name": "y length",
-                    "ioValue": 200
+                    "ioValue": 75
                 }
             ],
             "description": "Creates a new rectangle."
@@ -1066,8 +1081,8 @@
         {
             "atomType": "Extrude",
             "name": "Extrude",
-            "x": 0.6223544973544973,
-            "y": 0.85,
+            "x": 0.6266129032258064,
+            "y": 0.836111111111111,
             "uniqueID": "a49d04fd-a332-4ca1-a935-e8420dc58731",
             "ioValues": [
                 {
@@ -1076,7 +1091,7 @@
                 },
                 {
                     "name": "height",
-                    "ioValue": 100
+                    "ioValue": 25
                 }
             ],
             "description": "Extrudes a 2D shape. Input can be negitive. "
@@ -1084,8 +1099,8 @@
         {
             "atomType": "Extrude",
             "name": "Extrude",
-            "x": 0.5515873015873016,
-            "y": 0.3472222222222222,
+            "x": 0.5604838709677419,
+            "y": 0.33055555555555555,
             "uniqueID": "d0b60086-8cc1-47de-a1d5-b3d7072433a2",
             "ioValues": [
                 {
@@ -1094,7 +1109,7 @@
                 },
                 {
                     "name": "height",
-                    "ioValue": 50
+                    "ioValue": -14
                 }
             ],
             "description": "Extrudes a 2D shape. Input can be negitive. "
@@ -1102,8 +1117,8 @@
         {
             "atomType": "Move",
             "name": "Move",
-            "x": 0.6812169312169312,
-            "y": 0.46388888888888885,
+            "x": 0.6870967741935484,
+            "y": 0.45833333333333337,
             "uniqueID": "c07e89b2-5597-4189-99ff-5c42aca3588d",
             "ioValues": [
                 {
@@ -1120,7 +1135,7 @@
                 },
                 {
                     "name": "zDist",
-                    "ioValue": 50
+                    "ioValue": 25
                 }
             ],
             "description": "Moves a shape laterally in X, Y, Z."
@@ -1146,8 +1161,8 @@
         {
             "atomType": "Gcode",
             "name": "Gcode",
-            "x": 0.7951612903225806,
-            "y": 0.7194444444444444,
+            "x": 0.7967741935483871,
+            "y": 0.7472222222222221,
             "uniqueID": "27c29402-254b-433d-b3e4-31d5a6a2640b",
             "ioValues": [
                 {
