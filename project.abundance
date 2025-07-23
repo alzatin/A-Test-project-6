@@ -4,7 +4,16 @@
     "x": 0,
     "y": 0,
     "uniqueID": 1746568589948,
-    "ioValues": [],
+    "ioValues": [
+        {
+            "name": "Input (1)",
+            "ioValue": 10
+        },
+        {
+            "name": "Input (2)",
+            "ioValue": 10
+        }
+    ],
     "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
     "topLevel": true,
     "allAtoms": [
@@ -1218,6 +1227,64 @@
                 }
             ],
             "description": "Rotates the input geometry around the X, Y, or Z axis. Inputs are degrees."
+        },
+        {
+            "atomType": "Equation",
+            "name": "x + y",
+            "x": 0.6296610169491526,
+            "y": 0.47696476964769646,
+            "uniqueID": "644d0102-b0de-49a3-b5af-32765af1e48c",
+            "ioValues": [
+                {
+                    "name": "x",
+                    "ioValue": 1
+                },
+                {
+                    "name": "y",
+                    "ioValue": 1
+                }
+            ],
+            "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
+            "currentEquation": "x + y"
+        },
+        {
+            "atomType": "Equation",
+            "name": "x + y",
+            "x": 0.6445444915254237,
+            "y": 0.660540903809917,
+            "uniqueID": "97979665-93d2-475b-b795-6913df22639b",
+            "ioValues": [
+                {
+                    "name": "x",
+                    "ioValue": 1
+                },
+                {
+                    "name": "y",
+                    "ioValue": 1
+                }
+            ],
+            "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
+            "currentEquation": "x + y"
+        },
+        {
+            "atomType": "Input",
+            "name": "Input (1)",
+            "x": 0.0264,
+            "y": 0.47696476964769646,
+            "uniqueID": "8c875651-3c0f-4aa6-b39f-bc8eae2e218f",
+            "ioValues": [],
+            "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
+            "type": "number"
+        },
+        {
+            "atomType": "Input",
+            "name": "Input (2)",
+            "x": 0.0264,
+            "y": 0.47696476964769646,
+            "uniqueID": "e1c71ebc-668a-4886-bdcd-af34be3e84bf",
+            "ioValues": [],
+            "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
+            "type": "number"
         }
     ],
     "allConnectors": [
