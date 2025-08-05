@@ -1161,8 +1161,8 @@
         {
             "atomType": "Gcode",
             "name": "Gcode",
-            "x": 0.8705402650356778,
-            "y": 0.7801204819277108,
+            "x": 0.8899082568807339,
+            "y": 0.6716867469879517,
             "uniqueID": "27c29402-254b-433d-b3e4-31d5a6a2640b",
             "ioValues": [
                 {
@@ -1175,7 +1175,7 @@
                 },
                 {
                     "name": "Passes",
-                    "ioValue": 4
+                    "ioValue": 6
                 },
                 {
                     "name": "Speed",
@@ -1191,6 +1191,36 @@
                 }
             ],
             "description": "Generates Maslow gcode from the input geometry.",
+            "partName": "A-Test-project-6"
+        },
+        {
+            "atomType": "Export",
+            "name": "Export",
+            "x": 0.7696228338430173,
+            "y": 0.783132530120482,
+            "uniqueID": "f7e36a24-2112-4da3-8b41-de57d1f77e43",
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": "52c9e1f5-7ff7-4eef-94b1-e99d0cc79a51"
+                },
+                {
+                    "name": "Resolution (dpi)",
+                    "ioValue": 96
+                },
+                {
+                    "name": "Part Name",
+                    "ioValue": "A-Test-project-6"
+                },
+                {
+                    "name": "File Type",
+                    "ioValue": "STL"
+                }
+            ],
+            "description": "Export Atom, let's you choose a type of file to Export.",
+            "type": "STL",
+            "resolution": 96,
+            "importIndex": 0,
             "partName": "A-Test-project-6"
         }
     ],
@@ -1306,6 +1336,13 @@
             "ap2Primary": false,
             "ap1ID": "52c9e1f5-7ff7-4eef-94b1-e99d0cc79a51",
             "ap2ID": "27c29402-254b-433d-b3e4-31d5a6a2640b"
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": false,
+            "ap1ID": "52c9e1f5-7ff7-4eef-94b1-e99d0cc79a51",
+            "ap2ID": "f7e36a24-2112-4da3-8b41-de57d1f77e43"
         }
     ],
     "unitsKey": "MM",
