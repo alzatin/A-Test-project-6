@@ -1087,7 +1087,7 @@
                 },
                 {
                     "name": "height",
-                    "ioValue": 5
+                    "ioValue": 25
                 }
             ],
             "description": "Extrudes a 2D shape. Input can be negitive. "
@@ -1183,7 +1183,7 @@
                 },
                 {
                     "name": "Part Name",
-                    "ioValue": "Basic Square Test"
+                    "ioValue": "A-Test-project-6"
                 }
             ],
             "description": "Generates Maslow gcode from the input geometry.",
