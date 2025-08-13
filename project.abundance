@@ -227,8 +227,8 @@
         {
             "atomType": "Gcode",
             "name": "Gcode",
-            "x": 0.7330637007077856,
-            "y": 0.7048192771084337,
+            "x": 0.7381193124368048,
+            "y": 0.7289156626506024,
             "uniqueID": "20aa1df4-0be6-4a1c-815d-6aecfcbcf99a",
             "ioValues": [
                 {
@@ -241,7 +241,7 @@
                 },
                 {
                     "name": "Passes",
-                    "ioValue": 3
+                    "ioValue": 4
                 },
                 {
                     "name": "Speed",
@@ -519,6 +519,41 @@
             ],
             "description": "Generates Maslow gcode from the input geometry. For single parts, generates one gcode file. For assemblies, extracts individual parts, sorts them left to right based on bounding boxes, generates gcode for each part sequentially, and concatenates the results into one file.",
             "partName": "A-Test-project-6"
+        },
+        {
+            "atomType": "Gcode",
+            "name": "Gcode",
+            "x": 0.5915065722952477,
+            "y": 0.5210843373493976,
+            "uniqueID": "131cea8c-4ece-4876-b0b8-1d4311ed522c",
+            "ioValues": [
+                {
+                    "name": "Geometry",
+                    "ioValue": "4de0caba-e46a-402c-8110-64450e113664"
+                },
+                {
+                    "name": "Tool Size",
+                    "ioValue": 6.35
+                },
+                {
+                    "name": "Passes",
+                    "ioValue": 4
+                },
+                {
+                    "name": "Speed",
+                    "ioValue": 1500
+                },
+                {
+                    "name": "Cut Through",
+                    "ioValue": 1.5
+                },
+                {
+                    "name": "Part Name",
+                    "ioValue": "A-Test-project-6"
+                }
+            ],
+            "description": "Generates Maslow gcode from the input geometry. For single parts, generates one gcode file. For assemblies, extracts individual parts, sorts them left to right based on bounding boxes, generates gcode for each part sequentially, and concatenates the results into one file.",
+            "partName": "A-Test-project-6"
         }
     ],
     "allConnectors": [
@@ -598,6 +633,13 @@
             "ap2Primary": false,
             "ap1ID": "4de0caba-e46a-402c-8110-64450e113664",
             "ap2ID": "e18d3711-0602-41d9-8385-087c80c914de"
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "Geometry",
+            "ap2Primary": false,
+            "ap1ID": "4de0caba-e46a-402c-8110-64450e113664",
+            "ap2ID": "131cea8c-4ece-4876-b0b8-1d4311ed522c"
         },
         {
             "ap1Name": "geometry",
