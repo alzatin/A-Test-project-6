@@ -1187,7 +1187,8 @@
                 }
             ],
             "description": "Generates Maslow gcode from the input geometry.",
-            "partName": "A-Test-project-6"
+            "partName": "A-Test-project-6",
+            "sortDirection": "Left"
         },
         {
             "atomType": "GitHubMolecule",
@@ -1482,7 +1483,8 @@
                 }
             ],
             "description": "Generates Maslow gcode from the input geometry. For single parts, generates one gcode file. For assemblies, extracts individual parts, sorts them left to right based on bounding boxes, generates gcode for each part sequentially, and concatenates the results into one file.",
-            "partName": "A-Test-project-6"
+            "partName": "A-Test-project-6",
+            "sortDirection": "Left"
         },
         {
             "atomType": "Assembly",
