@@ -14,7 +14,12 @@
             "x": 0.9682539682539683,
             "y": 0.5069637883008357,
             "uniqueID": 1746568598187,
-            "ioValues": [],
+            "ioValues": [
+                {
+                    "name": "number or geometry",
+                    "ioValue": "52c9e1f5-7ff7-4eef-94b1-e99d0cc79a51"
+                }
+            ],
             "description": "Connect geometry here to make it available in the next level up. "
         },
         {
@@ -1077,8 +1082,8 @@
         {
             "atomType": "Extrude",
             "name": "Extrude",
-            "x": 0.5136314067611778,
-            "y": 0.7108433734939759,
+            "x": 0.46892039258451473,
+            "y": 0.6957831325301205,
             "uniqueID": "a49d04fd-a332-4ca1-a935-e8420dc58731",
             "ioValues": [
                 {
@@ -1139,8 +1144,8 @@
         {
             "atomType": "Difference",
             "name": "Difference",
-            "x": 0.5834242093784079,
-            "y": 0.5271084337349398,
+            "x": 0.5528898582333697,
+            "y": 0.5301204819277108,
             "uniqueID": "52c9e1f5-7ff7-4eef-94b1-e99d0cc79a51",
             "ioValues": [
                 {
@@ -1475,8 +1480,8 @@
         {
             "atomType": "Gcode",
             "name": "Gcode",
-            "x": 0.6553980370774264,
-            "y": 0.7771084337349398,
+            "x": 0.6499454743729554,
+            "y": 0.8433734939759037,
             "uniqueID": "f6ad635f-45eb-49de-b3d1-eb357e731465",
             "ioValues": [
                 {
@@ -1485,11 +1490,11 @@
                 },
                 {
                     "name": "Tool Size",
-                    "ioValue": 1.35
+                    "ioValue": 0.15
                 },
                 {
                     "name": "Passes",
-                    "ioValue": 6
+                    "ioValue": 5
                 },
                 {
                     "name": "Speed",
@@ -1623,6 +1628,13 @@
             "ap2ID": "f6ad635f-45eb-49de-b3d1-eb357e731465"
         },
         {
+            "ap1Name": "geometry",
+            "ap2Name": "number or geometry",
+            "ap2Primary": false,
+            "ap1ID": "52c9e1f5-7ff7-4eef-94b1-e99d0cc79a51",
+            "ap2ID": 1746568598187
+        },
+        {
             "ap1Name": "Geometry",
             "ap2Name": "geometry",
             "ap2Primary": false,
@@ -1645,20 +1657,13 @@
         },
         {
             "ap1Name": "geometry",
-            "ap2Name": "number or geometry",
-            "ap2Primary": false,
-            "ap1ID": "d1357fc1-b80c-40bb-b9f8-264bb8b98b2b",
-            "ap2ID": 1746568598187
-        },
-        {
-            "ap1Name": "geometry",
             "ap2Name": "Shape 3",
             "ap2Primary": false,
             "ap1ID": "682cc495-5704-4921-87bb-39aa211daeb7",
             "ap2ID": "d1357fc1-b80c-40bb-b9f8-264bb8b98b2b"
         }
     ],
-    "unitsKey": "Inches",
+    "unitsKey": "MM",
     "fileTypeVersion": 1,
     "compiledBom": [],
     "filetypeVersion": 1
