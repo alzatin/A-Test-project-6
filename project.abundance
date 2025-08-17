@@ -1077,8 +1077,8 @@
         {
             "atomType": "Extrude",
             "name": "Extrude",
-            "x": 0.5039717563989409,
-            "y": 0.6987951807228915,
+            "x": 0.5075022065313327,
+            "y": 0.713855421686747,
             "uniqueID": "a49d04fd-a332-4ca1-a935-e8420dc58731",
             "ioValues": [
                 {
@@ -1087,7 +1087,7 @@
                 },
                 {
                     "name": "height",
-                    "ioValue": 25
+                    "ioValue": 50
                 }
             ],
             "description": "Extrudes a 2D shape. Input can be negitive. "
@@ -1139,8 +1139,8 @@
         {
             "atomType": "Difference",
             "name": "Difference",
-            "x": 0.5851721094439541,
-            "y": 0.4939759036144578,
+            "x": 0.587819947043248,
+            "y": 0.5210843373493976,
             "uniqueID": "52c9e1f5-7ff7-4eef-94b1-e99d0cc79a51",
             "ioValues": [
                 {
@@ -1471,6 +1471,42 @@
                 }
             ],
             "description": "Creates a new circle."
+        },
+        {
+            "atomType": "Gcode",
+            "name": "Gcode",
+            "x": 0.6213592233009708,
+            "y": 0.8222891566265061,
+            "uniqueID": "f6ad635f-45eb-49de-b3d1-eb357e731465",
+            "ioValues": [
+                {
+                    "name": "Geometry",
+                    "ioValue": "52c9e1f5-7ff7-4eef-94b1-e99d0cc79a51"
+                },
+                {
+                    "name": "Tool Size",
+                    "ioValue": 6.35
+                },
+                {
+                    "name": "Passes",
+                    "ioValue": 3
+                },
+                {
+                    "name": "Speed",
+                    "ioValue": 1500
+                },
+                {
+                    "name": "Cut Through",
+                    "ioValue": 1.5
+                },
+                {
+                    "name": "Part Name",
+                    "ioValue": "A-Test-project-6"
+                }
+            ],
+            "description": "Generates Maslow gcode from the input geometry. For single parts, generates one gcode file. For assemblies, extracts individual parts, sorts them based on the selected direction (Left, Right, Top, or Bottom) using bounding boxes, generates gcode for each part sequentially, and concatenates the results into one file.",
+            "partName": "A-Test-project-6",
+            "sortDirection": "Left"
         }
     ],
     "allConnectors": [
@@ -1578,6 +1614,13 @@
             "ap2Primary": false,
             "ap1ID": "52c9e1f5-7ff7-4eef-94b1-e99d0cc79a51",
             "ap2ID": "37394ec5-19e3-4302-ac65-5f4a746a47e6"
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "Geometry",
+            "ap2Primary": false,
+            "ap1ID": "52c9e1f5-7ff7-4eef-94b1-e99d0cc79a51",
+            "ap2ID": "f6ad635f-45eb-49de-b3d1-eb357e731465"
         },
         {
             "ap1Name": "Geometry",
