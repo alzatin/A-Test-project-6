@@ -1078,7 +1078,7 @@
             "atomType": "Extrude",
             "name": "Extrude",
             "x": 0.501323918799647,
-            "y": 0.8132530120481928,
+            "y": 0.7951807228915663,
             "uniqueID": "a49d04fd-a332-4ca1-a935-e8420dc58731",
             "ioValues": [
                 {
@@ -1139,8 +1139,8 @@
         {
             "atomType": "Difference",
             "name": "Difference",
-            "x": 0.5788770053475936,
-            "y": 0.5060240963855421,
+            "x": 0.5798764342453663,
+            "y": 0.5120481927710844,
             "uniqueID": "52c9e1f5-7ff7-4eef-94b1-e99d0cc79a51",
             "ioValues": [
                 {
@@ -1153,42 +1153,6 @@
                 }
             ],
             "description": "Subtracts shape two from shape one."
-        },
-        {
-            "atomType": "Gcode",
-            "name": "Gcode",
-            "x": 0.6319505736981464,
-            "y": 0.8283132530120482,
-            "uniqueID": "27c29402-254b-433d-b3e4-31d5a6a2640b",
-            "ioValues": [
-                {
-                    "name": "Geometry",
-                    "ioValue": "52c9e1f5-7ff7-4eef-94b1-e99d0cc79a51"
-                },
-                {
-                    "name": "Tool Size",
-                    "ioValue": 1.35
-                },
-                {
-                    "name": "Passes",
-                    "ioValue": 4
-                },
-                {
-                    "name": "Speed",
-                    "ioValue": 2000
-                },
-                {
-                    "name": "Cut Through",
-                    "ioValue": 1
-                },
-                {
-                    "name": "Part Name",
-                    "ioValue": "A-Test-project-6"
-                }
-            ],
-            "description": "Generates Maslow gcode from the input geometry.",
-            "partName": "A-Test-project-6",
-            "sortDirection": "Left"
         },
         {
             "atomType": "GitHubMolecule",
@@ -1507,6 +1471,42 @@
                 }
             ],
             "description": "Creates a new circle."
+        },
+        {
+            "atomType": "Gcode",
+            "name": "Gcode",
+            "x": 0.6240070609002648,
+            "y": 0.8012048192771084,
+            "uniqueID": "82b36b6f-4060-4647-a90a-634626c46ce2",
+            "ioValues": [
+                {
+                    "name": "Geometry",
+                    "ioValue": "52c9e1f5-7ff7-4eef-94b1-e99d0cc79a51"
+                },
+                {
+                    "name": "Tool Size",
+                    "ioValue": 6.35
+                },
+                {
+                    "name": "Passes",
+                    "ioValue": 3
+                },
+                {
+                    "name": "Speed",
+                    "ioValue": 1500
+                },
+                {
+                    "name": "Cut Through",
+                    "ioValue": 1.5
+                },
+                {
+                    "name": "Part Name",
+                    "ioValue": "A-Test-project-6"
+                }
+            ],
+            "description": "Generates Maslow gcode from the input geometry. For single parts, generates one gcode file. For assemblies, extracts individual parts, sorts them based on the selected direction (Left, Right, Top, or Bottom) using bounding boxes, generates gcode for each part sequentially, and concatenates the results into one file.",
+            "partName": "A-Test-project-6",
+            "sortDirection": "Left"
         }
     ],
     "allConnectors": [
@@ -1603,13 +1603,6 @@
         },
         {
             "ap1Name": "geometry",
-            "ap2Name": "Geometry",
-            "ap2Primary": false,
-            "ap1ID": "52c9e1f5-7ff7-4eef-94b1-e99d0cc79a51",
-            "ap2ID": "27c29402-254b-433d-b3e4-31d5a6a2640b"
-        },
-        {
-            "ap1Name": "geometry",
             "ap2Name": "geometry",
             "ap2Primary": true,
             "ap1ID": "52c9e1f5-7ff7-4eef-94b1-e99d0cc79a51",
@@ -1621,6 +1614,13 @@
             "ap2Primary": false,
             "ap1ID": "52c9e1f5-7ff7-4eef-94b1-e99d0cc79a51",
             "ap2ID": "37394ec5-19e3-4302-ac65-5f4a746a47e6"
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "Geometry",
+            "ap2Primary": false,
+            "ap1ID": "52c9e1f5-7ff7-4eef-94b1-e99d0cc79a51",
+            "ap2ID": "82b36b6f-4060-4647-a90a-634626c46ce2"
         },
         {
             "ap1Name": "Geometry",
