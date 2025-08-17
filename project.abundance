@@ -1077,8 +1077,8 @@
         {
             "atomType": "Extrude",
             "name": "Extrude",
-            "x": 0.5075022065313327,
-            "y": 0.713855421686747,
+            "x": 0.5027262813522355,
+            "y": 0.7078313253012049,
             "uniqueID": "a49d04fd-a332-4ca1-a935-e8420dc58731",
             "ioValues": [
                 {
@@ -1087,7 +1087,7 @@
                 },
                 {
                     "name": "height",
-                    "ioValue": 50
+                    "ioValue": 20
                 }
             ],
             "description": "Extrudes a 2D shape. Input can be negitive. "
@@ -1475,8 +1475,8 @@
         {
             "atomType": "Gcode",
             "name": "Gcode",
-            "x": 0.6213592233009708,
-            "y": 0.8222891566265061,
+            "x": 0.6499454743729554,
+            "y": 0.7680722891566265,
             "uniqueID": "f6ad635f-45eb-49de-b3d1-eb357e731465",
             "ioValues": [
                 {
