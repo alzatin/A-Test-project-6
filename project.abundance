@@ -1436,8 +1436,8 @@
         {
             "atomType": "Gcode",
             "name": "Gcode",
-            "x": 0.6587301587301587,
-            "y": 0.7228915662650602,
+            "x": 0.6646766169154229,
+            "y": 0.746987951807229,
             "uniqueID": "f6ad635f-45eb-49de-b3d1-eb357e731465",
             "ioValues": [
                 {
@@ -1446,11 +1446,11 @@
                 },
                 {
                     "name": "Tool Size",
-                    "ioValue": 6.15
+                    "ioValue": 5
                 },
                 {
                     "name": "Passes",
-                    "ioValue": 5
+                    "ioValue": 4
                 },
                 {
                     "name": "Speed",
@@ -1458,7 +1458,7 @@
                 },
                 {
                     "name": "Cut Through",
-                    "ioValue": 1.5
+                    "ioValue": 0.5
                 },
                 {
                     "name": "Part Name",
@@ -1486,7 +1486,7 @@
                 },
                 {
                     "name": "Passes",
-                    "ioValue": 3
+                    "ioValue": 9
                 },
                 {
                     "name": "Speed",
