@@ -1144,7 +1144,7 @@
         {
             "atomType": "Difference",
             "name": "Difference",
-            "x": 0.5528898582333697,
+            "x": 0.5473321858864028,
             "y": 0.5301204819277108,
             "uniqueID": "52c9e1f5-7ff7-4eef-94b1-e99d0cc79a51",
             "ioValues": [
@@ -1378,8 +1378,8 @@
         {
             "atomType": "Move",
             "name": "Move",
-            "x": 0.656084656084656,
-            "y": 0.19220055710306408,
+            "x": 0.6617900172117039,
+            "y": 0.18072289156626506,
             "uniqueID": "ad93079d-e6df-4844-a542-19edf6aa46ed",
             "ioValues": [
                 {
@@ -1388,7 +1388,7 @@
                 },
                 {
                     "name": "xDist",
-                    "ioValue": 100
+                    "ioValue": 99
                 },
                 {
                     "name": "yDist",
@@ -1404,8 +1404,8 @@
         {
             "atomType": "Assembly",
             "name": "Assembly",
-            "x": 0.6969949916527546,
-            "y": 0.467966573816156,
+            "x": 0.7306368330464716,
+            "y": 0.42771084337349397,
             "uniqueID": "37394ec5-19e3-4302-ac65-5f4a746a47e6",
             "ioValues": [
                 {
@@ -1418,50 +1418,6 @@
                 }
             ],
             "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape"
-        },
-        {
-            "atomType": "Assembly",
-            "name": "Assembly",
-            "x": 0.8213689482470784,
-            "y": 0.7019498607242339,
-            "uniqueID": "d1357fc1-b80c-40bb-b9f8-264bb8b98b2b",
-            "ioValues": [
-                {
-                    "name": "Shape 2",
-                    "ioValue": "37394ec5-19e3-4302-ac65-5f4a746a47e6"
-                },
-                {
-                    "name": "Shape 3",
-                    "ioValue": "682cc495-5704-4921-87bb-39aa211daeb7"
-                }
-            ],
-            "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape"
-        },
-        {
-            "atomType": "Move",
-            "name": "Move",
-            "x": 0.8644179894179894,
-            "y": 0.2813370473537604,
-            "uniqueID": "682cc495-5704-4921-87bb-39aa211daeb7",
-            "ioValues": [
-                {
-                    "name": "geometry",
-                    "ioValue": ""
-                },
-                {
-                    "name": "xDist",
-                    "ioValue": 0
-                },
-                {
-                    "name": "yDist",
-                    "ioValue": 0
-                },
-                {
-                    "name": "zDist",
-                    "ioValue": 25
-                }
-            ],
-            "description": "Moves a shape laterally in X, Y, Z."
         },
         {
             "atomType": "Circle",
@@ -1480,8 +1436,8 @@
         {
             "atomType": "Gcode",
             "name": "Gcode",
-            "x": 0.6499454743729554,
-            "y": 0.8433734939759037,
+            "x": 0.6557659208261617,
+            "y": 0.8584337349397589,
             "uniqueID": "f6ad635f-45eb-49de-b3d1-eb357e731465",
             "ioValues": [
                 {
@@ -1495,6 +1451,42 @@
                 {
                     "name": "Passes",
                     "ioValue": 5
+                },
+                {
+                    "name": "Speed",
+                    "ioValue": 1500
+                },
+                {
+                    "name": "Cut Through",
+                    "ioValue": 1.5
+                },
+                {
+                    "name": "Part Name",
+                    "ioValue": "A-Test-project-6"
+                }
+            ],
+            "description": "Generates Maslow gcode from the input geometry. For single parts, generates one gcode file. For assemblies, extracts individual parts, sorts them based on the selected direction (Left, Right, Top, or Bottom) using bounding boxes, generates gcode for each part sequentially, and concatenates the results into one file.",
+            "partName": "A-Test-project-6",
+            "sortDirection": "Left"
+        },
+        {
+            "atomType": "Gcode",
+            "name": "Gcode",
+            "x": 0.8218588640275386,
+            "y": 0.30120481927710846,
+            "uniqueID": "469ae2b4-3499-459c-ba5d-a3e9efa8ec4a",
+            "ioValues": [
+                {
+                    "name": "Geometry",
+                    "ioValue": "37394ec5-19e3-4302-ac65-5f4a746a47e6"
+                },
+                {
+                    "name": "Tool Size",
+                    "ioValue": 6.35
+                },
+                {
+                    "name": "Passes",
+                    "ioValue": 3
                 },
                 {
                     "name": "Speed",
@@ -1650,17 +1642,10 @@
         },
         {
             "ap1Name": "geometry",
-            "ap2Name": "Shape 2",
+            "ap2Name": "Geometry",
             "ap2Primary": false,
             "ap1ID": "37394ec5-19e3-4302-ac65-5f4a746a47e6",
-            "ap2ID": "d1357fc1-b80c-40bb-b9f8-264bb8b98b2b"
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "Shape 3",
-            "ap2Primary": false,
-            "ap1ID": "682cc495-5704-4921-87bb-39aa211daeb7",
-            "ap2ID": "d1357fc1-b80c-40bb-b9f8-264bb8b98b2b"
+            "ap2ID": "469ae2b4-3499-459c-ba5d-a3e9efa8ec4a"
         }
     ],
     "unitsKey": "MM",
