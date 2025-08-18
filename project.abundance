@@ -17,7 +17,7 @@
             "ioValues": [
                 {
                     "name": "number or geometry",
-                    "ioValue": "52c9e1f5-7ff7-4eef-94b1-e99d0cc79a51"
+                    "ioValue": "9233378a-ce77-47b2-b4ec-6e1ea31e664a"
                 }
             ],
             "description": "Connect geometry here to make it available in the next level up. "
@@ -1082,8 +1082,8 @@
         {
             "atomType": "Extrude",
             "name": "Extrude",
-            "x": 0.4642857142857143,
-            "y": 0.6957831325301205,
+            "x": 0.4632936507936508,
+            "y": 0.7048192771084337,
             "uniqueID": "a49d04fd-a332-4ca1-a935-e8420dc58731",
             "ioValues": [
                 {
@@ -1092,7 +1092,7 @@
                 },
                 {
                     "name": "height",
-                    "ioValue": 25
+                    "ioValue": 24
                 }
             ],
             "description": "Extrudes a 2D shape. Input can be negitive. "
@@ -1144,8 +1144,8 @@
         {
             "atomType": "Difference",
             "name": "Difference",
-            "x": 0.5873015873015873,
-            "y": 0.5451807228915663,
+            "x": 0.5734126984126984,
+            "y": 0.5512048192771084,
             "uniqueID": "52c9e1f5-7ff7-4eef-94b1-e99d0cc79a51",
             "ioValues": [
                 {
@@ -1404,8 +1404,8 @@
         {
             "atomType": "Assembly",
             "name": "Assembly",
-            "x": 0.7306368330464716,
-            "y": 0.42771084337349397,
+            "x": 0.6835317460317459,
+            "y": 0.4337349397590362,
             "uniqueID": "37394ec5-19e3-4302-ac65-5f4a746a47e6",
             "ioValues": [
                 {
@@ -1472,8 +1472,8 @@
         {
             "atomType": "Gcode",
             "name": "Gcode",
-            "x": 0.8218588640275386,
-            "y": 0.30120481927710846,
+            "x": 0.7896825396825398,
+            "y": 0.22590361445783133,
             "uniqueID": "469ae2b4-3499-459c-ba5d-a3e9efa8ec4a",
             "ioValues": [
                 {
@@ -1504,6 +1504,32 @@
             "description": "Generates Maslow gcode from the input geometry. For single parts, generates one gcode file. For assemblies, extracts individual parts, sorts them based on the selected direction (Left, Right, Top, or Bottom) using bounding boxes, generates gcode for each part sequentially, and concatenates the results into one file.",
             "partName": "A-Test-project-6",
             "sortDirection": "Left"
+        },
+        {
+            "atomType": "Move",
+            "name": "Move",
+            "x": 0.8799603174603174,
+            "y": 0.3795180722891566,
+            "uniqueID": "9233378a-ce77-47b2-b4ec-6e1ea31e664a",
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": "469ae2b4-3499-459c-ba5d-a3e9efa8ec4a"
+                },
+                {
+                    "name": "xDist",
+                    "ioValue": 10
+                },
+                {
+                    "name": "yDist",
+                    "ioValue": 0
+                },
+                {
+                    "name": "zDist",
+                    "ioValue": 0
+                }
+            ],
+            "description": "Moves a shape laterally in X, Y, Z."
         }
     ],
     "allConnectors": [
@@ -1620,13 +1646,6 @@
             "ap2ID": "f6ad635f-45eb-49de-b3d1-eb357e731465"
         },
         {
-            "ap1Name": "geometry",
-            "ap2Name": "number or geometry",
-            "ap2Primary": false,
-            "ap1ID": "52c9e1f5-7ff7-4eef-94b1-e99d0cc79a51",
-            "ap2ID": 1746568598187
-        },
-        {
             "ap1Name": "Geometry",
             "ap2Name": "geometry",
             "ap2Primary": false,
@@ -1646,6 +1665,20 @@
             "ap2Primary": false,
             "ap1ID": "37394ec5-19e3-4302-ac65-5f4a746a47e6",
             "ap2ID": "469ae2b4-3499-459c-ba5d-a3e9efa8ec4a"
+        },
+        {
+            "ap1Name": "Gcode",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": "469ae2b4-3499-459c-ba5d-a3e9efa8ec4a",
+            "ap2ID": "9233378a-ce77-47b2-b4ec-6e1ea31e664a"
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "number or geometry",
+            "ap2Primary": false,
+            "ap1ID": "9233378a-ce77-47b2-b4ec-6e1ea31e664a",
+            "ap2ID": 1746568598187
         }
     ],
     "unitsKey": "MM",
