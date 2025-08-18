@@ -1462,11 +1462,11 @@
                 },
                 {
                     "name": "Part Name",
-                    "ioValue": "A-Test-project-6"
+                    "ioValue": "diff1"
                 }
             ],
             "description": "Generates Maslow gcode from the input geometry. For single parts, generates one gcode file. For assemblies, extracts individual parts, sorts them based on the selected direction (Left, Right, Top, or Bottom) using bounding boxes, generates gcode for each part sequentially, and concatenates the results into one file.",
-            "partName": "A-Test-project-6",
+            "partName": "diff1",
             "sortDirection": "Left"
         },
         {
@@ -1498,11 +1498,11 @@
                 },
                 {
                     "name": "Part Name",
-                    "ioValue": "A-Test-project-6"
+                    "ioValue": "Full project"
                 }
             ],
             "description": "Generates Maslow gcode from the input geometry. For single parts, generates one gcode file. For assemblies, extracts individual parts, sorts them based on the selected direction (Left, Right, Top, or Bottom) using bounding boxes, generates gcode for each part sequentially, and concatenates the results into one file.",
-            "partName": "A-Test-project-6",
+            "partName": "Full project",
             "sortDirection": "Left"
         },
         {
