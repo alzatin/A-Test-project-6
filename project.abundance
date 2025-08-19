@@ -1070,7 +1070,7 @@
             "ioValues": [
                 {
                     "name": "x length",
-                    "ioValue": 75
+                    "ioValue": 74
                 },
                 {
                     "name": "y length",
@@ -1092,7 +1092,7 @@
                 },
                 {
                     "name": "height",
-                    "ioValue": 24
+                    "ioValue": 50
                 }
             ],
             "description": "Extrudes a 2D shape. Input can be negitive. "
