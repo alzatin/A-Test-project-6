@@ -26,8 +26,8 @@
         {
             "atomType": "Rectangle",
             "name": "Rectangle",
-            "x": 0.06483957219251336,
-            "y": 0.2650602409638554,
+            "x": 0.0641711229946524,
+            "y": 0.25301204819277107,
             "uniqueID": "0b0af4d7-9261-4074-ba27-2b43324772f5",
             "ioValues": [
                 {
@@ -126,8 +126,8 @@
         {
             "atomType": "Move",
             "name": "Move",
-            "x": 0.18983957219251338,
-            "y": 0.783132530120482,
+            "x": 0.19385026737967917,
+            "y": 0.7921686746987953,
             "uniqueID": "cc93b5a4-2cba-4c75-96e1-8fb2114bc22d",
             "ioValues": [
                 {
@@ -156,8 +156,8 @@
         {
             "atomType": "Fusion",
             "name": "Fusion",
-            "x": 0.1764705882352941,
-            "y": 0.3644578313253012,
+            "x": 0.15040106951871657,
+            "y": 0.391566265060241,
             "uniqueID": "b9c2969f-e898-4bf2-8d18-aa17dc8b4624",
             "ioValues": [
                 {
@@ -175,8 +175,8 @@
         {
             "atomType": "Rectangle",
             "name": "Rectangle",
-            "x": 0.4378342245989305,
-            "y": 0.18674698795180725,
+            "x": 0.43315508021390375,
+            "y": 0.17469879518072287,
             "uniqueID": "ff87dede-758f-4324-8993-0d2b8a3f1226",
             "ioValues": [
                 {
@@ -1166,8 +1166,8 @@
         {
             "atomType": "Extrude",
             "name": "Extrude",
-            "x": 0.4804413239719158,
-            "y": 0.3042168674698795,
+            "x": 0.4826203208556149,
+            "y": 0.3102409638554217,
             "uniqueID": "d0b60086-8cc1-47de-a1d5-b3d7072433a2",
             "ioValues": [
                 {
@@ -1186,8 +1186,8 @@
         {
             "atomType": "Move",
             "name": "Move",
-            "x": 0.5466399197592778,
-            "y": 0.22590361445783133,
+            "x": 0.5441176470588235,
+            "y": 0.22891566265060243,
             "uniqueID": "c07e89b2-5597-4189-99ff-5c42aca3588d",
             "ioValues": [
                 {
@@ -1198,17 +1198,17 @@
                 {
                     "name": "xDist",
                     "ioValue": 0,
-                    "currentEquation": null
+                    "currentEquation": "0"
                 },
                 {
                     "name": "yDist",
                     "ioValue": 30,
-                    "currentEquation": null
+                    "currentEquation": "30"
                 },
                 {
                     "name": "zDist",
                     "ioValue": 35,
-                    "currentEquation": null
+                    "currentEquation": "35"
                 }
             ],
             "description": "Moves a shape laterally in X, Y, Z."
