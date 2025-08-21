@@ -17,7 +17,8 @@
             "ioValues": [
                 {
                     "name": "number or geometry",
-                    "ioValue": "9233378a-ce77-47b2-b4ec-6e1ea31e664a"
+                    "ioValue": "9233378a-ce77-47b2-b4ec-6e1ea31e664a",
+                    "currentEquation": null
                 }
             ],
             "description": "Connect geometry here to make it available in the next level up. "
@@ -25,17 +26,19 @@
         {
             "atomType": "Rectangle",
             "name": "Rectangle",
-            "x": 0.06547619047619048,
-            "y": 0.3,
+            "x": 0.06483957219251336,
+            "y": 0.2650602409638554,
             "uniqueID": "0b0af4d7-9261-4074-ba27-2b43324772f5",
             "ioValues": [
                 {
                     "name": "x length",
-                    "ioValue": 10
+                    "ioValue": 10,
+                    "currentEquation": "10"
                 },
                 {
                     "name": "y length",
-                    "ioValue": 30
+                    "ioValue": 30,
+                    "currentEquation": "30"
                 }
             ],
             "description": "Creates a new rectangle."
@@ -43,17 +46,19 @@
         {
             "atomType": "Extrude",
             "name": "Extrude",
-            "x": 0.2281746031746032,
-            "y": 0.3788300835654596,
+            "x": 0.23395721925133692,
+            "y": 0.39457831325301207,
             "uniqueID": "c15b0ff9-791f-49f3-a41c-bf36fd6eb5b2",
             "ioValues": [
                 {
                     "name": "geometry",
-                    "ioValue": "b9c2969f-e898-4bf2-8d18-aa17dc8b4624"
+                    "ioValue": "b9c2969f-e898-4bf2-8d18-aa17dc8b4624",
+                    "currentEquation": null
                 },
                 {
                     "name": "height",
-                    "ioValue": 10
+                    "ioValue": 10,
+                    "currentEquation": "10"
                 }
             ],
             "description": "Extrudes a 2D shape. Input can be negitive. "
@@ -67,19 +72,23 @@
             "ioValues": [
                 {
                     "name": "geometry",
-                    "ioValue": "c15b0ff9-791f-49f3-a41c-bf36fd6eb5b2"
+                    "ioValue": "c15b0ff9-791f-49f3-a41c-bf36fd6eb5b2",
+                    "currentEquation": null
                 },
                 {
                     "name": "xDist",
-                    "ioValue": 0
+                    "ioValue": 0,
+                    "currentEquation": null
                 },
                 {
                     "name": "yDist",
-                    "ioValue": 200
+                    "ioValue": 200,
+                    "currentEquation": null
                 },
                 {
                     "name": "zDist",
-                    "ioValue": 0
+                    "ioValue": 0,
+                    "currentEquation": null
                 }
             ],
             "description": "Moves a shape laterally in X, Y, Z."
@@ -93,19 +102,23 @@
             "ioValues": [
                 {
                     "name": "geometry",
-                    "ioValue": "0b0af4d7-9261-4074-ba27-2b43324772f5"
+                    "ioValue": "0b0af4d7-9261-4074-ba27-2b43324772f5",
+                    "currentEquation": null
                 },
                 {
                     "name": "x-axis degrees",
-                    "ioValue": 0
+                    "ioValue": 0,
+                    "currentEquation": "0"
                 },
                 {
                     "name": "y-axis degrees",
-                    "ioValue": 0
+                    "ioValue": 0,
+                    "currentEquation": "0"
                 },
                 {
                     "name": "z-axis degrees",
-                    "ioValue": 90
+                    "ioValue": 90,
+                    "currentEquation": "90"
                 }
             ],
             "description": "Rotates the input geometry around the X, Y, or Z axis. Inputs are degrees."
@@ -113,25 +126,29 @@
         {
             "atomType": "Move",
             "name": "Move",
-            "x": 0.18452380952380953,
-            "y": 0.7805555555555554,
+            "x": 0.18983957219251338,
+            "y": 0.783132530120482,
             "uniqueID": "cc93b5a4-2cba-4c75-96e1-8fb2114bc22d",
             "ioValues": [
                 {
                     "name": "geometry",
-                    "ioValue": "7bc883ef-f591-4184-b5d4-3694ad010796"
+                    "ioValue": "7bc883ef-f591-4184-b5d4-3694ad010796",
+                    "currentEquation": null
                 },
                 {
                     "name": "xDist",
-                    "ioValue": 12.5
+                    "ioValue": 12.5,
+                    "currentEquation": "12.5"
                 },
                 {
                     "name": "yDist",
-                    "ioValue": 10.5
+                    "ioValue": 10.5,
+                    "currentEquation": "10.5"
                 },
                 {
                     "name": "zDist",
-                    "ioValue": 0
+                    "ioValue": 0,
+                    "currentEquation": "0"
                 }
             ],
             "description": "Moves a shape laterally in X, Y, Z."
@@ -139,8 +156,8 @@
         {
             "atomType": "Fusion",
             "name": "Fusion",
-            "x": 0.16732804232804233,
-            "y": 0.1861111111111111,
+            "x": 0.1764705882352941,
+            "y": 0.3644578313253012,
             "uniqueID": "b9c2969f-e898-4bf2-8d18-aa17dc8b4624",
             "ioValues": [
                 {
@@ -158,17 +175,19 @@
         {
             "atomType": "Rectangle",
             "name": "Rectangle",
-            "x": 0.4298507462686567,
-            "y": 0.16566265060240964,
+            "x": 0.4378342245989305,
+            "y": 0.18674698795180725,
             "uniqueID": "ff87dede-758f-4324-8993-0d2b8a3f1226",
             "ioValues": [
                 {
                     "name": "x length",
-                    "ioValue": 50
+                    "ioValue": 50,
+                    "currentEquation": "50"
                 },
                 {
                     "name": "y length",
-                    "ioValue": 50
+                    "ioValue": 50,
+                    "currentEquation": "50"
                 }
             ],
             "description": "Creates a new rectangle."
@@ -182,19 +201,23 @@
             "ioValues": [
                 {
                     "name": "geometry",
-                    "ioValue": "8f34fa34-755c-4e1a-affa-5d142ee0f31f"
+                    "ioValue": "8f34fa34-755c-4e1a-affa-5d142ee0f31f",
+                    "currentEquation": null
                 },
                 {
                     "name": "Sheet Width",
-                    "ioValue": 500
+                    "ioValue": 500,
+                    "currentEquation": null
                 },
                 {
                     "name": "Sheet Height",
-                    "ioValue": 150
+                    "ioValue": 150,
+                    "currentEquation": null
                 },
                 {
                     "name": "Part Padding",
-                    "ioValue": 0
+                    "ioValue": 0,
+                    "currentEquation": null
                 }
             ],
             "description": "Extracts all parts tagged for cutting and lays them out on a sheet to cut.",
@@ -452,7 +475,8 @@
             "ioValues": [
                 {
                     "name": "Geometry",
-                    "ioValue": "c15b0ff9-791f-49f3-a41c-bf36fd6eb5b2"
+                    "ioValue": "c15b0ff9-791f-49f3-a41c-bf36fd6eb5b2",
+                    "currentEquation": null
                 }
             ],
             "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -467,7 +491,8 @@
                     "ioValues": [
                         {
                             "name": "number or geometry",
-                            "ioValue": "cce8b22f-8e0e-42ac-bbc2-703a69a8d12d"
+                            "ioValue": "cce8b22f-8e0e-42ac-bbc2-703a69a8d12d",
+                            "currentEquation": null
                         }
                     ],
                     "description": "Connect geometry here to make it available in the next level up. "
@@ -491,19 +516,23 @@
                     "ioValues": [
                         {
                             "name": "geometry",
-                            "ioValue": "c15b0ff9-791f-49f3-a41c-bf36fd6eb5b2"
+                            "ioValue": "c15b0ff9-791f-49f3-a41c-bf36fd6eb5b2",
+                            "currentEquation": null
                         },
                         {
                             "name": "x-axis degrees",
-                            "ioValue": 0
+                            "ioValue": 0,
+                            "currentEquation": null
                         },
                         {
                             "name": "y-axis degrees",
-                            "ioValue": 0
+                            "ioValue": 0,
+                            "currentEquation": null
                         },
                         {
                             "name": "z-axis degrees",
-                            "ioValue": 45
+                            "ioValue": 45,
+                            "currentEquation": null
                         }
                     ],
                     "description": "Rotates the input geometry around the X, Y, or Z axis. Inputs are degrees."
@@ -517,15 +546,18 @@
                     "ioValues": [
                         {
                             "name": "Number",
-                            "ioValue": 12
+                            "ioValue": 12,
+                            "currentEquation": null
                         },
                         {
                             "name": "Dist",
-                            "ioValue": 14.5
+                            "ioValue": 14.5,
+                            "currentEquation": null
                         },
                         {
                             "name": "Geometry",
-                            "ioValue": "bd805fb1-ab37-44e0-978f-4fe64fe73ba9"
+                            "ioValue": "bd805fb1-ab37-44e0-978f-4fe64fe73ba9",
+                            "currentEquation": null
                         }
                     ],
                     "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -540,7 +572,8 @@
                             "ioValues": [
                                 {
                                     "name": "number or geometry",
-                                    "ioValue": "2aebb769-cc9e-48bf-b95f-a3fe033bca75"
+                                    "ioValue": "2aebb769-cc9e-48bf-b95f-a3fe033bca75",
+                                    "currentEquation": null
                                 }
                             ],
                             "description": "Connect geometry here to make it available in the next level up. "
@@ -554,15 +587,18 @@
                             "ioValues": [
                                 {
                                     "name": "Shape",
-                                    "ioValue": "bd805fb1-ab37-44e0-978f-4fe64fe73ba9"
+                                    "ioValue": "bd805fb1-ab37-44e0-978f-4fe64fe73ba9",
+                                    "currentEquation": null
                                 },
                                 {
                                     "name": "Number",
-                                    "ioValue": 12
+                                    "ioValue": 12,
+                                    "currentEquation": null
                                 },
                                 {
                                     "name": "Dist",
-                                    "ioValue": 14.5
+                                    "ioValue": 14.5,
+                                    "currentEquation": null
                                 }
                             ],
                             "description": "Defines a Replicad code block.",
@@ -578,11 +614,13 @@
                             "ioValues": [
                                 {
                                     "name": "x length",
-                                    "ioValue": 10
+                                    "ioValue": 10,
+                                    "currentEquation": null
                                 },
                                 {
                                     "name": "y length",
-                                    "ioValue": 10
+                                    "ioValue": 10,
+                                    "currentEquation": null
                                 }
                             ],
                             "description": "Creates a new rectangle."
@@ -706,19 +744,23 @@
                     "ioValues": [
                         {
                             "name": "geometry",
-                            "ioValue": "8ec8a330-dd56-4d84-9f61-ca0d66e41d0d"
+                            "ioValue": "8ec8a330-dd56-4d84-9f61-ca0d66e41d0d",
+                            "currentEquation": null
                         },
                         {
                             "name": "xDist",
-                            "ioValue": 15
+                            "ioValue": 15,
+                            "currentEquation": null
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 23
+                            "ioValue": 23,
+                            "currentEquation": null
                         },
                         {
                             "name": "zDist",
-                            "ioValue": 0
+                            "ioValue": 0,
+                            "currentEquation": null
                         }
                     ],
                     "description": "Moves a shape laterally in X, Y, Z."
@@ -732,19 +774,23 @@
                     "ioValues": [
                         {
                             "name": "geometry",
-                            "ioValue": "82ca01c0-5457-4adc-a007-17d9f72afd4f"
+                            "ioValue": "82ca01c0-5457-4adc-a007-17d9f72afd4f",
+                            "currentEquation": null
                         },
                         {
                             "name": "xDist",
-                            "ioValue": 0
+                            "ioValue": 0,
+                            "currentEquation": null
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 44
+                            "ioValue": 44,
+                            "currentEquation": null
                         },
                         {
                             "name": "zDist",
-                            "ioValue": 0
+                            "ioValue": 0,
+                            "currentEquation": null
                         }
                     ],
                     "description": "Moves a shape laterally in X, Y, Z."
@@ -758,19 +804,23 @@
                     "ioValues": [
                         {
                             "name": "geometry",
-                            "ioValue": "b37d363e-09d3-459c-a375-0c8a23698c2f"
+                            "ioValue": "b37d363e-09d3-459c-a375-0c8a23698c2f",
+                            "currentEquation": null
                         },
                         {
                             "name": "xDist",
-                            "ioValue": 0
+                            "ioValue": 0,
+                            "currentEquation": null
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 44
+                            "ioValue": 44,
+                            "currentEquation": null
                         },
                         {
                             "name": "zDist",
-                            "ioValue": 0
+                            "ioValue": 0,
+                            "currentEquation": null
                         }
                     ],
                     "description": "Moves a shape laterally in X, Y, Z."
@@ -784,23 +834,28 @@
                     "ioValues": [
                         {
                             "name": "Number",
-                            "ioValue": "bd805fb1-ab37-44e0-978f-4fe64fe73ba9"
+                            "ioValue": "bd805fb1-ab37-44e0-978f-4fe64fe73ba9",
+                            "currentEquation": null
                         },
                         {
                             "name": "Geometry",
-                            "ioValue": 10
+                            "ioValue": 10,
+                            "currentEquation": null
                         },
                         {
                             "name": "distX",
-                            "ioValue": 10
+                            "ioValue": 10,
+                            "currentEquation": null
                         },
                         {
                             "name": "distY",
-                            "ioValue": 10
+                            "ioValue": 10,
+                            "currentEquation": null
                         },
                         {
                             "name": "distZ",
-                            "ioValue": 10
+                            "ioValue": 10,
+                            "currentEquation": null
                         }
                     ],
                     "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -824,11 +879,13 @@
                             "ioValues": [
                                 {
                                     "name": "x length",
-                                    "ioValue": 10
+                                    "ioValue": 10,
+                                    "currentEquation": null
                                 },
                                 {
                                     "name": "y length",
-                                    "ioValue": 10
+                                    "ioValue": 10,
+                                    "currentEquation": null
                                 }
                             ],
                             "description": "Creates a new rectangle."
@@ -862,23 +919,28 @@
                             "ioValues": [
                                 {
                                     "name": "Shape",
-                                    "ioValue": 10
+                                    "ioValue": 10,
+                                    "currentEquation": null
                                 },
                                 {
                                     "name": "Number",
-                                    "ioValue": "bd805fb1-ab37-44e0-978f-4fe64fe73ba9"
+                                    "ioValue": "bd805fb1-ab37-44e0-978f-4fe64fe73ba9",
+                                    "currentEquation": null
                                 },
                                 {
                                     "name": "distX",
-                                    "ioValue": 10
+                                    "ioValue": 10,
+                                    "currentEquation": null
                                 },
                                 {
                                     "name": "distY",
-                                    "ioValue": 10
+                                    "ioValue": 10,
+                                    "currentEquation": null
                                 },
                                 {
                                     "name": "distZ",
-                                    "ioValue": 10
+                                    "ioValue": 10,
+                                    "currentEquation": null
                                 }
                             ],
                             "description": "Defines a Replicad code block.",
@@ -1070,11 +1132,13 @@
             "ioValues": [
                 {
                     "name": "x length",
-                    "ioValue": 74
+                    "ioValue": 74,
+                    "currentEquation": null
                 },
                 {
                     "name": "y length",
-                    "ioValue": 75
+                    "ioValue": 75,
+                    "currentEquation": null
                 }
             ],
             "description": "Creates a new rectangle."
@@ -1088,11 +1152,13 @@
             "ioValues": [
                 {
                     "name": "geometry",
-                    "ioValue": "bab8a965-1776-47e9-bb8b-6428dbd4d662"
+                    "ioValue": "bab8a965-1776-47e9-bb8b-6428dbd4d662",
+                    "currentEquation": null
                 },
                 {
                     "name": "height",
-                    "ioValue": 50
+                    "ioValue": 50,
+                    "currentEquation": "50"
                 }
             ],
             "description": "Extrudes a 2D shape. Input can be negitive. "
@@ -1106,11 +1172,13 @@
             "ioValues": [
                 {
                     "name": "geometry",
-                    "ioValue": "ff87dede-758f-4324-8993-0d2b8a3f1226"
+                    "ioValue": "ff87dede-758f-4324-8993-0d2b8a3f1226",
+                    "currentEquation": null
                 },
                 {
                     "name": "height",
-                    "ioValue": -14
+                    "ioValue": -14,
+                    "currentEquation": "-14"
                 }
             ],
             "description": "Extrudes a 2D shape. Input can be negitive. "
@@ -1124,19 +1192,23 @@
             "ioValues": [
                 {
                     "name": "geometry",
-                    "ioValue": "d0b60086-8cc1-47de-a1d5-b3d7072433a2"
+                    "ioValue": "d0b60086-8cc1-47de-a1d5-b3d7072433a2",
+                    "currentEquation": null
                 },
                 {
                     "name": "xDist",
-                    "ioValue": 0
+                    "ioValue": 0,
+                    "currentEquation": null
                 },
                 {
                     "name": "yDist",
-                    "ioValue": 30
+                    "ioValue": 30,
+                    "currentEquation": null
                 },
                 {
                     "name": "zDist",
-                    "ioValue": 35
+                    "ioValue": 35,
+                    "currentEquation": null
                 }
             ],
             "description": "Moves a shape laterally in X, Y, Z."
@@ -1150,11 +1222,13 @@
             "ioValues": [
                 {
                     "name": "geometry1",
-                    "ioValue": "a49d04fd-a332-4ca1-a935-e8420dc58731"
+                    "ioValue": "a49d04fd-a332-4ca1-a935-e8420dc58731",
+                    "currentEquation": null
                 },
                 {
                     "name": "geometry2",
-                    "ioValue": "c07e89b2-5597-4189-99ff-5c42aca3588d"
+                    "ioValue": "c07e89b2-5597-4189-99ff-5c42aca3588d",
+                    "currentEquation": null
                 }
             ],
             "description": "Subtracts shape two from shape one."
@@ -1168,15 +1242,18 @@
             "ioValues": [
                 {
                     "name": "Shape",
-                    "ioValue": "2b23e32e-3e46-4888-b7a6-f40467c2499b"
+                    "ioValue": "2b23e32e-3e46-4888-b7a6-f40467c2499b",
+                    "currentEquation": null
                 },
                 {
                     "name": "Number",
-                    "ioValue": 30
+                    "ioValue": 30,
+                    "currentEquation": null
                 },
                 {
                     "name": "Angle",
-                    "ioValue": 10
+                    "ioValue": 10,
+                    "currentEquation": null
                 }
             ],
             "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -1191,7 +1268,8 @@
                     "ioValues": [
                         {
                             "name": "number or geometry",
-                            "ioValue": "55a2e87c-99ee-4752-bd55-901298406278"
+                            "ioValue": "55a2e87c-99ee-4752-bd55-901298406278",
+                            "currentEquation": null
                         }
                     ],
                     "description": "Connect geometry here to make it available in the next level up. "
@@ -1232,7 +1310,8 @@
                     "ioValues": [
                         {
                             "name": "diameter",
-                            "ioValue": 10
+                            "ioValue": 10,
+                            "currentEquation": null
                         }
                     ],
                     "description": "Creates a new circle."
@@ -1246,19 +1325,23 @@
                     "ioValues": [
                         {
                             "name": "geometry",
-                            "ioValue": "2db2a584-ea9f-4d51-ac13-b4caa587ce26"
+                            "ioValue": "2db2a584-ea9f-4d51-ac13-b4caa587ce26",
+                            "currentEquation": null
                         },
                         {
                             "name": "xDist",
-                            "ioValue": 100
+                            "ioValue": 100,
+                            "currentEquation": null
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 0
+                            "ioValue": 0,
+                            "currentEquation": null
                         },
                         {
                             "name": "zDist",
-                            "ioValue": 0
+                            "ioValue": 0,
+                            "currentEquation": null
                         }
                     ],
                     "description": "Moves a shape laterally in X, Y, Z."
@@ -1272,15 +1355,18 @@
                     "ioValues": [
                         {
                             "name": "Shape",
-                            "ioValue": "2b23e32e-3e46-4888-b7a6-f40467c2499b"
+                            "ioValue": "2b23e32e-3e46-4888-b7a6-f40467c2499b",
+                            "currentEquation": null
                         },
                         {
                             "name": "Number",
-                            "ioValue": 30
+                            "ioValue": 30,
+                            "currentEquation": null
                         },
                         {
                             "name": "Angle",
-                            "ioValue": 10
+                            "ioValue": 10,
+                            "currentEquation": null
                         }
                     ],
                     "description": "Defines a Replicad code block.",
@@ -1296,11 +1382,13 @@
                     "ioValues": [
                         {
                             "name": "geometry",
-                            "ioValue": "7a7daffa-9e1d-414d-9643-a79e26c451a8"
+                            "ioValue": "7a7daffa-9e1d-414d-9643-a79e26c451a8",
+                            "currentEquation": null
                         },
                         {
                             "name": "height",
-                            "ioValue": 10
+                            "ioValue": 10,
+                            "currentEquation": null
                         }
                     ],
                     "description": "Extrudes a 2D shape. Input can be negitive. "
@@ -1384,19 +1472,23 @@
             "ioValues": [
                 {
                     "name": "geometry",
-                    "ioValue": "52c9e1f5-7ff7-4eef-94b1-e99d0cc79a51"
+                    "ioValue": "52c9e1f5-7ff7-4eef-94b1-e99d0cc79a51",
+                    "currentEquation": null
                 },
                 {
                     "name": "xDist",
-                    "ioValue": 99
+                    "ioValue": 99,
+                    "currentEquation": null
                 },
                 {
                     "name": "yDist",
-                    "ioValue": 0
+                    "ioValue": 0,
+                    "currentEquation": null
                 },
                 {
                     "name": "zDist",
-                    "ioValue": 0
+                    "ioValue": 0,
+                    "currentEquation": null
                 }
             ],
             "description": "Moves a shape laterally in X, Y, Z."
@@ -1428,7 +1520,8 @@
             "ioValues": [
                 {
                     "name": "diameter",
-                    "ioValue": 10
+                    "ioValue": 10,
+                    "currentEquation": null
                 }
             ],
             "description": "Creates a new circle."
@@ -1442,27 +1535,33 @@
             "ioValues": [
                 {
                     "name": "Geometry",
-                    "ioValue": "52c9e1f5-7ff7-4eef-94b1-e99d0cc79a51"
+                    "ioValue": "52c9e1f5-7ff7-4eef-94b1-e99d0cc79a51",
+                    "currentEquation": null
                 },
                 {
                     "name": "Tool Size",
-                    "ioValue": 5
+                    "ioValue": 5,
+                    "currentEquation": null
                 },
                 {
                     "name": "Passes",
-                    "ioValue": 1
+                    "ioValue": 1,
+                    "currentEquation": null
                 },
                 {
                     "name": "Speed",
-                    "ioValue": 1499
+                    "ioValue": 1499,
+                    "currentEquation": null
                 },
                 {
                     "name": "Cut Through",
-                    "ioValue": 0
+                    "ioValue": 0,
+                    "currentEquation": null
                 },
                 {
                     "name": "Part Name",
-                    "ioValue": "diff1"
+                    "ioValue": "diff1",
+                    "currentEquation": null
                 }
             ],
             "description": "Generates Maslow gcode from the input geometry. For single parts, generates one gcode file. For assemblies, extracts individual parts, sorts them based on the selected direction (Left, Right, Top, or Bottom) using bounding boxes, generates gcode for each part sequentially, and concatenates the results into one file.",
@@ -1478,27 +1577,33 @@
             "ioValues": [
                 {
                     "name": "Geometry",
-                    "ioValue": "37394ec5-19e3-4302-ac65-5f4a746a47e6"
+                    "ioValue": "37394ec5-19e3-4302-ac65-5f4a746a47e6",
+                    "currentEquation": null
                 },
                 {
                     "name": "Tool Size",
-                    "ioValue": 6.35
+                    "ioValue": 6.35,
+                    "currentEquation": null
                 },
                 {
                     "name": "Passes",
-                    "ioValue": 9
+                    "ioValue": 9,
+                    "currentEquation": null
                 },
                 {
                     "name": "Speed",
-                    "ioValue": 1500
+                    "ioValue": 1500,
+                    "currentEquation": null
                 },
                 {
                     "name": "Cut Through",
-                    "ioValue": 1.5
+                    "ioValue": 1.5,
+                    "currentEquation": null
                 },
                 {
                     "name": "Part Name",
-                    "ioValue": "Full project"
+                    "ioValue": "Full project",
+                    "currentEquation": null
                 }
             ],
             "description": "Generates Maslow gcode from the input geometry. For single parts, generates one gcode file. For assemblies, extracts individual parts, sorts them based on the selected direction (Left, Right, Top, or Bottom) using bounding boxes, generates gcode for each part sequentially, and concatenates the results into one file.",
@@ -1514,19 +1619,23 @@
             "ioValues": [
                 {
                     "name": "geometry",
-                    "ioValue": "469ae2b4-3499-459c-ba5d-a3e9efa8ec4a"
+                    "ioValue": "469ae2b4-3499-459c-ba5d-a3e9efa8ec4a",
+                    "currentEquation": null
                 },
                 {
                     "name": "xDist",
-                    "ioValue": 10
+                    "ioValue": 10,
+                    "currentEquation": null
                 },
                 {
                     "name": "yDist",
-                    "ioValue": 0
+                    "ioValue": 0,
+                    "currentEquation": null
                 },
                 {
                     "name": "zDist",
-                    "ioValue": 0
+                    "ioValue": 0,
+                    "currentEquation": null
                 }
             ],
             "description": "Moves a shape laterally in X, Y, Z."
@@ -1540,11 +1649,13 @@
             "ioValues": [
                 {
                     "name": "Font Size",
-                    "ioValue": 10
+                    "ioValue": 10,
+                    "currentEquation": null
                 },
                 {
                     "name": "Text",
-                    "ioValue": "Lorem Ipsum"
+                    "ioValue": "Lorem Ipsum",
+                    "currentEquation": null
                 }
             ],
             "description": "Creates a new text sketch.",
