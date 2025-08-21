@@ -207,17 +207,17 @@
                 {
                     "name": "Sheet Width",
                     "ioValue": 500,
-                    "currentEquation": null
+                    "currentEquation": "500"
                 },
                 {
                     "name": "Sheet Height",
                     "ioValue": 150,
-                    "currentEquation": null
+                    "currentEquation": "150"
                 },
                 {
                     "name": "Part Padding",
                     "ioValue": 0,
-                    "currentEquation": null
+                    "currentEquation": "0"
                 }
             ],
             "description": "Extracts all parts tagged for cutting and lays them out on a sheet to cut.",
@@ -1186,8 +1186,8 @@
         {
             "atomType": "Move",
             "name": "Move",
-            "x": 0.5441176470588235,
-            "y": 0.22891566265060243,
+            "x": 0.5397111913357401,
+            "y": 0.20180722891566263,
             "uniqueID": "c07e89b2-5597-4189-99ff-5c42aca3588d",
             "ioValues": [
                 {
