@@ -1146,8 +1146,8 @@
         {
             "atomType": "Extrude",
             "name": "Extrude",
-            "x": 0.4626865671641791,
-            "y": 0.7168674698795181,
+            "x": 0.4629963898916967,
+            "y": 0.7018072289156627,
             "uniqueID": "a49d04fd-a332-4ca1-a935-e8420dc58731",
             "ioValues": [
                 {
@@ -1166,8 +1166,8 @@
         {
             "atomType": "Extrude",
             "name": "Extrude",
-            "x": 0.4826203208556149,
-            "y": 0.3102409638554217,
+            "x": 0.48014440433212996,
+            "y": 0.29518072289156627,
             "uniqueID": "d0b60086-8cc1-47de-a1d5-b3d7072433a2",
             "ioValues": [
                 {
@@ -1216,8 +1216,8 @@
         {
             "atomType": "Difference",
             "name": "Difference",
-            "x": 0.5711442786069652,
-            "y": 0.5542168674698795,
+            "x": 0.5685920577617328,
+            "y": 0.569277108433735,
             "uniqueID": "52c9e1f5-7ff7-4eef-94b1-e99d0cc79a51",
             "ioValues": [
                 {
@@ -1496,8 +1496,8 @@
         {
             "atomType": "Assembly",
             "name": "Assembly",
-            "x": 0.6835317460317459,
-            "y": 0.4337349397590362,
+            "x": 0.6886281588447654,
+            "y": 0.463855421686747,
             "uniqueID": "37394ec5-19e3-4302-ac65-5f4a746a47e6",
             "ioValues": [
                 {
@@ -1521,7 +1521,7 @@
                 {
                     "name": "diameter",
                     "ioValue": 10,
-                    "currentEquation": null
+                    "currentEquation": "10"
                 }
             ],
             "description": "Creates a new circle."
@@ -1625,17 +1625,17 @@
                 {
                     "name": "xDist",
                     "ioValue": 10,
-                    "currentEquation": null
+                    "currentEquation": "10"
                 },
                 {
                     "name": "yDist",
                     "ioValue": 0,
-                    "currentEquation": null
+                    "currentEquation": "0"
                 },
                 {
                     "name": "zDist",
                     "ioValue": 0,
-                    "currentEquation": null
+                    "currentEquation": "0"
                 }
             ],
             "description": "Moves a shape laterally in X, Y, Z."
