@@ -7,8 +7,8 @@
     "ioValues": [
         {
             "name": "love",
-            "ioValue": 10,
-            "currentEquation": "10"
+            "ioValue": 1,
+            "currentEquation": "1"
         }
     ],
     "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -201,8 +201,8 @@
         {
             "atomType": "CutLayout",
             "name": "Cut Layout",
-            "x": 0.3716931216931217,
-            "y": 0.5766016713091923,
+            "x": 0.378158844765343,
+            "y": 0.5572289156626505,
             "uniqueID": "38a0fc25-61d5-4003-9b64-3388836bb20e",
             "ioValues": [
                 {
@@ -1138,7 +1138,7 @@
             "ioValues": [
                 {
                     "name": "x length",
-                    "ioValue": 10,
+                    "ioValue": 1,
                     "currentEquation": "love"
                 },
                 {
@@ -1152,8 +1152,8 @@
         {
             "atomType": "Extrude",
             "name": "Extrude",
-            "x": 0.5018050541516246,
-            "y": 0.6566265060240964,
+            "x": 0.5081227436823105,
+            "y": 0.6596385542168675,
             "uniqueID": "a49d04fd-a332-4ca1-a935-e8420dc58731",
             "ioValues": [
                 {
@@ -1163,7 +1163,7 @@
                 },
                 {
                     "name": "height",
-                    "ioValue": 10,
+                    "ioValue": 1,
                     "currentEquation": "50"
                 }
             ],
@@ -1172,8 +1172,8 @@
         {
             "atomType": "Extrude",
             "name": "Extrude",
-            "x": 0.47833935018050544,
-            "y": 0.3313253012048193,
+            "x": 0.47202166064981954,
+            "y": 0.33433734939759036,
             "uniqueID": "d0b60086-8cc1-47de-a1d5-b3d7072433a2",
             "ioValues": [
                 {
@@ -1192,8 +1192,8 @@
         {
             "atomType": "Move",
             "name": "Move",
-            "x": 0.5415162454873647,
-            "y": 0.20481927710843373,
+            "x": 0.565884476534296,
+            "y": 0.4337349397590362,
             "uniqueID": "c07e89b2-5597-4189-99ff-5c42aca3588d",
             "ioValues": [
                 {
@@ -1222,8 +1222,8 @@
         {
             "atomType": "Difference",
             "name": "Difference",
-            "x": 0.5740072202166064,
-            "y": 0.4307228915662651,
+            "x": 0.621841155234657,
+            "y": 0.6686746987951807,
             "uniqueID": "52c9e1f5-7ff7-4eef-94b1-e99d0cc79a51",
             "ioValues": [
                 {
@@ -1472,8 +1472,8 @@
         {
             "atomType": "Move",
             "name": "Move",
-            "x": 0.6617900172117039,
-            "y": 0.18072289156626506,
+            "x": 0.6570397111913358,
+            "y": 0.17469879518072287,
             "uniqueID": "ad93079d-e6df-4844-a542-19edf6aa46ed",
             "ioValues": [
                 {
@@ -1483,7 +1483,7 @@
                 },
                 {
                     "name": "xDist",
-                    "ioValue": 99,
+                    "ioValue": 1,
                     "currentEquation": "99"
                 },
                 {
@@ -1577,8 +1577,8 @@
         {
             "atomType": "Gcode",
             "name": "Gcode",
-            "x": 0.7896825396825398,
-            "y": 0.22590361445783133,
+            "x": 0.7897111913357401,
+            "y": 0.23493975903614459,
             "uniqueID": "469ae2b4-3499-459c-ba5d-a3e9efa8ec4a",
             "ioValues": [
                 {
@@ -1588,13 +1588,13 @@
                 },
                 {
                     "name": "Tool Size",
-                    "ioValue": 5,
-                    "currentEquation": "5"
+                    "ioValue": 2,
+                    "currentEquation": "2"
                 },
                 {
                     "name": "Passes",
-                    "ioValue": 9,
-                    "currentEquation": null
+                    "ioValue": 2,
+                    "currentEquation": "2"
                 },
                 {
                     "name": "Speed",
@@ -1672,7 +1672,7 @@
             "atomType": "Input",
             "name": "love",
             "x": 0.025384615384615384,
-            "y": 0.5030120481927711,
+            "y": 0.5240963855421688,
             "uniqueID": "fbbaa092-3f12-421c-8cb6-21c193ffe9d3",
             "ioValues": [],
             "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
@@ -1833,6 +1833,13 @@
             "ap2Primary": false,
             "ap1ID": "fbbaa092-3f12-421c-8cb6-21c193ffe9d3",
             "ap2ID": "a49d04fd-a332-4ca1-a935-e8420dc58731"
+        },
+        {
+            "ap1Name": "number or geometry",
+            "ap2Name": "xDist",
+            "ap2Primary": false,
+            "ap1ID": "fbbaa092-3f12-421c-8cb6-21c193ffe9d3",
+            "ap2ID": "ad93079d-e6df-4844-a542-19edf6aa46ed"
         }
     ],
     "unitsKey": "MM",
