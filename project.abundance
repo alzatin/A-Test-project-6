@@ -7,8 +7,8 @@
     "ioValues": [
         {
             "name": "love",
-            "ioValue": 1,
-            "currentEquation": "1"
+            "ioValue": 10,
+            "currentEquation": "10"
         }
     ],
     "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -1138,7 +1138,7 @@
             "ioValues": [
                 {
                     "name": "x length",
-                    "ioValue": 1,
+                    "ioValue": 10,
                     "currentEquation": "love"
                 },
                 {
@@ -1163,7 +1163,7 @@
                 },
                 {
                     "name": "height",
-                    "ioValue": 1,
+                    "ioValue": 10,
                     "currentEquation": "50"
                 }
             ],
@@ -1193,7 +1193,7 @@
             "atomType": "Move",
             "name": "Move",
             "x": 0.565884476534296,
-            "y": 0.4337349397590362,
+            "y": 0.41566265060240964,
             "uniqueID": "c07e89b2-5597-4189-99ff-5c42aca3588d",
             "ioValues": [
                 {
@@ -1483,7 +1483,7 @@
                 },
                 {
                     "name": "xDist",
-                    "ioValue": 1,
+                    "ioValue": 10,
                     "currentEquation": "99"
                 },
                 {
