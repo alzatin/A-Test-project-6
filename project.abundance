@@ -4,7 +4,13 @@
     "x": 0,
     "y": 0,
     "uniqueID": 1746568589948,
-    "ioValues": [],
+    "ioValues": [
+        {
+            "name": "love",
+            "ioValue": 10,
+            "currentEquation": "10"
+        }
+    ],
     "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
     "topLevel": true,
     "allAtoms": [
@@ -1126,19 +1132,19 @@
         {
             "atomType": "Rectangle",
             "name": "Rectangle",
-            "x": 0.3940298507462686,
-            "y": 0.8463855421686747,
+            "x": 0.5433212996389891,
+            "y": 0.8042168674698795,
             "uniqueID": "bab8a965-1776-47e9-bb8b-6428dbd4d662",
             "ioValues": [
                 {
                     "name": "x length",
-                    "ioValue": 74,
-                    "currentEquation": null
+                    "ioValue": 10,
+                    "currentEquation": "love"
                 },
                 {
                     "name": "y length",
                     "ioValue": 75,
-                    "currentEquation": null
+                    "currentEquation": "75"
                 }
             ],
             "description": "Creates a new rectangle."
@@ -1217,7 +1223,7 @@
             "atomType": "Difference",
             "name": "Difference",
             "x": 0.5685920577617328,
-            "y": 0.569277108433735,
+            "y": 0.5542168674698795,
             "uniqueID": "52c9e1f5-7ff7-4eef-94b1-e99d0cc79a51",
             "ioValues": [
                 {
@@ -1478,17 +1484,17 @@
                 {
                     "name": "xDist",
                     "ioValue": 99,
-                    "currentEquation": null
+                    "currentEquation": "99"
                 },
                 {
                     "name": "yDist",
                     "ioValue": 0,
-                    "currentEquation": null
+                    "currentEquation": "0"
                 },
                 {
                     "name": "zDist",
                     "ioValue": 0,
-                    "currentEquation": null
+                    "currentEquation": "0"
                 }
             ],
             "description": "Moves a shape laterally in X, Y, Z."
@@ -1514,8 +1520,8 @@
         {
             "atomType": "Circle",
             "name": "Circle",
-            "x": 0.8,
-            "y": 0.6927710843373494,
+            "x": 0.7960288808664261,
+            "y": 0.6957831325301205,
             "uniqueID": "dfbc6f32-0011-4f5a-a7d9-71f30d212420",
             "ioValues": [
                 {
@@ -1643,14 +1649,14 @@
         {
             "atomType": "Text",
             "name": "Text",
-            "x": 0.3154228855721393,
-            "y": 0.7981927710843374,
+            "x": 0.30866425992779783,
+            "y": 0.8584337349397589,
             "uniqueID": "99995a2d-a95f-4178-8960-a460c8474483",
             "ioValues": [
                 {
                     "name": "Font Size",
                     "ioValue": 10,
-                    "currentEquation": null
+                    "currentEquation": "10"
                 },
                 {
                     "name": "Text",
@@ -1661,6 +1667,16 @@
             "description": "Creates a new text sketch.",
             "fontFamily": "ANTON",
             "selectedFontIndex": 0
+        },
+        {
+            "atomType": "Input",
+            "name": "love",
+            "x": 0.025384615384615384,
+            "y": 0.5030120481927711,
+            "uniqueID": "fbbaa092-3f12-421c-8cb6-21c193ffe9d3",
+            "ioValues": [],
+            "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
+            "type": "number"
         }
     ],
     "allConnectors": [
