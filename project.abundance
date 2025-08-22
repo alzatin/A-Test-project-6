@@ -1588,8 +1588,8 @@
                 },
                 {
                     "name": "Tool Size",
-                    "ioValue": 6.35,
-                    "currentEquation": null
+                    "ioValue": 5,
+                    "currentEquation": "5"
                 },
                 {
                     "name": "Passes",
@@ -1655,8 +1655,8 @@
             "ioValues": [
                 {
                     "name": "Font Size",
-                    "ioValue": 10,
-                    "currentEquation": "10"
+                    "ioValue": 9,
+                    "currentEquation": "9"
                 },
                 {
                     "name": "Text",
