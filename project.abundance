@@ -1677,6 +1677,27 @@
             "ioValues": [],
             "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
             "type": "number"
+        },
+        {
+            "atomType": "Equation",
+            "name": "x + y+7",
+            "x": 0.5451263537906137,
+            "y": 0.8584337349397589,
+            "uniqueID": "ae2d3291-a3b6-454b-be4f-6672f7b33b6b",
+            "ioValues": [
+                {
+                    "name": "x",
+                    "ioValue": 1,
+                    "currentEquation": null
+                },
+                {
+                    "name": "y",
+                    "ioValue": 1,
+                    "currentEquation": null
+                }
+            ],
+            "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
+            "currentEquation": "x + y+7"
         }
     ],
     "allConnectors": [
