@@ -1450,21 +1450,6 @@
             "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape"
         },
         {
-            "atomType": "Circle",
-            "name": "Circle",
-            "x": 0.7960288808664261,
-            "y": 0.6957831325301205,
-            "uniqueID": "dfbc6f32-0011-4f5a-a7d9-71f30d212420",
-            "ioValues": [
-                {
-                    "name": "diameter",
-                    "ioValue": 10,
-                    "currentEquation": "10"
-                }
-            ],
-            "description": "Creates a new circle."
-        },
-        {
             "atomType": "Gcode",
             "name": "Gcode",
             "x": 0.6669675090252708,
@@ -1553,6 +1538,17 @@
             ],
             "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
             "currentEquation": "x + d"
+        },
+        {
+            "atomType": "Import",
+            "name": "Import",
+            "x": 0.7897111913357401,
+            "y": 0.6054216867469879,
+            "uniqueID": "b1b8e685-1c18-4b65-8d74-92cb63cfd0cf",
+            "ioValues": [],
+            "description": "Import Atom, let's you choose a type of file to import and use in your design.",
+            "fileName": null,
+            "type": null
         }
     ],
     "allConnectors": [
