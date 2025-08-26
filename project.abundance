@@ -658,30 +658,26 @@
                     ],
                     "allConnectors": [
                         {
-                            "ap1Name": "geometry",
+                            "ap1Name": "output",
                             "ap2Name": "number or geometry",
-                            "ap2Primary": false,
                             "ap1ID": "2aebb769-cc9e-48bf-b95f-a3fe033bca75",
                             "ap2ID": "946109de-bc97-45c5-a654-07316c23a78a"
                         },
                         {
                             "ap1Name": "number or geometry",
                             "ap2Name": "Number",
-                            "ap2Primary": false,
                             "ap1ID": "c4d3c46b-5f4c-44da-a08a-b4193f94293f",
                             "ap2ID": "2aebb769-cc9e-48bf-b95f-a3fe033bca75"
                         },
                         {
                             "ap1Name": "number or geometry",
                             "ap2Name": "Dist",
-                            "ap2Primary": false,
                             "ap1ID": "eb016a73-169b-45a3-9401-80e784d22d14",
                             "ap2ID": "2aebb769-cc9e-48bf-b95f-a3fe033bca75"
                         },
                         {
                             "ap1Name": "number or geometry",
                             "ap2Name": "Shape",
-                            "ap2Primary": false,
                             "ap1ID": "c26fe36a-9b68-4bbb-9247-5906b5369093",
                             "ap2ID": "2aebb769-cc9e-48bf-b95f-a3fe033bca75"
                         }
@@ -916,33 +912,7 @@
                             "x": 0.49242424242424243,
                             "y": 0.4337349397590362,
                             "uniqueID": "509c3e4f-e333-49e0-94f4-0495906ae8fc",
-                            "ioValues": [
-                                {
-                                    "name": "Shape",
-                                    "ioValue": 10,
-                                    "currentEquation": null
-                                },
-                                {
-                                    "name": "Number",
-                                    "ioValue": "bd805fb1-ab37-44e0-978f-4fe64fe73ba9",
-                                    "currentEquation": null
-                                },
-                                {
-                                    "name": "distX",
-                                    "ioValue": 10,
-                                    "currentEquation": null
-                                },
-                                {
-                                    "name": "distY",
-                                    "ioValue": 10,
-                                    "currentEquation": null
-                                },
-                                {
-                                    "name": "distZ",
-                                    "ioValue": 10,
-                                    "currentEquation": null
-                                }
-                            ],
+                            "ioValues": [],
                             "description": "Defines a Replicad code block.",
                             "codeVersion": 1,
                             "code": "//Inputs:[Shape, Number, distX, distY, distZ];\n\n\nlet shapesArray = [];\nfor (let i = 0; i < Number; i++) {\n    let rotatedShape = await Move(Shape, distX * i, distY * i,distZ * i);\n    shapesArray.push(rotatedShape);\n}\n\nlet assembledShape = await Assembly(shapesArray)\n\nreturn assembledShape;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n    /**\n    To Use the Code Atom, enter your inputs to the input list a.e Inputs:[shape, height]\n    If your input is connected to another atom with a replicad geometry you can access its geometry by looking up its ID in your library. a.e library[Input1].geometry[0] \n    Use any replicad available methods to modify your geometry. Learn more about all of the available methods at \n    https://replicad.xyz/docs/introapp/UserGuide.html \n    Return a replicad object that includes geometry, color, tags and plane. \n\n\n    Example Code Atom:\n\n      Inputs:[shape, x];\n\n      let finalShape = library[shape].geometry[0].clone.translate[x,0,0]\n\n      return {geometry: finalShape, color: library[shape].color, plane: library[shape].plane, tags: library[shape].tags }\n\n      - See more examples at _______ \n\n\n    */\n"
@@ -982,42 +952,36 @@
                         {
                             "ap1Name": "number or geometry",
                             "ap2Name": "Number",
-                            "ap2Primary": false,
                             "ap1ID": "aafb7217-3965-4122-93b9-b305e06a2110",
                             "ap2ID": "509c3e4f-e333-49e0-94f4-0495906ae8fc"
                         },
                         {
                             "ap1Name": "number or geometry",
                             "ap2Name": "Shape",
-                            "ap2Primary": false,
                             "ap1ID": "f4cd6cd7-2dbb-4d4a-85cb-39dd979e9792",
                             "ap2ID": "509c3e4f-e333-49e0-94f4-0495906ae8fc"
                         },
                         {
-                            "ap1Name": "geometry",
+                            "ap1Name": "output",
                             "ap2Name": "number or geometry",
-                            "ap2Primary": false,
                             "ap1ID": "509c3e4f-e333-49e0-94f4-0495906ae8fc",
                             "ap2ID": "28026b6b-bdc0-4512-857e-7f84e5a29c36"
                         },
                         {
                             "ap1Name": "number or geometry",
                             "ap2Name": "distX",
-                            "ap2Primary": false,
                             "ap1ID": "00ede5ae-e6e3-417e-8b87-327b41bc9ef1",
                             "ap2ID": "509c3e4f-e333-49e0-94f4-0495906ae8fc"
                         },
                         {
                             "ap1Name": "number or geometry",
                             "ap2Name": "distY",
-                            "ap2Primary": false,
                             "ap1ID": "088d70d7-54e7-4366-b87c-a56ada4b6b61",
                             "ap2ID": "509c3e4f-e333-49e0-94f4-0495906ae8fc"
                         },
                         {
                             "ap1Name": "number or geometry",
                             "ap2Name": "distZ",
-                            "ap2Primary": false,
                             "ap1ID": "f4e46901-9cc9-43a3-b999-537589c233c8",
                             "ap2ID": "509c3e4f-e333-49e0-94f4-0495906ae8fc"
                         }
@@ -1052,70 +1016,60 @@
                 {
                     "ap1Name": "number or geometry",
                     "ap2Name": "geometry",
-                    "ap2Primary": true,
                     "ap1ID": "bc50fdd7-d629-434c-8323-e00233e83cd1",
                     "ap2ID": "bd805fb1-ab37-44e0-978f-4fe64fe73ba9"
                 },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "Geometry",
-                    "ap2Primary": false,
                     "ap1ID": "bd805fb1-ab37-44e0-978f-4fe64fe73ba9",
                     "ap2ID": "8ec8a330-dd56-4d84-9f61-ca0d66e41d0d"
                 },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "Number",
-                    "ap2Primary": false,
                     "ap1ID": "bd805fb1-ab37-44e0-978f-4fe64fe73ba9",
                     "ap2ID": "05b40f60-efb2-46f7-889e-d50a5d8550ce"
                 },
                 {
-                    "ap1Name": "Geometry",
+                    "ap1Name": "geometry or number",
                     "ap2Name": "geometry",
-                    "ap2Primary": true,
                     "ap1ID": "8ec8a330-dd56-4d84-9f61-ca0d66e41d0d",
                     "ap2ID": "82ca01c0-5457-4adc-a007-17d9f72afd4f"
                 },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "number or geometry",
-                    "ap2Primary": false,
                     "ap1ID": "cce8b22f-8e0e-42ac-bbc2-703a69a8d12d",
                     "ap2ID": "74b86142-f40e-4ad8-a6b9-5b8528e3cb0d"
                 },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "Shape 2",
-                    "ap2Primary": false,
                     "ap1ID": "82ca01c0-5457-4adc-a007-17d9f72afd4f",
                     "ap2ID": "cce8b22f-8e0e-42ac-bbc2-703a69a8d12d"
                 },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
-                    "ap2Primary": true,
                     "ap1ID": "82ca01c0-5457-4adc-a007-17d9f72afd4f",
                     "ap2ID": "b37d363e-09d3-459c-a375-0c8a23698c2f"
                 },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "Shape 3",
-                    "ap2Primary": false,
                     "ap1ID": "b37d363e-09d3-459c-a375-0c8a23698c2f",
                     "ap2ID": "cce8b22f-8e0e-42ac-bbc2-703a69a8d12d"
                 },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
-                    "ap2Primary": true,
                     "ap1ID": "b37d363e-09d3-459c-a375-0c8a23698c2f",
                     "ap2ID": "daa83208-6789-47a5-a3e5-442c4b9976c7"
                 },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "Shape 4",
-                    "ap2Primary": false,
                     "ap1ID": "daa83208-6789-47a5-a3e5-442c4b9976c7",
                     "ap2ID": "cce8b22f-8e0e-42ac-bbc2-703a69a8d12d"
                 }
@@ -1197,8 +1151,8 @@
                 },
                 {
                     "name": "xDist",
-                    "ioValue": 0,
-                    "currentEquation": "0"
+                    "ioValue": 15,
+                    "currentEquation": "15"
                 },
                 {
                     "name": "yDist",
@@ -1324,11 +1278,6 @@
                     "uniqueID": "7a7daffa-9e1d-414d-9643-a79e26c451a8",
                     "ioValues": [
                         {
-                            "name": "geometry",
-                            "ioValue": "2db2a584-ea9f-4d51-ac13-b4caa587ce26",
-                            "currentEquation": null
-                        },
-                        {
                             "name": "xDist",
                             "ioValue": 100,
                             "currentEquation": null
@@ -1381,11 +1330,6 @@
                     "uniqueID": "751287ef-9f54-4680-a172-3d8f61957c7d",
                     "ioValues": [
                         {
-                            "name": "geometry",
-                            "ioValue": "7a7daffa-9e1d-414d-9643-a79e26c451a8",
-                            "currentEquation": null
-                        },
-                        {
                             "name": "height",
                             "ioValue": 10,
                             "currentEquation": null
@@ -1398,42 +1342,36 @@
                 {
                     "ap1Name": "number or geometry",
                     "ap2Name": "Shape",
-                    "ap2Primary": false,
                     "ap1ID": "00aaacbd-76a1-4299-bb84-8a90ba77ca00",
                     "ap2ID": "55a2e87c-99ee-4752-bd55-901298406278"
                 },
                 {
                     "ap1Name": "number or geometry",
                     "ap2Name": "Number",
-                    "ap2Primary": false,
                     "ap1ID": "d556ab39-7168-473c-bcde-e7166be4c1be",
                     "ap2ID": "55a2e87c-99ee-4752-bd55-901298406278"
                 },
                 {
                     "ap1Name": "number or geometry",
                     "ap2Name": "Angle",
-                    "ap2Primary": false,
                     "ap1ID": "0f57b0a4-4437-4272-80a9-43a8dfc57376",
                     "ap2ID": "55a2e87c-99ee-4752-bd55-901298406278"
                 },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
-                    "ap2Primary": true,
                     "ap1ID": "2db2a584-ea9f-4d51-ac13-b4caa587ce26",
                     "ap2ID": "7a7daffa-9e1d-414d-9643-a79e26c451a8"
                 },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
-                    "ap2Primary": true,
                     "ap1ID": "7a7daffa-9e1d-414d-9643-a79e26c451a8",
                     "ap2ID": "751287ef-9f54-4680-a172-3d8f61957c7d"
                 },
                 {
-                    "ap1Name": "geometry",
+                    "ap1Name": "output",
                     "ap2Name": "number or geometry",
-                    "ap2Primary": false,
                     "ap1ID": "55a2e87c-99ee-4752-bd55-901298406278",
                     "ap2ID": "176d9d1b-ba74-4432-87c9-b11a41a4bed8"
                 }
@@ -1564,73 +1502,6 @@
             "sortDirection": "Left"
         },
         {
-            "atomType": "Gcode",
-            "name": "Gcode",
-            "x": 0.7897111913357401,
-            "y": 0.23493975903614459,
-            "uniqueID": "469ae2b4-3499-459c-ba5d-a3e9efa8ec4a",
-            "ioValues": [
-                {
-                    "name": "Tool Size",
-                    "ioValue": 2,
-                    "currentEquation": "2"
-                },
-                {
-                    "name": "Passes",
-                    "ioValue": 2,
-                    "currentEquation": "2"
-                },
-                {
-                    "name": "Speed",
-                    "ioValue": 1500,
-                    "currentEquation": null
-                },
-                {
-                    "name": "Cut Through",
-                    "ioValue": 1.5,
-                    "currentEquation": null
-                },
-                {
-                    "name": "Part Name",
-                    "ioValue": "Full project",
-                    "currentEquation": null
-                }
-            ],
-            "description": "Generates Maslow gcode from the input geometry. For single parts, generates one gcode file. For assemblies, extracts individual parts, sorts them based on the selected direction (Left, Right, Top, or Bottom) using bounding boxes, generates gcode for each part sequentially, and concatenates the results into one file.",
-            "partName": "Full project",
-            "sortDirection": "Left"
-        },
-        {
-            "atomType": "Move",
-            "name": "Move",
-            "x": 0.8850063532401525,
-            "y": 0.39402173913043476,
-            "uniqueID": "9233378a-ce77-47b2-b4ec-6e1ea31e664a",
-            "ioValues": [
-                {
-                    "name": "geometry",
-                    "ioValue": "",
-                    "currentEquation": null
-                },
-                {
-                    "name": "xDist",
-                    "ioValue": 10,
-                    "currentEquation": "10"
-                },
-                {
-                    "name": "yDist",
-                    "ioValue": 0,
-                    "currentEquation": "0"
-                },
-                {
-                    "name": "zDist",
-                    "ioValue": 0,
-                    "currentEquation": "0"
-                }
-            ],
-            "description": "Moves a shape laterally in X, Y, Z."
-        },
-        {
             "atomType": "Text",
             "name": "Text",
             "x": 0.30866425992779783,
@@ -1664,166 +1535,138 @@
         },
         {
             "atomType": "Equation",
-            "name": "x",
-            "x": 0.5324909747292419,
-            "y": 0.8734939759036144,
+            "name": "x + z",
+            "x": 0.5424187725631769,
+            "y": 0.8825301204819277,
             "uniqueID": "ae2d3291-a3b6-454b-be4f-6672f7b33b6b",
             "ioValues": [
                 {
                     "name": "x",
                     "ioValue": 5,
-                    "currentEquation": "1"
+                    "currentEquation": null
+                },
+                {
+                    "name": "z",
+                    "ioValue": 1,
+                    "currentEquation": null
                 }
             ],
             "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
-            "currentEquation": "x"
+            "currentEquation": "x + z"
         }
     ],
     "allConnectors": [
         {
             "ap1Name": "geometry",
             "ap2Name": "geometry",
-            "ap2Primary": true,
             "ap1ID": "0b0af4d7-9261-4074-ba27-2b43324772f5",
             "ap2ID": "7bc883ef-f591-4184-b5d4-3694ad010796"
         },
         {
             "ap1Name": "geometry",
             "ap2Name": "Shape 2",
-            "ap2Primary": false,
             "ap1ID": "0b0af4d7-9261-4074-ba27-2b43324772f5",
             "ap2ID": "b9c2969f-e898-4bf2-8d18-aa17dc8b4624"
         },
         {
             "ap1Name": "geometry",
             "ap2Name": "geometry",
-            "ap2Primary": true,
             "ap1ID": "c15b0ff9-791f-49f3-a41c-bf36fd6eb5b2",
             "ap2ID": "2b23e32e-3e46-4888-b7a6-f40467c2499b"
         },
         {
             "ap1Name": "geometry",
             "ap2Name": "Geometry",
-            "ap2Primary": false,
             "ap1ID": "c15b0ff9-791f-49f3-a41c-bf36fd6eb5b2",
             "ap2ID": "baaed5ed-3495-4ca2-bfec-fd02da1864b0"
         },
         {
             "ap1Name": "geometry",
             "ap2Name": "Shape",
-            "ap2Primary": false,
             "ap1ID": "2b23e32e-3e46-4888-b7a6-f40467c2499b",
             "ap2ID": "8f34fa34-755c-4e1a-affa-5d142ee0f31f"
         },
         {
             "ap1Name": "geometry",
             "ap2Name": "geometry",
-            "ap2Primary": true,
             "ap1ID": "7bc883ef-f591-4184-b5d4-3694ad010796",
             "ap2ID": "cc93b5a4-2cba-4c75-96e1-8fb2114bc22d"
         },
         {
             "ap1Name": "geometry",
             "ap2Name": "Shape 1",
-            "ap2Primary": false,
             "ap1ID": "cc93b5a4-2cba-4c75-96e1-8fb2114bc22d",
             "ap2ID": "b9c2969f-e898-4bf2-8d18-aa17dc8b4624"
         },
         {
             "ap1Name": "geometry",
             "ap2Name": "geometry",
-            "ap2Primary": true,
             "ap1ID": "b9c2969f-e898-4bf2-8d18-aa17dc8b4624",
             "ap2ID": "c15b0ff9-791f-49f3-a41c-bf36fd6eb5b2"
         },
         {
             "ap1Name": "geometry",
             "ap2Name": "geometry",
-            "ap2Primary": true,
             "ap1ID": "ff87dede-758f-4324-8993-0d2b8a3f1226",
             "ap2ID": "d0b60086-8cc1-47de-a1d5-b3d7072433a2"
         },
         {
             "ap1Name": "geometry",
             "ap2Name": "geometry",
-            "ap2Primary": true,
             "ap1ID": "bab8a965-1776-47e9-bb8b-6428dbd4d662",
             "ap2ID": "a49d04fd-a332-4ca1-a935-e8420dc58731"
         },
         {
             "ap1Name": "geometry",
             "ap2Name": "geometry1",
-            "ap2Primary": false,
             "ap1ID": "a49d04fd-a332-4ca1-a935-e8420dc58731",
             "ap2ID": "52c9e1f5-7ff7-4eef-94b1-e99d0cc79a51"
         },
         {
             "ap1Name": "geometry",
             "ap2Name": "geometry",
-            "ap2Primary": true,
             "ap1ID": "d0b60086-8cc1-47de-a1d5-b3d7072433a2",
             "ap2ID": "c07e89b2-5597-4189-99ff-5c42aca3588d"
         },
         {
             "ap1Name": "geometry",
             "ap2Name": "geometry2",
-            "ap2Primary": false,
             "ap1ID": "c07e89b2-5597-4189-99ff-5c42aca3588d",
             "ap2ID": "52c9e1f5-7ff7-4eef-94b1-e99d0cc79a51"
         },
         {
             "ap1Name": "geometry",
             "ap2Name": "geometry",
-            "ap2Primary": true,
             "ap1ID": "52c9e1f5-7ff7-4eef-94b1-e99d0cc79a51",
             "ap2ID": "ad93079d-e6df-4844-a542-19edf6aa46ed"
         },
         {
             "ap1Name": "geometry",
             "ap2Name": "Shape 2",
-            "ap2Primary": false,
             "ap1ID": "52c9e1f5-7ff7-4eef-94b1-e99d0cc79a51",
             "ap2ID": "37394ec5-19e3-4302-ac65-5f4a746a47e6"
         },
         {
-            "ap1Name": "Geometry",
+            "ap1Name": "geometry or number",
             "ap2Name": "geometry",
-            "ap2Primary": false,
             "ap1ID": "8f34fa34-755c-4e1a-affa-5d142ee0f31f",
             "ap2ID": "38a0fc25-61d5-4003-9b64-3388836bb20e"
         },
         {
             "ap1Name": "geometry",
             "ap2Name": "Shape 1",
-            "ap2Primary": false,
             "ap1ID": "ad93079d-e6df-4844-a542-19edf6aa46ed",
             "ap2ID": "37394ec5-19e3-4302-ac65-5f4a746a47e6"
         },
         {
-            "ap1Name": "Gcode",
-            "ap2Name": "geometry",
-            "ap2Primary": true,
-            "ap1ID": "469ae2b4-3499-459c-ba5d-a3e9efa8ec4a",
-            "ap2ID": "9233378a-ce77-47b2-b4ec-6e1ea31e664a"
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "number or geometry",
-            "ap2Primary": false,
-            "ap1ID": "9233378a-ce77-47b2-b4ec-6e1ea31e664a",
-            "ap2ID": 1746568598187
-        },
-        {
             "ap1Name": "number or geometry",
             "ap2Name": "height",
-            "ap2Primary": false,
             "ap1ID": "fbbaa092-3f12-421c-8cb6-21c193ffe9d3",
             "ap2ID": "a49d04fd-a332-4ca1-a935-e8420dc58731"
         },
         {
             "ap1Name": "number or geometry",
             "ap2Name": "xDist",
-            "ap2Primary": false,
             "ap1ID": "fbbaa092-3f12-421c-8cb6-21c193ffe9d3",
             "ap2ID": "ad93079d-e6df-4844-a542-19edf6aa46ed"
         }
