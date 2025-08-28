@@ -32,8 +32,8 @@
         {
             "atomType": "Rectangle",
             "name": "Rectangle",
-            "x": 0.07027027027027027,
-            "y": 0.2620481927710844,
+            "x": 0.06521739130434782,
+            "y": 0.3734939759036145,
             "uniqueID": "0b0af4d7-9261-4074-ba27-2b43324772f5",
             "ioValues": [
                 {
@@ -83,13 +83,13 @@
                 },
                 {
                     "name": "xDist",
-                    "ioValue": 0,
-                    "currentEquation": null
+                    "ioValue": 5,
+                    "currentEquation": "5"
                 },
                 {
                     "name": "yDist",
-                    "ioValue": 200,
-                    "currentEquation": null
+                    "ioValue": 20,
+                    "currentEquation": "20"
                 },
                 {
                     "name": "zDist",
@@ -162,8 +162,8 @@
         {
             "atomType": "Fusion",
             "name": "Fusion",
-            "x": 0.15634837355718784,
-            "y": 0.22289156626506024,
+            "x": 0.18478260869565216,
+            "y": 0.2560240963855422,
             "uniqueID": "b9c2969f-e898-4bf2-8d18-aa17dc8b4624",
             "ioValues": [
                 {
@@ -181,8 +181,8 @@
         {
             "atomType": "Rectangle",
             "name": "Rectangle",
-            "x": 0.42857142857142855,
-            "y": 0.18072289156626506,
+            "x": 0.40118577075098816,
+            "y": 0.1536144578313253,
             "uniqueID": "ff87dede-758f-4324-8993-0d2b8a3f1226",
             "ioValues": [
                 {
@@ -1086,8 +1086,8 @@
         {
             "atomType": "Rectangle",
             "name": "Rectangle",
-            "x": 0.4071353620146904,
-            "y": 0.8614457831325302,
+            "x": 0.408102766798419,
+            "y": 0.8644578313253012,
             "uniqueID": "bab8a965-1776-47e9-bb8b-6428dbd4d662",
             "ioValues": [
                 {
@@ -1106,8 +1106,8 @@
         {
             "atomType": "Extrude",
             "name": "Extrude",
-            "x": 0.4963273871983211,
-            "y": 0.5903614457831325,
+            "x": 0.49209486166007904,
+            "y": 0.5873493975903614,
             "uniqueID": "a49d04fd-a332-4ca1-a935-e8420dc58731",
             "ioValues": [
                 {
@@ -1126,8 +1126,8 @@
         {
             "atomType": "Extrude",
             "name": "Extrude",
-            "x": 0.47009443861490036,
-            "y": 0.35542168674698793,
+            "x": 0.5217391304347826,
+            "y": 0.2469879518072289,
             "uniqueID": "d0b60086-8cc1-47de-a1d5-b3d7072433a2",
             "ioValues": [
                 {
@@ -1137,8 +1137,8 @@
                 },
                 {
                     "name": "height",
-                    "ioValue": 60,
-                    "currentEquation": "60"
+                    "ioValue": 30,
+                    "currentEquation": "30"
                 }
             ],
             "description": "Extrudes a 2D shape. Input can be negitive. "
@@ -1146,8 +1146,8 @@
         {
             "atomType": "Move",
             "name": "Move",
-            "x": 0.5654405474764757,
-            "y": 0.4307228915662651,
+            "x": 0.5889328063241106,
+            "y": 0.391566265060241,
             "uniqueID": "c07e89b2-5597-4189-99ff-5c42aca3588d",
             "ioValues": [
                 {
