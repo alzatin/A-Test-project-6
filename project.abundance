@@ -1086,8 +1086,8 @@
         {
             "atomType": "Rectangle",
             "name": "Rectangle",
-            "x": 0.3994867408041061,
-            "y": 0.8493975903614458,
+            "x": 0.4071353620146904,
+            "y": 0.8614457831325302,
             "uniqueID": "bab8a965-1776-47e9-bb8b-6428dbd4d662",
             "ioValues": [
                 {
@@ -1097,8 +1097,8 @@
                 },
                 {
                     "name": "y length",
-                    "ioValue": 75,
-                    "currentEquation": "75"
+                    "ioValue": 8,
+                    "currentEquation": "2*4"
                 }
             ],
             "description": "Creates a new rectangle."
