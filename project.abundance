@@ -20,7 +20,13 @@
             "x": 0.9682539682539683,
             "y": 0.5069637883008357,
             "uniqueID": 1746568598187,
-            "ioValues": [],
+            "ioValues": [
+                {
+                    "name": "number or geometry",
+                    "ioValue": "77bd1953-4b16-472d-806a-b7c188153fa5",
+                    "currentEquation": null
+                }
+            ],
             "description": "Connect geometry here to make it available in the next level up. "
         },
         {
@@ -1404,8 +1410,8 @@
         {
             "atomType": "Move",
             "name": "Move",
-            "x": 0.7084837545126355,
-            "y": 0.20481927710843373,
+            "x": 0.6295907660020986,
+            "y": 0.2319277108433735,
             "uniqueID": "ad93079d-e6df-4844-a542-19edf6aa46ed",
             "ioValues": [
                 {
@@ -1484,8 +1490,8 @@
         {
             "atomType": "Equation",
             "name": "x + d",
-            "x": 0.5383001049317944,
-            "y": 0.8373493975903615,
+            "x": 0.5456453305351522,
+            "y": 0.8222891566265061,
             "uniqueID": "ae2d3291-a3b6-454b-be4f-6672f7b33b6b",
             "ioValues": [
                 {
@@ -1523,8 +1529,8 @@
         {
             "atomType": "Move",
             "name": "Move",
-            "x": 0.7620320855614973,
-            "y": 0.5873493975903614,
+            "x": 0.7660020986358866,
+            "y": 0.6114457831325302,
             "uniqueID": "d6292adb-7933-4925-b3f4-4b07797d2843",
             "ioValues": [
                 {
@@ -1551,11 +1557,11 @@
             "description": "Moves a shape laterally in X, Y, Z."
         },
         {
-            "atomType": "ExtractTag",
-            "name": "Extract Tag",
-            "x": 0.8646379853095487,
-            "y": 0.713855421686747,
-            "uniqueID": "c487e0b8-8056-4b64-8bd5-90357a1bbd05",
+            "atomType": "Add-BOM-Tag",
+            "name": "Add BOM Tag",
+            "x": 0.7806925498426023,
+            "y": 0.8373493975903615,
+            "uniqueID": "77bd1953-4b16-472d-806a-b7c188153fa5",
             "ioValues": [
                 {
                     "name": "geometry",
@@ -1563,8 +1569,13 @@
                     "currentEquation": null
                 }
             ],
-            "description": "Extracts geometry containing the specified tag.",
-            "tagIndex": 0
+            "description": "Adds a Bill Of Materials tag which appears in molecules containing this atom and in the GitHub project bill of materials.",
+            "BOMitem": {
+                "BOMitemName": "name",
+                "numberNeeded": 1,
+                "costUSD": 0,
+                "source": "www.example.com"
+            }
         }
     ],
     "allConnectors": [
@@ -1704,7 +1715,13 @@
             "ap1Name": "geometry",
             "ap2Name": "geometry",
             "ap1ID": "d6292adb-7933-4925-b3f4-4b07797d2843",
-            "ap2ID": "c487e0b8-8056-4b64-8bd5-90357a1bbd05"
+            "ap2ID": "77bd1953-4b16-472d-806a-b7c188153fa5"
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "number or geometry",
+            "ap1ID": "77bd1953-4b16-472d-806a-b7c188153fa5",
+            "ap2ID": 1746568598187
         }
     ],
     "unitsKey": "Inches",
