@@ -7,8 +7,8 @@
     "ioValues": [
         {
             "name": "love",
-            "ioValue": 10,
-            "currentEquation": "10"
+            "ioValue": 1,
+            "currentEquation": "1"
         }
     ],
     "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -201,8 +201,8 @@
         {
             "atomType": "CutLayout",
             "name": "Cut Layout",
-            "x": 0.40923399790136405,
-            "y": 0.5150602409638555,
+            "x": 0.5662650602409639,
+            "y": 0.9126506024096386,
             "uniqueID": "38a0fc25-61d5-4003-9b64-3388836bb20e",
             "ioValues": [
                 {
@@ -1117,7 +1117,7 @@
                 },
                 {
                     "name": "height",
-                    "ioValue": 10,
+                    "ioValue": 1,
                     "currentEquation": "50"
                 }
             ],
@@ -1421,7 +1421,7 @@
                 },
                 {
                     "name": "xDist",
-                    "ioValue": 10,
+                    "ioValue": 1,
                     "currentEquation": "99"
                 },
                 {
@@ -1496,7 +1496,7 @@
             "ioValues": [
                 {
                     "name": "x",
-                    "ioValue": 10,
+                    "ioValue": 1,
                     "currentEquation": null
                 },
                 {
@@ -1614,13 +1614,13 @@
         {
             "atomType": "Gcode",
             "name": "Gcode",
-            "x": 0.8163693599160545,
-            "y": 0.8433734939759037,
+            "x": 0.814895947426068,
+            "y": 0.8584337349397589,
             "uniqueID": "1bce6c06-f38b-4739-a635-284641fdc193",
             "ioValues": [
                 {
                     "name": "geometry",
-                    "ioValue": "37394ec5-19e3-4302-ac65-5f4a746a47e6",
+                    "ioValue": "38a0fc25-61d5-4003-9b64-3388836bb20e",
                     "currentEquation": null
                 },
                 {
@@ -1712,6 +1712,12 @@
         {
             "ap1Name": "geometry",
             "ap2Name": "geometry",
+            "ap1ID": "38a0fc25-61d5-4003-9b64-3388836bb20e",
+            "ap2ID": "1bce6c06-f38b-4739-a635-284641fdc193"
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
             "ap1ID": "bab8a965-1776-47e9-bb8b-6428dbd4d662",
             "ap2ID": "a49d04fd-a332-4ca1-a935-e8420dc58731"
         },
@@ -1774,12 +1780,6 @@
             "ap2Name": "geometry",
             "ap1ID": "37394ec5-19e3-4302-ac65-5f4a746a47e6",
             "ap2ID": "faf03719-78f3-4509-8f77-b88d3ec71168"
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "geometry",
-            "ap1ID": "37394ec5-19e3-4302-ac65-5f4a746a47e6",
-            "ap2ID": "1bce6c06-f38b-4739-a635-284641fdc193"
         },
         {
             "ap1Name": "number or geometry",
