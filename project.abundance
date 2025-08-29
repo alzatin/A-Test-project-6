@@ -52,8 +52,8 @@
         {
             "atomType": "Extrude",
             "name": "Extrude",
-            "x": 0.2256033578174187,
-            "y": 0.4879518072289156,
+            "x": 0.23124999999999998,
+            "y": 0.4367469879518072,
             "uniqueID": "c15b0ff9-791f-49f3-a41c-bf36fd6eb5b2",
             "ioValues": [
                 {
@@ -1162,8 +1162,8 @@
                 },
                 {
                     "name": "yDist",
-                    "ioValue": 30,
-                    "currentEquation": "30"
+                    "ioValue": 5,
+                    "currentEquation": "5"
                 },
                 {
                     "name": "zDist",
@@ -1559,8 +1559,8 @@
         {
             "atomType": "Add-BOM-Tag",
             "name": "Add BOM Tag",
-            "x": 0.6778593913955929,
-            "y": 0.7771084337349398,
+            "x": 0.6625,
+            "y": 0.8162650602409638,
             "uniqueID": "35624c00-c6e7-4705-8bf7-ac894682e35d",
             "ioValues": [
                 {
