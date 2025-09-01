@@ -1427,7 +1427,7 @@
                 {
                     "name": "yDist",
                     "ioValue": 20,
-                    "currentEquation": "20"
+                    "currentEquation": null
                 },
                 {
                     "name": "zDist",
@@ -1630,8 +1630,8 @@
                 },
                 {
                     "name": "Passes",
-                    "ioValue": 3,
-                    "currentEquation": null
+                    "ioValue": 2,
+                    "currentEquation": "2"
                 },
                 {
                     "name": "Speed",
