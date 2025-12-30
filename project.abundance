@@ -8,6 +8,10 @@
     {
       "name": "3dgeom",
       "ioValue": 10
+    },
+    {
+      "name": "diam",
+      "ioValue": 10
     }
   ],
   "topLevel": true,
@@ -20,8 +24,8 @@
     },
     {
       "atomType": "Extrude",
-      "x": 0.3187633262260128,
-      "y": 0.4290030211480363,
+      "x": 0.2554257095158598,
+      "y": 0.37462235649546827,
       "uniqueID": "d0b60086-8cc1-47de-a1d5-b3d7072433a2",
       "ioValues": [
         {
@@ -65,17 +69,61 @@
     {
       "atomType": "Input",
       "x": 0.0264,
-      "y": 0.6012084592145015,
+      "y": 0.16,
       "uniqueID": "id-440",
       "name": "3dgeom"
+    },
+    {
+      "atomType": "Code",
+      "x": 0.3639398998330551,
+      "y": 0.6706948640483383,
+      "uniqueID": "id-456",
+      "ioValues": [
+        {
+          "name": "radius",
+          "ioValue": 5
+        },
+        {
+          "name": "height",
+          "ioValue": 10
+        }
+      ],
+      "codeVersion": 1,
+      "code": "\n// Example Code\nconst Inputs = [\n  { inputName: \"shape\", type: \"geometry\", defaultValue: null },\n  { inputName: \"radius\", type: \"number\", defaultValue: 5 },\n  { inputName: \"height\", type: \"number\", defaultValue: 10 }\n];\n\nlet importedShape = library[shape];\nlet newPlane = replicad.makePlane()\nlet circDraw = replicad.drawCircle(radius)\nlet sketchCir = circDraw.sketchOnPlane(newPlane)\nlet cyl = sketchCir.extrude(height)\nlet cylObj = {\n  geometry: [cyl],\n  dimension: \"3D\",\n  tags: [\"createdCylinder\"],\n  color: \"#A3CE5B\",\n  plane: null,\n  bom: []\n};\n\nlet assembly = await Assembly([importedShape, cylObj]);\nreturn assembly;\n"
+    },
+    {
+      "atomType": "Circle",
+      "x": 0.16110183639398998,
+      "y": 0.622356495468278,
+      "uniqueID": "id-461",
+      "ioValues": [
+        {
+          "name": "diameter",
+          "ioValue": 10
+        }
+      ]
+    },
+    {
+      "atomType": "Extrude",
+      "x": 0.2612687813021703,
+      "y": 0.8036253776435046,
+      "uniqueID": "id-464",
+      "ioValues": [
+        {
+          "name": "height",
+          "ioValue": 10
+        }
+      ]
+    },
+    {
+      "atomType": "Input",
+      "x": 0.0264,
+      "y": 0.45317220543806647,
+      "uniqueID": "id-469",
+      "name": "diam"
     }
   ],
   "allConnectors": [
-    {
-      "ap2Name": "geometry",
-      "ap1ID": "d0b60086-8cc1-47de-a1d5-b3d7072433a2",
-      "ap2ID": "c07e89b2-5597-4189-99ff-5c42aca3588d"
-    },
     {
       "ap2Name": "Shape 1",
       "ap1ID": "c07e89b2-5597-4189-99ff-5c42aca3588d",
@@ -90,6 +138,26 @@
       "ap2Name": "geometry",
       "ap1ID": "id-440",
       "ap2ID": "d0b60086-8cc1-47de-a1d5-b3d7072433a2"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-456",
+      "ap2ID": "c07e89b2-5597-4189-99ff-5c42aca3588d"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-461",
+      "ap2ID": "id-464"
+    },
+    {
+      "ap2Name": "shape",
+      "ap1ID": "id-464",
+      "ap2ID": "id-456"
+    },
+    {
+      "ap2Name": "diameter",
+      "ap1ID": "id-469",
+      "ap2ID": "id-461"
     }
   ],
   "unitsKey": "MM",
