@@ -11,7 +11,7 @@
     },
     {
       "name": "diam",
-      "ioValue": 10
+      "ioValue": 6
     }
   ],
   "topLevel": true,
@@ -36,8 +36,8 @@
     },
     {
       "atomType": "Move",
-      "x": 0.4978678038379531,
-      "y": 0.48942598187311176,
+      "x": 0.6327212020033389,
+      "y": 0.486404833836858,
       "uniqueID": "c07e89b2-5597-4189-99ff-5c42aca3588d",
       "ioValues": [
         {
@@ -56,8 +56,8 @@
     },
     {
       "atomType": "Assembly",
-      "x": 0.6748400852878464,
-      "y": 0.5800604229607251,
+      "x": 0.7979966611018364,
+      "y": 0.6072507552870091,
       "uniqueID": "37394ec5-19e3-4302-ac65-5f4a746a47e6",
       "ioValues": [
         {
@@ -75,8 +75,8 @@
     },
     {
       "atomType": "Code",
-      "x": 0.3639398998330551,
-      "y": 0.6706948640483383,
+      "x": 0.4106844741235392,
+      "y": 0.5589123867069486,
       "uniqueID": "id-456",
       "ioValues": [
         {
@@ -89,7 +89,7 @@
         }
       ],
       "codeVersion": 1,
-      "code": "\n// Example Code\nconst Inputs = [\n  { inputName: \"shape\", type: \"geometry\", defaultValue: null },\n  { inputName: \"radius\", type: \"number\", defaultValue: 5 },\n  { inputName: \"height\", type: \"number\", defaultValue: 10 }\n];\n\nlet importedShape = library[shape];\nlet newPlane = replicad.makePlane()\nlet circDraw = replicad.drawCircle(radius)\nlet sketchCir = circDraw.sketchOnPlane(newPlane)\nlet cyl = sketchCir.extrude(height)\nlet cylObj = {\n  geometry: [cyl],\n  dimension: \"3D\",\n  tags: [\"createdCylinder\"],\n  color: \"#A3CE5B\",\n  plane: null,\n  bom: []\n};\n\nlet assembly = await Assembly([importedShape, cylObj]);\nreturn assembly;\n"
+      "code": "\n// Example Code\nconst Inputs = [\n  { inputName: \"shape\", type: \"geometry\", defaultValue: null },\n  { inputName: \"radius\", type: \"number\", defaultValue: 5 },\n  { inputName: \"height\", type: \"number\", defaultValue: 10 }\n];\n\nlet importedShape = library[shape];\nlet newPlane = replicad.makePlane()\nlet circDraw = replicad.drawCircle(radius)\nlet sketchCir = circDraw.sketchOnPlane(newPlane)\nlet cyl = sketchCir.extrude(height)\nlet cylObj = {\n  geometry: [importedShape],\n  dimension: \"3D\",\n  tags: [\"createdCylinder\"],\n  color: \"#A3CE5B\",\n  plane: null,\n  bom: []\n};\n\nlet assembly = await Assembly([importedShape, cylObj]);\nreturn assembly;\n"
     },
     {
       "atomType": "Circle",
@@ -99,7 +99,7 @@
       "ioValues": [
         {
           "name": "diameter",
-          "ioValue": 10
+          "ioValue": 6
         }
       ]
     },
@@ -118,7 +118,7 @@
     {
       "atomType": "Input",
       "x": 0.0264,
-      "y": 0.45317220543806647,
+      "y": 0.256,
       "uniqueID": "id-469",
       "name": "diam"
     }
