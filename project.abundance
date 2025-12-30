@@ -6,10 +6,6 @@
   "name": "A-Test-project-6",
   "ioValues": [
     {
-      "name": "3dgeom",
-      "ioValue": 10
-    },
-    {
       "name": "diam",
       "ioValue": 6
     }
@@ -21,18 +17,6 @@
       "x": 0.9682539682539683,
       "y": 0.5069637883008357,
       "uniqueID": 1746568598187
-    },
-    {
-      "atomType": "Extrude",
-      "x": 0.2554257095158598,
-      "y": 0.37462235649546827,
-      "uniqueID": "d0b60086-8cc1-47de-a1d5-b3d7072433a2",
-      "ioValues": [
-        {
-          "name": "height",
-          "ioValue": 14
-        }
-      ]
     },
     {
       "atomType": "Move",
@@ -67,16 +51,9 @@
       ]
     },
     {
-      "atomType": "Input",
-      "x": 0.0264,
-      "y": 0.16,
-      "uniqueID": "id-440",
-      "name": "3dgeom"
-    },
-    {
       "atomType": "Code",
-      "x": 0.4106844741235392,
-      "y": 0.5589123867069486,
+      "x": 0.49749582637729545,
+      "y": 0.4169184290030212,
       "uniqueID": "id-456",
       "ioValues": [
         {
@@ -93,8 +70,8 @@
     },
     {
       "atomType": "Circle",
-      "x": 0.16110183639398998,
-      "y": 0.622356495468278,
+      "x": 0.17195325542570952,
+      "y": 0.45921450151057397,
       "uniqueID": "id-461",
       "ioValues": [
         {
@@ -105,8 +82,8 @@
     },
     {
       "atomType": "Extrude",
-      "x": 0.2612687813021703,
-      "y": 0.8036253776435046,
+      "x": 0.31886477462437396,
+      "y": 0.4471299093655589,
       "uniqueID": "id-464",
       "ioValues": [
         {
@@ -133,11 +110,6 @@
       "ap2Name": "number or geometry",
       "ap1ID": "37394ec5-19e3-4302-ac65-5f4a746a47e6",
       "ap2ID": 1746568598187
-    },
-    {
-      "ap2Name": "geometry",
-      "ap1ID": "id-440",
-      "ap2ID": "d0b60086-8cc1-47de-a1d5-b3d7072433a2"
     },
     {
       "ap2Name": "geometry",
