@@ -7,7 +7,8 @@
   "ioValues": [
     {
       "name": "diam",
-      "ioValue": 6
+      "ioValue": 1,
+      "currentEquation": "1"
     }
   ],
   "topLevel": true,
@@ -76,7 +77,7 @@
       "ioValues": [
         {
           "name": "diameter",
-          "ioValue": 6
+          "ioValue": 1
         }
       ]
     },
@@ -95,9 +96,263 @@
     {
       "atomType": "Input",
       "x": 0.0264,
-      "y": 0.256,
+      "y": 0.16,
       "uniqueID": "id-469",
       "name": "diam"
+    },
+    {
+      "atomType": "GitHubMolecule",
+      "x": 0.4339471577261809,
+      "y": 0.7522658610271903,
+      "uniqueID": "id-499",
+      "name": "Ongoing-dev-1",
+      "ioValues": [
+        {
+          "name": "Pivotno",
+          "ioValue": 8
+        }
+      ],
+      "topLevel": false,
+      "allAtoms": [
+        {
+          "atomType": "Output",
+          "x": 0.98,
+          "y": 0.5,
+          "uniqueID": "id-493"
+        },
+        {
+          "atomType": "Input",
+          "x": 0.0264,
+          "y": 0.16,
+          "uniqueID": "id-494",
+          "name": "Pivotno",
+          "type": "number"
+        },
+        {
+          "atomType": "Rectangle",
+          "x": 0.21179883945841393,
+          "y": 0.28398791540785495,
+          "uniqueID": "id-495",
+          "ioValues": [
+            {
+              "name": "x length",
+              "ioValue": 10
+            },
+            {
+              "name": "y length",
+              "ioValue": 10
+            }
+          ]
+        },
+        {
+          "atomType": "Extrude",
+          "x": 0.3742746615087041,
+          "y": 0.19637462235649547,
+          "uniqueID": "id-496",
+          "ioValues": [
+            {
+              "name": "height",
+              "ioValue": 10
+            }
+          ]
+        },
+        {
+          "atomType": "Extrude",
+          "x": 0.5084067253803043,
+          "y": 0.5226586102719033,
+          "uniqueID": "id-497",
+          "ioValues": [
+            {
+              "name": "height",
+              "ioValue": 8
+            }
+          ]
+        },
+        {
+          "atomType": "Input",
+          "x": 0.0264,
+          "y": 0.256,
+          "uniqueID": "id-498",
+          "name": "geom",
+          "type": "geometry"
+        }
+      ],
+      "allConnectors": [
+        {
+          "ap2Name": "height",
+          "ap1ID": "id-494",
+          "ap2ID": "id-497"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-495",
+          "ap2ID": "id-496"
+        },
+        {
+          "ap2Name": "number or geometry",
+          "ap1ID": "id-497",
+          "ap2ID": "id-493"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-498",
+          "ap2ID": "id-497"
+        }
+      ],
+      "parentRepo": {
+        "lastFoundGit": "2025-12-31T10:23:39.329Z",
+        "privateRepo": false,
+        "repoName": "Ongoing-dev-1",
+        "dateCreated": "2025-03-29T16:18:58Z",
+        "readMe": "https://raw.githubusercontent.com/alzatin/Ongoing-dev-1/master/README.md?sanitize=true",
+        "yyyy": 2025,
+        "topMoleculeID": 1743265138516,
+        "githubMoleculesUsed": [],
+        "html_url": "https://github.com/alzatin/Ongoing-dev-1",
+        "topics": [
+          "examples",
+          "Tag_example"
+        ],
+        "parentRepo": "alzatin/test_dev_2",
+        "forks": 0,
+        "dateModified": "739616",
+        "ranking": 0,
+        "searchField": "ongoing-dev-1 alzatin  examples tag_example",
+        "owner": "alzatin",
+        "description": "",
+        "contentURL": "https://raw.githubusercontent.com/alzatin/Ongoing-dev-1/master/project.abundance?sanitize=true",
+        "svgURL": "https://raw.githubusercontent.com/alzatin/Ongoing-dev-1/master/project.svg?sanitize=true",
+        "isLocal": false
+      },
+      "unitsKey": "MM",
+      "fileTypeVersion": 1
+    },
+    {
+      "atomType": "GitHubMolecule",
+      "x": 0.5516413130504404,
+      "y": 0.6646525679758308,
+      "uniqueID": "id-517",
+      "name": "Ongoing-dev-1",
+      "ioValues": [
+        {
+          "name": "Pivotno",
+          "ioValue": 8
+        }
+      ],
+      "topLevel": false,
+      "allAtoms": [
+        {
+          "atomType": "Output",
+          "x": 0.98,
+          "y": 0.5,
+          "uniqueID": "id-518"
+        },
+        {
+          "atomType": "Input",
+          "x": 0.0264,
+          "y": 0.16,
+          "uniqueID": "id-519",
+          "name": "Pivotno",
+          "type": "number"
+        },
+        {
+          "atomType": "Rectangle",
+          "x": 0.21179883945841393,
+          "y": 0.28398791540785495,
+          "uniqueID": "id-520",
+          "ioValues": [
+            {
+              "name": "x length",
+              "ioValue": 10
+            },
+            {
+              "name": "y length",
+              "ioValue": 10
+            }
+          ]
+        },
+        {
+          "atomType": "Extrude",
+          "x": 0.3742746615087041,
+          "y": 0.19637462235649547,
+          "uniqueID": "id-521",
+          "ioValues": [
+            {
+              "name": "height",
+              "ioValue": 10
+            }
+          ]
+        },
+        {
+          "atomType": "Extrude",
+          "x": 0.5084067253803043,
+          "y": 0.5226586102719033,
+          "uniqueID": "id-522",
+          "ioValues": [
+            {
+              "name": "height",
+              "ioValue": 8
+            }
+          ]
+        },
+        {
+          "atomType": "Input",
+          "x": 0.0264,
+          "y": 0.256,
+          "uniqueID": "id-523",
+          "name": "geom",
+          "type": "geometry"
+        }
+      ],
+      "allConnectors": [
+        {
+          "ap2Name": "height",
+          "ap1ID": "id-519",
+          "ap2ID": "id-522"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-520",
+          "ap2ID": "id-521"
+        },
+        {
+          "ap2Name": "number or geometry",
+          "ap1ID": "id-522",
+          "ap2ID": "id-518"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-523",
+          "ap2ID": "id-522"
+        }
+      ],
+      "parentRepo": {
+        "lastFoundGit": "2025-12-31T10:23:39.329Z",
+        "privateRepo": false,
+        "repoName": "Ongoing-dev-1",
+        "dateCreated": "2025-03-29T16:18:58Z",
+        "readMe": "https://raw.githubusercontent.com/alzatin/Ongoing-dev-1/master/README.md?sanitize=true",
+        "yyyy": 2025,
+        "topMoleculeID": 1743265138516,
+        "githubMoleculesUsed": [],
+        "html_url": "https://github.com/alzatin/Ongoing-dev-1",
+        "topics": [
+          "examples",
+          "Tag_example"
+        ],
+        "parentRepo": "alzatin/test_dev_2",
+        "forks": 0,
+        "dateModified": "739616",
+        "ranking": 0,
+        "searchField": "ongoing-dev-1 alzatin  examples tag_example",
+        "owner": "alzatin",
+        "description": "",
+        "contentURL": "https://raw.githubusercontent.com/alzatin/Ongoing-dev-1/master/project.abundance?sanitize=true",
+        "svgURL": "https://raw.githubusercontent.com/alzatin/Ongoing-dev-1/master/project.svg?sanitize=true",
+        "isLocal": false
+      },
+      "unitsKey": "MM",
+      "fileTypeVersion": 1
     }
   ],
   "allConnectors": [
@@ -120,6 +375,16 @@
       "ap2Name": "geometry",
       "ap1ID": "id-461",
       "ap2ID": "id-464"
+    },
+    {
+      "ap2Name": "geom",
+      "ap1ID": "id-461",
+      "ap2ID": "id-499"
+    },
+    {
+      "ap2Name": "geom",
+      "ap1ID": "id-461",
+      "ap2ID": "id-517"
     },
     {
       "ap2Name": "shape",
