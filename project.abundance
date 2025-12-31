@@ -16,36 +16,7 @@
       "atomType": "Output",
       "x": 0.9682539682539683,
       "y": 0.5069637883008357,
-      "uniqueID": 1746568598187,
-      "ioValues": [
-        {
-          "name": "number or geometry",
-          "ioValue": {
-            "geometry": "circle-0.5",
-            "dimension": "2D",
-            "tags": [],
-            "plane": {
-              "origin": [
-                0,
-                0,
-                0
-              ],
-              "xDir": [
-                1,
-                0,
-                0
-              ],
-              "normal": [
-                0,
-                0,
-                1
-              ]
-            },
-            "color": "#aad7f2",
-            "bom": []
-          }
-        }
-      ]
+      "uniqueID": 1746568598187
     },
     {
       "atomType": "Circle",
@@ -76,33 +47,6 @@
         {
           "name": "Pivotno",
           "ioValue": 5
-        },
-        {
-          "name": "geom",
-          "ioValue": {
-            "geometry": "circle-0.5",
-            "dimension": "2D",
-            "tags": [],
-            "plane": {
-              "origin": [
-                0,
-                0,
-                0
-              ],
-              "xDir": [
-                1,
-                0,
-                0
-              ],
-              "normal": [
-                0,
-                0,
-                1
-              ]
-            },
-            "color": "#aad7f2",
-            "bom": []
-          }
         }
       ],
       "topLevel": false,
@@ -111,36 +55,7 @@
           "atomType": "Output",
           "x": 0.98,
           "y": 0.5,
-          "uniqueID": "id-493",
-          "ioValues": [
-            {
-              "name": "number or geometry",
-              "ioValue": {
-                "geometry": "extrude-circle-0.5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-5",
-                "dimension": "3D",
-                "tags": [],
-                "plane": {
-                  "origin": [
-                    0,
-                    0,
-                    0
-                  ],
-                  "xDir": [
-                    1,
-                    0,
-                    0
-                  ],
-                  "normal": [
-                    0,
-                    0,
-                    1
-                  ]
-                },
-                "color": "#aad7f2",
-                "bom": []
-              }
-            }
-          ]
+          "uniqueID": "id-493"
         },
         {
           "atomType": "Input",
@@ -173,10 +88,6 @@
           "uniqueID": "id-496",
           "ioValues": [
             {
-              "name": "geometry",
-              "ioValue": null
-            },
-            {
               "name": "height",
               "ioValue": 10
             }
@@ -188,33 +99,6 @@
           "y": 0.5226586102719033,
           "uniqueID": "id-497",
           "ioValues": [
-            {
-              "name": "geometry",
-              "ioValue": {
-                "geometry": "circle-0.5",
-                "dimension": "2D",
-                "tags": [],
-                "plane": {
-                  "origin": [
-                    0,
-                    0,
-                    0
-                  ],
-                  "xDir": [
-                    1,
-                    0,
-                    0
-                  ],
-                  "normal": [
-                    0,
-                    0,
-                    1
-                  ]
-                },
-                "color": "#aad7f2",
-                "bom": []
-              }
-            },
             {
               "name": "height",
               "ioValue": 5
@@ -290,33 +174,6 @@
         {
           "name": "Pivotno",
           "ioValue": 8
-        },
-        {
-          "name": "geom",
-          "ioValue": {
-            "geometry": "circle-0.5",
-            "dimension": "2D",
-            "tags": [],
-            "plane": {
-              "origin": [
-                0,
-                0,
-                0
-              ],
-              "xDir": [
-                1,
-                0,
-                0
-              ],
-              "normal": [
-                0,
-                0,
-                1
-              ]
-            },
-            "color": "#aad7f2",
-            "bom": []
-          }
         }
       ],
       "topLevel": false,
@@ -325,36 +182,7 @@
           "atomType": "Output",
           "x": 0.98,
           "y": 0.5,
-          "uniqueID": "id-573",
-          "ioValues": [
-            {
-              "name": "number or geometry",
-              "ioValue": {
-                "geometry": "extrude-circle-0.5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-8",
-                "dimension": "3D",
-                "tags": [],
-                "plane": {
-                  "origin": [
-                    0,
-                    0,
-                    0
-                  ],
-                  "xDir": [
-                    1,
-                    0,
-                    0
-                  ],
-                  "normal": [
-                    0,
-                    0,
-                    1
-                  ]
-                },
-                "color": "#aad7f2",
-                "bom": []
-              }
-            }
-          ]
+          "uniqueID": "id-573"
         },
         {
           "atomType": "Input",
@@ -387,33 +215,6 @@
           "uniqueID": "id-576",
           "ioValues": [
             {
-              "name": "geometry",
-              "ioValue": {
-                "geometry": "rectangle-10-10",
-                "dimension": "2D",
-                "plane": {
-                  "origin": [
-                    0,
-                    0,
-                    0
-                  ],
-                  "xDir": [
-                    1,
-                    0,
-                    0
-                  ],
-                  "normal": [
-                    0,
-                    0,
-                    1
-                  ]
-                },
-                "color": "#aad7f2",
-                "tags": [],
-                "bom": []
-              }
-            },
-            {
               "name": "height",
               "ioValue": 10
             }
@@ -425,33 +226,6 @@
           "y": 0.5226586102719033,
           "uniqueID": "id-577",
           "ioValues": [
-            {
-              "name": "geometry",
-              "ioValue": {
-                "geometry": "circle-0.5",
-                "dimension": "2D",
-                "tags": [],
-                "plane": {
-                  "origin": [
-                    0,
-                    0,
-                    0
-                  ],
-                  "xDir": [
-                    1,
-                    0,
-                    0
-                  ],
-                  "normal": [
-                    0,
-                    0,
-                    1
-                  ]
-                },
-                "color": "#aad7f2",
-                "bom": []
-              }
-            },
             {
               "name": "height",
               "ioValue": 8
@@ -527,33 +301,6 @@
         {
           "name": "Pivotno",
           "ioValue": 5
-        },
-        {
-          "name": "geom",
-          "ioValue": {
-            "geometry": "circle-0.5",
-            "dimension": "2D",
-            "tags": [],
-            "plane": {
-              "origin": [
-                0,
-                0,
-                0
-              ],
-              "xDir": [
-                1,
-                0,
-                0
-              ],
-              "normal": [
-                0,
-                0,
-                1
-              ]
-            },
-            "color": "#aad7f2",
-            "bom": []
-          }
         }
       ],
       "topLevel": false,
@@ -562,36 +309,7 @@
           "atomType": "Output",
           "x": 0.98,
           "y": 0.5,
-          "uniqueID": "id-597",
-          "ioValues": [
-            {
-              "name": "number or geometry",
-              "ioValue": {
-                "geometry": "extrude-circle-0.5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-5",
-                "dimension": "3D",
-                "tags": [],
-                "plane": {
-                  "origin": [
-                    0,
-                    0,
-                    0
-                  ],
-                  "xDir": [
-                    1,
-                    0,
-                    0
-                  ],
-                  "normal": [
-                    0,
-                    0,
-                    1
-                  ]
-                },
-                "color": "#aad7f2",
-                "bom": []
-              }
-            }
-          ]
+          "uniqueID": "id-597"
         },
         {
           "atomType": "Input",
@@ -624,33 +342,6 @@
           "uniqueID": "id-600",
           "ioValues": [
             {
-              "name": "geometry",
-              "ioValue": {
-                "geometry": "rectangle-10-10",
-                "dimension": "2D",
-                "plane": {
-                  "origin": [
-                    0,
-                    0,
-                    0
-                  ],
-                  "xDir": [
-                    1,
-                    0,
-                    0
-                  ],
-                  "normal": [
-                    0,
-                    0,
-                    1
-                  ]
-                },
-                "color": "#aad7f2",
-                "tags": [],
-                "bom": []
-              }
-            },
-            {
               "name": "height",
               "ioValue": 10
             }
@@ -662,33 +353,6 @@
           "y": 0.5226586102719033,
           "uniqueID": "id-601",
           "ioValues": [
-            {
-              "name": "geometry",
-              "ioValue": {
-                "geometry": "circle-0.5",
-                "dimension": "2D",
-                "tags": [],
-                "plane": {
-                  "origin": [
-                    0,
-                    0,
-                    0
-                  ],
-                  "xDir": [
-                    1,
-                    0,
-                    0
-                  ],
-                  "normal": [
-                    0,
-                    0,
-                    1
-                  ]
-                },
-                "color": "#aad7f2",
-                "bom": []
-              }
-            },
             {
               "name": "height",
               "ioValue": 5
