@@ -26,8 +26,8 @@
     },
     {
       "atomType": "Circle",
-      "x": 0.31933333333333336,
-      "y": 0.39274924471299094,
+      "x": 0.32666666666666666,
+      "y": 0.4199395770392749,
       "uniqueID": "id-461",
       "ioValues": [
         {
@@ -791,6 +791,22 @@
           "ioValue": 1
         }
       ]
+    },
+    {
+      "atomType": "Extrude",
+      "x": 0.402,
+      "y": 0.6012084592145015,
+      "uniqueID": "id-1068",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "height",
+          "ioValue": 10
+        }
+      ]
     }
   ],
   "allConnectors": [
@@ -808,6 +824,11 @@
       "ap2Name": "geom",
       "ap1ID": "id-461",
       "ap2ID": "id-898"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-461",
+      "ap2ID": "id-1068"
     },
     {
       "ap2Name": "diameter",
