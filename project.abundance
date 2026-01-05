@@ -49,8 +49,8 @@
     },
     {
       "atomType": "Circle",
-      "x": 0.3363390441839495,
-      "y": 0.4471299093655589,
+      "x": 0.31920649233543735,
+      "y": 0.19637462235649547,
       "uniqueID": "id-461",
       "ioValues": [
         {
@@ -282,7 +282,7 @@
     },
     {
       "atomType": "GitHubMolecule",
-      "x": 0.6393146979260595,
+      "x": 0.6348061316501353,
       "y": 0.38972809667673713,
       "uniqueID": "id-661",
       "name": "Ongoing-dev-1",
@@ -493,18 +493,6 @@
       },
       "unitsKey": "MM",
       "fileTypeVersion": 1
-    },
-    {
-      "atomType": "Circle",
-      "x": 0.34625788999098284,
-      "y": 0.6646525679758308,
-      "uniqueID": "id-709",
-      "ioValues": [
-        {
-          "name": "diameter",
-          "ioValue": 1
-        }
-      ]
     }
   ],
   "allConnectors": [
