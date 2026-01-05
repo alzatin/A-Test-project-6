@@ -20,37 +20,14 @@
       "ioValues": [
         {
           "name": "number or geometry",
-          "ioValue": {
-            "geometry": "circle-0.5",
-            "dimension": "2D",
-            "tags": [],
-            "plane": {
-              "origin": [
-                0,
-                0,
-                0
-              ],
-              "xDir": [
-                1,
-                0,
-                0
-              ],
-              "normal": [
-                0,
-                0,
-                1
-              ]
-            },
-            "color": "#aad7f2",
-            "bom": []
-          }
+          "ioValue": "__GEOMETRY_INPUT__"
         }
       ]
     },
     {
       "atomType": "Circle",
-      "x": 0.31920649233543735,
-      "y": 0.19637462235649547,
+      "x": 0.30933333333333335,
+      "y": 0.39274924471299094,
       "uniqueID": "id-461",
       "ioValues": [
         {
@@ -68,9 +45,9 @@
     },
     {
       "atomType": "GitHubMolecule",
-      "x": 0.6014427412082958,
-      "y": 0.1540785498489426,
-      "uniqueID": "id-499",
+      "x": 0.5366666666666666,
+      "y": 0.7673716012084593,
+      "uniqueID": "id-874",
       "name": "Ongoing-dev-1",
       "ioValues": [
         {
@@ -79,30 +56,7 @@
         },
         {
           "name": "geom",
-          "ioValue": {
-            "geometry": "circle-0.5",
-            "dimension": "2D",
-            "tags": [],
-            "plane": {
-              "origin": [
-                0,
-                0,
-                0
-              ],
-              "xDir": [
-                1,
-                0,
-                0
-              ],
-              "normal": [
-                0,
-                0,
-                1
-              ]
-            },
-            "color": "#aad7f2",
-            "bom": []
-          }
+          "ioValue": "__GEOMETRY_INPUT__"
         }
       ],
       "topLevel": false,
@@ -111,34 +65,11 @@
           "atomType": "Output",
           "x": 0.98,
           "y": 0.5,
-          "uniqueID": "id-493",
+          "uniqueID": "id-875",
           "ioValues": [
             {
               "name": "number or geometry",
-              "ioValue": {
-                "geometry": "extrude-circle-0.5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-5",
-                "dimension": "3D",
-                "tags": [],
-                "plane": {
-                  "origin": [
-                    0,
-                    0,
-                    0
-                  ],
-                  "xDir": [
-                    1,
-                    0,
-                    0
-                  ],
-                  "normal": [
-                    0,
-                    0,
-                    1
-                  ]
-                },
-                "color": "#aad7f2",
-                "bom": []
-              }
+              "ioValue": "__GEOMETRY_INPUT__"
             }
           ]
         },
@@ -146,7 +77,7 @@
           "atomType": "Input",
           "x": 0.0264,
           "y": 0.16,
-          "uniqueID": "id-494",
+          "uniqueID": "id-876",
           "name": "Pivotno",
           "type": "number"
         },
@@ -154,7 +85,7 @@
           "atomType": "Rectangle",
           "x": 0.21179883945841393,
           "y": 0.28398791540785495,
-          "uniqueID": "id-495",
+          "uniqueID": "id-877",
           "ioValues": [
             {
               "name": "x length",
@@ -170,11 +101,11 @@
           "atomType": "Extrude",
           "x": 0.3742746615087041,
           "y": 0.19637462235649547,
-          "uniqueID": "id-496",
+          "uniqueID": "id-878",
           "ioValues": [
             {
               "name": "geometry",
-              "ioValue": null
+              "ioValue": "__GEOMETRY_INPUT__"
             },
             {
               "name": "height",
@@ -186,34 +117,11 @@
           "atomType": "Extrude",
           "x": 0.5084067253803043,
           "y": 0.5226586102719033,
-          "uniqueID": "id-497",
+          "uniqueID": "id-879",
           "ioValues": [
             {
               "name": "geometry",
-              "ioValue": {
-                "geometry": "circle-0.5",
-                "dimension": "2D",
-                "tags": [],
-                "plane": {
-                  "origin": [
-                    0,
-                    0,
-                    0
-                  ],
-                  "xDir": [
-                    1,
-                    0,
-                    0
-                  ],
-                  "normal": [
-                    0,
-                    0,
-                    1
-                  ]
-                },
-                "color": "#aad7f2",
-                "bom": []
-              }
+              "ioValue": "__GEOMETRY_INPUT__"
             },
             {
               "name": "height",
@@ -225,7 +133,7 @@
           "atomType": "Input",
           "x": 0.0264,
           "y": 0.256,
-          "uniqueID": "id-498",
+          "uniqueID": "id-880",
           "name": "geom",
           "type": "geometry"
         }
@@ -233,23 +141,23 @@
       "allConnectors": [
         {
           "ap2Name": "height",
-          "ap1ID": "id-494",
-          "ap2ID": "id-497"
+          "ap1ID": "id-876",
+          "ap2ID": "id-879"
         },
         {
           "ap2Name": "geometry",
-          "ap1ID": "id-495",
-          "ap2ID": "id-496"
+          "ap1ID": "id-877",
+          "ap2ID": "id-878"
         },
         {
           "ap2Name": "number or geometry",
-          "ap1ID": "id-497",
-          "ap2ID": "id-493"
+          "ap1ID": "id-879",
+          "ap2ID": "id-875"
         },
         {
           "ap2Name": "geometry",
-          "ap1ID": "id-498",
-          "ap2ID": "id-497"
+          "ap1ID": "id-880",
+          "ap2ID": "id-879"
         }
       ],
       "parentRepo": {
@@ -282,9 +190,9 @@
     },
     {
       "atomType": "GitHubMolecule",
-      "x": 0.6375112714156898,
-      "y": 0.40483383685800606,
-      "uniqueID": "id-661",
+      "x": 0.584,
+      "y": 0.23867069486404832,
+      "uniqueID": "id-898",
       "name": "Ongoing-dev-1",
       "ioValues": [
         {
@@ -293,30 +201,7 @@
         },
         {
           "name": "geom",
-          "ioValue": {
-            "geometry": "circle-0.5",
-            "dimension": "2D",
-            "tags": [],
-            "plane": {
-              "origin": [
-                0,
-                0,
-                0
-              ],
-              "xDir": [
-                1,
-                0,
-                0
-              ],
-              "normal": [
-                0,
-                0,
-                1
-              ]
-            },
-            "color": "#aad7f2",
-            "bom": []
-          }
+          "ioValue": "__GEOMETRY_INPUT__"
         }
       ],
       "topLevel": false,
@@ -325,34 +210,11 @@
           "atomType": "Output",
           "x": 0.98,
           "y": 0.5,
-          "uniqueID": "id-662",
+          "uniqueID": "id-899",
           "ioValues": [
             {
               "name": "number or geometry",
-              "ioValue": {
-                "geometry": "extrude-circle-0.5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-5",
-                "dimension": "3D",
-                "tags": [],
-                "plane": {
-                  "origin": [
-                    0,
-                    0,
-                    0
-                  ],
-                  "xDir": [
-                    1,
-                    0,
-                    0
-                  ],
-                  "normal": [
-                    0,
-                    0,
-                    1
-                  ]
-                },
-                "color": "#aad7f2",
-                "bom": []
-              }
+              "ioValue": "__GEOMETRY_INPUT__"
             }
           ]
         },
@@ -360,7 +222,7 @@
           "atomType": "Input",
           "x": 0.0264,
           "y": 0.16,
-          "uniqueID": "id-663",
+          "uniqueID": "id-900",
           "name": "Pivotno",
           "type": "number"
         },
@@ -368,7 +230,7 @@
           "atomType": "Rectangle",
           "x": 0.21179883945841393,
           "y": 0.28398791540785495,
-          "uniqueID": "id-664",
+          "uniqueID": "id-901",
           "ioValues": [
             {
               "name": "x length",
@@ -384,11 +246,11 @@
           "atomType": "Extrude",
           "x": 0.3742746615087041,
           "y": 0.19637462235649547,
-          "uniqueID": "id-665",
+          "uniqueID": "id-902",
           "ioValues": [
             {
               "name": "geometry",
-              "ioValue": null
+              "ioValue": "__GEOMETRY_INPUT__"
             },
             {
               "name": "height",
@@ -400,34 +262,11 @@
           "atomType": "Extrude",
           "x": 0.5084067253803043,
           "y": 0.5226586102719033,
-          "uniqueID": "id-666",
+          "uniqueID": "id-903",
           "ioValues": [
             {
               "name": "geometry",
-              "ioValue": {
-                "geometry": "circle-0.5",
-                "dimension": "2D",
-                "tags": [],
-                "plane": {
-                  "origin": [
-                    0,
-                    0,
-                    0
-                  ],
-                  "xDir": [
-                    1,
-                    0,
-                    0
-                  ],
-                  "normal": [
-                    0,
-                    0,
-                    1
-                  ]
-                },
-                "color": "#aad7f2",
-                "bom": []
-              }
+              "ioValue": "__GEOMETRY_INPUT__"
             },
             {
               "name": "height",
@@ -439,7 +278,7 @@
           "atomType": "Input",
           "x": 0.0264,
           "y": 0.256,
-          "uniqueID": "id-667",
+          "uniqueID": "id-904",
           "name": "geom",
           "type": "geometry"
         }
@@ -447,23 +286,23 @@
       "allConnectors": [
         {
           "ap2Name": "height",
-          "ap1ID": "id-663",
-          "ap2ID": "id-666"
+          "ap1ID": "id-900",
+          "ap2ID": "id-903"
         },
         {
           "ap2Name": "geometry",
-          "ap1ID": "id-664",
-          "ap2ID": "id-665"
+          "ap1ID": "id-901",
+          "ap2ID": "id-902"
         },
         {
           "ap2Name": "number or geometry",
-          "ap1ID": "id-666",
-          "ap2ID": "id-662"
+          "ap1ID": "id-903",
+          "ap2ID": "id-899"
         },
         {
           "ap2Name": "geometry",
-          "ap1ID": "id-667",
-          "ap2ID": "id-666"
+          "ap1ID": "id-904",
+          "ap2ID": "id-903"
         }
       ],
       "parentRepo": {
@@ -496,9 +335,9 @@
     },
     {
       "atomType": "GitHubMolecule",
-      "x": 0.5924256086564472,
-      "y": 0.6042296072507553,
-      "uniqueID": "id-809",
+      "x": 0.6746666666666666,
+      "y": 0.5287009063444109,
+      "uniqueID": "id-922",
       "name": "Ongoing-dev-1",
       "ioValues": [
         {
@@ -507,30 +346,7 @@
         },
         {
           "name": "geom",
-          "ioValue": {
-            "geometry": "circle-0.5",
-            "dimension": "2D",
-            "tags": [],
-            "plane": {
-              "origin": [
-                0,
-                0,
-                0
-              ],
-              "xDir": [
-                1,
-                0,
-                0
-              ],
-              "normal": [
-                0,
-                0,
-                1
-              ]
-            },
-            "color": "#aad7f2",
-            "bom": []
-          }
+          "ioValue": "__GEOMETRY_INPUT__"
         }
       ],
       "topLevel": false,
@@ -539,34 +355,11 @@
           "atomType": "Output",
           "x": 0.98,
           "y": 0.5,
-          "uniqueID": "id-810",
+          "uniqueID": "id-923",
           "ioValues": [
             {
               "name": "number or geometry",
-              "ioValue": {
-                "geometry": "extrude-circle-0.5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-5",
-                "dimension": "3D",
-                "tags": [],
-                "plane": {
-                  "origin": [
-                    0,
-                    0,
-                    0
-                  ],
-                  "xDir": [
-                    1,
-                    0,
-                    0
-                  ],
-                  "normal": [
-                    0,
-                    0,
-                    1
-                  ]
-                },
-                "color": "#aad7f2",
-                "bom": []
-              }
+              "ioValue": "__GEOMETRY_INPUT__"
             }
           ]
         },
@@ -574,7 +367,7 @@
           "atomType": "Input",
           "x": 0.0264,
           "y": 0.16,
-          "uniqueID": "id-811",
+          "uniqueID": "id-924",
           "name": "Pivotno",
           "type": "number"
         },
@@ -582,7 +375,7 @@
           "atomType": "Rectangle",
           "x": 0.21179883945841393,
           "y": 0.28398791540785495,
-          "uniqueID": "id-812",
+          "uniqueID": "id-925",
           "ioValues": [
             {
               "name": "x length",
@@ -598,11 +391,11 @@
           "atomType": "Extrude",
           "x": 0.3742746615087041,
           "y": 0.19637462235649547,
-          "uniqueID": "id-813",
+          "uniqueID": "id-926",
           "ioValues": [
             {
               "name": "geometry",
-              "ioValue": null
+              "ioValue": "__GEOMETRY_INPUT__"
             },
             {
               "name": "height",
@@ -614,34 +407,11 @@
           "atomType": "Extrude",
           "x": 0.5084067253803043,
           "y": 0.5226586102719033,
-          "uniqueID": "id-814",
+          "uniqueID": "id-927",
           "ioValues": [
             {
               "name": "geometry",
-              "ioValue": {
-                "geometry": "circle-0.5",
-                "dimension": "2D",
-                "tags": [],
-                "plane": {
-                  "origin": [
-                    0,
-                    0,
-                    0
-                  ],
-                  "xDir": [
-                    1,
-                    0,
-                    0
-                  ],
-                  "normal": [
-                    0,
-                    0,
-                    1
-                  ]
-                },
-                "color": "#aad7f2",
-                "bom": []
-              }
+              "ioValue": "__GEOMETRY_INPUT__"
             },
             {
               "name": "height",
@@ -653,7 +423,7 @@
           "atomType": "Input",
           "x": 0.0264,
           "y": 0.256,
-          "uniqueID": "id-815",
+          "uniqueID": "id-928",
           "name": "geom",
           "type": "geometry"
         }
@@ -661,23 +431,23 @@
       "allConnectors": [
         {
           "ap2Name": "height",
-          "ap1ID": "id-811",
-          "ap2ID": "id-814"
+          "ap1ID": "id-924",
+          "ap2ID": "id-927"
         },
         {
           "ap2Name": "geometry",
-          "ap1ID": "id-812",
-          "ap2ID": "id-813"
+          "ap1ID": "id-925",
+          "ap2ID": "id-926"
         },
         {
           "ap2Name": "number or geometry",
-          "ap1ID": "id-814",
-          "ap2ID": "id-810"
+          "ap1ID": "id-927",
+          "ap2ID": "id-923"
         },
         {
           "ap2Name": "geometry",
-          "ap1ID": "id-815",
-          "ap2ID": "id-814"
+          "ap1ID": "id-928",
+          "ap2ID": "id-927"
         }
       ],
       "parentRepo": {
@@ -711,11 +481,6 @@
   ],
   "allConnectors": [
     {
-      "ap2Name": "geom",
-      "ap1ID": "id-461",
-      "ap2ID": "id-499"
-    },
-    {
       "ap2Name": "number or geometry",
       "ap1ID": "id-461",
       "ap2ID": 1746568598187
@@ -723,7 +488,12 @@
     {
       "ap2Name": "geom",
       "ap1ID": "id-461",
-      "ap2ID": "id-661"
+      "ap2ID": "id-874"
+    },
+    {
+      "ap2Name": "geom",
+      "ap1ID": "id-461",
+      "ap2ID": "id-898"
     },
     {
       "ap2Name": "diameter",
