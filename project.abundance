@@ -20,14 +20,37 @@
       "ioValues": [
         {
           "name": "number or geometry",
-          "ioValue": "__GEOMETRY_INPUT__"
+          "ioValue": {
+            "geometry": "circle-0.5",
+            "dimension": "2D",
+            "tags": [],
+            "plane": {
+              "origin": [
+                0,
+                0,
+                0
+              ],
+              "xDir": [
+                1,
+                0,
+                0
+              ],
+              "normal": [
+                0,
+                0,
+                1
+              ]
+            },
+            "color": "#aad7f2",
+            "bom": []
+          }
         }
       ]
     },
     {
       "atomType": "Circle",
-      "x": 0.3345690454124189,
-      "y": 0.4441087613293051,
+      "x": 0.3363390441839495,
+      "y": 0.4471299093655589,
       "uniqueID": "id-461",
       "ioValues": [
         {
@@ -56,7 +79,30 @@
         },
         {
           "name": "geom",
-          "ioValue": "__GEOMETRY_INPUT__"
+          "ioValue": {
+            "geometry": "circle-0.5",
+            "dimension": "2D",
+            "tags": [],
+            "plane": {
+              "origin": [
+                0,
+                0,
+                0
+              ],
+              "xDir": [
+                1,
+                0,
+                0
+              ],
+              "normal": [
+                0,
+                0,
+                1
+              ]
+            },
+            "color": "#aad7f2",
+            "bom": []
+          }
         }
       ],
       "topLevel": false,
@@ -69,7 +115,30 @@
           "ioValues": [
             {
               "name": "number or geometry",
-              "ioValue": "__GEOMETRY_INPUT__"
+              "ioValue": {
+                "geometry": "extrude-circle-0.5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-5",
+                "dimension": "3D",
+                "tags": [],
+                "plane": {
+                  "origin": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "xDir": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "normal": [
+                    0,
+                    0,
+                    1
+                  ]
+                },
+                "color": "#aad7f2",
+                "bom": []
+              }
             }
           ]
         },
@@ -105,7 +174,7 @@
           "ioValues": [
             {
               "name": "geometry",
-              "ioValue": "__GEOMETRY_INPUT__"
+              "ioValue": null
             },
             {
               "name": "height",
@@ -121,7 +190,30 @@
           "ioValues": [
             {
               "name": "geometry",
-              "ioValue": "__GEOMETRY_INPUT__"
+              "ioValue": {
+                "geometry": "circle-0.5",
+                "dimension": "2D",
+                "tags": [],
+                "plane": {
+                  "origin": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "xDir": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "normal": [
+                    0,
+                    0,
+                    1
+                  ]
+                },
+                "color": "#aad7f2",
+                "bom": []
+              }
             },
             {
               "name": "height",
@@ -201,7 +293,30 @@
         },
         {
           "name": "geom",
-          "ioValue": "__GEOMETRY_INPUT__"
+          "ioValue": {
+            "geometry": "circle-0.5",
+            "dimension": "2D",
+            "tags": [],
+            "plane": {
+              "origin": [
+                0,
+                0,
+                0
+              ],
+              "xDir": [
+                1,
+                0,
+                0
+              ],
+              "normal": [
+                0,
+                0,
+                1
+              ]
+            },
+            "color": "#aad7f2",
+            "bom": []
+          }
         }
       ],
       "topLevel": false,
@@ -214,7 +329,30 @@
           "ioValues": [
             {
               "name": "number or geometry",
-              "ioValue": "__GEOMETRY_INPUT__"
+              "ioValue": {
+                "geometry": "extrude-circle-0.5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-5",
+                "dimension": "3D",
+                "tags": [],
+                "plane": {
+                  "origin": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "xDir": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "normal": [
+                    0,
+                    0,
+                    1
+                  ]
+                },
+                "color": "#aad7f2",
+                "bom": []
+              }
             }
           ]
         },
@@ -250,7 +388,7 @@
           "ioValues": [
             {
               "name": "geometry",
-              "ioValue": "__GEOMETRY_INPUT__"
+              "ioValue": null
             },
             {
               "name": "height",
@@ -266,7 +404,30 @@
           "ioValues": [
             {
               "name": "geometry",
-              "ioValue": "__GEOMETRY_INPUT__"
+              "ioValue": {
+                "geometry": "circle-0.5",
+                "dimension": "2D",
+                "tags": [],
+                "plane": {
+                  "origin": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "xDir": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "normal": [
+                    0,
+                    0,
+                    1
+                  ]
+                },
+                "color": "#aad7f2",
+                "bom": []
+              }
             },
             {
               "name": "height",
@@ -332,6 +493,18 @@
       },
       "unitsKey": "MM",
       "fileTypeVersion": 1
+    },
+    {
+      "atomType": "Circle",
+      "x": 0.34625788999098284,
+      "y": 0.6646525679758308,
+      "uniqueID": "id-709",
+      "ioValues": [
+        {
+          "name": "diameter",
+          "ioValue": 1
+        }
+      ]
     }
   ],
   "allConnectors": [
