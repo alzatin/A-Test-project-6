@@ -44,441 +44,6 @@
       "name": "diam"
     },
     {
-      "atomType": "GitHubMolecule",
-      "x": 0.5413333333333333,
-      "y": 0.7522658610271903,
-      "uniqueID": "id-874",
-      "name": "Ongoing-dev-1",
-      "ioValues": [
-        {
-          "name": "Pivotno",
-          "ioValue": 5
-        },
-        {
-          "name": "geom",
-          "ioValue": "__GEOMETRY_INPUT__"
-        }
-      ],
-      "topLevel": false,
-      "allAtoms": [
-        {
-          "atomType": "Output",
-          "x": 0.98,
-          "y": 0.5,
-          "uniqueID": "id-875",
-          "ioValues": [
-            {
-              "name": "number or geometry",
-              "ioValue": "__GEOMETRY_INPUT__"
-            }
-          ]
-        },
-        {
-          "atomType": "Input",
-          "x": 0.0264,
-          "y": 0.16,
-          "uniqueID": "id-876",
-          "name": "Pivotno",
-          "type": "number"
-        },
-        {
-          "atomType": "Rectangle",
-          "x": 0.21179883945841393,
-          "y": 0.28398791540785495,
-          "uniqueID": "id-877",
-          "ioValues": [
-            {
-              "name": "x length",
-              "ioValue": 10
-            },
-            {
-              "name": "y length",
-              "ioValue": 10
-            }
-          ]
-        },
-        {
-          "atomType": "Extrude",
-          "x": 0.3742746615087041,
-          "y": 0.19637462235649547,
-          "uniqueID": "id-878",
-          "ioValues": [
-            {
-              "name": "geometry",
-              "ioValue": "__GEOMETRY_INPUT__"
-            },
-            {
-              "name": "height",
-              "ioValue": 10
-            }
-          ]
-        },
-        {
-          "atomType": "Extrude",
-          "x": 0.5084067253803043,
-          "y": 0.5226586102719033,
-          "uniqueID": "id-879",
-          "ioValues": [
-            {
-              "name": "geometry",
-              "ioValue": "__GEOMETRY_INPUT__"
-            },
-            {
-              "name": "height",
-              "ioValue": 5
-            }
-          ]
-        },
-        {
-          "atomType": "Input",
-          "x": 0.0264,
-          "y": 0.256,
-          "uniqueID": "id-880",
-          "name": "geom",
-          "type": "geometry"
-        }
-      ],
-      "allConnectors": [
-        {
-          "ap2Name": "height",
-          "ap1ID": "id-876",
-          "ap2ID": "id-879"
-        },
-        {
-          "ap2Name": "geometry",
-          "ap1ID": "id-877",
-          "ap2ID": "id-878"
-        },
-        {
-          "ap2Name": "number or geometry",
-          "ap1ID": "id-879",
-          "ap2ID": "id-875"
-        },
-        {
-          "ap2Name": "geometry",
-          "ap1ID": "id-880",
-          "ap2ID": "id-879"
-        }
-      ],
-      "parentRepo": {
-        "lastFoundGit": "2025-12-31T10:23:39.329Z",
-        "privateRepo": false,
-        "repoName": "Ongoing-dev-1",
-        "dateCreated": "2025-03-29T16:18:58Z",
-        "readMe": "https://raw.githubusercontent.com/alzatin/Ongoing-dev-1/master/README.md?sanitize=true",
-        "yyyy": 2025,
-        "topMoleculeID": 1743265138516,
-        "githubMoleculesUsed": [],
-        "html_url": "https://github.com/alzatin/Ongoing-dev-1",
-        "topics": [
-          "examples",
-          "Tag_example"
-        ],
-        "parentRepo": "alzatin/test_dev_2",
-        "forks": 0,
-        "dateModified": "739616",
-        "ranking": 0,
-        "searchField": "ongoing-dev-1 alzatin  examples tag_example",
-        "owner": "alzatin",
-        "description": "",
-        "contentURL": "https://raw.githubusercontent.com/alzatin/Ongoing-dev-1/master/project.abundance?sanitize=true",
-        "svgURL": "https://raw.githubusercontent.com/alzatin/Ongoing-dev-1/master/project.svg?sanitize=true",
-        "isLocal": false
-      },
-      "unitsKey": "MM",
-      "fileTypeVersion": 1
-    },
-    {
-      "atomType": "GitHubMolecule",
-      "x": 0.5880000000000001,
-      "y": 0.22658610271903323,
-      "uniqueID": "id-898",
-      "name": "Ongoing-dev-1",
-      "ioValues": [
-        {
-          "name": "Pivotno",
-          "ioValue": 5
-        },
-        {
-          "name": "geom",
-          "ioValue": "__GEOMETRY_INPUT__"
-        }
-      ],
-      "topLevel": false,
-      "allAtoms": [
-        {
-          "atomType": "Output",
-          "x": 0.98,
-          "y": 0.5,
-          "uniqueID": "id-899",
-          "ioValues": [
-            {
-              "name": "number or geometry",
-              "ioValue": "__GEOMETRY_INPUT__"
-            }
-          ]
-        },
-        {
-          "atomType": "Input",
-          "x": 0.0264,
-          "y": 0.16,
-          "uniqueID": "id-900",
-          "name": "Pivotno",
-          "type": "number"
-        },
-        {
-          "atomType": "Rectangle",
-          "x": 0.21179883945841393,
-          "y": 0.28398791540785495,
-          "uniqueID": "id-901",
-          "ioValues": [
-            {
-              "name": "x length",
-              "ioValue": 10
-            },
-            {
-              "name": "y length",
-              "ioValue": 10
-            }
-          ]
-        },
-        {
-          "atomType": "Extrude",
-          "x": 0.3742746615087041,
-          "y": 0.19637462235649547,
-          "uniqueID": "id-902",
-          "ioValues": [
-            {
-              "name": "geometry",
-              "ioValue": "__GEOMETRY_INPUT__"
-            },
-            {
-              "name": "height",
-              "ioValue": 10
-            }
-          ]
-        },
-        {
-          "atomType": "Extrude",
-          "x": 0.5084067253803043,
-          "y": 0.5226586102719033,
-          "uniqueID": "id-903",
-          "ioValues": [
-            {
-              "name": "geometry",
-              "ioValue": "__GEOMETRY_INPUT__"
-            },
-            {
-              "name": "height",
-              "ioValue": 5
-            }
-          ]
-        },
-        {
-          "atomType": "Input",
-          "x": 0.0264,
-          "y": 0.256,
-          "uniqueID": "id-904",
-          "name": "geom",
-          "type": "geometry"
-        }
-      ],
-      "allConnectors": [
-        {
-          "ap2Name": "height",
-          "ap1ID": "id-900",
-          "ap2ID": "id-903"
-        },
-        {
-          "ap2Name": "geometry",
-          "ap1ID": "id-901",
-          "ap2ID": "id-902"
-        },
-        {
-          "ap2Name": "number or geometry",
-          "ap1ID": "id-903",
-          "ap2ID": "id-899"
-        },
-        {
-          "ap2Name": "geometry",
-          "ap1ID": "id-904",
-          "ap2ID": "id-903"
-        }
-      ],
-      "parentRepo": {
-        "lastFoundGit": "2025-12-31T10:23:39.329Z",
-        "privateRepo": false,
-        "repoName": "Ongoing-dev-1",
-        "dateCreated": "2025-03-29T16:18:58Z",
-        "readMe": "https://raw.githubusercontent.com/alzatin/Ongoing-dev-1/master/README.md?sanitize=true",
-        "yyyy": 2025,
-        "topMoleculeID": 1743265138516,
-        "githubMoleculesUsed": [],
-        "html_url": "https://github.com/alzatin/Ongoing-dev-1",
-        "topics": [
-          "examples",
-          "Tag_example"
-        ],
-        "parentRepo": "alzatin/test_dev_2",
-        "forks": 0,
-        "dateModified": "739616",
-        "ranking": 0,
-        "searchField": "ongoing-dev-1 alzatin  examples tag_example",
-        "owner": "alzatin",
-        "description": "",
-        "contentURL": "https://raw.githubusercontent.com/alzatin/Ongoing-dev-1/master/project.abundance?sanitize=true",
-        "svgURL": "https://raw.githubusercontent.com/alzatin/Ongoing-dev-1/master/project.svg?sanitize=true",
-        "isLocal": false
-      },
-      "unitsKey": "MM",
-      "fileTypeVersion": 1
-    },
-    {
-      "atomType": "GitHubMolecule",
-      "x": 0.6746666666666666,
-      "y": 0.5287009063444109,
-      "uniqueID": "id-922",
-      "name": "Ongoing-dev-1",
-      "ioValues": [
-        {
-          "name": "Pivotno",
-          "ioValue": 5
-        },
-        {
-          "name": "geom",
-          "ioValue": "__GEOMETRY_INPUT__"
-        }
-      ],
-      "topLevel": false,
-      "allAtoms": [
-        {
-          "atomType": "Output",
-          "x": 0.98,
-          "y": 0.5,
-          "uniqueID": "id-923",
-          "ioValues": [
-            {
-              "name": "number or geometry",
-              "ioValue": "__GEOMETRY_INPUT__"
-            }
-          ]
-        },
-        {
-          "atomType": "Input",
-          "x": 0.0264,
-          "y": 0.16,
-          "uniqueID": "id-924",
-          "name": "Pivotno",
-          "type": "number"
-        },
-        {
-          "atomType": "Rectangle",
-          "x": 0.21179883945841393,
-          "y": 0.28398791540785495,
-          "uniqueID": "id-925",
-          "ioValues": [
-            {
-              "name": "x length",
-              "ioValue": 10
-            },
-            {
-              "name": "y length",
-              "ioValue": 10
-            }
-          ]
-        },
-        {
-          "atomType": "Extrude",
-          "x": 0.3742746615087041,
-          "y": 0.19637462235649547,
-          "uniqueID": "id-926",
-          "ioValues": [
-            {
-              "name": "geometry",
-              "ioValue": "__GEOMETRY_INPUT__"
-            },
-            {
-              "name": "height",
-              "ioValue": 10
-            }
-          ]
-        },
-        {
-          "atomType": "Extrude",
-          "x": 0.5084067253803043,
-          "y": 0.5226586102719033,
-          "uniqueID": "id-927",
-          "ioValues": [
-            {
-              "name": "geometry",
-              "ioValue": "__GEOMETRY_INPUT__"
-            },
-            {
-              "name": "height",
-              "ioValue": 5
-            }
-          ]
-        },
-        {
-          "atomType": "Input",
-          "x": 0.0264,
-          "y": 0.256,
-          "uniqueID": "id-928",
-          "name": "geom",
-          "type": "geometry"
-        }
-      ],
-      "allConnectors": [
-        {
-          "ap2Name": "height",
-          "ap1ID": "id-924",
-          "ap2ID": "id-927"
-        },
-        {
-          "ap2Name": "geometry",
-          "ap1ID": "id-925",
-          "ap2ID": "id-926"
-        },
-        {
-          "ap2Name": "number or geometry",
-          "ap1ID": "id-927",
-          "ap2ID": "id-923"
-        },
-        {
-          "ap2Name": "geometry",
-          "ap1ID": "id-928",
-          "ap2ID": "id-927"
-        }
-      ],
-      "parentRepo": {
-        "lastFoundGit": "2025-12-31T10:23:39.329Z",
-        "privateRepo": false,
-        "repoName": "Ongoing-dev-1",
-        "dateCreated": "2025-03-29T16:18:58Z",
-        "readMe": "https://raw.githubusercontent.com/alzatin/Ongoing-dev-1/master/README.md?sanitize=true",
-        "yyyy": 2025,
-        "topMoleculeID": 1743265138516,
-        "githubMoleculesUsed": [],
-        "html_url": "https://github.com/alzatin/Ongoing-dev-1",
-        "topics": [
-          "examples",
-          "Tag_example"
-        ],
-        "parentRepo": "alzatin/test_dev_2",
-        "forks": 0,
-        "dateModified": "739616",
-        "ranking": 0,
-        "searchField": "ongoing-dev-1 alzatin  examples tag_example",
-        "owner": "alzatin",
-        "description": "",
-        "contentURL": "https://raw.githubusercontent.com/alzatin/Ongoing-dev-1/master/project.abundance?sanitize=true",
-        "svgURL": "https://raw.githubusercontent.com/alzatin/Ongoing-dev-1/master/project.svg?sanitize=true",
-        "isLocal": false
-      },
-      "unitsKey": "MM",
-      "fileTypeVersion": 1
-    },
-    {
       "atomType": "Circle",
       "x": 0.28200000000000003,
       "y": 0.6344410876132931,
@@ -489,296 +54,6 @@
           "ioValue": 1
         }
       ]
-    },
-    {
-      "atomType": "GitHubMolecule",
-      "x": 0.5913333333333334,
-      "y": 0.7022658610271902,
-      "uniqueID": "id-1015",
-      "name": "Ongoing-dev-1",
-      "ioValues": [
-        {
-          "name": "Pivotno",
-          "ioValue": 5
-        },
-        {
-          "name": "geom",
-          "ioValue": "__GEOMETRY_INPUT__"
-        }
-      ],
-      "topLevel": false,
-      "allAtoms": [
-        {
-          "atomType": "Output",
-          "x": 0.98,
-          "y": 0.5,
-          "uniqueID": "id-1016",
-          "ioValues": [
-            {
-              "name": "number or geometry",
-              "ioValue": "__GEOMETRY_INPUT__"
-            }
-          ]
-        },
-        {
-          "atomType": "Input",
-          "x": 0.0264,
-          "y": 0.16,
-          "uniqueID": "id-1017",
-          "name": "Pivotno",
-          "type": "number"
-        },
-        {
-          "atomType": "Rectangle",
-          "x": 0.21179883945841393,
-          "y": 0.28398791540785495,
-          "uniqueID": "id-1018",
-          "ioValues": [
-            {
-              "name": "x length",
-              "ioValue": 10
-            },
-            {
-              "name": "y length",
-              "ioValue": 10
-            }
-          ]
-        },
-        {
-          "atomType": "Extrude",
-          "x": 0.3742746615087041,
-          "y": 0.19637462235649547,
-          "uniqueID": "id-1019",
-          "ioValues": [
-            {
-              "name": "geometry",
-              "ioValue": "__GEOMETRY_INPUT__"
-            },
-            {
-              "name": "height",
-              "ioValue": 10
-            }
-          ]
-        },
-        {
-          "atomType": "Extrude",
-          "x": 0.5084067253803043,
-          "y": 0.5226586102719033,
-          "uniqueID": "id-1020",
-          "ioValues": [
-            {
-              "name": "geometry",
-              "ioValue": "__GEOMETRY_INPUT__"
-            },
-            {
-              "name": "height",
-              "ioValue": 5
-            }
-          ]
-        },
-        {
-          "atomType": "Input",
-          "x": 0.0264,
-          "y": 0.256,
-          "uniqueID": "id-1021",
-          "name": "geom",
-          "type": "geometry"
-        }
-      ],
-      "allConnectors": [
-        {
-          "ap2Name": "height",
-          "ap1ID": "id-1017",
-          "ap2ID": "id-1020"
-        },
-        {
-          "ap2Name": "geometry",
-          "ap1ID": "id-1018",
-          "ap2ID": "id-1019"
-        },
-        {
-          "ap2Name": "number or geometry",
-          "ap1ID": "id-1020",
-          "ap2ID": "id-1016"
-        },
-        {
-          "ap2Name": "geometry",
-          "ap1ID": "id-1021",
-          "ap2ID": "id-1020"
-        }
-      ],
-      "parentRepo": {
-        "lastFoundGit": "2025-12-31T10:23:39.329Z",
-        "privateRepo": false,
-        "repoName": "Ongoing-dev-1",
-        "dateCreated": "2025-03-29T16:18:58Z",
-        "readMe": "https://raw.githubusercontent.com/alzatin/Ongoing-dev-1/master/README.md?sanitize=true",
-        "yyyy": 2025,
-        "topMoleculeID": 1743265138516,
-        "githubMoleculesUsed": [],
-        "html_url": "https://github.com/alzatin/Ongoing-dev-1",
-        "topics": [
-          "examples",
-          "Tag_example"
-        ],
-        "parentRepo": "alzatin/test_dev_2",
-        "forks": 0,
-        "dateModified": "739616",
-        "ranking": 0,
-        "searchField": "ongoing-dev-1 alzatin  examples tag_example",
-        "owner": "alzatin",
-        "description": "",
-        "contentURL": "https://raw.githubusercontent.com/alzatin/Ongoing-dev-1/master/project.abundance?sanitize=true",
-        "svgURL": "https://raw.githubusercontent.com/alzatin/Ongoing-dev-1/master/project.svg?sanitize=true",
-        "isLocal": false
-      },
-      "unitsKey": "MM",
-      "fileTypeVersion": 1
-    },
-    {
-      "atomType": "GitHubMolecule",
-      "x": 0.6380000000000001,
-      "y": 0.17658610271903324,
-      "uniqueID": "id-1022",
-      "name": "Ongoing-dev-1",
-      "ioValues": [
-        {
-          "name": "Pivotno",
-          "ioValue": 5
-        },
-        {
-          "name": "geom",
-          "ioValue": "__GEOMETRY_INPUT__"
-        }
-      ],
-      "topLevel": false,
-      "allAtoms": [
-        {
-          "atomType": "Output",
-          "x": 0.98,
-          "y": 0.5,
-          "uniqueID": "id-1023",
-          "ioValues": [
-            {
-              "name": "number or geometry",
-              "ioValue": "__GEOMETRY_INPUT__"
-            }
-          ]
-        },
-        {
-          "atomType": "Input",
-          "x": 0.0264,
-          "y": 0.16,
-          "uniqueID": "id-1024",
-          "name": "Pivotno",
-          "type": "number"
-        },
-        {
-          "atomType": "Rectangle",
-          "x": 0.21179883945841393,
-          "y": 0.28398791540785495,
-          "uniqueID": "id-1025",
-          "ioValues": [
-            {
-              "name": "x length",
-              "ioValue": 10
-            },
-            {
-              "name": "y length",
-              "ioValue": 10
-            }
-          ]
-        },
-        {
-          "atomType": "Extrude",
-          "x": 0.3742746615087041,
-          "y": 0.19637462235649547,
-          "uniqueID": "id-1026",
-          "ioValues": [
-            {
-              "name": "geometry",
-              "ioValue": "__GEOMETRY_INPUT__"
-            },
-            {
-              "name": "height",
-              "ioValue": 10
-            }
-          ]
-        },
-        {
-          "atomType": "Extrude",
-          "x": 0.5084067253803043,
-          "y": 0.5226586102719033,
-          "uniqueID": "id-1027",
-          "ioValues": [
-            {
-              "name": "geometry",
-              "ioValue": "__GEOMETRY_INPUT__"
-            },
-            {
-              "name": "height",
-              "ioValue": 5
-            }
-          ]
-        },
-        {
-          "atomType": "Input",
-          "x": 0.0264,
-          "y": 0.256,
-          "uniqueID": "id-1028",
-          "name": "geom",
-          "type": "geometry"
-        }
-      ],
-      "allConnectors": [
-        {
-          "ap2Name": "height",
-          "ap1ID": "id-1024",
-          "ap2ID": "id-1027"
-        },
-        {
-          "ap2Name": "geometry",
-          "ap1ID": "id-1025",
-          "ap2ID": "id-1026"
-        },
-        {
-          "ap2Name": "number or geometry",
-          "ap1ID": "id-1027",
-          "ap2ID": "id-1023"
-        },
-        {
-          "ap2Name": "geometry",
-          "ap1ID": "id-1028",
-          "ap2ID": "id-1027"
-        }
-      ],
-      "parentRepo": {
-        "lastFoundGit": "2025-12-31T10:23:39.329Z",
-        "privateRepo": false,
-        "repoName": "Ongoing-dev-1",
-        "dateCreated": "2025-03-29T16:18:58Z",
-        "readMe": "https://raw.githubusercontent.com/alzatin/Ongoing-dev-1/master/README.md?sanitize=true",
-        "yyyy": 2025,
-        "topMoleculeID": 1743265138516,
-        "githubMoleculesUsed": [],
-        "html_url": "https://github.com/alzatin/Ongoing-dev-1",
-        "topics": [
-          "examples",
-          "Tag_example"
-        ],
-        "parentRepo": "alzatin/test_dev_2",
-        "forks": 0,
-        "dateModified": "739616",
-        "ranking": 0,
-        "searchField": "ongoing-dev-1 alzatin  examples tag_example",
-        "owner": "alzatin",
-        "description": "",
-        "contentURL": "https://raw.githubusercontent.com/alzatin/Ongoing-dev-1/master/project.abundance?sanitize=true",
-        "svgURL": "https://raw.githubusercontent.com/alzatin/Ongoing-dev-1/master/project.svg?sanitize=true",
-        "isLocal": false
-      },
-      "unitsKey": "MM",
-      "fileTypeVersion": 1
     },
     {
       "atomType": "Circle",
@@ -807,6 +82,286 @@
           "ioValue": 10
         }
       ]
+    },
+    {
+      "atomType": "GitHubMolecule",
+      "x": 0.722978382706165,
+      "y": 0.38972809667673713,
+      "uniqueID": "id-1181",
+      "name": "Mirror",
+      "ioValues": [
+        {
+          "name": "Shape",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "Pivot",
+          "ioValue": 90
+        },
+        {
+          "name": "Plane",
+          "ioValue": "X",
+          "currentEquation": "X"
+        }
+      ],
+      "topLevel": false,
+      "allAtoms": [
+        {
+          "atomType": "Output",
+          "x": 0.98,
+          "y": 0.5,
+          "uniqueID": "id-1169",
+          "ioValues": [
+            {
+              "name": "number or geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            }
+          ]
+        },
+        {
+          "atomType": "Input",
+          "x": 0.0264,
+          "y": 0.16,
+          "uniqueID": "id-1170",
+          "name": "Shape",
+          "type": "geometry"
+        },
+        {
+          "atomType": "Code",
+          "x": 0.5916061339790154,
+          "y": 0.5807453416149069,
+          "uniqueID": "id-1171",
+          "ioValues": [
+            {
+              "name": "pivot",
+              "ioValue": 90
+            },
+            {
+              "name": "plane",
+              "ioValue": "X"
+            },
+            {
+              "name": "shape",
+              "ioValue": "__GEOMETRY_INPUT__"
+            }
+          ],
+          "codeVersion": 1,
+          "code": "\n      const Inputs = [\n       {inputName: \"shape\", type: \"geometry\", defaultValue: null},\n        {inputName: \"pivot\", type: \"number\", defaultValue: 90},\n        {inputName: \"plane\", type: \"string\", defaultValue: \"X\"}\n        \n        ]\n      //This defines the molecules inputs and creates variables with the same names which can be referenced in the code\n\n      //Gets the shape from the library - no need to clone or access geometry directly\n      let importedShape = library[shape]\n\n      const newPlane = new replicad.Plane().pivot(pivot, plane)\n      console.log(importedShape)\n      let mirroredShape = importedShape.geometry[0].mirror(newPlane,(0,0,0))\n\n\n      //Wrap the raw replicad geometry in our assembly format\n      let shape2 = {\n          geometry: [mirroredShape],\n          dimension: \"3D\",\n          tags: [\"createdShape\"],\n          color: '#A3CE5B',\n          plane: newPlane,\n          bom: []\n      }\n    \n      return shape2\n\n      /**\n      Built-in Functions Available:\n      - Move(geometry, x, y, z) - Move a shape in 3D space\n      - Rotate(geometry, x, y, z) - Rotate a shape around X, Y, Z axes (degrees)\n      - Scale(geometry, factor) - Scale a shape by a factor\n      - Assembly([shapes]) - Combine multiple shapes into an assembly\n      - Intersect(shape1, shape2) - Boolean intersection of two shapes\n      - GetBounds(geometry) - Get the bounding box of a shape\n      - Fillet(geometry, radius) - Round edges with specified radius\n      - Chamfer(geometry, size) - Bevel edges with specified size\n\n      To Use the Code Atom, enter your inputs to the input list as an object array:\n      const Inputs = [\n        {inputName: \"shape\", type: \"geometry\", defaultValue: null},\n        {inputName: \"dist\", type: \"number\", defaultValue: 5},\n        {inputName: \"height\", type: \"number\", defaultValue: 10}\n      ]\n\n      Access imported geometry using library[inputName] - the built-in functions handle \n      the complexity of accessing geometry arrays and maintaining metadata automatically.\n\n      Simple Example - Move a shape:\n         const Inputs = [\n          {inputName: \"shape\", type: \"geometry\", defaultValue: null},\n          {inputName: \"x\", type: \"number\", defaultValue: 5}\n        ]\n        let movedShape = await Move(library[shape], x, 0, 0)\n        return movedShape\n      */\n      "
+        },
+        {
+          "atomType": "Rectangle",
+          "x": 0.15577078288942697,
+          "y": 0.6583850931677019,
+          "uniqueID": "id-1172",
+          "ioValues": [
+            {
+              "name": "x length",
+              "ioValue": 10
+            },
+            {
+              "name": "y length",
+              "ioValue": 10
+            }
+          ]
+        },
+        {
+          "atomType": "Extrude",
+          "x": 0.27199354317998387,
+          "y": 0.7981366459627329,
+          "uniqueID": "id-1173",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "height",
+              "ioValue": 1
+            }
+          ]
+        },
+        {
+          "atomType": "Move",
+          "x": 0.40274414850686036,
+          "y": 0.7111801242236025,
+          "uniqueID": "id-1174",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "xDist",
+              "ioValue": 0
+            },
+            {
+              "name": "yDist",
+              "ioValue": 10
+            },
+            {
+              "name": "zDist",
+              "ioValue": 0
+            }
+          ]
+        },
+        {
+          "atomType": "Input",
+          "x": 0.0264,
+          "y": 0.256,
+          "uniqueID": "id-1175",
+          "name": "Pivot",
+          "type": "number"
+        },
+        {
+          "atomType": "Assembly",
+          "x": 0.6892655367231638,
+          "y": 0.7919254658385093,
+          "uniqueID": "id-1176",
+          "ioValues": [
+            {
+              "name": "Shape 1",
+              "ioValue": null
+            },
+            {
+              "name": "Shape 3",
+              "ioValue": null
+            }
+          ]
+        },
+        {
+          "atomType": "Readme",
+          "x": 0.8062953995157386,
+          "y": 0.7236024844720497,
+          "uniqueID": "id-1177",
+          "name": "README",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            }
+          ],
+          "readMeText": "Mirror a given shape",
+          "global": true
+        },
+        {
+          "atomType": "Rotate",
+          "x": 0.4963680387409201,
+          "y": 0.7732919254658385,
+          "uniqueID": "id-1178",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "x-axis degrees",
+              "ioValue": 0
+            },
+            {
+              "name": "y-axis degrees",
+              "ioValue": 30
+            },
+            {
+              "name": "z-axis degrees",
+              "ioValue": 0
+            }
+          ]
+        },
+        {
+          "atomType": "Code",
+          "x": 0.4971751412429379,
+          "y": 0.32919254658385094,
+          "uniqueID": "id-1179",
+          "ioValues": [
+            {
+              "name": "pivot",
+              "ioValue": 90
+            },
+            {
+              "name": "shape",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "plane",
+              "ioValue": "X",
+              "currentEquation": "X"
+            }
+          ],
+          "codeVersion": 1,
+          "code": "\n      const Inputs = [\n       {inputName: \"shape\", type: \"geometry\", defaultValue: null},\n        {inputName: \"pivot\", type: \"number\", defaultValue: 90},\n        {inputName: \"plane\", type: \"string\", defaultValue: \"X\"}\n        \n        ]\n      //This defines the molecules inputs and creates variables with the same names which can be referenced in the code\n\n      //Gets the shape from the library - no need to clone or access geometry directly\n      let importedShape = library[shape]\n\n      const newPlane = new replicad.Plane().pivot(pivot, plane)\n      console.log(importedShape)\n      let mirroredShape = importedShape.geometry[0].mirror(newPlane,(0,0,0))\n\n\n      //Wrap the raw replicad geometry in our assembly format\n      let shape2 = {\n          geometry: [mirroredShape],\n          dimension: \"3D\",\n          tags: [\"createdShape\"],\n          color: '#A3CE5B',\n          plane: newPlane,\n          bom: []\n      }\n    \n      return shape2\n\n      /**\n      Built-in Functions Available:\n      - Move(geometry, x, y, z) - Move a shape in 3D space\n      - Rotate(geometry, x, y, z) - Rotate a shape around X, Y, Z axes (degrees)\n      - Scale(geometry, factor) - Scale a shape by a factor\n      - Assembly([shapes]) - Combine multiple shapes into an assembly\n      - Intersect(shape1, shape2) - Boolean intersection of two shapes\n      - GetBounds(geometry) - Get the bounding box of a shape\n      - Fillet(geometry, radius) - Round edges with specified radius\n      - Chamfer(geometry, size) - Bevel edges with specified size\n\n      To Use the Code Atom, enter your inputs to the input list as an object array:\n      const Inputs = [\n        {inputName: \"shape\", type: \"geometry\", defaultValue: null},\n        {inputName: \"dist\", type: \"number\", defaultValue: 5},\n        {inputName: \"height\", type: \"number\", defaultValue: 10}\n      ]\n\n      Access imported geometry using library[inputName] - the built-in functions handle \n      the complexity of accessing geometry arrays and maintaining metadata automatically.\n\n      Simple Example - Move a shape:\n         const Inputs = [\n          {inputName: \"shape\", type: \"geometry\", defaultValue: null},\n          {inputName: \"x\", type: \"number\", defaultValue: 5}\n        ]\n        let movedShape = await Move(library[shape], x, 0, 0)\n        return movedShape\n      */\n      "
+        },
+        {
+          "atomType": "Input",
+          "x": 0.0264,
+          "y": 0.352,
+          "uniqueID": "id-1180",
+          "name": "Plane",
+          "type": "string"
+        }
+      ],
+      "allConnectors": [
+        {
+          "ap2Name": "shape",
+          "ap1ID": "id-1170",
+          "ap2ID": "id-1179"
+        },
+        {
+          "ap2Name": "Shape 1",
+          "ap1ID": "id-1171",
+          "ap2ID": "id-1176"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-1172",
+          "ap2ID": "id-1173"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-1173",
+          "ap2ID": "id-1174"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-1174",
+          "ap2ID": "id-1178"
+        },
+        {
+          "ap2Name": "pivot",
+          "ap1ID": "id-1175",
+          "ap2ID": "id-1179"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-1176",
+          "ap2ID": "id-1177"
+        },
+        {
+          "ap2Name": "shape",
+          "ap1ID": "id-1178",
+          "ap2ID": "id-1171"
+        },
+        {
+          "ap2Name": "Shape 3",
+          "ap1ID": "id-1178",
+          "ap2ID": "id-1176"
+        },
+        {
+          "ap2Name": "number or geometry",
+          "ap1ID": "id-1179",
+          "ap2ID": "id-1169"
+        },
+        {
+          "ap2Name": "plane",
+          "ap1ID": "id-1180",
+          "ap2ID": "id-1179"
+        }
+      ],
+      "parentRepo": {
+        "owner": "alzatin",
+        "repoName": "Mirror"
+      },
+      "unitsKey": "Unitless",
+      "fileTypeVersion": 1
     }
   ],
   "allConnectors": [
@@ -814,16 +369,6 @@
       "ap2Name": "number or geometry",
       "ap1ID": "id-461",
       "ap2ID": 1746568598187
-    },
-    {
-      "ap2Name": "geom",
-      "ap1ID": "id-461",
-      "ap2ID": "id-874"
-    },
-    {
-      "ap2Name": "geom",
-      "ap1ID": "id-461",
-      "ap2ID": "id-898"
     },
     {
       "ap2Name": "geometry",
@@ -844,16 +389,6 @@
       "ap2Name": "diameter",
       "ap1ID": "id-469",
       "ap2ID": "id-1065"
-    },
-    {
-      "ap2Name": "geom",
-      "ap1ID": "id-1014",
-      "ap2ID": "id-1015"
-    },
-    {
-      "ap2Name": "geom",
-      "ap1ID": "id-1014",
-      "ap2ID": "id-1022"
     }
   ],
   "unitsKey": "MM",
