@@ -10,10 +10,6 @@
       "ioValue": 1
     },
     {
-      "name": "Input",
-      "ioValue": null
-    },
-    {
       "name": "Input_1",
       "ioValue": "__GEOMETRY_INPUT__"
     }
@@ -89,6 +85,28 @@
       "uniqueID": "id-1308",
       "name": "Input_1",
       "type": "import"
+    },
+    {
+      "atomType": "Code",
+      "x": 0.35516372795969775,
+      "y": 0.7613293051359517,
+      "uniqueID": "id-1373",
+      "ioValues": [
+        {
+          "name": "shape",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "radius",
+          "ioValue": 5
+        },
+        {
+          "name": "height",
+          "ioValue": 10
+        }
+      ],
+      "codeVersion": 1,
+      "code": "\n// Example Code\nconst Inputs = [\n  { inputName: \"shape\", type: \"geometry\", defaultValue: null },\n  { inputName: \"radius\", type: \"number\", defaultValue: 5 },\n  { inputName: \"height\", type: \"number\", defaultValue: 10 }\n];\n\nlet importedShape = library[shape];\nlet newPlane = replicad.makePlane()\nlet circDraw = replicad.drawCircle(radius)\nlet sketchCir = circDraw.sketchOnPlane(newPlane)\nlet cyl = sketchCir.extrude(height)\nlet cylObj = {\n  geometry: [cyl],\n  dimension: \"3D\",\n  tags: [\"createdCylinder\"],\n  color: \"#A3CE5B\",\n  plane: null,\n  bom: []\n};\n\nlet assembly = await Assembly([importedShape, cylObj]);\nreturn assembly;\n"
     },
     {
       "atomType": "GitHubMolecule",
@@ -402,26 +420,16 @@
       "fileTypeVersion": 1
     },
     {
-      "atomType": "Code",
-      "x": 0.35516372795969775,
-      "y": 0.7613293051359517,
-      "uniqueID": "id-1373",
-      "ioValues": [
-        {
-          "name": "shape",
-          "ioValue": "__GEOMETRY_INPUT__"
-        },
-        {
-          "name": "radius",
-          "ioValue": 5
-        },
-        {
-          "name": "height",
-          "ioValue": 10
-        }
-      ],
-      "codeVersion": 1,
-      "code": "\n// Example Code\nconst Inputs = [\n  { inputName: \"shape\", type: \"geometry\", defaultValue: null },\n  { inputName: \"radius\", type: \"number\", defaultValue: 5 },\n  { inputName: \"height\", type: \"number\", defaultValue: 10 }\n];\n\nlet importedShape = library[shape];\nlet newPlane = replicad.makePlane()\nlet circDraw = replicad.drawCircle(radius)\nlet sketchCir = circDraw.sketchOnPlane(newPlane)\nlet cyl = sketchCir.extrude(height)\nlet cylObj = {\n  geometry: [cyl],\n  dimension: \"3D\",\n  tags: [\"createdCylinder\"],\n  color: \"#A3CE5B\",\n  plane: null,\n  bom: []\n};\n\nlet assembly = await Assembly([importedShape, cylObj]);\nreturn assembly;\n"
+      "atomType": "Import",
+      "x": 0.1998320738874895,
+      "y": 0.716012084592145,
+      "uniqueID": "id-1437",
+      "fileName": "stand_svg_copy1.svg",
+      "name": "Import",
+      "type": "SVG",
+      "repoOwner": "alzatin",
+      "repoName": "A-Test-project-6",
+      "SVGwidth": 10
     }
   ],
   "allConnectors": [
