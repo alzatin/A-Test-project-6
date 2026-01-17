@@ -12,6 +12,10 @@
     {
       "name": "Input_1",
       "ioValue": "__GEOMETRY_INPUT__"
+    },
+    {
+      "name": "Input",
+      "ioValue": "__GEOMETRY_INPUT__"
     }
   ],
   "topLevel": true,
@@ -74,32 +78,15 @@
     {
       "atomType": "Input",
       "x": 0.0264,
-      "y": 0.352,
+      "y": 0.256,
       "uniqueID": "id-1308",
       "name": "Input_1",
-      "type": "import"
-    },
-    {
-      "atomType": "Code",
-      "x": 0.35516372795969775,
-      "y": 0.7613293051359517,
-      "uniqueID": "id-1373",
-      "ioValues": [
-        {
-          "name": "shape",
-          "ioValue": "__GEOMETRY_INPUT__"
-        },
-        {
-          "name": "radius",
-          "ioValue": 5
-        },
-        {
-          "name": "height",
-          "ioValue": 10
-        }
-      ],
-      "codeVersion": 1,
-      "code": "\n// Example Code\nconst Inputs = [\n  { inputName: \"shape\", type: \"geometry\", defaultValue: null },\n  { inputName: \"radius\", type: \"number\", defaultValue: 5 },\n  { inputName: \"height\", type: \"number\", defaultValue: 10 }\n];\n\nlet importedShape = library[shape];\nlet newPlane = replicad.makePlane()\nlet circDraw = replicad.drawCircle(radius)\nlet sketchCir = circDraw.sketchOnPlane(newPlane)\nlet cyl = sketchCir.extrude(height)\nlet cylObj = {\n  geometry: [cyl],\n  dimension: \"3D\",\n  tags: [\"createdCylinder\"],\n  color: \"#A3CE5B\",\n  plane: null,\n  bom: []\n};\n\nlet assembly = await Assembly([importedShape, cylObj]);\nreturn assembly;\n"
+      "type": "import",
+      "fileName": null,
+      "fileType": null,
+      "repoOwner": null,
+      "repoName": null,
+      "SVGwidth": 10
     },
     {
       "atomType": "GitHubMolecule",
@@ -376,59 +363,22 @@
       "fileTypeVersion": 1
     },
     {
-      "atomType": "Molecule",
-      "x": 0.6209677419354839,
-      "y": 0.6525679758308157,
-      "uniqueID": "id-1237",
-      "name": "Molecule",
-      "ioValues": [
-        {
-          "name": "Input",
-          "ioValue": "__GEOMETRY_INPUT__"
-        }
-      ],
-      "topLevel": false,
-      "allAtoms": [
-        {
-          "atomType": "Output",
-          "x": 0.98,
-          "y": 0.5,
-          "uniqueID": "id-1239",
-          "ioValues": [
-            {
-              "name": "number or geometry",
-              "ioValue": "__GEOMETRY_INPUT__"
-            }
-          ]
-        },
-        {
-          "atomType": "Input",
-          "x": 0.0264,
-          "y": 0.16,
-          "uniqueID": "id-1241",
-          "type": "import"
-        }
-      ],
-      "allConnectors": [],
-      "fileTypeVersion": 1
-    },
-    {
-      "atomType": "Import",
-      "x": 0.46599496221662473,
-      "y": 0.7190332326283988,
-      "uniqueID": "id-1437",
-      "fileName": "stand_svg_copy1.svg",
-      "name": "Import",
-      "type": "SVG",
+      "atomType": "Input",
+      "x": 0.0264,
+      "y": 0.44108761329305135,
+      "uniqueID": "id-1505",
+      "type": "import",
+      "fileName": "stand_svg_copy2.svg",
+      "fileType": "SVG",
       "repoOwner": "alzatin",
       "repoName": "A-Test-project-6",
       "SVGwidth": 10
     },
     {
       "atomType": "Extrude",
-      "x": 0.5608732157850546,
-      "y": 0.8640483383685801,
-      "uniqueID": "id-1439",
+      "x": 0.23929471032745592,
+      "y": 0.6918429003021148,
+      "uniqueID": "id-1508",
       "ioValues": [
         {
           "name": "geometry",
@@ -464,8 +414,8 @@
     },
     {
       "ap2Name": "geometry",
-      "ap1ID": "id-1437",
-      "ap2ID": "id-1439"
+      "ap1ID": "id-1505",
+      "ap2ID": "id-1508"
     }
   ],
   "unitsKey": "MM",
