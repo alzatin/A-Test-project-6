@@ -74,13 +74,6 @@
     {
       "atomType": "Input",
       "x": 0.0264,
-      "y": 0.256,
-      "uniqueID": "id-1305",
-      "type": "import"
-    },
-    {
-      "atomType": "Input",
-      "x": 0.0264,
       "y": 0.352,
       "uniqueID": "id-1308",
       "name": "Input_1",
@@ -421,8 +414,8 @@
     },
     {
       "atomType": "Import",
-      "x": 0.1998320738874895,
-      "y": 0.716012084592145,
+      "x": 0.46599496221662473,
+      "y": 0.7190332326283988,
       "uniqueID": "id-1437",
       "fileName": "stand_svg_copy1.svg",
       "name": "Import",
@@ -430,6 +423,22 @@
       "repoOwner": "alzatin",
       "repoName": "A-Test-project-6",
       "SVGwidth": 10
+    },
+    {
+      "atomType": "Extrude",
+      "x": 0.5608732157850546,
+      "y": 0.8640483383685801,
+      "uniqueID": "id-1439",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "height",
+          "ioValue": 10
+        }
+      ]
     }
   ],
   "allConnectors": [
@@ -452,6 +461,11 @@
       "ap2Name": "diameter",
       "ap1ID": "id-469",
       "ap2ID": "id-1065"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-1437",
+      "ap2ID": "id-1439"
     }
   ],
   "unitsKey": "MM",
