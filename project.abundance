@@ -16,6 +16,10 @@
     {
       "name": "Input",
       "ioValue": "__GEOMETRY_INPUT__"
+    },
+    {
+      "name": "Input_2",
+      "ioValue": "__GEOMETRY_INPUT__"
     }
   ],
   "topLevel": true,
@@ -89,9 +93,37 @@
       "SVGwidth": 10
     },
     {
+      "atomType": "Input",
+      "x": 0.0264,
+      "y": 0.3504531722054381,
+      "uniqueID": "id-1505",
+      "type": "import",
+      "fileName": "stand_svg_copy2.svg",
+      "fileType": "SVG",
+      "repoOwner": "alzatin",
+      "repoName": "A-Test-project-6",
+      "SVGwidth": 10
+    },
+    {
+      "atomType": "Extrude",
+      "x": 0.26448362720403024,
+      "y": 0.39879154078549844,
+      "uniqueID": "id-1508",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "height",
+          "ioValue": 10
+        }
+      ]
+    },
+    {
       "atomType": "GitHubMolecule",
-      "x": 0.722978382706165,
-      "y": 0.38972809667673713,
+      "x": 0.7204030226700252,
+      "y": 0.2326283987915408,
       "uniqueID": "id-1181",
       "name": "Mirror",
       "ioValues": [
@@ -365,10 +397,11 @@
     {
       "atomType": "Input",
       "x": 0.0264,
-      "y": 0.44108761329305135,
-      "uniqueID": "id-1505",
+      "y": 0.5709969788519638,
+      "uniqueID": "id-1565",
+      "name": "Input_2",
       "type": "import",
-      "fileName": "stand_svg_copy2.svg",
+      "fileName": "adidas_copy1.svg",
       "fileType": "SVG",
       "repoOwner": "alzatin",
       "repoName": "A-Test-project-6",
@@ -376,9 +409,9 @@
     },
     {
       "atomType": "Extrude",
-      "x": 0.23929471032745592,
-      "y": 0.6918429003021148,
-      "uniqueID": "id-1508",
+      "x": 0.4139378673383711,
+      "y": 0.6948640483383687,
+      "uniqueID": "id-1568",
       "ioValues": [
         {
           "name": "geometry",
@@ -392,11 +425,6 @@
     }
   ],
   "allConnectors": [
-    {
-      "ap2Name": "number or geometry",
-      "ap1ID": "id-461",
-      "ap2ID": 1746568598187
-    },
     {
       "ap2Name": "diameter",
       "ap1ID": "id-469",
@@ -416,6 +444,16 @@
       "ap2Name": "geometry",
       "ap1ID": "id-1505",
       "ap2ID": "id-1508"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-1565",
+      "ap2ID": "id-1568"
+    },
+    {
+      "ap2Name": "number or geometry",
+      "ap1ID": "id-1568",
+      "ap2ID": 1746568598187
     }
   ],
   "unitsKey": "MM",
