@@ -8,6 +8,10 @@
     {
       "name": "diam",
       "ioValue": 1
+    },
+    {
+      "name": "Input",
+      "ioValue": "__GEOMETRY_INPUT__"
     }
   ],
   "topLevel": true,
@@ -39,7 +43,7 @@
     {
       "atomType": "Input",
       "x": 0.0264,
-      "y": 0.16,
+      "y": 0.2628398791540785,
       "uniqueID": "id-469",
       "name": "diam"
     },
@@ -236,7 +240,7 @@
           "name": "README",
           "ioValues": [
             {
-              "name": "geometry",
+              "name": "value",
               "ioValue": "__GEOMETRY_INPUT__"
             }
           ],
@@ -283,8 +287,7 @@
             },
             {
               "name": "plane",
-              "ioValue": "X",
-              "currentEquation": "X"
+              "ioValue": "X"
             }
           ],
           "codeVersion": 1,
@@ -331,11 +334,6 @@
           "ap2ID": "id-1179"
         },
         {
-          "ap2Name": "geometry",
-          "ap1ID": "id-1176",
-          "ap2ID": "id-1177"
-        },
-        {
           "ap2Name": "shape",
           "ap1ID": "id-1178",
           "ap2ID": "id-1171"
@@ -361,6 +359,60 @@
         "repoName": "Mirror"
       },
       "unitsKey": "Unitless",
+      "fileTypeVersion": 1
+    },
+    {
+      "atomType": "Input",
+      "x": 0.0264,
+      "y": 0.4108761329305136,
+      "uniqueID": "id-1234",
+      "type": "import",
+      "fileName": "stand_svg.svg",
+      "fileType": "SVG",
+      "repoOwner": "alzatin",
+      "repoName": "A-Test-project-6",
+      "SVGwidth": 10
+    },
+    {
+      "atomType": "Molecule",
+      "x": 0.6209677419354839,
+      "y": 0.6525679758308157,
+      "uniqueID": "id-1237",
+      "name": "Molecule",
+      "ioValues": [
+        {
+          "name": "Input",
+          "ioValue": "__GEOMETRY_INPUT__"
+        }
+      ],
+      "topLevel": false,
+      "allAtoms": [
+        {
+          "atomType": "Output",
+          "x": 0.98,
+          "y": 0.5,
+          "uniqueID": "id-1239",
+          "ioValues": [
+            {
+              "name": "number or geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            }
+          ]
+        },
+        {
+          "atomType": "Input",
+          "x": 0.0264,
+          "y": 0.25075528700906347,
+          "uniqueID": "id-1241",
+          "type": "import",
+          "fileName": null,
+          "fileType": null,
+          "repoOwner": null,
+          "repoName": null,
+          "SVGwidth": 10
+        }
+      ],
+      "allConnectors": [],
       "fileTypeVersion": 1
     }
   ],
