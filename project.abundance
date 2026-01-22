@@ -27,7 +27,7 @@
     {
       "atomType": "Input",
       "x": 0.0264,
-      "y": 0.2598187311178248,
+      "y": 0.16,
       "uniqueID": "id-469",
       "name": "diam"
     },
@@ -43,8 +43,7 @@
         },
         {
           "name": "y length",
-          "ioValue": 100,
-          "currentEquation": "100"
+          "ioValue": 100
         }
       ]
     },
@@ -60,8 +59,7 @@
         },
         {
           "name": "height",
-          "ioValue": 50,
-          "currentEquation": "50"
+          "ioValue": 50
         }
       ]
     },
@@ -73,8 +71,7 @@
       "ioValues": [
         {
           "name": "diameter",
-          "ioValue": 70,
-          "currentEquation": "70"
+          "ioValue": 70
         }
       ]
     },
@@ -90,8 +87,7 @@
         },
         {
           "name": "height",
-          "ioValue": 50,
-          "currentEquation": "50"
+          "ioValue": 50
         }
       ]
     },
@@ -115,8 +111,7 @@
         },
         {
           "name": "zDist",
-          "ioValue": 30,
-          "currentEquation": "30"
+          "ioValue": 30
         }
       ]
     },
@@ -148,8 +143,7 @@
         },
         {
           "name": "Tool Size",
-          "ioValue": 6,
-          "currentEquation": "6"
+          "ioValue": 6
         },
         {
           "name": "Passes",
