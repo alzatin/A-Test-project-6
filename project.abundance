@@ -133,8 +133,8 @@
     },
     {
       "atomType": "Gcode",
-      "x": 0.7566182749786508,
-      "y": 0.6888217522658611,
+      "x": 0.7608881298035868,
+      "y": 0.649546827794562,
       "uniqueID": "id-1725",
       "ioValues": [
         {
@@ -143,23 +143,19 @@
         },
         {
           "name": "Tool Size",
-          "ioValue": 6,
-          "currentEquation": "6"
+          "ioValue": 6
         },
         {
           "name": "Passes",
-          "ioValue": 1,
-          "currentEquation": "1"
+          "ioValue": 1
         },
         {
           "name": "Speed",
-          "ioValue": 1500,
-          "currentEquation": "1500"
+          "ioValue": 1500
         },
         {
           "name": "Cut Through",
-          "ioValue": 0,
-          "currentEquation": "0"
+          "ioValue": 0
         },
         {
           "name": "Part Name",
@@ -172,8 +168,8 @@
     },
     {
       "atomType": "Export",
-      "x": 0.8799249530956847,
-      "y": 0.6586102719033233,
+      "x": 0.8821520068317678,
+      "y": 0.6616314199395771,
       "uniqueID": "id-1733",
       "ioValues": [
         {
