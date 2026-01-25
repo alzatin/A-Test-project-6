@@ -77,8 +77,8 @@
     },
     {
       "atomType": "Extrude",
-      "x": 0.4981238273921201,
-      "y": 0.6253776435045317,
+      "x": 0.4706959706959707,
+      "y": 0.6888217522658611,
       "uniqueID": "id-1711",
       "ioValues": [
         {
@@ -133,8 +133,8 @@
     },
     {
       "atomType": "Gcode",
-      "x": 0.7630104083266612,
-      "y": 0.622356495468278,
+      "x": 0.76007326007326,
+      "y": 0.6253776435045317,
       "uniqueID": "id-1725",
       "ioValues": [
         {
@@ -147,7 +147,7 @@
         },
         {
           "name": "Passes",
-          "ioValue": 4
+          "ioValue": 3
         },
         {
           "name": "Speed",
@@ -155,7 +155,8 @@
         },
         {
           "name": "Cut Through",
-          "ioValue": 0
+          "ioValue": 1,
+          "currentEquation": "1"
         },
         {
           "name": "Part Name",
