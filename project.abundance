@@ -93,7 +93,7 @@
     },
     {
       "atomType": "Move",
-      "x": 0.5800653594771242,
+      "x": 0.5742771684945165,
       "y": 0.7099697885196375,
       "uniqueID": "id-1715",
       "ioValues": [
@@ -111,8 +111,8 @@
         },
         {
           "name": "zDist",
-          "ioValue": 5,
-          "currentEquation": "5"
+          "ioValue": 30,
+          "currentEquation": "30"
         }
       ]
     },
@@ -134,8 +134,8 @@
     },
     {
       "atomType": "Gcode",
-      "x": 0.7622549019607843,
-      "y": 0.7311178247734139,
+      "x": 0.7647058823529411,
+      "y": 0.7371601208459214,
       "uniqueID": "id-1725",
       "ioValues": [
         {
@@ -148,7 +148,7 @@
         },
         {
           "name": "Passes",
-          "ioValue": 3
+          "ioValue": 4
         },
         {
           "name": "Speed",
@@ -235,7 +235,13 @@
           "atomType": "Circle",
           "x": 0.3349673202614379,
           "y": 0.5347432024169184,
-          "uniqueID": "id-1779"
+          "uniqueID": "id-1779",
+          "ioValues": [
+            {
+              "name": "diameter",
+              "ioValue": 10
+            }
+          ]
         }
       ],
       "allConnectors": [
