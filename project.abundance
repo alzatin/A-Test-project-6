@@ -26,8 +26,8 @@
     },
     {
       "atomType": "Input",
-      "x": 0.031349999999999996,
-      "y": 0.19,
+      "x": 0.0264,
+      "y": 0.16,
       "uniqueID": "id-469",
       "name": "diam"
     },
@@ -93,8 +93,8 @@
     },
     {
       "atomType": "Move",
-      "x": 0.600375234521576,
-      "y": 0.676737160120846,
+      "x": 0.5800653594771242,
+      "y": 0.7099697885196375,
       "uniqueID": "id-1715",
       "ioValues": [
         {
@@ -111,14 +111,15 @@
         },
         {
           "name": "zDist",
-          "ioValue": 30
+          "ioValue": 5,
+          "currentEquation": "5"
         }
       ]
     },
     {
       "atomType": "Difference",
-      "x": 0.6593137254901961,
-      "y": 0.311178247734139,
+      "x": 0.6601307189542484,
+      "y": 0.2809667673716012,
       "uniqueID": "id-1721",
       "ioValues": [
         {
@@ -133,8 +134,8 @@
     },
     {
       "atomType": "Gcode",
-      "x": 0.7574722459436379,
-      "y": 0.7280966767371602,
+      "x": 0.7622549019607843,
+      "y": 0.7311178247734139,
       "uniqueID": "id-1725",
       "ioValues": [
         {
@@ -224,8 +225,8 @@
         },
         {
           "atomType": "Input",
-          "x": 0.031349999999999996,
-          "y": 0.19,
+          "x": 0.0264,
+          "y": 0.16,
           "uniqueID": "id-1776",
           "name": "diam",
           "type": "number"
@@ -234,14 +235,7 @@
           "atomType": "Circle",
           "x": 0.3349673202614379,
           "y": 0.5347432024169184,
-          "uniqueID": "id-1779",
-          "ioValues": [
-            {
-              "name": "diameter",
-              "ioValue": 1,
-              "currentEquation": "diam"
-            }
-          ]
+          "uniqueID": "id-1779"
         }
       ],
       "allConnectors": [
