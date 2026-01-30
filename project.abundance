@@ -111,8 +111,7 @@
         },
         {
           "name": "zDist",
-          "ioValue": 30,
-          "currentEquation": "30"
+          "ioValue": 30
         }
       ]
     },
@@ -169,8 +168,8 @@
     },
     {
       "atomType": "Export",
-      "x": 0.8733660130718954,
-      "y": 0.22960725075528698,
+      "x": 0.8773678963110667,
+      "y": 0.2416918429003021,
       "uniqueID": "id-1733",
       "ioValues": [
         {
@@ -179,8 +178,8 @@
         },
         {
           "name": "File Type",
-          "ioValue": "STL",
-          "currentEquation": "STL"
+          "ioValue": "SVG",
+          "currentEquation": "SVG"
         },
         {
           "name": "Resolution (dpi)",
@@ -192,74 +191,13 @@
           "currentEquation": "A-Test-project-6"
         }
       ],
-      "type": null,
+      "type": "SVG",
       "resolution": 96,
       "importIndex": 0,
       "partName": "A-Test-project-6"
-    },
-    {
-      "atomType": "Molecule",
-      "x": 0.22875816993464054,
-      "y": 0.7643504531722054,
-      "uniqueID": "id-1772",
-      "name": "Molecule",
-      "ioValues": [
-        {
-          "name": "diam",
-          "ioValue": 1
-        }
-      ],
-      "topLevel": false,
-      "allAtoms": [
-        {
-          "atomType": "Output",
-          "x": 0.98,
-          "y": 0.5,
-          "uniqueID": "id-1774",
-          "ioValues": [
-            {
-              "name": "number or geometry",
-              "ioValue": "__GEOMETRY_INPUT__"
-            }
-          ]
-        },
-        {
-          "atomType": "Input",
-          "x": 0.0264,
-          "y": 0.16,
-          "uniqueID": "id-1776",
-          "name": "diam",
-          "type": "number"
-        },
-        {
-          "atomType": "Circle",
-          "x": 0.3349673202614379,
-          "y": 0.5347432024169184,
-          "uniqueID": "id-1779",
-          "ioValues": [
-            {
-              "name": "diameter",
-              "ioValue": 10
-            }
-          ]
-        }
-      ],
-      "allConnectors": [
-        {
-          "ap2Name": "number or geometry",
-          "ap1ID": "id-1779",
-          "ap2ID": "id-1774"
-        }
-      ],
-      "fileTypeVersion": 1
     }
   ],
   "allConnectors": [
-    {
-      "ap2Name": "diam",
-      "ap1ID": "id-469",
-      "ap2ID": "id-1772"
-    },
     {
       "ap2Name": "geometry",
       "ap1ID": "id-1700",
