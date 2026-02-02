@@ -39,8 +39,7 @@
       "ioValues": [
         {
           "name": "x length",
-          "ioValue": 200,
-          "currentEquation": "200"
+          "ioValue": 200
         },
         {
           "name": "y length",
@@ -72,8 +71,7 @@
       "ioValues": [
         {
           "name": "diameter",
-          "ioValue": 50,
-          "currentEquation": "50"
+          "ioValue": 50
         }
       ]
     },
@@ -105,8 +103,7 @@
         },
         {
           "name": "xDist",
-          "ioValue": -50,
-          "currentEquation": "-50"
+          "ioValue": -50
         },
         {
           "name": "yDist",
@@ -211,8 +208,7 @@
         },
         {
           "name": "xDist",
-          "ioValue": 50,
-          "currentEquation": "50"
+          "ioValue": 50
         },
         {
           "name": "yDist",
@@ -220,8 +216,7 @@
         },
         {
           "name": "zDist",
-          "ioValue": 40,
-          "currentEquation": "40"
+          "ioValue": 40
         }
       ]
     },
