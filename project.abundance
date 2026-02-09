@@ -26,8 +26,8 @@
     },
     {
       "atomType": "Input",
-      "x": 0.0264,
-      "y": 0.16,
+      "x": 0.031349999999999996,
+      "y": 0.19,
       "uniqueID": "id-469",
       "name": "diam"
     },
@@ -132,9 +132,44 @@
       ]
     },
     {
+      "atomType": "Gcode",
+      "x": 0.8558394160583942,
+      "y": 0.7915407854984895,
+      "uniqueID": "id-1725",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "Tool Size",
+          "ioValue": 0.2
+        },
+        {
+          "name": "Passes",
+          "ioValue": 4
+        },
+        {
+          "name": "Speed",
+          "ioValue": 1500
+        },
+        {
+          "name": "Cut Through",
+          "ioValue": 1
+        },
+        {
+          "name": "Part Name",
+          "ioValue": "A-Test-project-6",
+          "currentEquation": "A-Test-project-6"
+        }
+      ],
+      "partName": "A-Test-project-6",
+      "sortDirection": "Left"
+    },
+    {
       "atomType": "Export",
-      "x": 0.8773678963110667,
-      "y": 0.2416918429003021,
+      "x": 0.884,
+      "y": 0.256797583081571,
       "uniqueID": "id-1733",
       "ioValues": [
         {
@@ -307,6 +342,11 @@
       "ap2Name": "geometry",
       "ap1ID": "id-1825",
       "ap2ID": "id-1733"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-1825",
+      "ap2ID": "id-1725"
     }
   ],
   "unitsKey": "Inches",
