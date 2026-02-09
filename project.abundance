@@ -93,8 +93,8 @@
     },
     {
       "atomType": "Move",
-      "x": 0.4636091724825523,
-      "y": 0.5347432024169184,
+      "x": 0.46569178852643417,
+      "y": 0.525679758308157,
       "uniqueID": "id-1715",
       "ioValues": [
         {
@@ -111,7 +111,8 @@
         },
         {
           "name": "zDist",
-          "ioValue": 15
+          "ioValue": 7.5,
+          "currentEquation": "7.5"
         }
       ]
     },
@@ -133,8 +134,8 @@
     },
     {
       "atomType": "Gcode",
-      "x": 0.8614157527417747,
-      "y": 0.7764350453172205,
+      "x": 0.8605174353205849,
+      "y": 0.7794561933534743,
       "uniqueID": "id-1725",
       "ioValues": [
         {
@@ -147,7 +148,8 @@
         },
         {
           "name": "Passes",
-          "ioValue": 5
+          "ioValue": 2,
+          "currentEquation": "2"
         },
         {
           "name": "Speed",
@@ -198,8 +200,8 @@
     },
     {
       "atomType": "Move",
-      "x": 0.47158524426719844,
-      "y": 0.6827794561933535,
+      "x": 0.4803149606299213,
+      "y": 0.6797583081570997,
       "uniqueID": "id-1769",
       "ioValues": [
         {
@@ -212,11 +214,13 @@
         },
         {
           "name": "yDist",
-          "ioValue": 0
+          "ioValue": 20,
+          "currentEquation": "20"
         },
         {
           "name": "zDist",
-          "ioValue": 40
+          "ioValue": 10,
+          "currentEquation": "10"
         }
       ]
     },
