@@ -87,8 +87,7 @@
         },
         {
           "name": "height",
-          "ioValue": 200,
-          "currentEquation": "200"
+          "ioValue": 200
         }
       ]
     },
@@ -131,41 +130,6 @@
           "ioValue": "__GEOMETRY_INPUT__"
         }
       ]
-    },
-    {
-      "atomType": "Gcode",
-      "x": 0.8558394160583942,
-      "y": 0.7915407854984895,
-      "uniqueID": "id-1725",
-      "ioValues": [
-        {
-          "name": "geometry",
-          "ioValue": "__GEOMETRY_INPUT__"
-        },
-        {
-          "name": "Tool Size",
-          "ioValue": 0.2
-        },
-        {
-          "name": "Passes",
-          "ioValue": 4
-        },
-        {
-          "name": "Speed",
-          "ioValue": 1500
-        },
-        {
-          "name": "Cut Through",
-          "ioValue": 1
-        },
-        {
-          "name": "Part Name",
-          "ioValue": "A-Test-project-6",
-          "currentEquation": "A-Test-project-6"
-        }
-      ],
-      "partName": "A-Test-project-6",
-      "sortDirection": "Left"
     },
     {
       "atomType": "Export",
@@ -217,8 +181,7 @@
         },
         {
           "name": "zDist",
-          "ioValue": -10,
-          "currentEquation": "-10"
+          "ioValue": -10
         }
       ]
     },
@@ -344,11 +307,6 @@
       "ap2Name": "geometry",
       "ap1ID": "id-1825",
       "ap2ID": "id-1733"
-    },
-    {
-      "ap2Name": "geometry",
-      "ap1ID": "id-1825",
-      "ap2ID": "id-1725"
     }
   ],
   "unitsKey": "Inches",
