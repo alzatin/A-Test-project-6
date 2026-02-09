@@ -87,7 +87,8 @@
         },
         {
           "name": "height",
-          "ioValue": 50
+          "ioValue": 200,
+          "currentEquation": "200"
         }
       ]
     },
@@ -111,7 +112,7 @@
         },
         {
           "name": "zDist",
-          "ioValue": 7.5
+          "ioValue": -10
         }
       ]
     },
@@ -198,8 +199,8 @@
     },
     {
       "atomType": "Move",
-      "x": 0.3987189751801441,
-      "y": 0.6253776435045317,
+      "x": 0.4006342494714588,
+      "y": 0.6283987915407855,
       "uniqueID": "id-1769",
       "ioValues": [
         {
@@ -216,7 +217,8 @@
         },
         {
           "name": "zDist",
-          "ioValue": 10
+          "ioValue": -10,
+          "currentEquation": "-10"
         }
       ]
     },
