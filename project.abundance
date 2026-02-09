@@ -26,8 +26,8 @@
     },
     {
       "atomType": "Input",
-      "x": 0.0264,
-      "y": 0.16,
+      "x": 0.031349999999999996,
+      "y": 0.19,
       "uniqueID": "id-469",
       "name": "diam"
     },
@@ -132,9 +132,44 @@
       ]
     },
     {
+      "atomType": "Gcode",
+      "x": 0.856,
+      "y": 0.8006042296072508,
+      "uniqueID": "id-1725",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "Tool Size",
+          "ioValue": 0.2
+        },
+        {
+          "name": "Passes",
+          "ioValue": 4
+        },
+        {
+          "name": "Speed",
+          "ioValue": 1500
+        },
+        {
+          "name": "Cut Through",
+          "ioValue": 1
+        },
+        {
+          "name": "Part Name",
+          "ioValue": "A-Test-project-6",
+          "currentEquation": "A-Test-project-6"
+        }
+      ],
+      "partName": "A-Test-project-6",
+      "sortDirection": "Left"
+    },
+    {
       "atomType": "Export",
-      "x": 0.8453703703703703,
-      "y": 0.2990936555891239,
+      "x": 0.884,
+      "y": 0.256797583081571,
       "uniqueID": "id-1733",
       "ioValues": [
         {
@@ -187,8 +222,8 @@
     },
     {
       "atomType": "Difference",
-      "x": 0.4972222222222222,
-      "y": 0.5498489425981873,
+      "x": 0.516,
+      "y": 0.5861027190332326,
       "uniqueID": "id-1775",
       "ioValues": [
         {
@@ -203,8 +238,8 @@
     },
     {
       "atomType": "Move",
-      "x": 0.5537037037037037,
-      "y": 0.8761329305135952,
+      "x": 0.6517213771016813,
+      "y": 0.743202416918429,
       "uniqueID": "id-1819",
       "ioValues": [
         {
@@ -227,8 +262,8 @@
     },
     {
       "atomType": "Assembly",
-      "x": 0.6574074074074074,
-      "y": 0.27492447129909364,
+      "x": 0.716,
+      "y": 0.33534743202416917,
       "uniqueID": "id-1825",
       "ioValues": [
         {
@@ -240,91 +275,6 @@
           "ioValue": null
         }
       ]
-    },
-    {
-      "atomType": "Fusion",
-      "x": 0.6916666666666667,
-      "y": 0.716012084592145,
-      "uniqueID": "id-1871",
-      "ioValues": [
-        {
-          "name": "Shape 1",
-          "ioValue": {
-            "geometry": "move-cut-cut-extrude-rectangle-200-100-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-50-move-extrude-circle-25-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-200--50-0--10-move-extrude-circle-25-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-200-50-20--10-0-149-0",
-            "dimension": "3D",
-            "plane": {
-              "origin": [
-                0,
-                0,
-                0
-              ],
-              "xDir": [
-                1,
-                0,
-                0
-              ],
-              "normal": [
-                0,
-                0,
-                1
-              ]
-            },
-            "color": "#aad7f2",
-            "tags": [],
-            "bom": []
-          }
-        },
-        {
-          "name": "Shape 2",
-          "ioValue": {
-            "geometry": "cut-cut-extrude-rectangle-200-100-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-50-move-extrude-circle-25-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-200--50-0--10-move-extrude-circle-25-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-200-50-20--10",
-            "dimension": "3D",
-            "plane": {
-              "origin": [
-                0,
-                0,
-                0
-              ],
-              "xDir": [
-                1,
-                0,
-                0
-              ],
-              "normal": [
-                0,
-                0,
-                1
-              ]
-            },
-            "color": "#aad7f2",
-            "tags": [],
-            "bom": []
-          }
-        }
-      ],
-      "unionType": "Fusion"
-    },
-    {
-      "atomType": "Code",
-      "x": 0.8240740740740741,
-      "y": 0.8580060422960726,
-      "uniqueID": "id-1876",
-      "ioValues": [
-        {
-          "name": "shape",
-          "ioValue": "__GEOMETRY_INPUT__"
-        },
-        {
-          "name": "radius",
-          "ioValue": 5
-        },
-        {
-          "name": "height",
-          "ioValue": 10
-        }
-      ],
-      "codeVersion": 1,
-      "code": "\n// Example Code\nconst Inputs = [\n  { inputName: \"shape\", type: \"geometry\", defaultValue: null },\n  { inputName: \"radius\", type: \"number\", defaultValue: 5 },\n  { inputName: \"height\", type: \"number\", defaultValue: 10 }\n];\n\nlet importedShape = library[shape];\nlet projection = replicad.drawProjection(importedShape.geometry[0], \"top\").visible\nconsole.log(projection)\nlet newPlane = replicad.makePlane()\nlet sketchProj= projection.sketchOnPlane(newPlane)\nlet svg = projection.scale(1).toSVG();\nconsole.log(svg)\nlet cyl = sketchProj.extrude(height)\nlet cylObj = {\n  geometry: [projection],\n  dimension: \"3D\",\n  tags: [\"createdCylinder\"],\n  color: \"#A3CE5B\",\n  plane: null,\n  bom: []\n};\n\nlet assembly = await Assembly([importedShape, cylObj]);\nreturn assembly;\n"
     }
   ],
   "allConnectors": [
@@ -384,29 +334,19 @@
       "ap2ID": "id-1825"
     },
     {
-      "ap2Name": "geometry",
-      "ap1ID": "id-1775",
-      "ap2ID": "id-1733"
-    },
-    {
-      "ap2Name": "Shape 2",
-      "ap1ID": "id-1775",
-      "ap2ID": "id-1871"
-    },
-    {
       "ap2Name": "Shape 1",
       "ap1ID": "id-1819",
       "ap2ID": "id-1825"
     },
     {
-      "ap2Name": "Shape 1",
-      "ap1ID": "id-1819",
-      "ap2ID": "id-1871"
+      "ap2Name": "geometry",
+      "ap1ID": "id-1825",
+      "ap2ID": "id-1733"
     },
     {
-      "ap2Name": "shape",
-      "ap1ID": "id-1871",
-      "ap2ID": "id-1876"
+      "ap2Name": "geometry",
+      "ap1ID": "id-1825",
+      "ap2ID": "id-1725"
     }
   ],
   "unitsKey": "Inches",
