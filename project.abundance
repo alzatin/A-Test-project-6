@@ -222,8 +222,8 @@
     },
     {
       "atomType": "Difference",
-      "x": 0.5492393915132106,
-      "y": 0.6012084592145015,
+      "x": 0.5308246597277823,
+      "y": 0.595166163141994,
       "uniqueID": "id-1775",
       "ioValues": [
         {
@@ -238,8 +238,8 @@
     },
     {
       "atomType": "Move",
-      "x": 0.5796637309847879,
-      "y": 0.824773413897281,
+      "x": 0.6517213771016813,
+      "y": 0.743202416918429,
       "uniqueID": "id-1819",
       "ioValues": [
         {
@@ -252,8 +252,7 @@
         },
         {
           "name": "yDist",
-          "ioValue": 150,
-          "currentEquation": "150"
+          "ioValue": 149
         },
         {
           "name": "zDist",
@@ -263,8 +262,8 @@
     },
     {
       "atomType": "Assembly",
-      "x": 0.6725380304243395,
-      "y": 0.4169184290030212,
+      "x": 0.7213771016813451,
+      "y": 0.311178247734139,
       "uniqueID": "id-1825",
       "ioValues": [
         {
@@ -350,7 +349,7 @@
       "ap2ID": "id-1725"
     }
   ],
-  "unitsKey": "MM",
+  "unitsKey": "Inches",
   "fileTypeVersion": 1,
   "filetypeVersion": 1
 }
