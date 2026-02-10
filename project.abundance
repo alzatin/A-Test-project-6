@@ -31,9 +31,10 @@
     {
       "atomType": "Input",
       "x": 0.0264,
-      "y": 0.16,
+      "y": 0.16314199395770393,
       "uniqueID": "id-469",
-      "name": "diam"
+      "name": "diam",
+      "type": "number"
     },
     {
       "atomType": "Rectangle",
@@ -91,7 +92,7 @@
         },
         {
           "name": "height",
-          "ioValue": 200
+          "ioValue": 2
         }
       ]
     },
@@ -137,8 +138,8 @@
     },
     {
       "atomType": "Gcode",
-      "x": 0.8527777777777777,
-      "y": 0.8006042296072508,
+      "x": 0.8494795836669337,
+      "y": 0.8066465256797584,
       "uniqueID": "id-1725",
       "ioValues": [
         {
@@ -169,36 +170,6 @@
       ],
       "partName": "A-Test-project-6",
       "sortDirection": "Left"
-    },
-    {
-      "atomType": "Export",
-      "x": 0.8806666666666666,
-      "y": 0.34441087613293053,
-      "uniqueID": "id-1733",
-      "ioValues": [
-        {
-          "name": "geometry",
-          "ioValue": "__GEOMETRY_INPUT__"
-        },
-        {
-          "name": "File Type",
-          "ioValue": "SVG",
-          "currentEquation": "SVG"
-        },
-        {
-          "name": "Resolution (dpi)",
-          "ioValue": 96
-        },
-        {
-          "name": "Part Name",
-          "ioValue": "A-Test-project-6",
-          "currentEquation": "A-Test-project-6"
-        }
-      ],
-      "type": "SVG",
-      "resolution": 96,
-      "importIndex": 0,
-      "partName": "A-Test-project-6"
     },
     {
       "atomType": "Move",
@@ -281,78 +252,46 @@
       ]
     },
     {
-      "atomType": "Text",
-      "x": 0.48056244830438377,
-      "y": 0.824773413897281,
-      "uniqueID": "id-1878",
-      "ioValues": [
-        {
-          "name": "Font Size",
-          "ioValue": 10
-        },
-        {
-          "name": "Text",
-          "ioValue": "Lorem ",
-          "currentEquation": "Lorem "
-        },
-        {
-          "name": "Font Family",
-          "ioValue": "ROBOTO",
-          "currentEquation": "ROBOTO"
-        }
-      ],
-      "fontFamily": "ROBOTO",
-      "selectedFontIndex": 0
+      "atomType": "Input",
+      "x": 0.0264,
+      "y": 0.256,
+      "uniqueID": "id-2127",
+      "name": "rang",
+      "type": "range"
     },
     {
-      "atomType": "Extrude",
-      "x": 0.6,
-      "y": 0.8640483383685801,
-      "uniqueID": "id-1883",
+      "atomType": "Rectangle",
+      "x": 0.2297838270616493,
+      "y": 0.7885196374622356,
+      "uniqueID": "id-2191",
       "ioValues": [
         {
-          "name": "geometry",
-          "ioValue": "__GEOMETRY_INPUT__"
+          "name": "x length",
+          "ioValue": 10
         },
         {
-          "name": "height",
-          "ioValue": 10
+          "name": "y length",
+          "ioValue": 2
         }
       ]
     },
     {
-      "atomType": "Import",
-      "x": 0.2330827067669173,
-      "y": 0.8187311178247734,
-      "uniqueID": "id-2004",
-      "fileName": "accessible-icon_copy1.svg",
-      "name": "Import",
-      "type": "SVG",
-      "repoOwner": "alzatin",
-      "repoName": "A-Test-project-6",
-      "SVGwidth": 10
-    },
-    {
-      "atomType": "Import",
-      "x": 0.337406015037594,
-      "y": 0.9093655589123867,
-      "uniqueID": "id-2065",
-      "fileName": "android.svg",
-      "name": "Import",
-      "type": "SVG",
-      "repoOwner": "alzatin",
-      "repoName": "A-Test-project-6",
-      "SVGwidth": 10
-    },
-    {
-      "atomType": "Input",
-      "x": 0.0264,
-      "y": 0.6404833836858006,
-      "uniqueID": "id-2127",
-      "name": "rang",
-      "type": "range",
-      "min": 0,
-      "max": 100
+      "atomType": "Equation",
+      "x": 0.08887109687750201,
+      "y": 0.7975830815709969,
+      "uniqueID": "id-2195",
+      "name": "x + y",
+      "ioValues": [
+        {
+          "name": "x",
+          "ioValue": 1
+        },
+        {
+          "name": "y",
+          "ioValue": 1
+        }
+      ],
+      "currentEquation": "x + y"
     }
   ],
   "allConnectors": [
@@ -422,14 +361,14 @@
       "ap2ID": "id-1725"
     },
     {
-      "ap2Name": "geometry",
-      "ap1ID": "id-1878",
-      "ap2ID": "id-1883"
+      "ap2Name": "y length",
+      "ap1ID": "id-2195",
+      "ap2ID": "id-2191"
     },
     {
-      "ap2Name": "geometry",
-      "ap1ID": "id-1883",
-      "ap2ID": "id-1733"
+      "ap2Name": "height",
+      "ap1ID": "id-2195",
+      "ap2ID": "id-1711"
     }
   ],
   "unitsKey": "Inches",
