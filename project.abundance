@@ -8,6 +8,10 @@
     {
       "name": "diam",
       "ioValue": 1
+    },
+    {
+      "name": "rang",
+      "ioValue": 10
     }
   ],
   "topLevel": true,
@@ -65,8 +69,8 @@
     },
     {
       "atomType": "Circle",
-      "x": 0.07876370887337986,
-      "y": 0.5921450151057402,
+      "x": 0.09533333333333333,
+      "y": 0.377643504531722,
       "uniqueID": "id-1708",
       "ioValues": [
         {
@@ -339,6 +343,16 @@
       "repoOwner": "alzatin",
       "repoName": "A-Test-project-6",
       "SVGwidth": 10
+    },
+    {
+      "atomType": "Input",
+      "x": 0.0264,
+      "y": 0.6404833836858006,
+      "uniqueID": "id-2127",
+      "name": "rang",
+      "type": "range",
+      "min": 0,
+      "max": 100
     }
   ],
   "allConnectors": [
