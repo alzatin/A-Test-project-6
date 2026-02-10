@@ -168,8 +168,8 @@
     },
     {
       "atomType": "Export",
-      "x": 0.8712406015037594,
-      "y": 0.3504531722054381,
+      "x": 0.8806666666666666,
+      "y": 0.34441087613293053,
       "uniqueID": "id-1733",
       "ioValues": [
         {
@@ -288,8 +288,8 @@
         },
         {
           "name": "Text",
-          "ioValue": "Lorem Ipsum",
-          "currentEquation": "Lorem Ipsum"
+          "ioValue": "Lorem ",
+          "currentEquation": "Lorem "
         },
         {
           "name": "Font Family",
@@ -302,8 +302,8 @@
     },
     {
       "atomType": "Extrude",
-      "x": 0.6046319272125724,
-      "y": 0.8670694864048338,
+      "x": 0.6,
+      "y": 0.8640483383685801,
       "uniqueID": "id-1883",
       "ioValues": [
         {
