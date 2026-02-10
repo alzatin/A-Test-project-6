@@ -168,8 +168,8 @@
     },
     {
       "atomType": "Export",
-      "x": 0.8734491315136477,
-      "y": 0.3595166163141994,
+      "x": 0.8712406015037594,
+      "y": 0.3504531722054381,
       "uniqueID": "id-1733",
       "ioValues": [
         {
@@ -315,6 +315,18 @@
           "ioValue": 10
         }
       ]
+    },
+    {
+      "atomType": "Import",
+      "x": 0.299812030075188,
+      "y": 0.851963746223565,
+      "uniqueID": "id-1943",
+      "fileName": "accessible-icon.svg",
+      "name": "Import",
+      "type": "SVG",
+      "repoOwner": "alzatin",
+      "repoName": "A-Test-project-6",
+      "SVGwidth": 10
     }
   ],
   "allConnectors": [
