@@ -7,7 +7,8 @@
   "ioValues": [
     {
       "name": "diam",
-      "ioValue": 1
+      "ioValue": 1,
+      "currentEquation": "1"
     },
     {
       "name": "rang",
@@ -97,8 +98,8 @@
     },
     {
       "atomType": "Move",
-      "x": 0.4091273018414732,
-      "y": 0.38368580060422963,
+      "x": 0.414,
+      "y": 0.3323262839879154,
       "uniqueID": "id-1715",
       "ioValues": [
         {
@@ -107,15 +108,18 @@
         },
         {
           "name": "xDist",
-          "ioValue": -50
+          "ioValue": -50,
+          "currentEquation": "-50"
         },
         {
           "name": "yDist",
-          "ioValue": 0
+          "ioValue": 0,
+          "currentEquation": "0"
         },
         {
           "name": "zDist",
-          "ioValue": -10
+          "ioValue": -10,
+          "currentEquation": "-10"
         }
       ]
     },
