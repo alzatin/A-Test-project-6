@@ -7,13 +7,11 @@
   "ioValues": [
     {
       "name": "diam",
-      "ioValue": 1,
-      "currentEquation": "1"
+      "ioValue": 1
     },
     {
       "name": "rang",
-      "ioValue": 10,
-      "currentEquation": "10"
+      "ioValue": 10
     }
   ],
   "topLevel": true,
@@ -32,8 +30,8 @@
     },
     {
       "atomType": "Input",
-      "x": 0.0264,
-      "y": 0.16,
+      "x": 0.031349999999999996,
+      "y": 0.19,
       "uniqueID": "id-469",
       "name": "diam"
     },
@@ -174,7 +172,7 @@
     },
     {
       "atomType": "Export",
-      "x": 0.8726981585268214,
+      "x": 0.8806666666666666,
       "y": 0.34441087613293053,
       "uniqueID": "id-1733",
       "ioValues": [
@@ -204,8 +202,8 @@
     },
     {
       "atomType": "Move",
-      "x": 0.389111289031225,
-      "y": 0.6797583081570997,
+      "x": 0.40066666666666667,
+      "y": 0.6676737160120846,
       "uniqueID": "id-1769",
       "ioValues": [
         {
@@ -214,18 +212,15 @@
         },
         {
           "name": "xDist",
-          "ioValue": 50,
-          "currentEquation": "50"
+          "ioValue": 50
         },
         {
           "name": "yDist",
-          "ioValue": 20,
-          "currentEquation": "20"
+          "ioValue": 20
         },
         {
           "name": "zDist",
-          "ioValue": -10,
-          "currentEquation": "-10"
+          "ioValue": -10
         }
       ]
     },
@@ -247,8 +242,8 @@
     },
     {
       "atomType": "Move",
-      "x": 0.610888710968775,
-      "y": 0.22054380664652568,
+      "x": 0.619520264681555,
+      "y": 0.1661631419939577,
       "uniqueID": "id-1819",
       "ioValues": [
         {
@@ -257,24 +252,21 @@
         },
         {
           "name": "xDist",
-          "ioValue": 0,
-          "currentEquation": "0"
+          "ioValue": 0
         },
         {
           "name": "yDist",
-          "ioValue": 149,
-          "currentEquation": "149"
+          "ioValue": 149
         },
         {
           "name": "zDist",
-          "ioValue": 0,
-          "currentEquation": "0"
+          "ioValue": 0
         }
       ]
     },
     {
       "atomType": "Assembly",
-      "x": 0.7165732586068856,
+      "x": 0.716,
       "y": 0.33534743202416917,
       "uniqueID": "id-1825",
       "ioValues": [
@@ -314,8 +306,8 @@
     },
     {
       "atomType": "Extrude",
-      "x": 0.6397117694155324,
-      "y": 0.8489425981873111,
+      "x": 0.6,
+      "y": 0.8640483383685801,
       "uniqueID": "id-1883",
       "ioValues": [
         {
@@ -330,11 +322,13 @@
     },
     {
       "atomType": "Input",
-      "x": 0.0264,
-      "y": 0.256,
+      "x": 0.031349999999999996,
+      "y": 0.304,
       "uniqueID": "id-2127",
       "name": "rang",
-      "type": "range"
+      "type": "range",
+      "min": 0,
+      "max": 100
     },
     {
       "atomType": "Equation",
