@@ -30,11 +30,10 @@
     },
     {
       "atomType": "Input",
-      "x": 0.0264,
-      "y": 0.16314199395770393,
+      "x": 0.031349999999999996,
+      "y": 0.19,
       "uniqueID": "id-469",
-      "name": "diam",
-      "type": "number"
+      "name": "diam"
     },
     {
       "atomType": "Rectangle",
@@ -82,8 +81,8 @@
     },
     {
       "atomType": "Extrude",
-      "x": 0.27517447657028915,
-      "y": 0.5709969788519638,
+      "x": 0.2733333333333333,
+      "y": 0.47432024169184284,
       "uniqueID": "id-1711",
       "ioValues": [
         {
@@ -92,7 +91,7 @@
         },
         {
           "name": "height",
-          "ioValue": 2
+          "ioValue": 1
         }
       ]
     },
@@ -138,8 +137,8 @@
     },
     {
       "atomType": "Gcode",
-      "x": 0.8494795836669337,
-      "y": 0.8066465256797584,
+      "x": 0.8527777777777777,
+      "y": 0.8006042296072508,
       "uniqueID": "id-1725",
       "ioValues": [
         {
@@ -172,9 +171,39 @@
       "sortDirection": "Left"
     },
     {
+      "atomType": "Export",
+      "x": 0.8806666666666666,
+      "y": 0.34441087613293053,
+      "uniqueID": "id-1733",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "File Type",
+          "ioValue": "SVG",
+          "currentEquation": "SVG"
+        },
+        {
+          "name": "Resolution (dpi)",
+          "ioValue": 96
+        },
+        {
+          "name": "Part Name",
+          "ioValue": "A-Test-project-6",
+          "currentEquation": "A-Test-project-6"
+        }
+      ],
+      "type": "SVG",
+      "resolution": 96,
+      "importIndex": 0,
+      "partName": "A-Test-project-6"
+    },
+    {
       "atomType": "Move",
-      "x": 0.4006342494714588,
-      "y": 0.6283987915407855,
+      "x": 0.40066666666666667,
+      "y": 0.6676737160120846,
       "uniqueID": "id-1769",
       "ioValues": [
         {
@@ -252,34 +281,60 @@
       ]
     },
     {
-      "atomType": "Input",
-      "x": 0.0264,
-      "y": 0.256,
-      "uniqueID": "id-2127",
-      "name": "rang",
-      "type": "range"
-    },
-    {
-      "atomType": "Rectangle",
-      "x": 0.2297838270616493,
-      "y": 0.7885196374622356,
-      "uniqueID": "id-2191",
+      "atomType": "Text",
+      "x": 0.48056244830438377,
+      "y": 0.824773413897281,
+      "uniqueID": "id-1878",
       "ioValues": [
         {
-          "name": "x length",
+          "name": "Font Size",
           "ioValue": 10
         },
         {
-          "name": "y length",
-          "ioValue": 2
+          "name": "Text",
+          "ioValue": "Lorem ",
+          "currentEquation": "Lorem "
+        },
+        {
+          "name": "Font Family",
+          "ioValue": "ROBOTO",
+          "currentEquation": "ROBOTO"
+        }
+      ],
+      "fontFamily": "ROBOTO",
+      "selectedFontIndex": 0
+    },
+    {
+      "atomType": "Extrude",
+      "x": 0.6,
+      "y": 0.8640483383685801,
+      "uniqueID": "id-1883",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "height",
+          "ioValue": 10
         }
       ]
     },
     {
+      "atomType": "Input",
+      "x": 0.031349999999999996,
+      "y": 0.304,
+      "uniqueID": "id-2127",
+      "name": "rang",
+      "type": "range",
+      "min": 0,
+      "max": 100
+    },
+    {
       "atomType": "Equation",
-      "x": 0.08887109687750201,
-      "y": 0.7975830815709969,
-      "uniqueID": "id-2195",
+      "x": 0.09933333333333334,
+      "y": 0.8157099697885197,
+      "uniqueID": "id-2191",
       "name": "x + y",
       "ioValues": [
         {
@@ -295,6 +350,11 @@
     }
   ],
   "allConnectors": [
+    {
+      "ap2Name": "height",
+      "ap1ID": "id-469",
+      "ap2ID": "id-1711"
+    },
     {
       "ap2Name": "geometry",
       "ap1ID": "id-1700",
@@ -361,14 +421,14 @@
       "ap2ID": "id-1725"
     },
     {
-      "ap2Name": "y length",
-      "ap1ID": "id-2195",
-      "ap2ID": "id-2191"
+      "ap2Name": "geometry",
+      "ap1ID": "id-1878",
+      "ap2ID": "id-1883"
     },
     {
-      "ap2Name": "height",
-      "ap1ID": "id-2195",
-      "ap2ID": "id-1711"
+      "ap2Name": "geometry",
+      "ap1ID": "id-1883",
+      "ap2ID": "id-1733"
     }
   ],
   "unitsKey": "Inches",
