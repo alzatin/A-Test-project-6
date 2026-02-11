@@ -180,8 +180,8 @@
     },
     {
       "atomType": "Difference",
-      "x": 0.671152228763667,
-      "y": 0.34743202416918434,
+      "x": 0.7224558452481077,
+      "y": 0.25075528700906347,
       "uniqueID": "id-1775",
       "ioValues": [
         {
@@ -196,8 +196,8 @@
     },
     {
       "atomType": "Text",
-      "x": 0.6366694701429773,
-      "y": 0.7190332326283988,
+      "x": 0.5836837678721615,
+      "y": 0.40785498489425986,
       "uniqueID": "id-1878",
       "ioValues": [
         {
@@ -246,8 +246,8 @@
     },
     {
       "atomType": "Gcode",
-      "x": 0.8267451640033642,
-      "y": 0.716012084592145,
+      "x": 0.825063078216989,
+      "y": 0.743202416918429,
       "uniqueID": "id-2247",
       "ioValues": [
         {
@@ -256,13 +256,12 @@
         },
         {
           "name": "Tool Size",
-          "ioValue": 19,
-          "currentEquation": "19"
+          "ioValue": 20
         },
         {
           "name": "Passes",
-          "ioValue": 7,
-          "currentEquation": "7"
+          "ioValue": 4,
+          "currentEquation": "4"
         },
         {
           "name": "Speed",
