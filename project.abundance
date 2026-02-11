@@ -7,7 +7,8 @@
   "ioValues": [
     {
       "name": "diam",
-      "ioValue": 1
+      "ioValue": 1,
+      "currentEquation": "1"
     },
     {
       "name": "rang",
@@ -37,8 +38,8 @@
     },
     {
       "atomType": "Rectangle",
-      "x": 0.22733333333333336,
-      "y": 0.4561933534743203,
+      "x": 0.22257806244995998,
+      "y": 0.4169184290030212,
       "uniqueID": "id-1700",
       "ioValues": [
         {
@@ -97,8 +98,8 @@
     },
     {
       "atomType": "Move",
-      "x": 0.37149719775820655,
-      "y": 0.4441087613293051,
+      "x": 0.3746997598078463,
+      "y": 0.47432024169184284,
       "uniqueID": "id-1715",
       "ioValues": [
         {
@@ -117,7 +118,8 @@
         },
         {
           "name": "zDist",
-          "ioValue": -10
+          "ioValue": -10,
+          "currentEquation": "-10"
         }
       ]
     },
@@ -204,7 +206,7 @@
     },
     {
       "atomType": "Move",
-      "x": 0.40066666666666667,
+      "x": 0.4035228182546037,
       "y": 0.6676737160120846,
       "uniqueID": "id-1769",
       "ioValues": [
@@ -214,22 +216,25 @@
         },
         {
           "name": "xDist",
-          "ioValue": 50
+          "ioValue": 50,
+          "currentEquation": "50"
         },
         {
           "name": "yDist",
-          "ioValue": 20
+          "ioValue": 20,
+          "currentEquation": "20"
         },
         {
           "name": "zDist",
-          "ioValue": -10
+          "ioValue": -10,
+          "currentEquation": "-10"
         }
       ]
     },
     {
       "atomType": "Difference",
-      "x": 0.5300240192153722,
-      "y": 0.43202416918429004,
+      "x": 0.5364291433146517,
+      "y": 0.4290030211480363,
       "uniqueID": "id-1775",
       "ioValues": [
         {
@@ -254,15 +259,18 @@
         },
         {
           "name": "xDist",
-          "ioValue": 0
+          "ioValue": 0,
+          "currentEquation": "0"
         },
         {
           "name": "yDist",
-          "ioValue": 149
+          "ioValue": 149,
+          "currentEquation": "149"
         },
         {
           "name": "zDist",
-          "ioValue": 0
+          "ioValue": 0,
+          "currentEquation": "0"
         }
       ]
     },
@@ -284,8 +292,8 @@
     },
     {
       "atomType": "Text",
-      "x": 0.48278622898318657,
-      "y": 0.8429003021148036,
+      "x": 0.477982385908727,
+      "y": 0.824773413897281,
       "uniqueID": "id-1878",
       "ioValues": [
         {
@@ -305,12 +313,12 @@
         }
       ],
       "fontFamily": "ROBOTO",
-      "selectedFontIndex": 0
+      "selectedFontIndex": 1
     },
     {
       "atomType": "Extrude",
-      "x": 0.6,
-      "y": 0.8640483383685801,
+      "x": 0.6461168935148119,
+      "y": 0.5861027190332326,
       "uniqueID": "id-1883",
       "ioValues": [
         {
@@ -319,7 +327,8 @@
         },
         {
           "name": "height",
-          "ioValue": 10
+          "ioValue": 10,
+          "currentEquation": "10"
         }
       ]
     },
