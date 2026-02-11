@@ -38,7 +38,7 @@
     },
     {
       "atomType": "Rectangle",
-      "x": 0.22818254603682947,
+      "x": 0.22177742193755004,
       "y": 0.4471299093655589,
       "uniqueID": "id-1700",
       "ioValues": [
@@ -342,12 +342,12 @@
     {
       "atomType": "Input",
       "x": 0.0264,
-      "y": 0.36555891238670696,
+      "y": 0.3685800604229607,
       "uniqueID": "id-2127",
       "name": "rang",
       "type": "range",
       "min": 0,
-      "max": 100
+      "max": 99
     },
     {
       "atomType": "Equation",
