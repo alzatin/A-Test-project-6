@@ -27,25 +27,26 @@
     },
     {
       "atomType": "Rectangle",
-      "x": 0.17534027221777423,
+      "x": 0.1774600504625736,
       "y": 0.36555891238670696,
       "uniqueID": "id-1700",
       "ioValues": [
         {
           "name": "x length",
-          "ioValue": 200
+          "ioValue": 400,
+          "currentEquation": "400"
         },
         {
           "name": "y length",
-          "ioValue": 400,
-          "currentEquation": "400"
+          "ioValue": 800,
+          "currentEquation": "800"
         }
       ]
     },
     {
       "atomType": "Extrude",
-      "x": 0.3095037846930193,
-      "y": 0.30513595166163143,
+      "x": 0.30782169890664424,
+      "y": 0.32930513595166166,
       "uniqueID": "id-1704",
       "ioValues": [
         {
@@ -88,8 +89,8 @@
     },
     {
       "atomType": "Move",
-      "x": 0.35912531539108494,
-      "y": 0.4471299093655589,
+      "x": 0.35828427249789735,
+      "y": 0.4441087613293051,
       "uniqueID": "id-1715",
       "ioValues": [
         {
@@ -103,7 +104,8 @@
         },
         {
           "name": "yDist",
-          "ioValue": 0
+          "ioValue": 20,
+          "currentEquation": "20"
         },
         {
           "name": "zDist",
@@ -114,8 +116,8 @@
     },
     {
       "atomType": "Difference",
-      "x": 0.4482758620689655,
-      "y": 0.1903323262839879,
+      "x": 0.4558452481076535,
+      "y": 0.19637462235649547,
       "uniqueID": "id-1721",
       "ioValues": [
         {
@@ -175,8 +177,8 @@
         },
         {
           "name": "yDist",
-          "ioValue": 10,
-          "currentEquation": "10"
+          "ioValue": 300,
+          "currentEquation": "300"
         },
         {
           "name": "zDist",
