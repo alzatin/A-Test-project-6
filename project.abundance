@@ -7,8 +7,7 @@
   "ioValues": [
     {
       "name": "rang",
-      "ioValue": 50,
-      "currentEquation": "50"
+      "ioValue": 50
     }
   ],
   "topLevel": true,
@@ -81,8 +80,7 @@
         },
         {
           "name": "height",
-          "ioValue": 500,
-          "currentEquation": "500"
+          "ioValue": 500
         }
       ]
     },
@@ -128,8 +126,8 @@
     },
     {
       "atomType": "Gcode",
-      "x": 0.823058446757406,
-      "y": 0.743202416918429,
+      "x": 0.8158526821457166,
+      "y": 0.7280966767371602,
       "uniqueID": "id-1725",
       "ioValues": [
         {
@@ -142,8 +140,7 @@
         },
         {
           "name": "Passes",
-          "ioValue": 5,
-          "currentEquation": "5"
+          "ioValue": 5
         },
         {
           "name": "Speed",
@@ -212,8 +209,7 @@
         },
         {
           "name": "zDist",
-          "ioValue": 30,
-          "currentEquation": "30"
+          "ioValue": 30
         }
       ]
     },
@@ -316,7 +312,7 @@
     {
       "atomType": "Input",
       "x": 0.0264,
-      "y": 0.2960725075528701,
+      "y": 0.16,
       "uniqueID": "id-2127",
       "name": "rang",
       "type": "range"
