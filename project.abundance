@@ -6,12 +6,9 @@
   "name": "A-Test-project-6",
   "ioValues": [
     {
-      "name": "diam",
-      "ioValue": 1
-    },
-    {
       "name": "rang",
-      "ioValue": 10
+      "ioValue": 50,
+      "currentEquation": "50"
     }
   ],
   "topLevel": true,
@@ -29,16 +26,9 @@
       ]
     },
     {
-      "atomType": "Input",
-      "x": 0.0264,
-      "y": 0.16,
-      "uniqueID": "id-469",
-      "name": "diam"
-    },
-    {
       "atomType": "Rectangle",
-      "x": 0.22738190552441953,
-      "y": 0.45921450151057397,
+      "x": 0.17534027221777423,
+      "y": 0.36555891238670696,
       "uniqueID": "id-1700",
       "ioValues": [
         {
@@ -75,14 +65,14 @@
       "ioValues": [
         {
           "name": "diameter",
-          "ioValue": 10
+          "ioValue": 50
         }
       ]
     },
     {
       "atomType": "Extrude",
-      "x": 0.28582866293034426,
-      "y": 0.622356495468278,
+      "x": 0.2930344275420336,
+      "y": 0.6102719033232629,
       "uniqueID": "id-1711",
       "ioValues": [
         {
@@ -91,7 +81,8 @@
         },
         {
           "name": "height",
-          "ioValue": 1
+          "ioValue": 500,
+          "currentEquation": "500"
         }
       ]
     },
@@ -137,8 +128,8 @@
     },
     {
       "atomType": "Gcode",
-      "x": 0.8278622898318655,
-      "y": 0.7129909365558912,
+      "x": 0.823058446757406,
+      "y": 0.743202416918429,
       "uniqueID": "id-1725",
       "ioValues": [
         {
@@ -151,7 +142,8 @@
         },
         {
           "name": "Passes",
-          "ioValue": 4
+          "ioValue": 5,
+          "currentEquation": "5"
         },
         {
           "name": "Speed",
@@ -202,8 +194,8 @@
     },
     {
       "atomType": "Move",
-      "x": 0.41313050440352284,
-      "y": 0.6858006042296072,
+      "x": 0.42674139311449155,
+      "y": 0.6616314199395771,
       "uniqueID": "id-1769",
       "ioValues": [
         {
@@ -220,14 +212,15 @@
         },
         {
           "name": "zDist",
-          "ioValue": -10
+          "ioValue": 30,
+          "currentEquation": "30"
         }
       ]
     },
     {
       "atomType": "Difference",
-      "x": 0.5308246597277823,
-      "y": 0.33534743202416917,
+      "x": 0.5356285028022418,
+      "y": 0.32628398791540786,
       "uniqueID": "id-1775",
       "ioValues": [
         {
@@ -288,8 +281,7 @@
       "ioValues": [
         {
           "name": "Font Size",
-          "ioValue": 10,
-          "currentEquation": "10"
+          "ioValue": 10
         },
         {
           "name": "Text",
@@ -324,12 +316,10 @@
     {
       "atomType": "Input",
       "x": 0.0264,
-      "y": 0.26586102719033233,
+      "y": 0.2960725075528701,
       "uniqueID": "id-2127",
       "name": "rang",
-      "type": "range",
-      "min": 0,
-      "max": 99
+      "type": "range"
     },
     {
       "atomType": "Equation",
@@ -351,11 +341,6 @@
     }
   ],
   "allConnectors": [
-    {
-      "ap2Name": "height",
-      "ap1ID": "id-469",
-      "ap2ID": "id-1711"
-    },
     {
       "ap2Name": "geometry",
       "ap1ID": "id-1700",
