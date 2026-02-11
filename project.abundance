@@ -7,7 +7,7 @@
   "ioValues": [
     {
       "name": "rang",
-      "ioValue": 80
+      "ioValue": 79
     }
   ],
   "topLevel": true,
@@ -64,7 +64,7 @@
       "ioValues": [
         {
           "name": "diameter",
-          "ioValue": 80
+          "ioValue": 79
         }
       ]
     },
@@ -180,8 +180,8 @@
     },
     {
       "atomType": "Difference",
-      "x": 0.703111858704794,
-      "y": 0.4833836858006042,
+      "x": 0.6854499579478553,
+      "y": 0.5800604229607251,
       "uniqueID": "id-1775",
       "ioValues": [
         {
@@ -196,8 +196,8 @@
     },
     {
       "atomType": "Text",
-      "x": 0.5836837678721615,
-      "y": 0.40785498489425986,
+      "x": 0.6425567703952901,
+      "y": 0.2598187311178248,
       "uniqueID": "id-1878",
       "ioValues": [
         {
@@ -246,8 +246,8 @@
     },
     {
       "atomType": "Gcode",
-      "x": 0.8149705634987384,
-      "y": 0.8006042296072508,
+      "x": 0.8065601345668629,
+      "y": 0.8157099697885197,
       "uniqueID": "id-2247",
       "ioValues": [
         {
@@ -256,12 +256,12 @@
         },
         {
           "name": "Tool Size",
-          "ioValue": 20,
-          "currentEquation": "20"
+          "ioValue": 6,
+          "currentEquation": "6"
         },
         {
           "name": "Passes",
-          "ioValue": 4
+          "ioValue": 3
         },
         {
           "name": "Speed",
@@ -419,7 +419,7 @@
       "ap2ID": "id-1775"
     }
   ],
-  "unitsKey": "Inches",
+  "unitsKey": "MM",
   "fileTypeVersion": 1,
   "filetypeVersion": 1
 }
