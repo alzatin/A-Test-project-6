@@ -125,41 +125,6 @@
       ]
     },
     {
-      "atomType": "Gcode",
-      "x": 0.8158526821457166,
-      "y": 0.7280966767371602,
-      "uniqueID": "id-1725",
-      "ioValues": [
-        {
-          "name": "geometry",
-          "ioValue": "__GEOMETRY_INPUT__"
-        },
-        {
-          "name": "Tool Size",
-          "ioValue": 0.2
-        },
-        {
-          "name": "Passes",
-          "ioValue": 5
-        },
-        {
-          "name": "Speed",
-          "ioValue": 1500
-        },
-        {
-          "name": "Cut Through",
-          "ioValue": 1
-        },
-        {
-          "name": "Part Name",
-          "ioValue": "A-Test-project-6",
-          "currentEquation": "A-Test-project-6"
-        }
-      ],
-      "partName": "A-Test-project-6",
-      "sortDirection": "Left"
-    },
-    {
       "atomType": "Export",
       "x": 0.8751000800640513,
       "y": 0.3595166163141994,
@@ -255,8 +220,8 @@
     },
     {
       "atomType": "Assembly",
-      "x": 0.7477982385908727,
-      "y": 0.3202416918429003,
+      "x": 0.7460050462573591,
+      "y": 0.3081570996978852,
       "uniqueID": "id-1825",
       "ioValues": [
         {
@@ -396,11 +361,6 @@
       "ap2Name": "Shape 1",
       "ap1ID": "id-1819",
       "ap2ID": "id-1825"
-    },
-    {
-      "ap2Name": "geometry",
-      "ap1ID": "id-1825",
-      "ap2ID": "id-1725"
     },
     {
       "ap2Name": "geometry",
