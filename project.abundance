@@ -7,7 +7,8 @@
   "ioValues": [
     {
       "name": "rang",
-      "ioValue": 3
+      "ioValue": 5,
+      "currentEquation": "5"
     }
   ],
   "topLevel": true,
@@ -64,7 +65,7 @@
       "ioValues": [
         {
           "name": "diameter",
-          "ioValue": 3
+          "ioValue": 5
         }
       ]
     },
@@ -625,7 +626,7 @@
       "ap2ID": "id-2247"
     }
   ],
-  "unitsKey": "Inches",
+  "unitsKey": "MM",
   "fileTypeVersion": 1,
   "filetypeVersion": 1
 }
