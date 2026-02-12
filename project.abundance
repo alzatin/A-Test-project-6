@@ -7,7 +7,7 @@
   "ioValues": [
     {
       "name": "rang",
-      "ioValue": 15
+      "ioValue": 35
     },
     {
       "name": "Font_as_string",
@@ -67,13 +67,13 @@
     },
     {
       "atomType": "Circle",
-      "x": 0.11632100991884582,
-      "y": 0.6054216867469879,
+      "x": 0.11000901713255185,
+      "y": 0.5662650602409639,
       "uniqueID": "id-1708",
       "ioValues": [
         {
           "name": "diameter",
-          "ioValue": 15
+          "ioValue": 35
         }
       ]
     },
@@ -105,15 +105,18 @@
         },
         {
           "name": "xDist",
-          "ioValue": 1
+          "ioValue": 1,
+          "currentEquation": "1"
         },
         {
           "name": "yDist",
-          "ioValue": 0
+          "ioValue": 0,
+          "currentEquation": "0"
         },
         {
           "name": "zDist",
-          "ioValue": 0
+          "ioValue": 0,
+          "currentEquation": "0"
         }
       ]
     },
@@ -153,7 +156,8 @@
         },
         {
           "name": "zDist",
-          "ioValue": -0.5
+          "ioValue": 0.5,
+          "currentEquation": ".5"
         }
       ]
     },
@@ -200,7 +204,7 @@
     {
       "atomType": "Input",
       "x": 0.0264,
-      "y": 0.16265060240963855,
+      "y": 0.16,
       "uniqueID": "id-2127",
       "name": "rang",
       "type": "range"
@@ -225,8 +229,8 @@
     },
     {
       "atomType": "Gcode",
-      "x": 0.8241659152389539,
-      "y": 0.5933734939759037,
+      "x": 0.8322813345356177,
+      "y": 0.6114457831325302,
       "uniqueID": "id-2247",
       "ioValues": [
         {
@@ -235,11 +239,13 @@
         },
         {
           "name": "Tool Size",
-          "ioValue": 6.5
+          "ioValue": 3,
+          "currentEquation": "3"
         },
         {
           "name": "Passes",
-          "ioValue": 1
+          "ioValue": 1,
+          "currentEquation": "1"
         },
         {
           "name": "Speed",
@@ -521,7 +527,7 @@
     {
       "atomType": "Input",
       "x": 0.0264,
-      "y": 0.5331325301204819,
+      "y": 0.352,
       "uniqueID": "id-2564",
       "name": "m",
       "type": "range",
