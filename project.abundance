@@ -7,7 +7,8 @@
   "ioValues": [
     {
       "name": "rang",
-      "ioValue": 79
+      "ioValue": 3,
+      "currentEquation": "3"
     }
   ],
   "topLevel": true,
@@ -26,24 +27,26 @@
     },
     {
       "atomType": "Rectangle",
-      "x": 0.1774600504625736,
-      "y": 0.36555891238670696,
+      "x": 0.17606244579358196,
+      "y": 0.3734939759036145,
       "uniqueID": "id-1700",
       "ioValues": [
         {
           "name": "x length",
-          "ioValue": 400
+          "ioValue": 15,
+          "currentEquation": "15"
         },
         {
           "name": "y length",
-          "ioValue": 800
+          "ioValue": 25,
+          "currentEquation": "25"
         }
       ]
     },
     {
       "atomType": "Extrude",
-      "x": 0.30782169890664424,
-      "y": 0.32930513595166166,
+      "x": 0.30875975715524717,
+      "y": 0.3132530120481927,
       "uniqueID": "id-1704",
       "ioValues": [
         {
@@ -52,26 +55,27 @@
         },
         {
           "name": "height",
-          "ioValue": 50
+          "ioValue": 3,
+          "currentEquation": "3"
         }
       ]
     },
     {
       "atomType": "Circle",
-      "x": 0.12363330529857024,
-      "y": 0.5981873111782477,
+      "x": 0.12662619254119686,
+      "y": 0.6114457831325302,
       "uniqueID": "id-1708",
       "ioValues": [
         {
           "name": "diameter",
-          "ioValue": 79
+          "ioValue": 3
         }
       ]
     },
     {
       "atomType": "Extrude",
-      "x": 0.248107653490328,
-      "y": 0.622356495468278,
+      "x": 0.2463139635732871,
+      "y": 0.6325301204819277,
       "uniqueID": "id-1711",
       "ioValues": [
         {
@@ -80,14 +84,15 @@
         },
         {
           "name": "height",
-          "ioValue": 499
+          "ioValue": 10,
+          "currentEquation": "10"
         }
       ]
     },
     {
       "atomType": "Move",
-      "x": 0.35828427249789735,
-      "y": 0.4441087613293051,
+      "x": 0.3720728534258456,
+      "y": 0.4397590361445783,
       "uniqueID": "id-1715",
       "ioValues": [
         {
@@ -96,15 +101,18 @@
         },
         {
           "name": "xDist",
-          "ioValue": -60
+          "ioValue": 0,
+          "currentEquation": "0"
         },
         {
           "name": "yDist",
-          "ioValue": 20
+          "ioValue": 0,
+          "currentEquation": "0"
         },
         {
           "name": "zDist",
-          "ioValue": 30
+          "ioValue": 0,
+          "currentEquation": "0"
         }
       ]
     },
@@ -156,8 +164,8 @@
     },
     {
       "atomType": "Move",
-      "x": 0.34650967199327165,
-      "y": 0.7009063444108762,
+      "x": 0.35299219427580225,
+      "y": 0.6897590361445783,
       "uniqueID": "id-1769",
       "ioValues": [
         {
@@ -166,22 +174,25 @@
         },
         {
           "name": "xDist",
-          "ioValue": 60
+          "ioValue": 6,
+          "currentEquation": "6"
         },
         {
           "name": "yDist",
-          "ioValue": 300
+          "ioValue": 3,
+          "currentEquation": "3"
         },
         {
           "name": "zDist",
-          "ioValue": 30
+          "ioValue": 0.5,
+          "currentEquation": ".5"
         }
       ]
     },
     {
       "atomType": "Difference",
-      "x": 0.6854499579478553,
-      "y": 0.5800604229607251,
+      "x": 0.6738941890719861,
+      "y": 0.5572289156626505,
       "uniqueID": "id-1775",
       "ioValues": [
         {
@@ -246,8 +257,8 @@
     },
     {
       "atomType": "Gcode",
-      "x": 0.8190552441953562,
-      "y": 0.8157099697885197,
+      "x": 0.8143972246313964,
+      "y": 0.786144578313253,
       "uniqueID": "id-2247",
       "ioValues": [
         {
@@ -256,13 +267,12 @@
         },
         {
           "name": "Tool Size",
-          "ioValue": 6,
-          "currentEquation": "6"
+          "ioValue": 0.5,
+          "currentEquation": ".5"
         },
         {
           "name": "Passes",
-          "ioValue": 3,
-          "currentEquation": "3"
+          "ioValue": 2
         },
         {
           "name": "Speed",
