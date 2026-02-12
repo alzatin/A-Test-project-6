@@ -86,8 +86,8 @@
     },
     {
       "atomType": "Move",
-      "x": 0.41385767790262173,
-      "y": 0.5903614457831325,
+      "x": 0.41395717684377475,
+      "y": 0.608433734939759,
       "uniqueID": "id-1715",
       "ioValues": [
         {
@@ -110,8 +110,8 @@
     },
     {
       "atomType": "Difference",
-      "x": 0.5739700374531835,
-      "y": 0.47289156626506024,
+      "x": 0.6145915939730372,
+      "y": 0.4006024096385542,
       "uniqueID": "id-1721",
       "ioValues": [
         {
@@ -123,36 +123,6 @@
           "ioValue": "__GEOMETRY_INPUT__"
         }
       ]
-    },
-    {
-      "atomType": "Export",
-      "x": 0.8801498127340824,
-      "y": 0.23795180722891565,
-      "uniqueID": "id-1733",
-      "ioValues": [
-        {
-          "name": "geometry",
-          "ioValue": "__GEOMETRY_INPUT__"
-        },
-        {
-          "name": "File Type",
-          "ioValue": "SVG",
-          "currentEquation": "SVG"
-        },
-        {
-          "name": "Resolution (dpi)",
-          "ioValue": 96
-        },
-        {
-          "name": "Part Name",
-          "ioValue": "A-Test-project-6",
-          "currentEquation": "A-Test-project-6"
-        }
-      ],
-      "type": "SVG",
-      "resolution": 96,
-      "importIndex": 0,
-      "partName": "A-Test-project-6"
     },
     {
       "atomType": "Move",
@@ -180,8 +150,8 @@
     },
     {
       "atomType": "Difference",
-      "x": 0.7940074906367041,
-      "y": 0.5060240963855421,
+      "x": 0.8215701823949247,
+      "y": 0.39759036144578314,
       "uniqueID": "id-1775",
       "ioValues": [
         {
@@ -281,8 +251,8 @@
     },
     {
       "atomType": "Assembly",
-      "x": 0.5149812734082397,
-      "y": 0.7680722891566265,
+      "x": 0.5590800951625694,
+      "y": 0.7078313253012049,
       "uniqueID": "id-2261",
       "ioValues": [
         {
@@ -297,8 +267,8 @@
     },
     {
       "atomType": "Rotate",
-      "x": 0.5833333333333334,
-      "y": 0.8825301204819277,
+      "x": 0.6645519429024583,
+      "y": 0.8222891566265061,
       "uniqueID": "id-2266",
       "ioValues": [
         {
@@ -321,8 +291,8 @@
     },
     {
       "atomType": "Assembly",
-      "x": 0.6863295880149812,
-      "y": 0.6596385542168675,
+      "x": 0.7232355273592387,
+      "y": 0.5301204819277108,
       "uniqueID": "id-2272",
       "ioValues": [
         {
@@ -353,8 +323,8 @@
     },
     {
       "atomType": "Fusion",
-      "x": 0.701310861423221,
-      "y": 0.25,
+      "x": 0.7041198501872659,
+      "y": 0.2560240963855422,
       "uniqueID": "id-2340",
       "ioValues": [
         {
