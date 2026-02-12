@@ -493,8 +493,7 @@
         },
         {
           "name": "yDist",
-          "ioValue": 50,
-          "currentEquation": "50"
+          "ioValue": 50
         },
         {
           "name": "zDist",
