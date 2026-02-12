@@ -235,7 +235,8 @@
         },
         {
           "name": "Passes",
-          "ioValue": 2
+          "ioValue": 0,
+          "currentEquation": "0"
         },
         {
           "name": "Speed",
