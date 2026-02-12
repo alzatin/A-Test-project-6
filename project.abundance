@@ -171,8 +171,8 @@
     },
     {
       "atomType": "Text",
-      "x": 0.4171292624900872,
-      "y": 0.20481927710843373,
+      "x": 0.4219948849104859,
+      "y": 0.20783132530120482,
       "uniqueID": "id-1878",
       "ioValues": [
         {
@@ -186,12 +186,12 @@
         },
         {
           "name": "Font Family",
-          "ioValue": "ROBOTO",
+          "ioValue": "ANTON",
           "currentEquation": "ROBOTO"
         }
       ],
-      "fontFamily": "ANTON",
-      "selectedFontIndex": 0
+      "fontFamily": "ROBOTO",
+      "selectedFontIndex": 1
     },
     {
       "atomType": "Input",
@@ -337,7 +337,7 @@
           "ioValue": {
             "geometry": [
               {
-                "geometry": "extrude-move-text-L-{\"startX\":0,\"startY\":0,\"fontSize\":10,\"fontFamily\":\"ROBOTO\"}-0-0-0-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-9",
+                "geometry": "extrude-move-text-L-{\"startX\":0,\"startY\":0,\"fontSize\":10,\"fontFamily\":\"ANTON\"}-0-0-0-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-9",
                 "dimension": "3D",
                 "tags": [],
                 "plane": {
@@ -361,7 +361,7 @@
                 "bom": []
               },
               {
-                "geometry": "extrude-move-text-o-{\"startX\":0,\"startY\":0,\"fontSize\":10,\"fontFamily\":\"ROBOTO\"}-5.380859374999999-0-0-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-9",
+                "geometry": "extrude-move-text-o-{\"startX\":0,\"startY\":0,\"fontSize\":10,\"fontFamily\":\"ANTON\"}-3.950195312499999-0-0-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-9",
                 "dimension": "3D",
                 "tags": [],
                 "plane": {
@@ -385,7 +385,7 @@
                 "bom": []
               },
               {
-                "geometry": "extrude-move-text-r-{\"startX\":0,\"startY\":0,\"fontSize\":10,\"fontFamily\":\"ROBOTO\"}-11.083984375-0-0-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-9",
+                "geometry": "extrude-move-text-r-{\"startX\":0,\"startY\":0,\"fontSize\":10,\"fontFamily\":\"ANTON\"}-8.9208984375-0-0-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-9",
                 "dimension": "3D",
                 "tags": [],
                 "plane": {
@@ -409,7 +409,7 @@
                 "bom": []
               },
               {
-                "geometry": "extrude-move-text-e-{\"startX\":0,\"startY\":0,\"fontSize\":10,\"fontFamily\":\"ROBOTO\"}-14.375-0-0-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-9",
+                "geometry": "extrude-move-text-e-{\"startX\":0,\"startY\":0,\"fontSize\":10,\"fontFamily\":\"ANTON\"}-13.53515625-0-0-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-9",
                 "dimension": "3D",
                 "tags": [],
                 "plane": {
@@ -433,7 +433,7 @@
                 "bom": []
               },
               {
-                "geometry": "extrude-move-text-m-{\"startX\":0,\"startY\":0,\"fontSize\":10,\"fontFamily\":\"ROBOTO\"}-19.6728515625-0-0-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-9",
+                "geometry": "extrude-move-text-m-{\"startX\":0,\"startY\":0,\"fontSize\":10,\"fontFamily\":\"ANTON\"}-18.41796875-0-0-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-9",
                 "dimension": "3D",
                 "tags": [],
                 "plane": {
@@ -636,6 +636,11 @@
       "ap2Name": "geometry",
       "ap1ID": "id-2416",
       "ap2ID": "id-2247"
+    },
+    {
+      "ap2Name": "Font Family",
+      "ap1ID": "id-2491",
+      "ap2ID": "id-1878"
     }
   ],
   "unitsKey": "MM",
