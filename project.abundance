@@ -7,7 +7,8 @@
   "ioValues": [
     {
       "name": "rang",
-      "ioValue": 5
+      "ioValue": 50,
+      "currentEquation": "50"
     },
     {
       "name": "Font_as_string",
@@ -37,18 +38,19 @@
       "ioValues": [
         {
           "name": "x length",
-          "ioValue": 15
+          "ioValue": 150
         },
         {
           "name": "y length",
-          "ioValue": 25
+          "ioValue": 250,
+          "currentEquation": "250"
         }
       ]
     },
     {
       "atomType": "Extrude",
-      "x": 0.30875975715524717,
-      "y": 0.3132530120481927,
+      "x": 0.31650135256988277,
+      "y": 0.3283132530120482,
       "uniqueID": "id-1704",
       "ioValues": [
         {
@@ -57,26 +59,27 @@
         },
         {
           "name": "height",
-          "ioValue": 3
+          "ioValue": 2,
+          "currentEquation": "2"
         }
       ]
     },
     {
       "atomType": "Circle",
-      "x": 0.12142237640936687,
+      "x": 0.11632100991884582,
       "y": 0.6054216867469879,
       "uniqueID": "id-1708",
       "ioValues": [
         {
           "name": "diameter",
-          "ioValue": 5
+          "ioValue": 50
         }
       ]
     },
     {
       "atomType": "Extrude",
-      "x": 0.2200180342651037,
-      "y": 0.6325301204819277,
+      "x": 0.21731289449954916,
+      "y": 0.6445783132530121,
       "uniqueID": "id-1711",
       "ioValues": [
         {
@@ -85,14 +88,15 @@
         },
         {
           "name": "height",
-          "ioValue": 10
+          "ioValue": 3,
+          "currentEquation": "3"
         }
       ]
     },
     {
       "atomType": "Move",
-      "x": 0.31379621280432823,
-      "y": 0.5421686746987951,
+      "x": 0.3101893597835888,
+      "y": 0.5271084337349398,
       "uniqueID": "id-1715",
       "ioValues": [
         {
@@ -131,8 +135,8 @@
     },
     {
       "atomType": "Move",
-      "x": 0.33543733092876465,
-      "y": 0.8614457831325302,
+      "x": 0.34625788999098284,
+      "y": 0.8554216867469879,
       "uniqueID": "id-1769",
       "ioValues": [
         {
@@ -149,14 +153,15 @@
         },
         {
           "name": "zDist",
-          "ioValue": 0.5
+          "ioValue": -0.5,
+          "currentEquation": "-0.5"
         }
       ]
     },
     {
       "atomType": "Difference",
-      "x": 0.6828644501278772,
-      "y": 0.4608433734939759,
+      "x": 0.721370604147881,
+      "y": 0.4367469879518072,
       "uniqueID": "id-1775",
       "ioValues": [
         {
@@ -221,8 +226,8 @@
     },
     {
       "atomType": "Gcode",
-      "x": 0.8394950405770965,
-      "y": 0.7168674698795181,
+      "x": 0.8241659152389539,
+      "y": 0.5933734939759037,
       "uniqueID": "id-2247",
       "ioValues": [
         {
@@ -231,12 +236,13 @@
         },
         {
           "name": "Tool Size",
-          "ioValue": 0.3
+          "ioValue": 6.5,
+          "currentEquation": "6.5"
         },
         {
           "name": "Passes",
-          "ioValue": 2,
-          "currentEquation": "2"
+          "ioValue": 1,
+          "currentEquation": "1"
         },
         {
           "name": "Speed",
@@ -273,8 +279,8 @@
     },
     {
       "atomType": "Rotate",
-      "x": 0.5413469735720375,
-      "y": 0.8674698795180724,
+      "x": 0.5356176735798016,
+      "y": 0.8614457831325302,
       "uniqueID": "id-2266",
       "ioValues": [
         {
@@ -485,8 +491,8 @@
     },
     {
       "atomType": "Move",
-      "x": 0.7101449275362319,
-      "y": 0.8222891566265061,
+      "x": 0.7601442741208295,
+      "y": 0.7891566265060241,
       "uniqueID": "id-2410",
       "ioValues": [
         {
@@ -504,22 +510,6 @@
         {
           "name": "zDist",
           "ioValue": 0
-        }
-      ]
-    },
-    {
-      "atomType": "Assembly",
-      "x": 0.8079350766456268,
-      "y": 0.46686746987951805,
-      "uniqueID": "id-2416",
-      "ioValues": [
-        {
-          "name": "Shape 1",
-          "ioValue": null
-        },
-        {
-          "name": "Shape 2",
-          "ioValue": null
         }
       ]
     },
@@ -584,9 +574,9 @@
       "ap2ID": "id-2410"
     },
     {
-      "ap2Name": "Shape 2",
+      "ap2Name": "geometry",
       "ap1ID": "id-1775",
-      "ap2ID": "id-2416"
+      "ap2ID": "id-2247"
     },
     {
       "ap2Name": "geometry",
@@ -627,16 +617,6 @@
       "ap2Name": "Shape 1",
       "ap1ID": "id-2336",
       "ap2ID": "id-2340"
-    },
-    {
-      "ap2Name": "Shape 1",
-      "ap1ID": "id-2410",
-      "ap2ID": "id-2416"
-    },
-    {
-      "ap2Name": "geometry",
-      "ap1ID": "id-2416",
-      "ap2ID": "id-2247"
     },
     {
       "ap2Name": "Font Family",
