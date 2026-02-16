@@ -61,8 +61,7 @@
         },
         {
           "name": "height",
-          "ioValue": 40,
-          "currentEquation": "40"
+          "ioValue": 40
         }
       ]
     },
@@ -90,8 +89,7 @@
         },
         {
           "name": "height",
-          "ioValue": 50,
-          "currentEquation": "50"
+          "ioValue": 50
         }
       ]
     },
@@ -123,8 +121,8 @@
     },
     {
       "atomType": "Gcode",
-      "x": 0.8571428571428571,
-      "y": 0.45481927710843373,
+      "x": 0.8720136518771331,
+      "y": 0.45180722891566266,
       "uniqueID": "id-2247",
       "ioValues": [
         {
@@ -133,13 +131,11 @@
         },
         {
           "name": "Tool Size",
-          "ioValue": 3,
-          "currentEquation": "3"
+          "ioValue": 3
         },
         {
           "name": "Passes",
-          "ioValue": 2,
-          "currentEquation": "2"
+          "ioValue": 2
         },
         {
           "name": "Speed",
@@ -218,7 +214,7 @@
     },
     {
       "atomType": "Assembly",
-      "x": 0.7411764705882352,
+      "x": 0.7380546075085325,
       "y": 0.4909638554216868,
       "uniqueID": "id-2651",
       "ioValues": [
@@ -244,8 +240,7 @@
         },
         {
           "name": "y length",
-          "ioValue": 100,
-          "currentEquation": "100"
+          "ioValue": 100
         }
       ]
     },
@@ -261,8 +256,7 @@
         },
         {
           "name": "height",
-          "ioValue": 30,
-          "currentEquation": "30"
+          "ioValue": 30
         }
       ]
     },
@@ -286,8 +280,7 @@
         },
         {
           "name": "zDist",
-          "ioValue": 30,
-          "currentEquation": "30"
+          "ioValue": 30
         }
       ]
     },
