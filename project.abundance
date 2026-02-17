@@ -7,7 +7,8 @@
   "ioValues": [
     {
       "name": "height",
-      "ioValue": 10
+      "ioValue": 10,
+      "currentEquation": "10"
     }
   ],
   "topLevel": true,
@@ -33,13 +34,14 @@
     },
     {
       "atomType": "Circle",
-      "x": 0.21609798775153108,
+      "x": 0.22134733158355205,
       "y": 0.6114457831325302,
       "uniqueID": "id-2896",
       "ioValues": [
         {
           "name": "diameter",
-          "ioValue": 5
+          "ioValue": 5,
+          "currentEquation": "5"
         }
       ]
     },
@@ -129,8 +131,8 @@
     },
     {
       "atomType": "Gcode",
-      "x": 0.8460192475940508,
-      "y": 0.6536144578313253,
+      "x": 0.8556430446194226,
+      "y": 0.677710843373494,
       "uniqueID": "id-2920",
       "ioValues": [
         {
@@ -139,7 +141,8 @@
         },
         {
           "name": "Tool Size",
-          "ioValue": 1.6
+          "ioValue": 1.6,
+          "currentEquation": "1.6"
         },
         {
           "name": "Passes",
@@ -192,8 +195,8 @@
     },
     {
       "atomType": "Difference",
-      "x": 0.7130358705161856,
-      "y": 0.5240963855421688,
+      "x": 0.7139107611548557,
+      "y": 0.5391566265060241,
       "uniqueID": "id-2934",
       "ioValues": [
         {
