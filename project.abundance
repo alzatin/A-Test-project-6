@@ -121,8 +121,8 @@
     },
     {
       "atomType": "Gcode",
-      "x": 0.8582089552238806,
-      "y": 0.7590361445783133,
+      "x": 0.8647388059701493,
+      "y": 0.746987951807229,
       "uniqueID": "id-2247",
       "ioValues": [
         {
@@ -390,8 +390,7 @@
         },
         {
           "name": "xDist",
-          "ioValue": 50,
-          "currentEquation": "50"
+          "ioValue": 50
         },
         {
           "name": "yDist",
@@ -399,8 +398,7 @@
         },
         {
           "name": "zDist",
-          "ioValue": 0,
-          "currentEquation": "0"
+          "ioValue": 0
         }
       ]
     }
