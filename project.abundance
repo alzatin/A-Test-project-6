@@ -35,13 +35,14 @@
     },
     {
       "atomType": "Rectangle",
-      "x": 0.2189153439153439,
-      "y": 0.2439759036144578,
+      "x": 0.21808088818398094,
+      "y": 0.2680722891566265,
       "uniqueID": "id-1700",
       "ioValues": [
         {
           "name": "x length",
-          "ioValue": 150
+          "ioValue": 150,
+          "currentEquation": "150"
         },
         {
           "name": "y length",
@@ -61,15 +62,14 @@
         },
         {
           "name": "height",
-          "ioValue": 40,
-          "currentEquation": "40"
+          "ioValue": 40
         }
       ]
     },
     {
       "atomType": "Circle",
-      "x": 0.26587301587301587,
-      "y": 0.5120481927710844,
+      "x": 0.2339413164155432,
+      "y": 0.7018072289156627,
       "uniqueID": "id-1708",
       "ioValues": [
         {
@@ -80,8 +80,8 @@
     },
     {
       "atomType": "Extrude",
-      "x": 0.3306878306878307,
-      "y": 0.5481927710843374,
+      "x": 0.36399682791435367,
+      "y": 0.6325301204819277,
       "uniqueID": "id-1711",
       "ioValues": [
         {
@@ -122,8 +122,8 @@
     },
     {
       "atomType": "Gcode",
-      "x": 0.8647388059701493,
-      "y": 0.746987951807229,
+      "x": 0.8691514670896114,
+      "y": 0.7680722891566265,
       "uniqueID": "id-2247",
       "ioValues": [
         {
@@ -132,7 +132,8 @@
         },
         {
           "name": "Tool Size",
-          "ioValue": 3
+          "ioValue": 3,
+          "currentEquation": "3"
         },
         {
           "name": "Passes",
@@ -173,8 +174,8 @@
     },
     {
       "atomType": "Difference",
-      "x": 0.498134328358209,
-      "y": 0.6957831325301205,
+      "x": 0.4361617763679619,
+      "y": 0.5030120481927711,
       "uniqueID": "id-2641",
       "ioValues": [
         {
@@ -219,7 +220,8 @@
       "ioValues": [
         {
           "name": "x length",
-          "ioValue": 100
+          "ioValue": 100,
+          "currentEquation": "100"
         },
         {
           "name": "y length",
@@ -229,7 +231,7 @@
     },
     {
       "atomType": "Extrude",
-      "x": 0.45882352941176474,
+      "x": 0.46550356859635217,
       "y": 0.8433734939759037,
       "uniqueID": "id-2697",
       "ioValues": [
@@ -239,14 +241,15 @@
         },
         {
           "name": "height",
-          "ioValue": 30
+          "ioValue": 30,
+          "currentEquation": "30"
         }
       ]
     },
     {
       "atomType": "Move",
-      "x": 0.5478991596638656,
-      "y": 0.7228915662650602,
+      "x": 0.5440126883425852,
+      "y": 0.7289156626506024,
       "uniqueID": "id-2701",
       "ioValues": [
         {
@@ -255,7 +258,8 @@
         },
         {
           "name": "xDist",
-          "ioValue": 0
+          "ioValue": 0,
+          "currentEquation": "0"
         },
         {
           "name": "yDist",
@@ -269,8 +273,8 @@
     },
     {
       "atomType": "Difference",
-      "x": 0.6686507936507937,
-      "y": 0.7921686746987953,
+      "x": 0.6613798572561459,
+      "y": 0.7951807228915663,
       "uniqueID": "id-2707",
       "ioValues": [
         {
@@ -285,8 +289,8 @@
     },
     {
       "atomType": "Circle",
-      "x": 0.48320895522388063,
-      "y": 0.3313253012048193,
+      "x": 0.4448850118953212,
+      "y": 0.20481927710843373,
       "uniqueID": "id-2764",
       "ioValues": [
         {
@@ -321,8 +325,8 @@
     },
     {
       "atomType": "Extrude",
-      "x": 0.5503731343283582,
-      "y": 0.4427710843373494,
+      "x": 0.546957671957672,
+      "y": 0.18674698795180725,
       "uniqueID": "id-2773",
       "ioValues": [
         {
@@ -381,8 +385,8 @@
     },
     {
       "atomType": "Move",
-      "x": 0.6791044776119403,
-      "y": 0.5180722891566265,
+      "x": 0.6780333068992863,
+      "y": 0.5602409638554217,
       "uniqueID": "id-2788",
       "ioValues": [
         {
@@ -391,15 +395,18 @@
         },
         {
           "name": "xDist",
-          "ioValue": 50
+          "ioValue": 50,
+          "currentEquation": "50"
         },
         {
           "name": "yDist",
-          "ioValue": -100
+          "ioValue": -100,
+          "currentEquation": "-100"
         },
         {
           "name": "zDist",
-          "ioValue": 0
+          "ioValue": 0,
+          "currentEquation": "0"
         }
       ]
     }
