@@ -40,8 +40,7 @@
       "ioValues": [
         {
           "name": "diameter",
-          "ioValue": 5,
-          "currentEquation": "5"
+          "ioValue": 5
         }
       ]
     },
@@ -131,7 +130,7 @@
     },
     {
       "atomType": "Gcode",
-      "x": 0.8556430446194226,
+      "x": 0.8643919510061243,
       "y": 0.677710843373494,
       "uniqueID": "id-2920",
       "ioValues": [
@@ -141,8 +140,7 @@
         },
         {
           "name": "Tool Size",
-          "ioValue": 1.6,
-          "currentEquation": "1.6"
+          "ioValue": 0.6000000000000001
         },
         {
           "name": "Passes",
