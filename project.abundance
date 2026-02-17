@@ -41,8 +41,7 @@
       "ioValues": [
         {
           "name": "x length",
-          "ioValue": 150,
-          "currentEquation": "150"
+          "ioValue": 150
         },
         {
           "name": "y length",
@@ -132,8 +131,7 @@
         },
         {
           "name": "Tool Size",
-          "ioValue": 3,
-          "currentEquation": "3"
+          "ioValue": 3
         },
         {
           "name": "Passes",
@@ -220,8 +218,7 @@
       "ioValues": [
         {
           "name": "x length",
-          "ioValue": 100,
-          "currentEquation": "100"
+          "ioValue": 100
         },
         {
           "name": "y length",
@@ -241,8 +238,7 @@
         },
         {
           "name": "height",
-          "ioValue": 30,
-          "currentEquation": "30"
+          "ioValue": 30
         }
       ]
     },
@@ -258,8 +254,7 @@
         },
         {
           "name": "xDist",
-          "ioValue": 0,
-          "currentEquation": "0"
+          "ioValue": 0
         },
         {
           "name": "yDist",
@@ -395,18 +390,15 @@
         },
         {
           "name": "xDist",
-          "ioValue": 50,
-          "currentEquation": "50"
+          "ioValue": 50
         },
         {
           "name": "yDist",
-          "ioValue": -100,
-          "currentEquation": "-100"
+          "ioValue": -100
         },
         {
           "name": "zDist",
-          "ioValue": 0,
-          "currentEquation": "0"
+          "ioValue": 0
         }
       ]
     }
