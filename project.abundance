@@ -52,8 +52,7 @@
       "ioValues": [
         {
           "name": "diameter",
-          "ioValue": 150,
-          "currentEquation": "150"
+          "ioValue": 150
         }
       ]
     },
@@ -131,7 +130,7 @@
     },
     {
       "atomType": "Gcode",
-      "x": 0.884514435695538,
+      "x": 0.889763779527559,
       "y": 0.6174698795180722,
       "uniqueID": "id-2920",
       "ioValues": [
@@ -240,6 +239,18 @@
       "partName": "A-Test-project-6"
     },
     {
+      "atomType": "Circle",
+      "x": 0.6325459317585302,
+      "y": 0.4367469879518072,
+      "uniqueID": "id-3036",
+      "ioValues": [
+        {
+          "name": "diameter",
+          "ioValue": 10
+        }
+      ]
+    },
+    {
       "atomType": "Molecule",
       "x": 0.5249343832020997,
       "y": 0.1716867469879518,
@@ -294,6 +305,10 @@
             {
               "name": "geometry",
               "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "height",
+              "ioValue": 10
             }
           ]
         }
@@ -316,18 +331,6 @@
         }
       ],
       "fileTypeVersion": 1
-    },
-    {
-      "atomType": "Circle",
-      "x": 0.6325459317585302,
-      "y": 0.4367469879518072,
-      "uniqueID": "id-3036",
-      "ioValues": [
-        {
-          "name": "diameter",
-          "ioValue": 10
-        }
-      ]
     }
   ],
   "allConnectors": [
