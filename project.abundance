@@ -130,7 +130,8 @@
         },
         {
           "name": "Tool Size",
-          "ioValue": 10.2
+          "ioValue": 10.2,
+          "currentEquation": "10.2"
         },
         {
           "name": "Passes",
