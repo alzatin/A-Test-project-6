@@ -285,6 +285,71 @@
               "ioValue": 10
             }
           ]
+        },
+        {
+          "atomType": "Circle",
+          "x": 0.2221163012392755,
+          "y": 0.5030120481927711,
+          "uniqueID": "id-3085",
+          "ioValues": [
+            {
+              "name": "diameter",
+              "ioValue": 0,
+              "currentEquation": "0"
+            }
+          ]
+        },
+        {
+          "atomType": "Circle",
+          "x": 0.661582459485224,
+          "y": 0.6024096385542169,
+          "uniqueID": "id-3138",
+          "ioValues": [
+            {
+              "name": "diameter",
+              "ioValue": 0,
+              "currentEquation": "0"
+            }
+          ]
+        },
+        {
+          "atomType": "Circle",
+          "x": 0.2650142993326978,
+          "y": 0.7319277108433735,
+          "uniqueID": "id-3141",
+          "ioValues": [
+            {
+              "name": "diameter",
+              "ioValue": 0,
+              "currentEquation": "0"
+            }
+          ]
+        },
+        {
+          "atomType": "Circle",
+          "x": 0.27402287893231647,
+          "y": 0.4439759036144578,
+          "uniqueID": "id-3144",
+          "ioValues": [
+            {
+              "name": "diameter",
+              "ioValue": 0,
+              "currentEquation": "0"
+            }
+          ]
+        },
+        {
+          "atomType": "Circle",
+          "x": 0.451858913250715,
+          "y": 0.6204819277108434,
+          "uniqueID": "id-3147",
+          "ioValues": [
+            {
+              "name": "diameter",
+              "ioValue": 0,
+              "currentEquation": "0"
+            }
+          ]
         }
       ],
       "allConnectors": [
