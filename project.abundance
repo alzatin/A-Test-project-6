@@ -40,8 +40,7 @@
       "ioValues": [
         {
           "name": "diameter",
-          "ioValue": 50,
-          "currentEquation": "50"
+          "ioValue": 50
         }
       ]
     },
@@ -53,8 +52,7 @@
       "ioValues": [
         {
           "name": "diameter",
-          "ioValue": 150,
-          "currentEquation": "150"
+          "ioValue": 150
         }
       ]
     },
@@ -86,8 +84,7 @@
         },
         {
           "name": "height",
-          "ioValue": 30,
-          "currentEquation": "30"
+          "ioValue": 30
         }
       ]
     },
@@ -103,8 +100,7 @@
         },
         {
           "name": "xDist",
-          "ioValue": 0,
-          "currentEquation": "0"
+          "ioValue": 0
         },
         {
           "name": "yDist",
@@ -119,7 +115,7 @@
     {
       "atomType": "Difference",
       "x": 0.6027996500437445,
-      "y": 0.6746987951807228,
+      "y": 0.8042168674698795,
       "uniqueID": "id-2916",
       "ioValues": [
         {
@@ -134,7 +130,7 @@
     },
     {
       "atomType": "Gcode",
-      "x": 0.8888888888888888,
+      "x": 0.884514435695538,
       "y": 0.6174698795180722,
       "uniqueID": "id-2920",
       "ioValues": [
@@ -176,8 +172,7 @@
       "ioValues": [
         {
           "name": "diameter",
-          "ioValue": 25,
-          "currentEquation": "25"
+          "ioValue": 25
         }
       ]
     },
@@ -193,15 +188,14 @@
         },
         {
           "name": "height",
-          "ioValue": 25,
-          "currentEquation": "25"
+          "ioValue": 25
         }
       ]
     },
     {
       "atomType": "Difference",
-      "x": 0.7252843394575678,
-      "y": 0.4427710843373494,
+      "x": 0.6710411198600176,
+      "y": 0.5542168674698795,
       "uniqueID": "id-2934",
       "ioValues": [
         {
@@ -216,8 +210,8 @@
     },
     {
       "atomType": "Export",
-      "x": 0.774278215223097,
-      "y": 0.783132530120482,
+      "x": 0.773403324584427,
+      "y": 0.7891566265060241,
       "uniqueID": "id-2983",
       "ioValues": [
         {
@@ -299,10 +293,6 @@
             {
               "name": "geometry",
               "ioValue": "__GEOMETRY_INPUT__"
-            },
-            {
-              "name": "height",
-              "ioValue": 10
             }
           ]
         }
