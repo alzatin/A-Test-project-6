@@ -88,8 +88,7 @@
         },
         {
           "name": "xDist",
-          "ioValue": 0,
-          "currentEquation": "0"
+          "ioValue": 0
         },
         {
           "name": "yDist",
@@ -230,13 +229,14 @@
     },
     {
       "atomType": "Circle",
-      "x": 0.1572926596758818,
-      "y": 0.608433734939759,
+      "x": 0.1601525262154433,
+      "y": 0.6295180722891566,
       "uniqueID": "id-3034",
       "ioValues": [
         {
           "name": "diameter",
-          "ioValue": 10
+          "ioValue": 10,
+          "currentEquation": "10"
         }
       ]
     },
@@ -364,18 +364,6 @@
         }
       ],
       "fileTypeVersion": 1
-    },
-    {
-      "atomType": "Circle",
-      "x": 0.31787416587225925,
-      "y": 0.30542168674698794,
-      "uniqueID": "id-3211",
-      "ioValues": [
-        {
-          "name": "diameter",
-          "ioValue": 25
-        }
-      ]
     }
   ],
   "allConnectors": [
