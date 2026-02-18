@@ -245,8 +245,8 @@
     },
     {
       "atomType": "Molecule",
-      "x": 0.5214489990467112,
-      "y": 0.20481927710843373,
+      "x": 0.5211267605633803,
+      "y": 0.21385542168674698,
       "uniqueID": "id-2869",
       "name": "Molecule",
       "ioValues": [
@@ -279,8 +279,8 @@
         },
         {
           "atomType": "Extrude",
-          "x": 0.5100095328884652,
-          "y": 0.4849397590361446,
+          "x": 0.6187122736418511,
+          "y": 0.3192771084337349,
           "uniqueID": "id-2879",
           "ioValues": [
             {
@@ -295,13 +295,14 @@
         },
         {
           "atomType": "Circle",
-          "x": 0.2221163012392755,
+          "x": 0.22635814889336017,
           "y": 0.5030120481927711,
           "uniqueID": "id-3085",
           "ioValues": [
             {
               "name": "diameter",
-              "ioValue": 0
+              "ioValue": 10,
+              "currentEquation": "10"
             }
           ]
         },
@@ -322,18 +323,6 @@
           "x": 0.2650142993326978,
           "y": 0.7319277108433735,
           "uniqueID": "id-3141",
-          "ioValues": [
-            {
-              "name": "diameter",
-              "ioValue": 0
-            }
-          ]
-        },
-        {
-          "atomType": "Circle",
-          "x": 0.27402287893231647,
-          "y": 0.4439759036144578,
-          "uniqueID": "id-3144",
           "ioValues": [
             {
               "name": "diameter",
@@ -364,6 +353,11 @@
           "ap2Name": "number or geometry",
           "ap1ID": "id-2879",
           "ap2ID": "id-2871"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-3085",
+          "ap2ID": "id-2879"
         }
       ],
       "fileTypeVersion": 1
