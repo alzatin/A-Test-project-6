@@ -34,18 +34,6 @@
     },
     {
       "atomType": "Circle",
-      "x": 0.17672790901137359,
-      "y": 0.5632530120481928,
-      "uniqueID": "id-2896",
-      "ioValues": [
-        {
-          "name": "diameter",
-          "ioValue": 50
-        }
-      ]
-    },
-    {
-      "atomType": "Circle",
       "x": 0.25721784776902884,
       "y": 0.8463855421686747,
       "uniqueID": "id-2899",
@@ -140,8 +128,7 @@
         },
         {
           "name": "Tool Size",
-          "ioValue": 10.2,
-          "currentEquation": "10.2"
+          "ioValue": 10.2
         },
         {
           "name": "Passes",
@@ -166,8 +153,8 @@
     },
     {
       "atomType": "Circle",
-      "x": 0.2537182852143482,
-      "y": 0.47289156626506024,
+      "x": 0.2755004766444233,
+      "y": 0.3765060240963855,
       "uniqueID": "id-2927",
       "ioValues": [
         {
@@ -239,20 +226,8 @@
       "partName": "A-Test-project-6"
     },
     {
-      "atomType": "Circle",
-      "x": 0.6325459317585302,
-      "y": 0.4367469879518072,
-      "uniqueID": "id-3036",
-      "ioValues": [
-        {
-          "name": "diameter",
-          "ioValue": 10
-        }
-      ]
-    },
-    {
       "atomType": "Molecule",
-      "x": 0.5249343832020997,
+      "x": 0.5257475083056479,
       "y": 0.1716867469879518,
       "uniqueID": "id-2869",
       "name": "Molecule",
@@ -331,6 +306,19 @@
         }
       ],
       "fileTypeVersion": 1
+    },
+    {
+      "atomType": "Circle",
+      "x": 0.1572926596758818,
+      "y": 0.608433734939759,
+      "uniqueID": "id-3034",
+      "ioValues": [
+        {
+          "name": "diameter",
+          "ioValue": 10,
+          "currentEquation": "10"
+        }
+      ]
     }
   ],
   "allConnectors": [
@@ -338,11 +326,6 @@
       "ap2Name": "height",
       "ap1ID": "id-2866",
       "ap2ID": "id-2869"
-    },
-    {
-      "ap2Name": "geometry",
-      "ap1ID": "id-2896",
-      "ap2ID": "id-2906"
     },
     {
       "ap2Name": "geometry",
@@ -393,6 +376,11 @@
       "ap2Name": "number or geometry",
       "ap1ID": "id-2869",
       "ap2ID": 1746568598187
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-3034",
+      "ap2ID": "id-2906"
     }
   ],
   "unitsKey": "MM",
