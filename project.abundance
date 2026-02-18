@@ -7,8 +7,7 @@
   "ioValues": [
     {
       "name": "height",
-      "ioValue": 10,
-      "currentEquation": "10"
+      "ioValue": 10
     }
   ],
   "topLevel": true,
@@ -181,8 +180,8 @@
     },
     {
       "atomType": "Difference",
-      "x": 0.6710411198600176,
-      "y": 0.5542168674698795,
+      "x": 0.6692087702573879,
+      "y": 0.5813253012048193,
       "uniqueID": "id-2934",
       "ioValues": [
         {
@@ -226,9 +225,21 @@
       "partName": "A-Test-project-6"
     },
     {
+      "atomType": "Circle",
+      "x": 0.1572926596758818,
+      "y": 0.608433734939759,
+      "uniqueID": "id-3034",
+      "ioValues": [
+        {
+          "name": "diameter",
+          "ioValue": 10
+        }
+      ]
+    },
+    {
       "atomType": "Molecule",
-      "x": 0.5257475083056479,
-      "y": 0.1716867469879518,
+      "x": 0.5214489990467112,
+      "y": 0.20481927710843373,
       "uniqueID": "id-2869",
       "name": "Molecule",
       "ioValues": [
@@ -260,21 +271,9 @@
           "type": "number"
         },
         {
-          "atomType": "Circle",
-          "x": 0.3359580052493438,
-          "y": 0.5391566265060241,
-          "uniqueID": "id-2876",
-          "ioValues": [
-            {
-              "name": "diameter",
-              "ioValue": 10
-            }
-          ]
-        },
-        {
           "atomType": "Extrude",
-          "x": 0.5074365704286964,
-          "y": 0.4789156626506024,
+          "x": 0.5100095328884652,
+          "y": 0.4849397590361446,
           "uniqueID": "id-2879",
           "ioValues": [
             {
@@ -295,30 +294,12 @@
           "ap2ID": "id-2879"
         },
         {
-          "ap2Name": "geometry",
-          "ap1ID": "id-2876",
-          "ap2ID": "id-2879"
-        },
-        {
           "ap2Name": "number or geometry",
           "ap1ID": "id-2879",
           "ap2ID": "id-2871"
         }
       ],
       "fileTypeVersion": 1
-    },
-    {
-      "atomType": "Circle",
-      "x": 0.1572926596758818,
-      "y": 0.608433734939759,
-      "uniqueID": "id-3034",
-      "ioValues": [
-        {
-          "name": "diameter",
-          "ioValue": 10,
-          "currentEquation": "10"
-        }
-      ]
     }
   ],
   "allConnectors": [
@@ -373,14 +354,14 @@
       "ap2ID": "id-2983"
     },
     {
-      "ap2Name": "number or geometry",
-      "ap1ID": "id-2869",
-      "ap2ID": 1746568598187
-    },
-    {
       "ap2Name": "geometry",
       "ap1ID": "id-3034",
       "ap2ID": "id-2906"
+    },
+    {
+      "ap2Name": "number or geometry",
+      "ap1ID": "id-2869",
+      "ap2ID": 1746568598187
     }
   ],
   "unitsKey": "MM",
