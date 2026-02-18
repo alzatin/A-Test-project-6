@@ -7,7 +7,8 @@
   "ioValues": [
     {
       "name": "height",
-      "ioValue": 10
+      "ioValue": 10,
+      "currentEquation": "10"
     }
   ],
   "topLevel": true,
@@ -87,7 +88,8 @@
         },
         {
           "name": "xDist",
-          "ioValue": 0
+          "ioValue": 0,
+          "currentEquation": "0"
         },
         {
           "name": "yDist",
@@ -152,13 +154,14 @@
     },
     {
       "atomType": "Circle",
-      "x": 0.2755004766444233,
-      "y": 0.3765060240963855,
+      "x": 0.26787416587225926,
+      "y": 0.35542168674698793,
       "uniqueID": "id-2927",
       "ioValues": [
         {
           "name": "diameter",
-          "ioValue": 25
+          "ioValue": 25,
+          "currentEquation": "25"
         }
       ]
     },
@@ -174,7 +177,8 @@
         },
         {
           "name": "height",
-          "ioValue": 25
+          "ioValue": 25,
+          "currentEquation": "25"
         }
       ]
     },
@@ -294,8 +298,7 @@
           "ioValues": [
             {
               "name": "diameter",
-              "ioValue": 0,
-              "currentEquation": "0"
+              "ioValue": 0
             }
           ]
         },
@@ -307,8 +310,7 @@
           "ioValues": [
             {
               "name": "diameter",
-              "ioValue": 0,
-              "currentEquation": "0"
+              "ioValue": 0
             }
           ]
         },
@@ -320,8 +322,7 @@
           "ioValues": [
             {
               "name": "diameter",
-              "ioValue": 0,
-              "currentEquation": "0"
+              "ioValue": 0
             }
           ]
         },
@@ -333,8 +334,7 @@
           "ioValues": [
             {
               "name": "diameter",
-              "ioValue": 0,
-              "currentEquation": "0"
+              "ioValue": 0
             }
           ]
         },
@@ -346,8 +346,7 @@
           "ioValues": [
             {
               "name": "diameter",
-              "ioValue": 0,
-              "currentEquation": "0"
+              "ioValue": 0
             }
           ]
         }
@@ -365,6 +364,18 @@
         }
       ],
       "fileTypeVersion": 1
+    },
+    {
+      "atomType": "Circle",
+      "x": 0.31787416587225925,
+      "y": 0.30542168674698794,
+      "uniqueID": "id-3211",
+      "ioValues": [
+        {
+          "name": "diameter",
+          "ioValue": 25
+        }
+      ]
     }
   ],
   "allConnectors": [
