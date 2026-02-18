@@ -245,8 +245,8 @@
     },
     {
       "atomType": "Molecule",
-      "x": 0.5211267605633803,
-      "y": 0.21385542168674698,
+      "x": 0.528169014084507,
+      "y": 0.2469879518072289,
       "uniqueID": "id-2869",
       "name": "Molecule",
       "ioValues": [
@@ -286,10 +286,6 @@
             {
               "name": "geometry",
               "ioValue": "__GEOMETRY_INPUT__"
-            },
-            {
-              "name": "height",
-              "ioValue": 10
             }
           ]
         },
@@ -456,14 +452,14 @@
       "ap2ID": "id-2983"
     },
     {
-      "ap2Name": "number or geometry",
-      "ap1ID": "id-2934",
-      "ap2ID": 1746568598187
-    },
-    {
       "ap2Name": "geometry",
       "ap1ID": "id-3034",
       "ap2ID": "id-2906"
+    },
+    {
+      "ap2Name": "number or geometry",
+      "ap1ID": "id-2869",
+      "ap2ID": 1746568598187
     }
   ],
   "unitsKey": "MM",
