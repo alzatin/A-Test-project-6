@@ -34,7 +34,7 @@
     },
     {
       "atomType": "Circle",
-      "x": 0.2655935613682093,
+      "x": 0.26458752515090544,
       "y": 0.8524096385542169,
       "uniqueID": "id-2899",
       "ioValues": [
@@ -46,7 +46,7 @@
     },
     {
       "atomType": "Extrude",
-      "x": 0.40332458442694663,
+      "x": 0.40342052313883303,
       "y": 0.8463855421686747,
       "uniqueID": "id-2902",
       "ioValues": [
@@ -56,8 +56,8 @@
         },
         {
           "name": "height",
-          "ioValue": 30,
-          "currentEquation": "30"
+          "ioValue": 10,
+          "currentEquation": "10"
         }
       ]
     },
@@ -79,8 +79,8 @@
     },
     {
       "atomType": "Move",
-      "x": 0.46277665995975853,
-      "y": 0.6475903614457831,
+      "x": 0.4597585513078471,
+      "y": 0.6445783132530121,
       "uniqueID": "id-2910",
       "ioValues": [
         {
@@ -98,7 +98,8 @@
         },
         {
           "name": "zDist",
-          "ioValue": 25
+          "ioValue": 7,
+          "currentEquation": "7"
         }
       ]
     },
@@ -120,8 +121,8 @@
     },
     {
       "atomType": "Gcode",
-      "x": 0.8802816901408451,
-      "y": 0.6385542168674698,
+      "x": 0.8732394366197183,
+      "y": 0.7590361445783133,
       "uniqueID": "id-2920",
       "ioValues": [
         {
@@ -169,8 +170,8 @@
     },
     {
       "atomType": "Extrude",
-      "x": 0.36116700201207247,
-      "y": 0.3373493975903614,
+      "x": 0.3641851106639839,
+      "y": 0.3463855421686747,
       "uniqueID": "id-2928",
       "ioValues": [
         {
@@ -186,8 +187,8 @@
     },
     {
       "atomType": "Difference",
-      "x": 0.6167002012072434,
-      "y": 0.4759036144578313,
+      "x": 0.6177062374245472,
+      "y": 0.4939759036144578,
       "uniqueID": "id-2934",
       "ioValues": [
         {
@@ -232,14 +233,14 @@
     },
     {
       "atomType": "Circle",
-      "x": 0.16297786720321933,
-      "y": 0.6475903614457831,
+      "x": 0.1659959758551308,
+      "y": 0.6566265060240964,
       "uniqueID": "id-3034",
       "ioValues": [
         {
           "name": "diameter",
-          "ioValue": 25,
-          "currentEquation": "25"
+          "ioValue": 50,
+          "currentEquation": "50"
         }
       ]
     },
@@ -360,8 +361,8 @@
     },
     {
       "atomType": "Gcode",
-      "x": 0.7716297786720322,
-      "y": 0.7680722891566265,
+      "x": 0.7515090543259558,
+      "y": 0.8945783132530121,
       "uniqueID": "id-3208",
       "ioValues": [
         {
@@ -393,6 +394,76 @@
       ],
       "partName": "A-Test-project-6",
       "sortDirection": "Left"
+    },
+    {
+      "atomType": "Rotate",
+      "x": 0.7474849094567404,
+      "y": 0.5060240963855421,
+      "uniqueID": "id-3216",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "x-axis degrees",
+          "ioValue": 0,
+          "currentEquation": "0"
+        },
+        {
+          "name": "y-axis degrees",
+          "ioValue": 180,
+          "currentEquation": "180"
+        },
+        {
+          "name": "z-axis degrees",
+          "ioValue": 90,
+          "currentEquation": "90"
+        }
+      ]
+    },
+    {
+      "atomType": "CutLayout",
+      "x": 0.8400402414486922,
+      "y": 0.33433734939759036,
+      "uniqueID": "id-3222",
+      "name": "Cut Layout",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "Sheet Width",
+          "ioValue": 20,
+          "currentEquation": "20"
+        },
+        {
+          "name": "Sheet Height",
+          "ioValue": 20,
+          "currentEquation": "20"
+        },
+        {
+          "name": "Part Padding",
+          "ioValue": 10
+        },
+        {
+          "name": "Orientations",
+          "ioValue": 12
+        }
+      ],
+      "placements": [
+        [
+          {
+            "id": 0,
+            "rotate": 0,
+            "translate": {
+              "x": 0,
+              "y": 0
+            }
+          }
+        ]
+      ]
     }
   ],
   "allConnectors": [
@@ -453,6 +524,11 @@
     },
     {
       "ap2Name": "geometry",
+      "ap1ID": "id-2934",
+      "ap2ID": "id-3216"
+    },
+    {
+      "ap2Name": "geometry",
       "ap1ID": "id-3034",
       "ap2ID": "id-2906"
     },
@@ -460,6 +536,11 @@
       "ap2Name": "number or geometry",
       "ap1ID": "id-2869",
       "ap2ID": 1746568598187
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-3216",
+      "ap2ID": "id-3222"
     }
   ],
   "unitsKey": "MM",
