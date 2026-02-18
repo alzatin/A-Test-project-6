@@ -34,8 +34,8 @@
     },
     {
       "atomType": "Circle",
-      "x": 0.25721784776902884,
-      "y": 0.8463855421686747,
+      "x": 0.2655935613682093,
+      "y": 0.8524096385542169,
       "uniqueID": "id-2899",
       "ioValues": [
         {
@@ -56,7 +56,8 @@
         },
         {
           "name": "height",
-          "ioValue": 30
+          "ioValue": 30,
+          "currentEquation": "30"
         }
       ]
     },
@@ -72,15 +73,14 @@
         },
         {
           "name": "height",
-          "ioValue": 30,
-          "currentEquation": "30"
+          "ioValue": 30
         }
       ]
     },
     {
       "atomType": "Move",
-      "x": 0.47187797902764533,
-      "y": 0.5240963855421688,
+      "x": 0.46277665995975853,
+      "y": 0.6475903614457831,
       "uniqueID": "id-2910",
       "ioValues": [
         {
@@ -104,8 +104,8 @@
     },
     {
       "atomType": "Difference",
-      "x": 0.5700667302192565,
-      "y": 0.7801204819277108,
+      "x": 0.5704225352112676,
+      "y": 0.7771084337349398,
       "uniqueID": "id-2916",
       "ioValues": [
         {
@@ -120,8 +120,8 @@
     },
     {
       "atomType": "Gcode",
-      "x": 0.889763779527559,
-      "y": 0.6174698795180722,
+      "x": 0.8802816901408451,
+      "y": 0.6385542168674698,
       "uniqueID": "id-2920",
       "ioValues": [
         {
@@ -130,8 +130,8 @@
         },
         {
           "name": "Tool Size",
-          "ioValue": 10.2,
-          "currentEquation": "10.2"
+          "ioValue": 4,
+          "currentEquation": "4"
         },
         {
           "name": "Passes",
@@ -156,21 +156,21 @@
     },
     {
       "atomType": "Circle",
-      "x": 0.1754051477597712,
-      "y": 0.3734939759036145,
+      "x": 0.1579476861167002,
+      "y": 0.39759036144578314,
       "uniqueID": "id-2927",
       "ioValues": [
         {
           "name": "diameter",
-          "ioValue": 25,
-          "currentEquation": "25"
+          "ioValue": 20,
+          "currentEquation": "20"
         }
       ]
     },
     {
       "atomType": "Extrude",
-      "x": 0.3784556720686368,
-      "y": 0.38253012048192775,
+      "x": 0.36116700201207247,
+      "y": 0.3373493975903614,
       "uniqueID": "id-2928",
       "ioValues": [
         {
@@ -179,15 +179,15 @@
         },
         {
           "name": "height",
-          "ioValue": 25,
-          "currentEquation": "25"
+          "ioValue": 50,
+          "currentEquation": "50"
         }
       ]
     },
     {
       "atomType": "Difference",
-      "x": 0.6301239275500476,
-      "y": 0.4909638554216868,
+      "x": 0.6167002012072434,
+      "y": 0.4759036144578313,
       "uniqueID": "id-2934",
       "ioValues": [
         {
@@ -202,8 +202,8 @@
     },
     {
       "atomType": "Export",
-      "x": 0.773403324584427,
-      "y": 0.7891566265060241,
+      "x": 0.7927565392354124,
+      "y": 0.1355421686746988,
       "uniqueID": "id-2983",
       "ioValues": [
         {
@@ -232,13 +232,14 @@
     },
     {
       "atomType": "Circle",
-      "x": 0.1601525262154433,
-      "y": 0.6295180722891566,
+      "x": 0.16297786720321933,
+      "y": 0.6475903614457831,
       "uniqueID": "id-3034",
       "ioValues": [
         {
           "name": "diameter",
-          "ioValue": 10
+          "ioValue": 25,
+          "currentEquation": "25"
         }
       ]
     },
@@ -366,6 +367,42 @@
         }
       ],
       "fileTypeVersion": 1
+    },
+    {
+      "atomType": "Gcode",
+      "x": 0.7716297786720322,
+      "y": 0.7680722891566265,
+      "uniqueID": "id-3208",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "Tool Size",
+          "ioValue": 4,
+          "currentEquation": "4"
+        },
+        {
+          "name": "Passes",
+          "ioValue": 1
+        },
+        {
+          "name": "Speed",
+          "ioValue": 1500
+        },
+        {
+          "name": "Cut Through",
+          "ioValue": 0
+        },
+        {
+          "name": "Part Name",
+          "ioValue": "A-Test-project-6",
+          "currentEquation": "A-Test-project-6"
+        }
+      ],
+      "partName": "A-Test-project-6",
+      "sortDirection": "Left"
     }
   ],
   "allConnectors": [
@@ -401,6 +438,11 @@
     },
     {
       "ap2Name": "geometry",
+      "ap1ID": "id-2916",
+      "ap2ID": "id-3208"
+    },
+    {
+      "ap2Name": "geometry",
       "ap1ID": "id-2927",
       "ap2ID": "id-2928"
     },
@@ -420,14 +462,14 @@
       "ap2ID": "id-2983"
     },
     {
+      "ap2Name": "number or geometry",
+      "ap1ID": "id-2934",
+      "ap2ID": 1746568598187
+    },
+    {
       "ap2Name": "geometry",
       "ap1ID": "id-3034",
       "ap2ID": "id-2906"
-    },
-    {
-      "ap2Name": "number or geometry",
-      "ap1ID": "id-2869",
-      "ap2ID": 1746568598187
     }
   ],
   "unitsKey": "MM",
