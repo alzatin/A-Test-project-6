@@ -302,8 +302,8 @@
     },
     {
       "atomType": "CutLayout",
-      "x": 0.8400402414486922,
-      "y": 0.33433734939759036,
+      "x": 0.8319919517102616,
+      "y": 0.3614457831325301,
       "uniqueID": "id-3222",
       "name": "Cut Layout",
       "ioValues": [
@@ -313,7 +313,8 @@
         },
         {
           "name": "Sheet Width",
-          "ioValue": 20
+          "ioValue": 20,
+          "currentEquation": "20"
         },
         {
           "name": "Sheet Height",
