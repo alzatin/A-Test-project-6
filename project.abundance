@@ -56,8 +56,7 @@
         },
         {
           "name": "height",
-          "ioValue": 9,
-          "currentEquation": "9"
+          "ioValue": 9
         }
       ]
     },
@@ -73,8 +72,7 @@
         },
         {
           "name": "height",
-          "ioValue": 30,
-          "currentEquation": "30"
+          "ioValue": 30
         }
       ]
     },
@@ -161,7 +159,8 @@
       "ioValues": [
         {
           "name": "diameter",
-          "ioValue": 20
+          "ioValue": 20,
+          "currentEquation": "20"
         }
       ]
     },
@@ -183,8 +182,8 @@
     },
     {
       "atomType": "Difference",
-      "x": 0.5913978494623656,
-      "y": 0.4457831325301205,
+      "x": 0.5904255319148937,
+      "y": 0.4608433734939759,
       "uniqueID": "id-2934",
       "ioValues": [
         {
@@ -286,8 +285,7 @@
         },
         {
           "name": "x-axis degrees",
-          "ioValue": 0,
-          "currentEquation": "0"
+          "ioValue": 0
         },
         {
           "name": "y-axis degrees",
@@ -301,8 +299,8 @@
     },
     {
       "atomType": "CutLayout",
-      "x": 0.8333333333333334,
-      "y": 0.3373493975903614,
+      "x": 0.8319148936170212,
+      "y": 0.3283132530120482,
       "uniqueID": "id-3222",
       "name": "Cut Layout",
       "ioValues": [
@@ -353,8 +351,7 @@
         },
         {
           "name": "xDist",
-          "ioValue": 60,
-          "currentEquation": "60"
+          "ioValue": 60
         },
         {
           "name": "yDist",
@@ -384,8 +381,8 @@
     },
     {
       "atomType": "Molecule",
-      "x": 0.528169014084507,
-      "y": 0.2469879518072289,
+      "x": 0.5319148936170213,
+      "y": 0.2560240963855422,
       "uniqueID": "id-2869",
       "name": "Molecule",
       "ioValues": [
