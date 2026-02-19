@@ -78,8 +78,8 @@
     },
     {
       "atomType": "Move",
-      "x": 0.46579476861167,
-      "y": 0.6295180722891566,
+      "x": 0.45878136200716846,
+      "y": 0.6265060240963854,
       "uniqueID": "id-2910",
       "ioValues": [
         {
@@ -103,8 +103,8 @@
     },
     {
       "atomType": "Difference",
-      "x": 0.5653923541247485,
-      "y": 0.783132530120482,
+      "x": 0.5651135005973715,
+      "y": 0.6837349397590361,
       "uniqueID": "id-2916",
       "ioValues": [
         {
@@ -160,8 +160,7 @@
       "ioValues": [
         {
           "name": "diameter",
-          "ioValue": 20,
-          "currentEquation": "20"
+          "ioValue": 20
         }
       ]
     },
@@ -183,8 +182,8 @@
     },
     {
       "atomType": "Difference",
-      "x": 0.6146881287726358,
-      "y": 0.4879518072289156,
+      "x": 0.6164874551971327,
+      "y": 0.5030120481927711,
       "uniqueID": "id-2934",
       "ioValues": [
         {
@@ -241,8 +240,8 @@
     },
     {
       "atomType": "Gcode",
-      "x": 0.766599597585513,
-      "y": 0.8674698795180724,
+      "x": 0.864994026284349,
+      "y": 0.9156626506024097,
       "uniqueID": "id-3208",
       "ioValues": [
         {
@@ -251,8 +250,7 @@
         },
         {
           "name": "Tool Size",
-          "ioValue": 4,
-          "currentEquation": "4"
+          "ioValue": 0
         },
         {
           "name": "Passes",
@@ -302,8 +300,8 @@
     },
     {
       "atomType": "CutLayout",
-      "x": 0.8319919517102616,
-      "y": 0.3614457831325301,
+      "x": 0.8291517323775388,
+      "y": 0.3403614457831325,
       "uniqueID": "id-3222",
       "name": "Cut Layout",
       "ioValues": [
@@ -459,6 +457,47 @@
         }
       ],
       "fileTypeVersion": 1
+    },
+    {
+      "atomType": "Move",
+      "x": 0.5448028673835126,
+      "y": 0.891566265060241,
+      "uniqueID": "id-3298",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "xDist",
+          "ioValue": 60,
+          "currentEquation": "60"
+        },
+        {
+          "name": "yDist",
+          "ioValue": 0
+        },
+        {
+          "name": "zDist",
+          "ioValue": 0
+        }
+      ]
+    },
+    {
+      "atomType": "Difference",
+      "x": 0.6917562724014337,
+      "y": 0.8885542168674698,
+      "uniqueID": "id-3310",
+      "ioValues": [
+        {
+          "name": "geometry1",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "geometry2",
+          "ioValue": "__GEOMETRY_INPUT__"
+        }
+      ]
     }
   ],
   "allConnectors": [
@@ -486,6 +525,11 @@
       "ap2Name": "geometry2",
       "ap1ID": "id-2910",
       "ap2ID": "id-2916"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-2910",
+      "ap2ID": "id-3298"
     },
     {
       "ap2Name": "geometry1",
@@ -523,19 +567,29 @@
       "ap2ID": "id-3216"
     },
     {
+      "ap2Name": "geometry1",
+      "ap1ID": "id-2934",
+      "ap2ID": "id-3310"
+    },
+    {
       "ap2Name": "geometry",
       "ap1ID": "id-3034",
       "ap2ID": "id-2906"
     },
     {
-      "ap2Name": "geometry",
-      "ap1ID": "id-3216",
-      "ap2ID": "id-3222"
-    },
-    {
       "ap2Name": "number or geometry",
       "ap1ID": "id-2869",
       "ap2ID": 1746568598187
+    },
+    {
+      "ap2Name": "geometry2",
+      "ap1ID": "id-3298",
+      "ap2ID": "id-3310"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-3310",
+      "ap2ID": "id-3222"
     }
   ],
   "unitsKey": "MM",
