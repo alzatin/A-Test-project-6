@@ -7,8 +7,7 @@
   "ioValues": [
     {
       "name": "height",
-      "ioValue": 10,
-      "currentEquation": "10"
+      "ioValue": 10
     }
   ],
   "topLevel": true,
@@ -118,8 +117,8 @@
     },
     {
       "atomType": "Gcode",
-      "x": 0.8732394366197183,
-      "y": 0.7590361445783133,
+      "x": 0.8595505617977528,
+      "y": 0.8029850746268657,
       "uniqueID": "id-2920",
       "ioValues": [
         {
@@ -128,7 +127,8 @@
         },
         {
           "name": "Tool Size",
-          "ioValue": 4
+          "ioValue": 4,
+          "currentEquation": "4"
         },
         {
           "name": "Passes",
@@ -159,8 +159,7 @@
       "ioValues": [
         {
           "name": "diameter",
-          "ioValue": 20,
-          "currentEquation": "20"
+          "ioValue": 20
         }
       ]
     },
@@ -239,41 +238,6 @@
       ]
     },
     {
-      "atomType": "Gcode",
-      "x": 0.864994026284349,
-      "y": 0.9156626506024097,
-      "uniqueID": "id-3208",
-      "ioValues": [
-        {
-          "name": "geometry",
-          "ioValue": "__GEOMETRY_INPUT__"
-        },
-        {
-          "name": "Tool Size",
-          "ioValue": 0
-        },
-        {
-          "name": "Passes",
-          "ioValue": 1
-        },
-        {
-          "name": "Speed",
-          "ioValue": 1500
-        },
-        {
-          "name": "Cut Through",
-          "ioValue": 0
-        },
-        {
-          "name": "Part Name",
-          "ioValue": "A-Test-project-6",
-          "currentEquation": "A-Test-project-6"
-        }
-      ],
-      "partName": "A-Test-project-6",
-      "sortDirection": "Left"
-    },
-    {
       "atomType": "Rotate",
       "x": 0.8005427408412483,
       "y": 0.608433734939759,
@@ -310,8 +274,7 @@
         },
         {
           "name": "Sheet Width",
-          "ioValue": 20,
-          "currentEquation": "20"
+          "ioValue": 20
         },
         {
           "name": "Sheet Height",
@@ -533,11 +496,6 @@
       "ap2Name": "geometry1",
       "ap1ID": "id-2916",
       "ap2ID": "id-2934"
-    },
-    {
-      "ap2Name": "geometry",
-      "ap1ID": "id-2916",
-      "ap2ID": "id-3208"
     },
     {
       "ap2Name": "geometry",
