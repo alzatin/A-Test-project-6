@@ -4,12 +4,6 @@
   "y": 0,
   "uniqueID": 1746568589948,
   "name": "A-Test-project-6",
-  "ioValues": [
-    {
-      "name": "Height",
-      "ioValue": 400
-    }
-  ],
   "topLevel": true,
   "allAtoms": [
     {
@@ -130,8 +124,8 @@
     },
     {
       "atomType": "Gcode",
-      "x": 0.7493386243386244,
-      "y": 0.818941504178273,
+      "x": 0.7698483496877787,
+      "y": 0.6656626506024096,
       "uniqueID": "27c29402-254b-433d-b3e4-31d5a6a2640b",
       "ioValues": [
         {
@@ -189,8 +183,8 @@
     },
     {
       "atomType": "Assembly",
-      "x": 0.6226583407671722,
-      "y": 0.29819277108433734,
+      "x": 0.6164139161462979,
+      "y": 0.3192771084337349,
       "uniqueID": "37394ec5-19e3-4302-ac65-5f4a746a47e6",
       "ioValues": [
         {
@@ -205,8 +199,8 @@
     },
     {
       "atomType": "Export",
-      "x": 0.5026455026455027,
-      "y": 0.8551532033426184,
+      "x": 0.5049063336306868,
+      "y": 0.8403614457831325,
       "uniqueID": "703bbf02-3848-437f-b9ad-fa912d30582a",
       "ioValues": [
         {
@@ -529,6 +523,55 @@
         }
       ],
       "fileTypeVersion": 1
+    },
+    {
+      "atomType": "CutLayout",
+      "x": 0.6199821587867974,
+      "y": 0.7168674698795181,
+      "uniqueID": "id-439",
+      "name": "Cut Layout",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "Sheet Width",
+          "ioValue": 2438
+        },
+        {
+          "name": "Sheet Height",
+          "ioValue": 1219
+        },
+        {
+          "name": "Part Padding",
+          "ioValue": 10
+        },
+        {
+          "name": "Orientations",
+          "ioValue": 12
+        }
+      ],
+      "placements": [
+        [
+          {
+            "id": 0,
+            "rotate": 0,
+            "translate": {
+              "x": 1219,
+              "y": 609.5
+            }
+          },
+          {
+            "id": 1,
+            "rotate": 0,
+            "translate": {
+              "x": 1219,
+              "y": 609.5
+            }
+          }
+        ]
+      ]
     }
   ],
   "allConnectors": [
@@ -578,14 +621,14 @@
       "ap2ID": "37394ec5-19e3-4302-ac65-5f4a746a47e6"
     },
     {
-      "ap2Name": "geometry",
-      "ap1ID": "37394ec5-19e3-4302-ac65-5f4a746a47e6",
-      "ap2ID": "27c29402-254b-433d-b3e4-31d5a6a2640b"
-    },
-    {
       "ap2Name": "number or geometry",
       "ap1ID": "37394ec5-19e3-4302-ac65-5f4a746a47e6",
       "ap2ID": 1746568598187
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "37394ec5-19e3-4302-ac65-5f4a746a47e6",
+      "ap2ID": "id-439"
     },
     {
       "ap2Name": "input",
@@ -596,6 +639,11 @@
       "ap2Name": "geometry1",
       "ap1ID": "id-332",
       "ap2ID": "52c9e1f5-7ff7-4eef-94b1-e99d0cc79a51"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-439",
+      "ap2ID": "27c29402-254b-433d-b3e4-31d5a6a2640b"
     }
   ],
   "unitsKey": "MM",
