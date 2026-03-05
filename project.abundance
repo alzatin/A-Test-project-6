@@ -36,17 +36,19 @@
     },
     {
       "atomType": "Rectangle",
-      "x": 0.032407407407407406,
-      "y": 0.8941504178272981,
+      "x": 0.028545941123996433,
+      "y": 0.8945783132530121,
       "uniqueID": "bab8a965-1776-47e9-bb8b-6428dbd4d662",
       "ioValues": [
         {
           "name": "x length",
-          "ioValue": 75
+          "ioValue": 70,
+          "currentEquation": "70"
         },
         {
           "name": "y length",
-          "ioValue": 75
+          "ioValue": 70,
+          "currentEquation": "70"
         }
       ]
     },
@@ -108,8 +110,8 @@
     },
     {
       "atomType": "Difference",
-      "x": 0.33201058201058203,
-      "y": 0.3593314763231198,
+      "x": 0.4005352363960749,
+      "y": 0.46686746987951805,
       "uniqueID": "52c9e1f5-7ff7-4eef-94b1-e99d0cc79a51",
       "ioValues": [
         {
@@ -226,6 +228,55 @@
       "resolution": 96,
       "importIndex": 0,
       "partName": "Test Part"
+    },
+    {
+      "atomType": "CutLayout",
+      "x": 0.6199821587867974,
+      "y": 0.7168674698795181,
+      "uniqueID": "id-439",
+      "name": "Cut Layout",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "Sheet Width",
+          "ioValue": 2438
+        },
+        {
+          "name": "Sheet Height",
+          "ioValue": 1219
+        },
+        {
+          "name": "Part Padding",
+          "ioValue": 10
+        },
+        {
+          "name": "Orientations",
+          "ioValue": 12
+        }
+      ],
+      "placements": [
+        [
+          {
+            "id": 0,
+            "rotate": 0,
+            "translate": {
+              "x": 1219,
+              "y": 609.5
+            }
+          },
+          {
+            "id": 1,
+            "rotate": 0,
+            "translate": {
+              "x": 1219,
+              "y": 609.5
+            }
+          }
+        ]
+      ]
     },
     {
       "atomType": "Molecule",
@@ -525,52 +576,15 @@
       "fileTypeVersion": 1
     },
     {
-      "atomType": "CutLayout",
-      "x": 0.6199821587867974,
-      "y": 0.7168674698795181,
-      "uniqueID": "id-439",
-      "name": "Cut Layout",
+      "atomType": "Label",
+      "x": 0.5227475468331847,
+      "y": 0.608433734939759,
+      "uniqueID": "id-532",
       "ioValues": [
         {
           "name": "geometry",
           "ioValue": "__GEOMETRY_INPUT__"
-        },
-        {
-          "name": "Sheet Width",
-          "ioValue": 2438
-        },
-        {
-          "name": "Sheet Height",
-          "ioValue": 1219
-        },
-        {
-          "name": "Part Padding",
-          "ioValue": 10
-        },
-        {
-          "name": "Orientations",
-          "ioValue": 12
         }
-      ],
-      "placements": [
-        [
-          {
-            "id": 0,
-            "rotate": 0,
-            "translate": {
-              "x": 1219,
-              "y": 609.5
-            }
-          },
-          {
-            "id": 1,
-            "rotate": 0,
-            "translate": {
-              "x": 1219,
-              "y": 609.5
-            }
-          }
-        ]
       ]
     }
   ],
@@ -616,6 +630,11 @@
       "ap2ID": "703bbf02-3848-437f-b9ad-fa912d30582a"
     },
     {
+      "ap2Name": "geometry",
+      "ap1ID": "52c9e1f5-7ff7-4eef-94b1-e99d0cc79a51",
+      "ap2ID": "id-532"
+    },
+    {
       "ap2Name": "Shape 1",
       "ap1ID": "ad93079d-e6df-4844-a542-19edf6aa46ed",
       "ap2ID": "37394ec5-19e3-4302-ac65-5f4a746a47e6"
@@ -631,6 +650,11 @@
       "ap2ID": "id-439"
     },
     {
+      "ap2Name": "geometry",
+      "ap1ID": "id-439",
+      "ap2ID": "27c29402-254b-433d-b3e4-31d5a6a2640b"
+    },
+    {
       "ap2Name": "input",
       "ap1ID": "id-222",
       "ap2ID": "id-332"
@@ -639,11 +663,6 @@
       "ap2Name": "geometry1",
       "ap1ID": "id-332",
       "ap2ID": "52c9e1f5-7ff7-4eef-94b1-e99d0cc79a51"
-    },
-    {
-      "ap2Name": "geometry",
-      "ap1ID": "id-439",
-      "ap2ID": "27c29402-254b-433d-b3e4-31d5a6a2640b"
     }
   ],
   "unitsKey": "MM",
