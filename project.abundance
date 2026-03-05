@@ -42,13 +42,11 @@
       "ioValues": [
         {
           "name": "x length",
-          "ioValue": 70,
-          "currentEquation": "70"
+          "ioValue": 70
         },
         {
           "name": "y length",
-          "ioValue": 70,
-          "currentEquation": "70"
+          "ioValue": 70
         }
       ]
     },
@@ -277,6 +275,30 @@
           }
         ]
       ]
+    },
+    {
+      "atomType": "Label",
+      "x": 0.5225916453537937,
+      "y": 0.5903614457831325,
+      "uniqueID": "id-532",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        }
+      ],
+      "start": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "end": {
+        "x": 10,
+        "y": 10,
+        "z": 0
+      },
+      "text": "label",
+      "color": "#484848"
     },
     {
       "atomType": "Molecule",
@@ -574,18 +596,6 @@
         }
       ],
       "fileTypeVersion": 1
-    },
-    {
-      "atomType": "Label",
-      "x": 0.5227475468331847,
-      "y": 0.608433734939759,
-      "uniqueID": "id-532",
-      "ioValues": [
-        {
-          "name": "geometry",
-          "ioValue": "__GEOMETRY_INPUT__"
-        }
-      ]
     }
   ],
   "allConnectors": [
