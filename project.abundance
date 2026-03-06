@@ -229,8 +229,8 @@
     },
     {
       "atomType": "CutLayout",
-      "x": 0.6199821587867974,
-      "y": 0.7168674698795181,
+      "x": 0.618073316283035,
+      "y": 0.7319277108433735,
       "uniqueID": "id-439",
       "name": "Cut Layout",
       "ioValues": [
@@ -298,7 +298,7 @@
         "z": 0
       },
       "text": "label",
-      "color": "#484848"
+      "color": "#F3EFEF"
     },
     {
       "atomType": "Molecule",
