@@ -631,14 +631,7 @@
           "atomType": "Circle",
           "x": 0.2816011235955056,
           "y": 0.4909638554216868,
-          "uniqueID": "id-729",
-          "ioValues": [
-            {
-              "name": "diameter",
-              "ioValue": 5,
-              "currentEquation": "Wood/2"
-            }
-          ]
+          "uniqueID": "id-729"
         },
         {
           "atomType": "Input",
