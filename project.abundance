@@ -643,15 +643,27 @@
         {
           "atomType": "Input",
           "x": 0.025384615384615384,
-          "y": 0.30120481927710846,
+          "y": 0.15384615384615385,
           "uniqueID": "id-732",
           "name": "Wood"
+        },
+        {
+          "atomType": "Circle",
+          "x": 0.48033707865168535,
+          "y": 0.6234939759036144,
+          "uniqueID": "id-837",
+          "ioValues": [
+            {
+              "name": "diameter",
+              "ioValue": 10
+            }
+          ]
         }
       ],
       "allConnectors": [
         {
           "ap2Name": "number or geometry",
-          "ap1ID": "id-729",
+          "ap1ID": "id-837",
           "ap2ID": "id-727"
         }
       ],
