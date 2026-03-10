@@ -30,8 +30,8 @@
     },
     {
       "atomType": "Rectangle",
-      "x": 0.17696629213483145,
-      "y": 0.2560240963855422,
+      "x": 0.1952247191011236,
+      "y": 0.2469879518072289,
       "uniqueID": "ff87dede-758f-4324-8993-0d2b8a3f1226",
       "ioValues": [
         {
@@ -47,8 +47,8 @@
     },
     {
       "atomType": "Rectangle",
-      "x": 0.2422752808988764,
-      "y": 0.7228915662650602,
+      "x": 0.23174157303370785,
+      "y": 0.825301204819277,
       "uniqueID": "bab8a965-1776-47e9-bb8b-6428dbd4d662",
       "ioValues": [
         {
@@ -58,8 +58,7 @@
         },
         {
           "name": "y length",
-          "ioValue": 70,
-          "currentEquation": "70"
+          "ioValue": 70
         }
       ]
     },
@@ -82,8 +81,8 @@
     },
     {
       "atomType": "Extrude",
-      "x": 0.3160112359550562,
-      "y": 0.2650602409638554,
+      "x": 0.34269662921348315,
+      "y": 0.18674698795180725,
       "uniqueID": "d0b60086-8cc1-47de-a1d5-b3d7072433a2",
       "ioValues": [
         {
@@ -291,9 +290,23 @@
       ]
     },
     {
+      "atomType": "Input",
+      "x": 0.025384615384615384,
+      "y": 0.15384615384615385,
+      "uniqueID": "id-625",
+      "name": "Width"
+    },
+    {
+      "atomType": "Input",
+      "x": 0.025384615384615384,
+      "y": 0.24615384615384617,
+      "uniqueID": "id-628",
+      "name": "WoodThick"
+    },
+    {
       "atomType": "Molecule",
-      "x": 0.46910112359550565,
-      "y": 0.6536144578313253,
+      "x": 0.4592696629213483,
+      "y": 0.5963855421686747,
       "uniqueID": "id-222",
       "name": "Cut Corner",
       "ioValues": [
@@ -588,18 +601,61 @@
       "fileTypeVersion": 1
     },
     {
-      "atomType": "Input",
-      "x": 0.025384615384615384,
-      "y": 0.6506024096385542,
-      "uniqueID": "id-625",
-      "name": "Width"
-    },
-    {
-      "atomType": "Input",
-      "x": 0.025384615384615384,
-      "y": 0.7429101019462465,
-      "uniqueID": "id-628",
-      "name": "WoodThick"
+      "atomType": "Molecule",
+      "x": 0.2556179775280899,
+      "y": 0.5240963855421688,
+      "uniqueID": "id-725",
+      "name": "Molecule",
+      "ioValues": [
+        {
+          "name": "Wood",
+          "ioValue": 10,
+          "currentEquation": "Width"
+        }
+      ],
+      "topLevel": false,
+      "allAtoms": [
+        {
+          "atomType": "Output",
+          "x": 0.98,
+          "y": 0.5,
+          "uniqueID": "id-727",
+          "ioValues": [
+            {
+              "name": "number or geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            }
+          ]
+        },
+        {
+          "atomType": "Circle",
+          "x": 0.2816011235955056,
+          "y": 0.4909638554216868,
+          "uniqueID": "id-729",
+          "ioValues": [
+            {
+              "name": "diameter",
+              "ioValue": 5,
+              "currentEquation": "Wood/2"
+            }
+          ]
+        },
+        {
+          "atomType": "Input",
+          "x": 0.025384615384615384,
+          "y": 0.30120481927710846,
+          "uniqueID": "id-732",
+          "name": "Wood"
+        }
+      ],
+      "allConnectors": [
+        {
+          "ap2Name": "number or geometry",
+          "ap1ID": "id-729",
+          "ap2ID": "id-727"
+        }
+      ],
+      "fileTypeVersion": 1
     }
   ],
   "allConnectors": [
