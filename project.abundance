@@ -531,8 +531,8 @@
     },
     {
       "atomType": "Code",
-      "x": 0.802734375,
-      "y": 0.5240963855421688,
+      "x": 0.7626953125,
+      "y": 0.5150602409638555,
       "uniqueID": "id-770",
       "ioValues": [
         {
@@ -545,12 +545,12 @@
         }
       ],
       "codeVersion": 1,
-      "code": "\n// Example Code\nconst Inputs = [\n  { inputName: \"tool\", type: \"geometry\", defaultValue: null },\n  { inputName: \"sketch2\", type: \"geometry\", defaultValue: null },\n];\nlet planex = replicad.makePlane(\"XY\").translateZ(10)\nlet baseCircle = replicad.drawEllipse(10, 5).translate([50,0])\nlet sketchCircle = baseCircle.sketchOnPlane(planex)\n\nlet topCircle = replicad.drawEllipse(10, 5)\nlet sketchTopCircle = topCircle.sketchOnPlane(\"ZY\")\n\n//let newPlane = replicad.makePlane()\nlet loftShape = sketchCircle.loftWith(\n  sketchTopCircle, \n   {}, \n   true)\nconsole.log(loftShape)\nlet cutShape = library[tool].geometry[0]\n\nconsole.log(cutShape)\nlet cylObj = {\n  geometry: [replicad.makeSolid(loftShape)],\n  dimension: \"3D\",\n  tags: [\"createdCylinder\"],\n  color: \"#A3CE5B\",\n  plane: null,\n  bom: []\n};\nconsole.log(cylObj)\n\nreturn cylObj\n"
+      "code": "\n// Example Code\nconst Inputs = [\n  { inputName: \"tool\", type: \"geometry\", defaultValue: null },\n  { inputName: \"sketch2\", type: \"geometry\", defaultValue: null },\n];\nlet planex = replicad.makePlane(\"XY\").translateZ(10)\nlet baseCircle = replicad.drawEllipse(10, 5).translate([50,0])\nlet sketchCircle = baseCircle.sketchOnPlane(planex)\n\nlet topCircle = replicad.drawEllipse(10, 5)\nlet sketchTopCircle = topCircle.sketchOnPlane(\"ZY\")\n\n//let newPlane = replicad.makePlane()\nlet loftShape = sketchCircle.loftWith(\n  sketchTopCircle, \n   {}, \n   true)\nconsole.log(loftShape)\nlet cutShape = library[tool].geometry[0]\n\nconsole.log(cutShape)\nlet cylObj = {\n  geometry: [replicad.makeSolid([loftShape])],\n  dimension: \"3D\",\n  tags: [\"createdCylinder\"],\n  color: \"#A3CE5B\",\n  plane: null,\n  bom: []\n};\nconsole.log(cylObj)\n\nreturn cylObj\n"
     },
     {
       "atomType": "Code",
-      "x": 0.7041015625,
-      "y": 0.753012048192771,
+      "x": 0.7294921875,
+      "y": 0.7680722891566265,
       "uniqueID": "id-822",
       "ioValues": [
         {
@@ -567,8 +567,8 @@
     },
     {
       "atomType": "Move",
-      "x": 0.7804054054054055,
-      "y": 0.8162650602409638,
+      "x": 0.8076171875,
+      "y": 0.8614457831325302,
       "uniqueID": "id-832",
       "ioValues": [
         {
@@ -631,6 +631,47 @@
           "ioValue": 0
         }
       ]
+    },
+    {
+      "atomType": "Move",
+      "x": 0.8671875,
+      "y": 0.6024096385542169,
+      "uniqueID": "id-849",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "xDist",
+          "ioValue": 0
+        },
+        {
+          "name": "yDist",
+          "ioValue": 10,
+          "currentEquation": "10"
+        },
+        {
+          "name": "zDist",
+          "ioValue": 0
+        }
+      ]
+    },
+    {
+      "atomType": "Difference",
+      "x": 0.923828125,
+      "y": 0.7620481927710844,
+      "uniqueID": "id-855",
+      "ioValues": [
+        {
+          "name": "geometry1",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "geometry2",
+          "ioValue": "__GEOMETRY_INPUT__"
+        }
+      ]
     }
   ],
   "allConnectors": [
@@ -686,8 +727,18 @@
     },
     {
       "ap2Name": "geometry",
+      "ap1ID": "id-770",
+      "ap2ID": "id-849"
+    },
+    {
+      "ap2Name": "geometry",
       "ap1ID": "id-822",
       "ap2ID": "id-832"
+    },
+    {
+      "ap2Name": "geometry1",
+      "ap1ID": "id-832",
+      "ap2ID": "id-855"
     },
     {
       "ap2Name": "geometry",
@@ -698,6 +749,11 @@
       "ap2Name": "tool",
       "ap1ID": "id-843",
       "ap2ID": "id-770"
+    },
+    {
+      "ap2Name": "geometry2",
+      "ap1ID": "id-849",
+      "ap2ID": "id-855"
     }
   ],
   "unitsKey": "MM",
