@@ -477,8 +477,8 @@
     },
     {
       "atomType": "Move",
-      "x": 0.6335944299390774,
-      "y": 0.6927710843373494,
+      "x": 0.6089494163424124,
+      "y": 0.6325301204819277,
       "uniqueID": "id-758",
       "ioValues": [
         {
@@ -531,8 +531,8 @@
     },
     {
       "atomType": "Code",
-      "x": 0.7545691906005222,
-      "y": 0.6626506024096386,
+      "x": 0.7918287937743191,
+      "y": 0.4879518072289156,
       "uniqueID": "id-770",
       "ioValues": [
         {
@@ -545,7 +545,7 @@
         }
       ],
       "codeVersion": 1,
-      "code": "\n// Example Code\nconst Inputs = [\n  { inputName: \"sketch1\", type: \"geometry\", defaultValue: null },\n  { inputName: \"sketch2\", type: \"geometry\", defaultValue: null },\n];\n\nlet baseCircle = replicad.drawEllipse(10, 5)\nlet sketchCircle = baseCircle.sketchOnPlane(\"XY\")\n\nlet topCircle = replicad.drawEllipse(10, 5)\nlet sketchTopCircle = topCircle.sketchOnPlane(\"XZ\")\n\n//let newPlane = replicad.makePlane()\nlet loftShape = sketchCircle.loftWith(\n  sketchTopCircle, \n   {}, \n   false)\nlet cylObj = {\n  geometry: [loftShape],\n  dimension: \"3D\",\n  tags: [\"createdCylinder\"],\n  color: \"#A3CE5B\",\n  plane: null,\n  bom: []\n};\n\nreturn cylObj\n"
+      "code": "\n// Example Code\nconst Inputs = [\n  { inputName: \"sketch1\", type: \"geometry\", defaultValue: null },\n  { inputName: \"sketch2\", type: \"geometry\", defaultValue: null },\n];\nlet planex = replicad.makePlane(\"XY\").translateZ(10)\nlet baseCircle = replicad.drawEllipse(10, 5).translate([50,0])\nlet sketchCircle = baseCircle.sketchOnPlane(planex)\n\nlet topCircle = replicad.drawEllipse(10, 5)\nlet sketchTopCircle = topCircle.sketchOnPlane(\"ZY\")\n\n//let newPlane = replicad.makePlane()\nlet loftShape = sketchCircle.loftWith(\n  sketchTopCircle, \n   {}, \n   true)\nlet cylObj = {\n  geometry: [loftShape],\n  dimension: \"3D\",\n  tags: [\"createdCylinder\"],\n  color: \"#A3CE5B\",\n  plane: null,\n  bom: []\n};\n\nreturn cylObj\n"
     }
   ],
   "allConnectors": [
