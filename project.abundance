@@ -531,26 +531,26 @@
     },
     {
       "atomType": "Code",
-      "x": 0.7169260700389105,
-      "y": 0.5120481927710844,
+      "x": 0.831081081081081,
+      "y": 0.5813253012048193,
       "uniqueID": "id-770",
       "ioValues": [
         {
-          "name": "sketch1",
+          "name": "sketch2",
           "ioValue": "__GEOMETRY_INPUT__"
         },
         {
-          "name": "sketch2",
+          "name": "tool",
           "ioValue": "__GEOMETRY_INPUT__"
         }
       ],
       "codeVersion": 1,
-      "code": "\n// Example Code\nconst Inputs = [\n  { inputName: \"sketch1\", type: \"geometry\", defaultValue: null },\n  { inputName: \"sketch2\", type: \"geometry\", defaultValue: null },\n];\nlet planex = replicad.makePlane(\"XY\").translateZ(10)\nlet baseCircle = replicad.drawEllipse(10, 5).translate([50,0])\nlet sketchCircle = baseCircle.sketchOnPlane(planex)\n\nlet topCircle = replicad.drawEllipse(10, 5)\nlet sketchTopCircle = topCircle.sketchOnPlane(\"ZY\")\n\n//let newPlane = replicad.makePlane()\nlet loftShape = sketchCircle.loftWith(\n  sketchTopCircle, \n   {}, \n   true)\nconsole.log(loftShape)\nlet cylObj = {\n  geometry: [loftShape],\n  dimension: \"3D\",\n  tags: [\"createdCylinder\"],\n  color: \"#A3CE5B\",\n  plane: null,\n  bom: []\n};\nconsole.log(cylObj)\n\nreturn cylObj\n"
+      "code": "\n// Example Code\nconst Inputs = [\n  { inputName: \"tool\", type: \"geometry\", defaultValue: null },\n  { inputName: \"sketch2\", type: \"geometry\", defaultValue: null },\n];\nlet planex = replicad.makePlane(\"XY\").translateZ(10)\nlet baseCircle = replicad.drawEllipse(10, 5).translate([50,0])\nlet sketchCircle = baseCircle.sketchOnPlane(planex)\n\nlet topCircle = replicad.drawEllipse(10, 5)\nlet sketchTopCircle = topCircle.sketchOnPlane(\"ZY\")\n\n//let newPlane = replicad.makePlane()\nlet loftShape = sketchCircle.loftWith(\n  sketchTopCircle, \n   {}, \n   true)\nlet cutShape = library[tool].geometry[0].clone().cut(loftShape.clone())\nconsole.log.cutShape\nlet cylObj = {\n  geometry: [loftShape],\n  dimension: \"3D\",\n  tags: [\"createdCylinder\"],\n  color: \"#A3CE5B\",\n  plane: null,\n  bom: []\n};\nconsole.log(cylObj)\n\nreturn cylObj\n"
     },
     {
       "atomType": "Code",
-      "x": 0.6400778210116732,
-      "y": 0.7801204819277108,
+      "x": 0.6621621621621622,
+      "y": 0.7680722891566265,
       "uniqueID": "id-822",
       "ioValues": [
         {
@@ -564,6 +564,32 @@
       ],
       "codeVersion": 1,
       "code": "\n// Example Code\nconst Inputs = [\n  { inputName: \"sketch1\", type: \"geometry\", defaultValue: null },\n  { inputName: \"sketch2\", type: \"geometry\", defaultValue: null },\n];\nlet planex = replicad.makePlane(\"XY\").translateZ(10)\nlet baseCircle = replicad.drawEllipse(10, 5).translate([50,0])\nlet sketchCircle = baseCircle.sketchOnPlane(planex)\n\nlet topCircle = replicad.drawEllipse(10, 5)\nlet sketchTopCircle = topCircle.sketchOnPlane(\"ZY\")\n\n//let newPlane = replicad.makePlane()\nlet loftShape = sketchCircle.loftWith(\n  sketchTopCircle, \n   {}, \n   false)\nlet cylObj = {\n  geometry: [loftShape],\n  dimension: \"3D\",\n  tags: [\"createdCylinder\"],\n  color: \"#A3CE5B\",\n  plane: null,\n  bom: []\n};\n\nreturn cylObj\n"
+    },
+    {
+      "atomType": "Move",
+      "x": 0.7804054054054055,
+      "y": 0.8162650602409638,
+      "uniqueID": "id-832",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "xDist",
+          "ioValue": 5,
+          "currentEquation": "5"
+        },
+        {
+          "name": "yDist",
+          "ioValue": 5,
+          "currentEquation": "5"
+        },
+        {
+          "name": "zDist",
+          "ioValue": 0
+        }
+      ]
     }
   ],
   "allConnectors": [
@@ -590,11 +616,6 @@
     {
       "ap2Name": "sketch1",
       "ap1ID": "id-751",
-      "ap2ID": "id-770"
-    },
-    {
-      "ap2Name": "sketch1",
-      "ap1ID": "id-751",
       "ap2ID": "id-822"
     },
     {
@@ -616,6 +637,16 @@
       "ap2Name": "geometry",
       "ap1ID": "id-764",
       "ap2ID": "id-758"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-822",
+      "ap2ID": "id-832"
+    },
+    {
+      "ap2Name": "tool",
+      "ap1ID": "id-832",
+      "ap2ID": "id-770"
     }
   ],
   "unitsKey": "MM",
