@@ -3,23 +3,23 @@
   "x": 0,
   "y": 0,
   "uniqueID": 1746568589948,
-  "name": "A-Test-project-6",
+  "name": "Edge-Case-Test-Complex",
   "ioValues": [
     {
-      "name": "Width",
-      "ioValue": 30
+      "name": "BaseSize",
+      "ioValue": 20
     },
     {
-      "name": "WoodThick",
-      "ioValue": 10
+      "name": "Thickness",
+      "ioValue": 5
     }
   ],
   "topLevel": true,
   "allAtoms": [
     {
       "atomType": "Output",
-      "x": 0.9682539682539683,
-      "y": 0.5069637883008357,
+      "x": 0.98,
+      "y": 0.5,
       "uniqueID": 1746568598187,
       "ioValues": [
         {
@@ -33,26 +33,31 @@
       "x": 0.021449999999999997,
       "y": 0.13,
       "uniqueID": "id-625",
-      "name": "Width"
+      "name": "BaseSize"
     },
     {
       "atomType": "Input",
       "x": 0.021449999999999997,
-      "y": 0.20800000000000002,
+      "y": 0.21,
       "uniqueID": "id-628",
-      "name": "WoodThick"
+      "name": "Thickness"
     },
     {
       "atomType": "Molecule",
-      "x": 0.372865275142315,
-      "y": 0.49253731343283585,
-      "uniqueID": "id-1077",
-      "name": "Molecule",
+      "x": 0.3,
+      "y": 0.3,
+      "uniqueID": "id-level1-outer",
+      "name": "Level1-Outer",
       "ioValues": [
         {
-          "name": "polywidth",
-          "ioValue": 30,
-          "currentEquation": "Width"
+          "name": "size",
+          "ioValue": 20,
+          "currentEquation": "BaseSize"
+        },
+        {
+          "name": "thick",
+          "ioValue": 5,
+          "currentEquation": "Thickness"
         }
       ],
       "topLevel": false,
@@ -61,7 +66,7 @@
           "atomType": "Output",
           "x": 0.98,
           "y": 0.5,
-          "uniqueID": "id-1079",
+          "uniqueID": "id-level1-output",
           "ioValues": [
             {
               "name": "number or geometry",
@@ -70,39 +75,158 @@
           ]
         },
         {
-          "atomType": "Circle",
-          "x": 0.27941176470588236,
-          "y": 0.2650602409638554,
-          "uniqueID": "id-1081",
-          "ioValues": [
-            {
-              "name": "diameter",
-              "ioValue": 30,
-              "currentEquation": "Width"
-            }
-          ]
+          "atomType": "Input",
+          "x": 0.021,
+          "y": 0.13,
+          "uniqueID": "id-level1-size",
+          "name": "size"
         },
         {
-          "atomType": "Extrude",
-          "x": 0.42353951890034364,
-          "y": 0.40298507462686567,
-          "uniqueID": "id-1084",
+          "atomType": "Input",
+          "x": 0.021,
+          "y": 0.21,
+          "uniqueID": "id-level1-thick",
+          "name": "thick"
+        },
+        {
+          "atomType": "Molecule",
+          "x": 0.3,
+          "y": 0.3,
+          "uniqueID": "id-level2-inner",
+          "name": "Level2-Inner",
+          "ioValues": [
+            {
+              "name": "innerSize",
+              "ioValue": 20,
+              "currentEquation": "size"
+            },
+            {
+              "name": "innerThick",
+              "ioValue": 5,
+              "currentEquation": "thick"
+            }
+          ],
+          "topLevel": false,
+          "allAtoms": [
+            {
+              "atomType": "Output",
+              "x": 0.98,
+              "y": 0.5,
+              "uniqueID": "id-level2-output",
+              "ioValues": [
+                {
+                  "name": "number or geometry",
+                  "ioValue": "__GEOMETRY_INPUT__"
+                }
+              ]
+            },
+            {
+              "atomType": "Input",
+              "x": 0.021,
+              "y": 0.13,
+              "uniqueID": "id-level2-innersize",
+              "name": "innerSize"
+            },
+            {
+              "atomType": "Input",
+              "x": 0.021,
+              "y": 0.21,
+              "uniqueID": "id-level2-innerthick",
+              "name": "innerThick"
+            },
+            {
+              "atomType": "Circle",
+              "x": 0.2,
+              "y": 0.3,
+              "uniqueID": "id-level2-circle",
+              "ioValues": [
+                {
+                  "name": "diameter",
+                  "ioValue": 20,
+                  "currentEquation": "innerSize*2"
+                }
+              ]
+            },
+            {
+              "atomType": "Extrude",
+              "x": 0.4,
+              "y": 0.3,
+              "uniqueID": "id-level2-extrude",
+              "ioValues": [
+                {
+                  "name": "geometry",
+                  "ioValue": "__GEOMETRY_INPUT__"
+                },
+                {
+                  "name": "height",
+                  "ioValue": 5,
+                  "currentEquation": "innerThick*2"
+                }
+              ]
+            },
+            {
+              "atomType": "Assembly",
+              "x": 0.65,
+              "y": 0.3,
+              "uniqueID": "id-level2-assembly",
+              "ioValues": [
+                {
+                  "name": "Shape 1",
+                  "ioValue": null
+                }
+              ]
+            }
+          ],
+          "allConnectors": [
+            {
+              "ap2Name": "geometry",
+              "ap1ID": "id-level2-circle",
+              "ap2ID": "id-level2-extrude"
+            },
+            {
+              "ap2Name": "Shape 1",
+              "ap1ID": "id-level2-extrude",
+              "ap2ID": "id-level2-assembly"
+            },
+            {
+              "ap2Name": "number or geometry",
+              "ap1ID": "id-level2-assembly",
+              "ap2ID": "id-level2-output"
+            }
+          ],
+          "fileTypeVersion": 1
+        },
+        {
+          "atomType": "Move",
+          "x": 0.5,
+          "y": 0.3,
+          "uniqueID": "id-level1-move",
           "ioValues": [
             {
               "name": "geometry",
               "ioValue": "__GEOMETRY_INPUT__"
             },
             {
-              "name": "height",
-              "ioValue": 10
+              "name": "xDist",
+              "ioValue": 10,
+              "currentEquation": "size"
+            },
+            {
+              "name": "yDist",
+              "ioValue": 0
+            },
+            {
+              "name": "zDist",
+              "ioValue": 5,
+              "currentEquation": "thick"
             }
           ]
         },
         {
           "atomType": "Assembly",
-          "x": 0.6832865168539326,
-          "y": 0.41867469879518077,
-          "uniqueID": "id-1088",
+          "x": 0.75,
+          "y": 0.3,
+          "uniqueID": "id-level1-assembly",
           "ioValues": [
             {
               "name": "Shape 1",
@@ -113,104 +237,23 @@
               "ioValue": null
             }
           ]
-        },
-        {
-          "atomType": "RegularPolygon",
-          "x": 0.24667931688804556,
-          "y": 0.6238805970149254,
-          "uniqueID": "id-1092",
-          "ioValues": [
-            {
-              "name": "number of sides",
-              "ioValue": 6
-            },
-            {
-              "name": "diameter",
-              "ioValue": 90,
-              "currentEquation": "polywidth *3"
-            }
-          ]
-        },
-        {
-          "atomType": "Move",
-          "x": 0.3742977528089888,
-          "y": 0.713855421686747,
-          "uniqueID": "id-1096",
-          "ioValues": [
-            {
-              "name": "geometry",
-              "ioValue": "__GEOMETRY_INPUT__"
-            },
-            {
-              "name": "xDist",
-              "ioValue": 0
-            },
-            {
-              "name": "yDist",
-              "ioValue": 10,
-              "currentEquation": "WoodThick"
-            },
-            {
-              "name": "zDist",
-              "ioValue": 0
-            }
-          ]
-        },
-        {
-          "atomType": "Extrude",
-          "x": 0.4747191011235955,
-          "y": 0.7168674698795181,
-          "uniqueID": "id-1102",
-          "ioValues": [
-            {
-              "name": "geometry",
-              "ioValue": "__GEOMETRY_INPUT__"
-            },
-            {
-              "name": "height",
-              "ioValue": 30,
-              "currentEquation": "Width"
-            }
-          ]
-        },
-        {
-          "atomType": "Input",
-          "x": 0.021449999999999997,
-          "y": 0.13,
-          "uniqueID": "id-1107",
-          "name": "polywidth"
         }
       ],
       "allConnectors": [
         {
           "ap2Name": "geometry",
-          "ap1ID": "id-1081",
-          "ap2ID": "id-1084"
+          "ap1ID": "id-level2-inner",
+          "ap2ID": "id-level1-move"
         },
         {
           "ap2Name": "Shape 1",
-          "ap1ID": "id-1084",
-          "ap2ID": "id-1088"
+          "ap1ID": "id-level1-move",
+          "ap2ID": "id-level1-assembly"
         },
         {
           "ap2Name": "number or geometry",
-          "ap1ID": "id-1088",
-          "ap2ID": "id-1079"
-        },
-        {
-          "ap2Name": "geometry",
-          "ap1ID": "id-1092",
-          "ap2ID": "id-1096"
-        },
-        {
-          "ap2Name": "geometry",
-          "ap1ID": "id-1096",
-          "ap2ID": "id-1102"
-        },
-        {
-          "ap2Name": "Shape 2",
-          "ap1ID": "id-1102",
-          "ap2ID": "id-1088"
+          "ap1ID": "id-level1-assembly",
+          "ap2ID": "id-level1-output"
         }
       ],
       "fileTypeVersion": 1
@@ -219,11 +262,10 @@
   "allConnectors": [
     {
       "ap2Name": "number or geometry",
-      "ap1ID": "id-1077",
+      "ap1ID": "id-level1-outer",
       "ap2ID": 1746568598187
     }
   ],
   "unitsKey": "MM",
-  "fileTypeVersion": 1,
-  "filetypeVersion": 1
+  "fileTypeVersion": 1
 }
