@@ -405,8 +405,8 @@
     },
     {
       "atomType": "Rectangle",
-      "x": 0.20974760661444736,
-      "y": 0.41566265060240964,
+      "x": 0.20898437500000003,
+      "y": 0.4457831325301205,
       "uniqueID": "id-741",
       "ioValues": [
         {
@@ -531,8 +531,8 @@
     },
     {
       "atomType": "Code",
-      "x": 0.831081081081081,
-      "y": 0.5813253012048193,
+      "x": 0.802734375,
+      "y": 0.5240963855421688,
       "uniqueID": "id-770",
       "ioValues": [
         {
@@ -545,12 +545,12 @@
         }
       ],
       "codeVersion": 1,
-      "code": "\n// Example Code\nconst Inputs = [\n  { inputName: \"tool\", type: \"geometry\", defaultValue: null },\n  { inputName: \"sketch2\", type: \"geometry\", defaultValue: null },\n];\nlet planex = replicad.makePlane(\"XY\").translateZ(10)\nlet baseCircle = replicad.drawEllipse(10, 5).translate([50,0])\nlet sketchCircle = baseCircle.sketchOnPlane(planex)\n\nlet topCircle = replicad.drawEllipse(10, 5)\nlet sketchTopCircle = topCircle.sketchOnPlane(\"ZY\")\n\n//let newPlane = replicad.makePlane()\nlet loftShape = sketchCircle.loftWith(\n  sketchTopCircle, \n   {}, \n   true)\nlet cutShape = library[tool].geometry[0].clone().cut(loftShape.clone())\nconsole.log.cutShape\nlet cylObj = {\n  geometry: [loftShape],\n  dimension: \"3D\",\n  tags: [\"createdCylinder\"],\n  color: \"#A3CE5B\",\n  plane: null,\n  bom: []\n};\nconsole.log(cylObj)\n\nreturn cylObj\n"
+      "code": "\n// Example Code\nconst Inputs = [\n  { inputName: \"tool\", type: \"geometry\", defaultValue: null },\n  { inputName: \"sketch2\", type: \"geometry\", defaultValue: null },\n];\nlet planex = replicad.makePlane(\"XY\").translateZ(10)\nlet baseCircle = replicad.drawEllipse(10, 5).translate([50,0])\nlet sketchCircle = baseCircle.sketchOnPlane(planex)\n\nlet topCircle = replicad.drawEllipse(10, 5)\nlet sketchTopCircle = topCircle.sketchOnPlane(\"ZY\")\n\n//let newPlane = replicad.makePlane()\nlet loftShape = sketchCircle.loftWith(\n  sketchTopCircle, \n   {}, \n   true)\nconsole.log(loftShape)\nlet cutShape = library[tool].geometry[0]\n\nconsole.log(cutShape)\nlet cylObj = {\n  geometry: [replicad.makeSolid(loftShape)],\n  dimension: \"3D\",\n  tags: [\"createdCylinder\"],\n  color: \"#A3CE5B\",\n  plane: null,\n  bom: []\n};\nconsole.log(cylObj)\n\nreturn cylObj\n"
     },
     {
       "atomType": "Code",
-      "x": 0.6621621621621622,
-      "y": 0.7680722891566265,
+      "x": 0.7041015625,
+      "y": 0.753012048192771,
       "uniqueID": "id-822",
       "ioValues": [
         {
@@ -590,6 +590,47 @@
           "ioValue": 0
         }
       ]
+    },
+    {
+      "atomType": "Extrude",
+      "x": 0.4365234375,
+      "y": 0.8765060240963856,
+      "uniqueID": "id-839",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "height",
+          "ioValue": 10
+        }
+      ]
+    },
+    {
+      "atomType": "Move",
+      "x": 0.5927734375,
+      "y": 0.9006024096385543,
+      "uniqueID": "id-843",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "xDist",
+          "ioValue": -30,
+          "currentEquation": "-30"
+        },
+        {
+          "name": "yDist",
+          "ioValue": 0
+        },
+        {
+          "name": "zDist",
+          "ioValue": 0
+        }
+      ]
     }
   ],
   "allConnectors": [
@@ -607,6 +648,11 @@
       "ap2Name": "geometry",
       "ap1ID": "id-741",
       "ap2ID": "id-745"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-741",
+      "ap2ID": "id-839"
     },
     {
       "ap2Name": "geometry2",
@@ -644,8 +690,13 @@
       "ap2ID": "id-832"
     },
     {
+      "ap2Name": "geometry",
+      "ap1ID": "id-839",
+      "ap2ID": "id-843"
+    },
+    {
       "ap2Name": "tool",
-      "ap1ID": "id-832",
+      "ap1ID": "id-843",
       "ap2ID": "id-770"
     }
   ],
