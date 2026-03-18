@@ -30,28 +30,29 @@
     },
     {
       "atomType": "Input",
-      "x": 0.025384615384615384,
-      "y": 0.15384615384615385,
+      "x": 0.021449999999999997,
+      "y": 0.13,
       "uniqueID": "id-625",
       "name": "Width"
     },
     {
       "atomType": "Input",
-      "x": 0.025384615384615384,
-      "y": 0.24615384615384617,
+      "x": 0.021449999999999997,
+      "y": 0.20800000000000002,
       "uniqueID": "id-628",
       "name": "WoodThick"
     },
     {
       "atomType": "Molecule",
-      "x": 0.3202247191011236,
-      "y": 0.5210843373493976,
+      "x": 0.3251576734407849,
+      "y": 0.5552238805970149,
       "uniqueID": "id-1077",
       "name": "Molecule",
       "ioValues": [
         {
           "name": "polywidth",
-          "ioValue": 10
+          "ioValue": 30,
+          "currentEquation": "Width"
         }
       ],
       "topLevel": false,
@@ -125,7 +126,7 @@
             },
             {
               "name": "diameter",
-              "ioValue": 13,
+              "ioValue": 39,
               "currentEquation": "polywidth *1.3"
             }
           ]
@@ -142,7 +143,7 @@
             },
             {
               "name": "xDist",
-              "ioValue": 3.3333333333333335,
+              "ioValue": 10,
               "currentEquation": "polywidth /3"
             },
             {
@@ -175,8 +176,8 @@
         },
         {
           "atomType": "Input",
-          "x": 0.025384615384615384,
-          "y": 0.15384615384615385,
+          "x": 0.021449999999999997,
+          "y": 0.13,
           "uniqueID": "id-1107",
           "name": "polywidth"
         }
