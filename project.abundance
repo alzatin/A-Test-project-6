@@ -44,8 +44,8 @@
     },
     {
       "atomType": "Molecule",
-      "x": 0.3181179775280899,
-      "y": 0.5150602409638555,
+      "x": 0.3202247191011236,
+      "y": 0.5210843373493976,
       "uniqueID": "id-1077",
       "name": "Molecule",
       "ioValues": [
@@ -99,8 +99,8 @@
         },
         {
           "atomType": "Assembly",
-          "x": 0.5446735395189004,
-          "y": 0.8059701492537313,
+          "x": 0.6832865168539326,
+          "y": 0.41867469879518077,
           "uniqueID": "id-1088",
           "ioValues": [
             {
@@ -121,8 +121,7 @@
           "ioValues": [
             {
               "name": "number of sides",
-              "ioValue": 6,
-              "currentEquation": "6"
+              "ioValue": 6
             },
             {
               "name": "diameter",
@@ -133,8 +132,8 @@
         },
         {
           "atomType": "Move",
-          "x": 0.3694158075601374,
-          "y": 0.7373134328358208,
+          "x": 0.3742977528089888,
+          "y": 0.713855421686747,
           "uniqueID": "id-1096",
           "ioValues": [
             {
@@ -143,11 +142,13 @@
             },
             {
               "name": "xDist",
-              "ioValue": 20
+              "ioValue": 3.3333333333333335,
+              "currentEquation": "polywidth /3"
             },
             {
               "name": "yDist",
-              "ioValue": 0
+              "ioValue": 10,
+              "currentEquation": "WoodThick"
             },
             {
               "name": "zDist",
@@ -157,8 +158,8 @@
         },
         {
           "atomType": "Extrude",
-          "x": 0.4149484536082474,
-          "y": 0.9373134328358208,
+          "x": 0.4747191011235955,
+          "y": 0.7168674698795181,
           "uniqueID": "id-1102",
           "ioValues": [
             {
@@ -167,14 +168,15 @@
             },
             {
               "name": "height",
-              "ioValue": 10
+              "ioValue": 30,
+              "currentEquation": "Width"
             }
           ]
         },
         {
           "atomType": "Input",
           "x": 0.025384615384615384,
-          "y": 0.20481927710843373,
+          "y": 0.15384615384615385,
           "uniqueID": "id-1107",
           "name": "polywidth"
         }
