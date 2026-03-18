@@ -448,8 +448,8 @@
     },
     {
       "atomType": "Difference",
-      "x": 0.5926892950391645,
-      "y": 0.46686746987951805,
+      "x": 0.556420233463035,
+      "y": 0.4457831325301205,
       "uniqueID": "id-751",
       "ioValues": [
         {
@@ -477,8 +477,8 @@
     },
     {
       "atomType": "Move",
-      "x": 0.6089494163424124,
-      "y": 0.6325301204819277,
+      "x": 0.5856031128404668,
+      "y": 0.641566265060241,
       "uniqueID": "id-758",
       "ioValues": [
         {
@@ -504,8 +504,8 @@
     },
     {
       "atomType": "Rotate",
-      "x": 0.49608355091383816,
-      "y": 0.7168674698795181,
+      "x": 0.45622568093385213,
+      "y": 0.6957831325301205,
       "uniqueID": "id-764",
       "ioValues": [
         {
@@ -531,8 +531,8 @@
     },
     {
       "atomType": "Code",
-      "x": 0.7918287937743191,
-      "y": 0.4879518072289156,
+      "x": 0.7169260700389105,
+      "y": 0.5120481927710844,
       "uniqueID": "id-770",
       "ioValues": [
         {
@@ -545,7 +545,25 @@
         }
       ],
       "codeVersion": 1,
-      "code": "\n// Example Code\nconst Inputs = [\n  { inputName: \"sketch1\", type: \"geometry\", defaultValue: null },\n  { inputName: \"sketch2\", type: \"geometry\", defaultValue: null },\n];\nlet planex = replicad.makePlane(\"XY\").translateZ(10)\nlet baseCircle = replicad.drawEllipse(10, 5).translate([50,0])\nlet sketchCircle = baseCircle.sketchOnPlane(planex)\n\nlet topCircle = replicad.drawEllipse(10, 5)\nlet sketchTopCircle = topCircle.sketchOnPlane(\"ZY\")\n\n//let newPlane = replicad.makePlane()\nlet loftShape = sketchCircle.loftWith(\n  sketchTopCircle, \n   {}, \n   true)\nlet cylObj = {\n  geometry: [loftShape],\n  dimension: \"3D\",\n  tags: [\"createdCylinder\"],\n  color: \"#A3CE5B\",\n  plane: null,\n  bom: []\n};\n\nreturn cylObj\n"
+      "code": "\n// Example Code\nconst Inputs = [\n  { inputName: \"sketch1\", type: \"geometry\", defaultValue: null },\n  { inputName: \"sketch2\", type: \"geometry\", defaultValue: null },\n];\nlet planex = replicad.makePlane(\"XY\").translateZ(10)\nlet baseCircle = replicad.drawEllipse(10, 5).translate([50,0])\nlet sketchCircle = baseCircle.sketchOnPlane(planex)\n\nlet topCircle = replicad.drawEllipse(10, 5)\nlet sketchTopCircle = topCircle.sketchOnPlane(\"ZY\")\n\n//let newPlane = replicad.makePlane()\nlet loftShape = sketchCircle.loftWith(\n  sketchTopCircle, \n   {}, \n   true)\nconsole.log(loftShape)\nlet cylObj = {\n  geometry: [loftShape],\n  dimension: \"3D\",\n  tags: [\"createdCylinder\"],\n  color: \"#A3CE5B\",\n  plane: null,\n  bom: []\n};\nconsole.log(cylObj)\n\nreturn cylObj\n"
+    },
+    {
+      "atomType": "Code",
+      "x": 0.6400778210116732,
+      "y": 0.7801204819277108,
+      "uniqueID": "id-822",
+      "ioValues": [
+        {
+          "name": "sketch1",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "sketch2",
+          "ioValue": "__GEOMETRY_INPUT__"
+        }
+      ],
+      "codeVersion": 1,
+      "code": "\n// Example Code\nconst Inputs = [\n  { inputName: \"sketch1\", type: \"geometry\", defaultValue: null },\n  { inputName: \"sketch2\", type: \"geometry\", defaultValue: null },\n];\nlet planex = replicad.makePlane(\"XY\").translateZ(10)\nlet baseCircle = replicad.drawEllipse(10, 5).translate([50,0])\nlet sketchCircle = baseCircle.sketchOnPlane(planex)\n\nlet topCircle = replicad.drawEllipse(10, 5)\nlet sketchTopCircle = topCircle.sketchOnPlane(\"ZY\")\n\n//let newPlane = replicad.makePlane()\nlet loftShape = sketchCircle.loftWith(\n  sketchTopCircle, \n   {}, \n   false)\nlet cylObj = {\n  geometry: [loftShape],\n  dimension: \"3D\",\n  tags: [\"createdCylinder\"],\n  color: \"#A3CE5B\",\n  plane: null,\n  bom: []\n};\n\nreturn cylObj\n"
     }
   ],
   "allConnectors": [
@@ -575,6 +593,11 @@
       "ap2ID": "id-770"
     },
     {
+      "ap2Name": "sketch1",
+      "ap1ID": "id-751",
+      "ap2ID": "id-822"
+    },
+    {
       "ap2Name": "geometry",
       "ap1ID": "id-755",
       "ap2ID": "id-764"
@@ -583,6 +606,11 @@
       "ap2Name": "sketch2",
       "ap1ID": "id-758",
       "ap2ID": "id-770"
+    },
+    {
+      "ap2Name": "sketch2",
+      "ap1ID": "id-758",
+      "ap2ID": "id-822"
     },
     {
       "ap2Name": "geometry",
