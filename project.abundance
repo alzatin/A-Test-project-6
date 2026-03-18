@@ -545,7 +545,7 @@
         }
       ],
       "codeVersion": 1,
-      "code": "\n// Example Code\nconst Inputs = [\n  { inputName: \"sketch1\", type: \"geometry\", defaultValue: null },\n  { inputName: \"sketch2\", type: \"geometry\", defaultValue: null },\n];\n\nlet importedShape = library[sketch1]\nconsole.log(importedShape)\nlet newPlane = replicad.makePlane()\nlet circDraw = replicad.drawCircle(radius)\nlet sketchCir = circDraw.sketchOnPlane(newPlane)\nlet cyl = sketchCir.extrude(height)\nlet cylObj = {\n  geometry: [importedShape.extrude(5)],\n  dimension: \"3D\",\n  tags: [\"createdCylinder\"],\n  color: \"#A3CE5B\",\n  plane: null,\n  bom: []\n};\n\nreturn cylObj\n"
+      "code": "\n// Example Code\nconst Inputs = [\n  { inputName: \"sketch1\", type: \"geometry\", defaultValue: null },\n  { inputName: \"sketch2\", type: \"geometry\", defaultValue: null },\n];\n\nlet baseCircle = replicad.drawEllipse(10, 5\n                                    )\nconsole.log(importedShape)\nlet newPlane = replicad.makePlane()\nlet loftShape = importedShape.loftWith(\n  library[sketch2].geometry[0], \n   {}, \n   false)\nlet cylObj = {\n  geometry: [loftShape],\n  dimension: \"3D\",\n  tags: [\"createdCylinder\"],\n  color: \"#A3CE5B\",\n  plane: null,\n  bom: []\n};\n\nreturn cylObj\n"
     }
   ],
   "allConnectors": [
@@ -578,6 +578,11 @@
       "ap2Name": "geometry",
       "ap1ID": "id-755",
       "ap2ID": "id-764"
+    },
+    {
+      "ap2Name": "sketch2",
+      "ap1ID": "id-758",
+      "ap2ID": "id-770"
     },
     {
       "ap2Name": "geometry",
