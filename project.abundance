@@ -44,8 +44,8 @@
     },
     {
       "atomType": "Molecule",
-      "x": 0.3870967741935484,
-      "y": 0.3194029850746269,
+      "x": 0.372865275142315,
+      "y": 0.49253731343283585,
       "uniqueID": "id-1077",
       "name": "Molecule",
       "ioValues": [
@@ -116,13 +116,18 @@
         },
         {
           "atomType": "RegularPolygon",
-          "x": 0.2464887640449438,
-          "y": 0.6355421686746988,
+          "x": 0.24667931688804556,
+          "y": 0.6238805970149254,
           "uniqueID": "id-1092",
           "ioValues": [
             {
               "name": "number of sides",
               "ioValue": 6
+            },
+            {
+              "name": "diameter",
+              "ioValue": 90,
+              "currentEquation": "polywidth *3"
             }
           ]
         },
@@ -135,6 +140,10 @@
             {
               "name": "geometry",
               "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "xDist",
+              "ioValue": 0
             },
             {
               "name": "yDist",
