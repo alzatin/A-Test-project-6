@@ -43,7 +43,17 @@
       "name": "Thickness"
     },
     {
-      "atomType": "Molecule",
+      "atomType": "Equation",
+      "x": 0.25,
+      "y": 0.7,
+      "uniqueID": "id-equation",
+      "ioValues": [
+        {
+          "name": "code",
+          "ioValue": "BaseSize + Thickness"
+        }
+      ]
+    },
       "x": 0.3,
       "y": 0.3,
       "uniqueID": "id-level1-outer",
@@ -165,6 +175,39 @@
               ]
             },
             {
+              "atomType": "RegularPolygon",
+              "x": 0.25,
+              "y": 0.5,
+              "uniqueID": "id-level2-polygon",
+              "ioValues": [
+                {
+                  "name": "number of sides",
+                  "ioValue": 32
+                },
+                {
+                  "name": "diameter",
+                  "ioValue": 40,
+                  "currentEquation": "innerSize*2"
+                }
+              ]
+            },
+            {
+              "atomType": "Difference",
+              "x": 0.45,
+              "y": 0.5,
+              "uniqueID": "id-level2-difference",
+              "ioValues": [
+                {
+                  "name": "shape 1",
+                  "ioValue": "__GEOMETRY_INPUT__"
+                },
+                {
+                  "name": "shape 2",
+                  "ioValue": "__GEOMETRY_INPUT__"
+                }
+              ]
+            },
+            {
               "atomType": "Assembly",
               "x": 0.65,
               "y": 0.3,
@@ -184,8 +227,18 @@
               "ap2ID": "id-level2-extrude"
             },
             {
-              "ap2Name": "Shape 1",
+              "ap2Name": "shape 1",
               "ap1ID": "id-level2-extrude",
+              "ap2ID": "id-level2-difference"
+            },
+            {
+              "ap2Name": "shape 2",
+              "ap1ID": "id-level2-polygon",
+              "ap2ID": "id-level2-difference"
+            },
+            {
+              "ap2Name": "Shape 1",
+              "ap1ID": "id-level2-difference",
               "ap2ID": "id-level2-assembly"
             },
             {
@@ -223,6 +276,42 @@
           ]
         },
         {
+          "atomType": "Mirror",
+          "x": 0.62,
+          "y": 0.3,
+          "uniqueID": "id-level1-mirror",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "origin_x",
+              "ioValue": 0
+            },
+            {
+              "name": "origin_y",
+              "ioValue": 0
+            },
+            {
+              "name": "origin_z",
+              "ioValue": 0
+            },
+            {
+              "name": "normal_x",
+              "ioValue": 1
+            },
+            {
+              "name": "normal_y",
+              "ioValue": 0
+            },
+            {
+              "name": "normal_z",
+              "ioValue": 0
+            }
+          ]
+        },
+        {
           "atomType": "Assembly",
           "x": 0.75,
           "y": 0.3,
@@ -246,8 +335,13 @@
           "ap2ID": "id-level1-move"
         },
         {
-          "ap2Name": "Shape 1",
+          "ap2Name": "geometry",
           "ap1ID": "id-level1-move",
+          "ap2ID": "id-level1-mirror"
+        },
+        {
+          "ap2Name": "Shape 1",
+          "ap1ID": "id-level1-mirror",
           "ap2ID": "id-level1-assembly"
         },
         {
