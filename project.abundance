@@ -545,7 +545,7 @@
         }
       ],
       "codeVersion": 1,
-      "code": "\n// Example Code\nconst Inputs = [\n  { inputName: \"sketch1\", type: \"geometry\", defaultValue: null },\n  { inputName: \"sketch2\", type: \"geometry\", defaultValue: null },\n];\n\nlet baseCircle = replicad.drawEllipse(10, 5\n                                    )\nconsole.log(importedShape)\nlet newPlane = replicad.makePlane()\nlet loftShape = importedShape.loftWith(\n  library[sketch2].geometry[0], \n   {}, \n   false)\nlet cylObj = {\n  geometry: [loftShape],\n  dimension: \"3D\",\n  tags: [\"createdCylinder\"],\n  color: \"#A3CE5B\",\n  plane: null,\n  bom: []\n};\n\nreturn cylObj\n"
+      "code": "\n// Example Code\nconst Inputs = [\n  { inputName: \"sketch1\", type: \"geometry\", defaultValue: null },\n  { inputName: \"sketch2\", type: \"geometry\", defaultValue: null },\n];\n\nlet baseCircle = replicad.drawEllipse(10, 5)\nlet sketchCircle = baseCircle.sketchOnPlane(\"XY\")\n\nlet topCircle = replicad.drawEllipse(10, 5)\nlet sketchTopCircle = topCircle.sketchOnPlane(\"XZ\")\n\n//let newPlane = replicad.makePlane()\nlet loftShape = sketchCircle.loftWith(\n  sketchTopCircle, \n   {}, \n   false)\nlet cylObj = {\n  geometry: [loftShape],\n  dimension: \"3D\",\n  tags: [\"createdCylinder\"],\n  color: \"#A3CE5B\",\n  plane: null,\n  bom: []\n};\n\nreturn cylObj\n"
     }
   ],
   "allConnectors": [
