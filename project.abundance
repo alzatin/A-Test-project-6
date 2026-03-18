@@ -44,8 +44,8 @@
     },
     {
       "atomType": "Equation",
-      "x": 0.25,
-      "y": 0.7,
+      "x": 0.16362053959965187,
+      "y": 0.7680722891566265,
       "uniqueID": "id-equation",
       "name": "x + y",
       "ioValues": [
@@ -62,8 +62,8 @@
     },
     {
       "atomType": "Molecule",
-      "x": 0.3,
-      "y": 0.3,
+      "x": 0.3559617058311575,
+      "y": 0.11445783132530121,
       "uniqueID": "id-level1-outer",
       "name": "Level1-Outer",
       "ioValues": [
@@ -389,6 +389,163 @@
         }
       ],
       "fileTypeVersion": 1
+    },
+    {
+      "atomType": "Circle",
+      "x": 0.25935596170583114,
+      "y": 0.21084337349397592,
+      "uniqueID": "id-738",
+      "ioValues": [
+        {
+          "name": "diameter",
+          "ioValue": 40,
+          "currentEquation": "40"
+        }
+      ]
+    },
+    {
+      "atomType": "Rectangle",
+      "x": 0.20974760661444736,
+      "y": 0.41566265060240964,
+      "uniqueID": "id-741",
+      "ioValues": [
+        {
+          "name": "x length",
+          "ioValue": 100,
+          "currentEquation": "100"
+        },
+        {
+          "name": "y length",
+          "ioValue": 100,
+          "currentEquation": "100"
+        }
+      ]
+    },
+    {
+      "atomType": "Move",
+      "x": 0.38816362053959963,
+      "y": 0.47289156626506024,
+      "uniqueID": "id-745",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "xDist",
+          "ioValue": 0
+        },
+        {
+          "name": "yDist",
+          "ioValue": 50,
+          "currentEquation": "50"
+        },
+        {
+          "name": "zDist",
+          "ioValue": 0
+        }
+      ]
+    },
+    {
+      "atomType": "Difference",
+      "x": 0.5926892950391645,
+      "y": 0.46686746987951805,
+      "uniqueID": "id-751",
+      "ioValues": [
+        {
+          "name": "geometry1",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "geometry2",
+          "ioValue": "__GEOMETRY_INPUT__"
+        }
+      ]
+    },
+    {
+      "atomType": "Circle",
+      "x": 0.3333333333333333,
+      "y": 0.7590361445783133,
+      "uniqueID": "id-755",
+      "ioValues": [
+        {
+          "name": "diameter",
+          "ioValue": 20,
+          "currentEquation": "20"
+        }
+      ]
+    },
+    {
+      "atomType": "Move",
+      "x": 0.6335944299390774,
+      "y": 0.6927710843373494,
+      "uniqueID": "id-758",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "xDist",
+          "ioValue": 0,
+          "currentEquation": "0"
+        },
+        {
+          "name": "yDist",
+          "ioValue": 10,
+          "currentEquation": "10"
+        },
+        {
+          "name": "zDist",
+          "ioValue": -20,
+          "currentEquation": "-20"
+        }
+      ]
+    },
+    {
+      "atomType": "Rotate",
+      "x": 0.49608355091383816,
+      "y": 0.7168674698795181,
+      "uniqueID": "id-764",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "x-axis degrees",
+          "ioValue": 90,
+          "currentEquation": "90"
+        },
+        {
+          "name": "y-axis degrees",
+          "ioValue": 0,
+          "currentEquation": "0"
+        },
+        {
+          "name": "z-axis degrees",
+          "ioValue": 0,
+          "currentEquation": "0"
+        }
+      ]
+    },
+    {
+      "atomType": "Code",
+      "x": 0.7545691906005222,
+      "y": 0.6626506024096386,
+      "uniqueID": "id-770",
+      "ioValues": [
+        {
+          "name": "sketch1",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "sketch2",
+          "ioValue": "__GEOMETRY_INPUT__"
+        }
+      ],
+      "codeVersion": 1,
+      "code": "\n// Example Code\nconst Inputs = [\n  { inputName: \"sketch1\", type: \"geometry\", defaultValue: null },\n  { inputName: \"sketch2\", type: \"geometry\", defaultValue: null },\n];\n\nlet importedShape = library[sketch1]\nconsole.log(importedShape)\nlet newPlane = replicad.makePlane()\nlet circDraw = replicad.drawCircle(radius)\nlet sketchCir = circDraw.sketchOnPlane(newPlane)\nlet cyl = sketchCir.extrude(height)\nlet cylObj = {\n  geometry: [importedShape.extrude(5)],\n  dimension: \"3D\",\n  tags: [\"createdCylinder\"],\n  color: \"#A3CE5B\",\n  plane: null,\n  bom: []\n};\n\nreturn cylObj\n"
     }
   ],
   "allConnectors": [
@@ -396,6 +553,36 @@
       "ap2Name": "number or geometry",
       "ap1ID": "id-level1-outer",
       "ap2ID": 1746568598187
+    },
+    {
+      "ap2Name": "geometry1",
+      "ap1ID": "id-738",
+      "ap2ID": "id-751"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-741",
+      "ap2ID": "id-745"
+    },
+    {
+      "ap2Name": "geometry2",
+      "ap1ID": "id-745",
+      "ap2ID": "id-751"
+    },
+    {
+      "ap2Name": "sketch1",
+      "ap1ID": "id-751",
+      "ap2ID": "id-770"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-755",
+      "ap2ID": "id-764"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-764",
+      "ap2ID": "id-758"
     }
   ],
   "unitsKey": "MM",
