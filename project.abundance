@@ -54,6 +54,8 @@
         }
       ]
     },
+    {
+      "atomType": "Molecule",
       "x": 0.3,
       "y": 0.3,
       "uniqueID": "id-level1-outer",
@@ -276,38 +278,31 @@
           ]
         },
         {
-          "atomType": "Mirror",
-          "x": 0.62,
-          "y": 0.3,
-          "uniqueID": "id-level1-mirror",
+          "atomType": "Circle",
+          "x": 0.6,
+          "y": 0.2,
+          "uniqueID": "id-level1-circle",
           "ioValues": [
             {
-              "name": "geometry",
+              "name": "diameter",
+              "ioValue": 8,
+              "currentEquation": "size/2"
+            }
+          ]
+        },
+        {
+          "atomType": "Fusion",
+          "x": 0.62,
+          "y": 0.3,
+          "uniqueID": "id-level1-fusion",
+          "ioValues": [
+            {
+              "name": "shape 1",
               "ioValue": "__GEOMETRY_INPUT__"
             },
             {
-              "name": "origin_x",
-              "ioValue": 0
-            },
-            {
-              "name": "origin_y",
-              "ioValue": 0
-            },
-            {
-              "name": "origin_z",
-              "ioValue": 0
-            },
-            {
-              "name": "normal_x",
-              "ioValue": 1
-            },
-            {
-              "name": "normal_y",
-              "ioValue": 0
-            },
-            {
-              "name": "normal_z",
-              "ioValue": 0
+              "name": "shape 2",
+              "ioValue": "__GEOMETRY_INPUT__"
             }
           ]
         },
@@ -337,11 +332,16 @@
         {
           "ap2Name": "geometry",
           "ap1ID": "id-level1-move",
-          "ap2ID": "id-level1-mirror"
+          "ap2ID": "id-level1-fusion"
+        },
+        {
+          "ap2Name": "shape 2",
+          "ap1ID": "id-level1-circle",
+          "ap2ID": "id-level1-fusion"
         },
         {
           "ap2Name": "Shape 1",
-          "ap1ID": "id-level1-mirror",
+          "ap1ID": "id-level1-fusion",
           "ap2ID": "id-level1-assembly"
         },
         {
