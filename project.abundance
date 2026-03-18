@@ -7,8 +7,7 @@
   "ioValues": [
     {
       "name": "Width",
-      "ioValue": 30,
-      "currentEquation": "30"
+      "ioValue": 30
     },
     {
       "name": "WoodThick",
@@ -31,15 +30,15 @@
     },
     {
       "atomType": "Input",
-      "x": 0.021449999999999997,
-      "y": 0.3641791044776119,
+      "x": 0.025384615384615384,
+      "y": 0.15384615384615385,
       "uniqueID": "id-625",
       "name": "Width"
     },
     {
       "atomType": "Input",
-      "x": 0.021449999999999997,
-      "y": 0.4895522388059702,
+      "x": 0.025384615384615384,
+      "y": 0.24615384615384617,
       "uniqueID": "id-628",
       "name": "WoodThick"
     },
@@ -71,8 +70,8 @@
         },
         {
           "atomType": "Circle",
-          "x": 0.2757731958762887,
-          "y": 0.2626865671641791,
+          "x": 0.27941176470588236,
+          "y": 0.2650602409638554,
           "uniqueID": "id-1081",
           "ioValues": [
             {
@@ -126,8 +125,8 @@
             },
             {
               "name": "diameter",
-              "ioValue": 13,
-              "currentEquation": "polywidth*1.3"
+              "ioValue": 1.3,
+              "currentEquation": "1.3"
             }
           ]
         },
@@ -143,8 +142,7 @@
             },
             {
               "name": "xDist",
-              "ioValue": 20,
-              "currentEquation": "20"
+              "ioValue": 20
             },
             {
               "name": "yDist",
@@ -174,8 +172,8 @@
         },
         {
           "atomType": "Input",
-          "x": 0.021449999999999997,
-          "y": 0.49552238805970156,
+          "x": 0.025384615384615384,
+          "y": 0.3403614457831325,
           "uniqueID": "id-1107",
           "name": "polywidth"
         }
