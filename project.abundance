@@ -114,8 +114,8 @@
     },
     {
       "atomType": "Difference",
-      "x": 0.556420233463035,
-      "y": 0.4457831325301205,
+      "x": 0.5582573454913881,
+      "y": 0.4487951807228916,
       "uniqueID": "id-751",
       "ioValues": [
         {
@@ -190,8 +190,8 @@
     },
     {
       "atomType": "Code",
-      "x": 0.7213779128672746,
-      "y": 0.4849397590361446,
+      "x": 0.7274569402228978,
+      "y": 0.4909638554216868,
       "uniqueID": "id-770",
       "ioValues": [
         {
@@ -208,7 +208,7 @@
     },
     {
       "atomType": "Code",
-      "x": 0.7203647416413375,
+      "x": 0.7244174265450861,
       "y": 0.7771084337349398,
       "uniqueID": "id-822",
       "ioValues": [
@@ -222,7 +222,7 @@
         }
       ],
       "codeVersion": 1,
-      "code": "\n// Example Code\nconst Inputs = [\n  { inputName: \"sketch1\", type: \"geometry\", defaultValue: null },\n  { inputName: \"sketch2\", type: \"geometry\", defaultValue: null },\n];\nlet planex = replicad.makePlane(\"XY\").translateZ(10)\nlet baseCircle = replicad.drawEllipse(10, 5).translate([50,0])\nlet sketchCircle = baseCircle.sketchOnPlane(planex)\n\nlet topCircle = replicad.drawEllipse(10, 5)\nlet sketchTopCircle = topCircle.sketchOnPlane(\"ZY\")\n\n//let newPlane = replicad.makePlane()\nlet loftShape = sketchCircle.loftWith(\n  sketchTopCircle, \n   {}, \n   false)\nlet cylObj = {\n  geometry: [loftShape],\n  dimension: \"3D\",\n  tags: [\"createdCylinder\"],\n  color: \"#A3CE5B\",\n  plane: null,\n  bom: []\n};\n\nreturn cylObj\n"
+      "code": "\n// Example Code\nconst Inputs = [\n  { inputName: \"sketch1\", type: \"geometry\", defaultValue: null },\n  { inputName: \"sketch2\", type: \"geometry\", defaultValue: null },\n];\nlet planex = replicad.makePlane(\"XY\").translateZ(10)\nlet baseCircle = replicad.drawEllipse(10, 5).translate([50,0])\nlet sketchCircle = baseCircle.sketchOnPlane(planex)\nconsole.log(\"sketch\" ,library[sketch1])\nlet topCircle = replicad.drawEllipse(10, 5)\nlet sketchTopCircle = topCircle.sketchOnPlane(\"ZY\")\n\n//let newPlane = replicad.makePlane()\nlet loftShape = sketchCircle.loftWith(\n  sketchTopCircle, \n   {}, \n   false)\nlet cylObj = {\n  geometry: [loftShape],\n  dimension: \"3D\",\n  tags: [\"createdCylinder\"],\n  color: \"#A3CE5B\",\n  plane: null,\n  bom: []\n};\n\nreturn cylObj\n"
     },
     {
       "atomType": "Move",
