@@ -7,12 +7,13 @@
   "ioValues": [
     {
       "name": "BaseSize",
-      "ioValue": 100,
-      "currentEquation": "100"
+      "ioValue": 50,
+      "currentEquation": "50"
     },
     {
       "name": "Thickness",
-      "ioValue": 70
+      "ioValue": 3,
+      "currentEquation": "3"
     }
   ],
   "topLevel": true,
@@ -39,7 +40,7 @@
     {
       "atomType": "Input",
       "x": 0.025384615384615384,
-      "y": 0.24615384615384617,
+      "y": 0.25903614457831325,
       "uniqueID": "id-628",
       "name": "Thickness"
     },
@@ -172,8 +173,8 @@
     },
     {
       "atomType": "Equation",
-      "x": 0.14863593603010347,
-      "y": 0.569277108433735,
+      "x": 0.14675446848541862,
+      "y": 0.5391566265060241,
       "uniqueID": "id-3360",
       "name": "BaseSize + Thickness",
       "currentEquation": "BaseSize + Thickness"
@@ -526,8 +527,8 @@
         },
         {
           "atomType": "Equation",
-          "x": 0.2558795860771402,
-          "y": 0.3885542168674699,
+          "x": 0.25117591721542804,
+          "y": 0.4006024096385542,
           "uniqueID": "id-3349",
           "name": "BaseSize + y",
           "ioValues": [
