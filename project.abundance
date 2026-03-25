@@ -335,12 +335,46 @@
       "uniqueID": "id-2726",
       "ioValues": [
         {
-          "name": "x length",
-          "ioValue": 105
-        },
-        {
           "name": "y length",
           "ioValue": 10
+        }
+      ]
+    },
+    {
+      "atomType": "Label",
+      "x": 0.27210300429184553,
+      "y": 0.8192771084337349,
+      "uniqueID": "id-2850",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "text",
+          "ioValue": "label",
+          "currentEquation": "label"
+        },
+        {
+          "name": "startPosition",
+          "ioValue": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "endPosition",
+          "ioValue": [
+            10,
+            10,
+            0
+          ]
+        },
+        {
+          "name": "color",
+          "ioValue": "#dd863b",
+          "currentEquation": "#dd863b"
         }
       ]
     },
@@ -437,30 +471,7 @@
           "ioValues": [
             {
               "name": "shape 2",
-              "ioValue": {
-                "geometry": "circle-25",
-                "dimension": "2D",
-                "tags": [],
-                "plane": {
-                  "origin": [
-                    0,
-                    0,
-                    0
-                  ],
-                  "xDir": [
-                    1,
-                    0,
-                    0
-                  ],
-                  "normal": [
-                    0,
-                    0,
-                    1
-                  ]
-                },
-                "color": "#aad7f2",
-                "bom": []
-              }
+              "ioValue": null
             }
           ],
           "unionType": "Fusion"
@@ -686,44 +697,6 @@
         }
       ],
       "fileTypeVersion": 1
-    },
-    {
-      "atomType": "Label",
-      "x": 0.27210300429184553,
-      "y": 0.8192771084337349,
-      "uniqueID": "id-2850",
-      "ioValues": [
-        {
-          "name": "geometry",
-          "ioValue": "__GEOMETRY_INPUT__"
-        },
-        {
-          "name": "text",
-          "ioValue": "label",
-          "currentEquation": "label"
-        },
-        {
-          "name": "startPosition",
-          "ioValue": [
-            0,
-            0,
-            0
-          ]
-        },
-        {
-          "name": "endPosition",
-          "ioValue": [
-            10,
-            10,
-            0
-          ]
-        },
-        {
-          "name": "color",
-          "ioValue": "#dd863b",
-          "currentEquation": "#dd863b"
-        }
-      ]
     }
   ],
   "allConnectors": [
