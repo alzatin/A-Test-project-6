@@ -7,7 +7,7 @@
   "ioValues": [
     {
       "name": "BaseSize",
-      "ioValue": 20
+      "ioValue": 21
     },
     {
       "name": "Thickness",
@@ -44,21 +44,11 @@
     },
     {
       "atomType": "Equation",
-      "x": 0.16362053959965187,
-      "y": 0.7680722891566265,
+      "x": 0.13912429378531074,
+      "y": 0.6536144578313253,
       "uniqueID": "id-equation",
-      "name": "x + y",
-      "ioValues": [
-        {
-          "name": "x",
-          "ioValue": 1
-        },
-        {
-          "name": "y",
-          "ioValue": 1
-        }
-      ],
-      "currentEquation": "x + y"
+      "name": "BaseSize + Thickness",
+      "currentEquation": "BaseSize + Thickness"
     },
     {
       "atomType": "Circle",
@@ -337,7 +327,7 @@
       "ioValues": [
         {
           "name": "size",
-          "ioValue": 20,
+          "ioValue": 21,
           "currentEquation": "BaseSize"
         },
         {
@@ -386,7 +376,7 @@
             },
             {
               "name": "xDist",
-              "ioValue": 20,
+              "ioValue": 21,
               "currentEquation": "size"
             },
             {
@@ -408,7 +398,7 @@
           "ioValues": [
             {
               "name": "diameter",
-              "ioValue": 10,
+              "ioValue": 10.5,
               "currentEquation": "size/2"
             }
           ]
@@ -422,7 +412,7 @@
             {
               "name": "shape 2",
               "ioValue": {
-                "geometry": "circle-5",
+                "geometry": "circle-5.25",
                 "dimension": "2D",
                 "tags": [],
                 "plane": {
@@ -470,7 +460,7 @@
           "ioValues": [
             {
               "name": "innerSize",
-              "ioValue": 6.666666666666667,
+              "ioValue": 7,
               "currentEquation": "size/3"
             },
             {
@@ -515,7 +505,7 @@
               "ioValues": [
                 {
                   "name": "diameter",
-                  "ioValue": 13.333333333333334,
+                  "ioValue": 14,
                   "currentEquation": "innerSize*2"
                 }
               ]
@@ -549,7 +539,7 @@
                 },
                 {
                   "name": "diameter",
-                  "ioValue": 2.666666666666667,
+                  "ioValue": 2.8,
                   "currentEquation": "innerSize*2/5"
                 }
               ]
@@ -8689,10 +8679,6 @@
                         {
                           "name": "distZ",
                           "ioValue": 0
-                        },
-                        {
-                          "name": "Shape",
-                          "ioValue": "__GEOMETRY_INPUT__"
                         }
                       ],
                       "codeVersion": 1,
@@ -8758,6 +8744,10 @@
                         {
                           "name": "distZ",
                           "ioValue": 0
+                        },
+                        {
+                          "name": "Shape",
+                          "ioValue": "__GEOMETRY_INPUT__"
                         }
                       ],
                       "codeVersion": 1,
@@ -10741,6 +10731,10 @@
                         {
                           "name": "distZ",
                           "ioValue": 0
+                        },
+                        {
+                          "name": "Shape",
+                          "ioValue": "__GEOMETRY_INPUT__"
                         }
                       ],
                       "codeVersion": 1,
@@ -11150,6 +11144,10 @@
                         {
                           "name": "distZ",
                           "ioValue": 0
+                        },
+                        {
+                          "name": "Shape",
+                          "ioValue": "__GEOMETRY_INPUT__"
                         }
                       ],
                       "codeVersion": 1,
