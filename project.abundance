@@ -7,7 +7,8 @@
   "ioValues": [
     {
       "name": "BaseSize",
-      "ioValue": 100
+      "ioValue": 25,
+      "currentEquation": "25"
     },
     {
       "name": "Thickness",
@@ -44,8 +45,8 @@
     },
     {
       "atomType": "Circle",
-      "x": 0.2815450643776824,
-      "y": 0.5993975903614458,
+      "x": 0.3292568203198495,
+      "y": 0.3463855421686747,
       "uniqueID": "id-2971",
       "ioValues": [
         {
@@ -494,6 +495,76 @@
       },
       "unitsKey": "MM",
       "fileTypeVersion": 1
+    },
+    {
+      "atomType": "Molecule",
+      "x": 0.2257761053621825,
+      "y": 0.3042168674698795,
+      "uniqueID": "id-3342",
+      "name": "Molecule",
+      "topLevel": false,
+      "allAtoms": [
+        {
+          "atomType": "Output",
+          "x": 0.98,
+          "y": 0.5,
+          "uniqueID": "id-3344",
+          "ioValues": [
+            {
+              "name": "number or geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            }
+          ]
+        },
+        {
+          "atomType": "Equation",
+          "x": 0.284101599247413,
+          "y": 0.5240963855421688,
+          "uniqueID": "id-3349",
+          "name": "BaseSize + y",
+          "ioValues": [
+            {
+              "name": "y",
+              "ioValue": 1,
+              "currentEquation": "1"
+            }
+          ],
+          "currentEquation": "BaseSize + y"
+        },
+        {
+          "atomType": "Circle",
+          "x": 0.5371589840075259,
+          "y": 0.5090361445783133,
+          "uniqueID": "id-3353",
+          "ioValues": [
+            {
+              "name": "diameter",
+              "ioValue": 101
+            }
+          ]
+        }
+      ],
+      "allConnectors": [
+        {
+          "ap2Name": "diameter",
+          "ap1ID": "id-3349",
+          "ap2ID": "id-3353"
+        },
+        {
+          "ap2Name": "number or geometry",
+          "ap1ID": "id-3353",
+          "ap2ID": "id-3344"
+        }
+      ],
+      "fileTypeVersion": 1
+    },
+    {
+      "atomType": "Equation",
+      "x": 0.1665098777046096,
+      "y": 0.6536144578313253,
+      "uniqueID": "id-3360",
+      "name": "BaseSize + Thickness",
+      "currentEquation": "BaseSize + Thickness"
     }
   ],
   "allConnectors": [
