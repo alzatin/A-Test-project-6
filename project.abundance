@@ -7,7 +7,7 @@
   "ioValues": [
     {
       "name": "BaseSize",
-      "ioValue": 50
+      "ioValue": 100
     },
     {
       "name": "Thickness",
@@ -171,8 +171,8 @@
     },
     {
       "atomType": "Equation",
-      "x": 0.14675446848541862,
-      "y": 0.5391566265060241,
+      "x": 0.14121800529567521,
+      "y": 0.536144578313253,
       "uniqueID": "id-3360",
       "name": "BaseSize + Thickness",
       "currentEquation": "BaseSize + Thickness"
@@ -223,8 +223,8 @@
     },
     {
       "atomType": "GitHubMolecule",
-      "x": 0.619002822201317,
-      "y": 0.27710843373493976,
+      "x": 0.6231244483671668,
+      "y": 0.286144578313253,
       "uniqueID": "id-3275",
       "name": "Shell",
       "ioValues": [
@@ -589,7 +589,7 @@
           "ioValues": [
             {
               "name": "diameter",
-              "ioValue": 55
+              "ioValue": 105
             }
           ]
         },

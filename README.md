@@ -10,15 +10,15 @@
 
 BaseSize + y
 
-**Value:** 55
+**Value:** 105
 
 BaseSize + Thickness in top level
 
-**Value:** 53
+**Value:** 103
 
 BaseSize + y in top level
 
-**Value:** 55
+**Value:** 105
 
 
 
