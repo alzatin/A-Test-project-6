@@ -31,14 +31,14 @@
     {
       "atomType": "Input",
       "x": 0.025384615384615384,
-      "y": 0.22891566265060243,
+      "y": 0.15384615384615385,
       "uniqueID": "id-625",
       "name": "BaseSize"
     },
     {
       "atomType": "Input",
       "x": 0.025384615384615384,
-      "y": 0.32228915662650603,
+      "y": 0.24615384615384617,
       "uniqueID": "id-628",
       "name": "Thickness"
     },
@@ -157,8 +157,7 @@
         },
         {
           "name": "xDist",
-          "ioValue": 15,
-          "currentEquation": "15"
+          "ioValue": 15
         },
         {
           "name": "yDist",
@@ -169,6 +168,332 @@
           "ioValue": 0
         }
       ]
+    },
+    {
+      "atomType": "GitHubMolecule",
+      "x": 0.619002822201317,
+      "y": 0.27710843373493976,
+      "uniqueID": "id-3275",
+      "name": "Shell",
+      "ioValues": [
+        {
+          "name": "Shape",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "thickness",
+          "ioValue": 1
+        }
+      ],
+      "topLevel": false,
+      "allAtoms": [
+        {
+          "atomType": "Output",
+          "x": 0.98,
+          "y": 0.5,
+          "uniqueID": "id-3264",
+          "ioValues": [
+            {
+              "name": "number or geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            }
+          ]
+        },
+        {
+          "atomType": "Circle",
+          "x": 0.1618780658724597,
+          "y": 0.5164179104477612,
+          "uniqueID": "id-3265",
+          "ioValues": [
+            {
+              "name": "diameter",
+              "ioValue": 39
+            }
+          ]
+        },
+        {
+          "atomType": "Readme",
+          "x": 0.916919959473151,
+          "y": 0.7379518072289156,
+          "uniqueID": "id-3266",
+          "name": "README",
+          "ioValues": [
+            {
+              "name": "value",
+              "ioValue": "__GEOMETRY_INPUT__"
+            }
+          ],
+          "readMeText": "Readme text here",
+          "global": true
+        },
+        {
+          "atomType": "Input",
+          "x": 0.025384615384615384,
+          "y": 0.15384615384615385,
+          "uniqueID": "id-3267",
+          "name": "Shape",
+          "type": "geometry"
+        },
+        {
+          "atomType": "Input",
+          "x": 0.025384615384615384,
+          "y": 0.24615384615384617,
+          "uniqueID": "id-3268",
+          "name": "thickness",
+          "type": "number"
+        },
+        {
+          "atomType": "Code",
+          "x": 0.5653495440729484,
+          "y": 0.2439759036144578,
+          "uniqueID": "id-3269",
+          "ioValues": [
+            {
+              "name": "shape",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "thickness",
+              "ioValue": 1
+            }
+          ],
+          "codeVersion": 1,
+          "code": " \n      //Inputs:[inputShape, dist, height]\n      //This defines the molecules inputs and creates variables with the same names which can be referenced in the code\n      \n      const Inputs = [\n       {inputName: \"shape\", type: \"geometry\", defaultValue: null},\n        {inputName: \"thickness\", type: \"number\", defaultValue: 3},\n      ]\n      //Takes the address and gets the shape from the library\n      let importedShape = library[shape]\n\n      //This makes a new copy of of the shape (to prevent garbage collection issues),\n      //and moves it in the X direction. Note that this will not work if the input is an assembly\n      let movedShape = importedShape.geometry[0].clone().shell(thickness,  (face) =>\n    face.inPlane(\"XY\"));\n      \n      \n      //Shapes stored in the library have tags, a color, a plane, and a bill of materials like this. We don't modify them here\n      let shape1 = {\n        geometry: [movedShape],\n        tags: importedShape.tags,\n        color: importedShape.color,\n        plane: importedShape.plane,\n        bom: importedShape.bom\n      }\n      \n      //We could at this point return shape1 as a complete shape and it will be automatically written to the library for us\n      return shape1\n      "
+        },
+        {
+          "atomType": "Rectangle",
+          "x": 0.303951367781155,
+          "y": 0.677710843373494,
+          "uniqueID": "id-3270",
+          "ioValues": [
+            {
+              "name": "x length",
+              "ioValue": 50
+            },
+            {
+              "name": "y length",
+              "ioValue": 100
+            }
+          ]
+        },
+        {
+          "atomType": "Loft",
+          "x": 0.44984802431610943,
+          "y": 0.4909638554216868,
+          "uniqueID": "id-3271",
+          "ioValues": [
+            {
+              "name": "Shape 1",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "Shape 2",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "Shape 3",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "Shape 1",
+              "ioValue": {
+                "geometry": "rectangle-50-100",
+                "dimension": "2D",
+                "plane": {
+                  "origin": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "xDir": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "normal": [
+                    0,
+                    0,
+                    1
+                  ]
+                },
+                "color": "#aad7f2",
+                "tags": [],
+                "bom": []
+              }
+            },
+            {
+              "name": "Shape 2",
+              "ioValue": {
+                "geometry": "move-rotate-circle-19.5-0-0-0--50-0-0",
+                "dimension": "2D",
+                "tags": [],
+                "plane": {
+                  "origin": [
+                    50,
+                    0,
+                    5.551115123125783e-15
+                  ],
+                  "xDir": [
+                    1.1102230246251565e-16,
+                    0,
+                    -1
+                  ],
+                  "normal": [
+                    1,
+                    0,
+                    1.1102230246251565e-16
+                  ]
+                },
+                "color": "#aad7f2",
+                "bom": []
+              }
+            },
+            {
+              "name": "Shape 3",
+              "ioValue": null
+            }
+          ],
+          "closedSelection": 0
+        },
+        {
+          "atomType": "Rotate",
+          "x": 0.2603850050658561,
+          "y": 0.5210843373493976,
+          "uniqueID": "id-3272",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "x-axis degrees",
+              "ioValue": 0
+            },
+            {
+              "name": "y-axis degrees",
+              "ioValue": 90
+            },
+            {
+              "name": "z-axis degrees",
+              "ioValue": 0
+            }
+          ]
+        },
+        {
+          "atomType": "Move",
+          "x": 0.3475177304964539,
+          "y": 0.5150602409638555,
+          "uniqueID": "id-3273",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "xDist",
+              "ioValue": -50
+            },
+            {
+              "name": "yDist",
+              "ioValue": 0
+            },
+            {
+              "name": "zDist",
+              "ioValue": 50
+            }
+          ]
+        },
+        {
+          "atomType": "Code",
+          "x": 0.6646403242147922,
+          "y": 0.4939759036144578,
+          "uniqueID": "id-3274",
+          "ioValues": [
+            {
+              "name": "shape",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "thickness",
+              "ioValue": 3
+            }
+          ],
+          "codeVersion": 1,
+          "code": " \n      //Inputs:[inputShape, dist, height]\n      //This defines the molecules inputs and creates variables with the same names which can be referenced in the code\n      \n      const Inputs = [\n       {inputName: \"shape\", type: \"geometry\", defaultValue: null},\n        {inputName: \"thickness\", type: \"number\", defaultValue: 3},\n      ]\n      //Takes the address and gets the shape from the library\n      let importedShape = library[shape]\n      console.log(\"imported shape\",importedShape)\n\n      //This makes a new copy of of the shape (to prevent garbage collection issues),\n      //and moves it in the X direction. Note that this will not work if the input is an assembly\n      let movedShape = importedShape.geometry[0].clone().shell(-1,  (face) =>\n    face.either([\n      (f) => f.containsPoint([0,0,0]),\n      (f) => f.inPlane(\"XY\"),\n    ]));\n      \n      \n      //Shapes stored in the library have tags, a color, a plane, and a bill of materials like this. We don't modify them here\n      let shape1 = {\n        geometry: [movedShape],\n        tags: importedShape.tags,\n        color: importedShape.color,\n        plane: importedShape.plane,\n        bom: importedShape.bom\n      }\n      \n      //We could at this point return shape1 as a complete shape and it will be automatically written to the library for us\n      return shape1\n      "
+        }
+      ],
+      "allConnectors": [
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-3265",
+          "ap2ID": "id-3272"
+        },
+        {
+          "ap2Name": "shape",
+          "ap1ID": "id-3267",
+          "ap2ID": "id-3269"
+        },
+        {
+          "ap2Name": "thickness",
+          "ap1ID": "id-3268",
+          "ap2ID": "id-3269"
+        },
+        {
+          "ap2Name": "number or geometry",
+          "ap1ID": "id-3269",
+          "ap2ID": "id-3264"
+        },
+        {
+          "ap2Name": "Shape 1",
+          "ap1ID": "id-3270",
+          "ap2ID": "id-3271"
+        },
+        {
+          "ap2Name": "shape",
+          "ap1ID": "id-3271",
+          "ap2ID": "id-3274"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-3272",
+          "ap2ID": "id-3273"
+        },
+        {
+          "ap2Name": "Shape 2",
+          "ap1ID": "id-3273",
+          "ap2ID": "id-3271"
+        },
+        {
+          "ap2Name": "value",
+          "ap1ID": "id-3274",
+          "ap2ID": "id-3266"
+        }
+      ],
+      "parentRepo": {
+        "lastFoundGit": "2026-03-25T18:23:39.344Z",
+        "privateRepo": false,
+        "repoName": "Shell",
+        "dateCreated": "2025-02-07T19:44:11Z",
+        "likes": 0,
+        "readMe": "https://raw.githubusercontent.com/alzatin/Shell/master/README.md?sanitize=true",
+        "yyyy": 2025,
+        "topMoleculeID": 1738957450996,
+        "githubMoleculesUsed": [],
+        "html_url": "https://github.com/alzatin/Shell",
+        "topics": [],
+        "parentRepo": "BarbourSmith/Shell",
+        "forks": 0,
+        "dateModified": "739694",
+        "ranking": 0.9,
+        "searchField": "shell alzatin takes a 3d geometry and hollows it out to create a shell ",
+        "owner": "alzatin",
+        "description": "Takes a 3D Geometry and hollows it out to create a shell",
+        "contentURL": "https://raw.githubusercontent.com/alzatin/Shell/master/project.abundance?sanitize=true",
+        "svgURL": "https://raw.githubusercontent.com/alzatin/Shell/master/project.svg?sanitize=true",
+        "isLocal": false
+      },
+      "unitsKey": "MM",
+      "fileTypeVersion": 1
     }
   ],
   "allConnectors": [
@@ -191,6 +516,11 @@
       "ap2Name": "geometry",
       "ap1ID": "id-2980",
       "ap2ID": "id-2995"
+    },
+    {
+      "ap2Name": "Shape",
+      "ap1ID": "id-2980",
+      "ap2ID": "id-3275"
     },
     {
       "ap2Name": "geometry",
