@@ -7,7 +7,8 @@
   "ioValues": [
     {
       "name": "BaseSize",
-      "ioValue": 21
+      "ioValue": 100,
+      "currentEquation": "100"
     },
     {
       "name": "Thickness",
@@ -132,8 +133,8 @@
     },
     {
       "atomType": "Move",
-      "x": 0.563323201621074,
-      "y": 0.5873493975903614,
+      "x": 0.542489270386266,
+      "y": 0.5783132530120482,
       "uniqueID": "id-758",
       "ioValues": [
         {
@@ -156,8 +157,8 @@
     },
     {
       "atomType": "Rotate",
-      "x": 0.45622568093385213,
-      "y": 0.6957831325301205,
+      "x": 0.42575107296137343,
+      "y": 0.6716867469879517,
       "uniqueID": "id-764",
       "ioValues": [
         {
@@ -180,8 +181,8 @@
     },
     {
       "atomType": "Code",
-      "x": 0.7315096251266464,
-      "y": 0.4909638554216868,
+      "x": 0.7407725321888411,
+      "y": 0.2168674698795181,
       "uniqueID": "id-770",
       "ioValues": [
         {
@@ -198,8 +199,8 @@
     },
     {
       "atomType": "Code",
-      "x": 0.7152988855116514,
-      "y": 0.7108433734939759,
+      "x": 0.7545064377682403,
+      "y": 0.3253012048192771,
       "uniqueID": "id-822",
       "ioValues": [
         {
@@ -327,7 +328,7 @@
       "ioValues": [
         {
           "name": "size",
-          "ioValue": 21,
+          "ioValue": 100,
           "currentEquation": "BaseSize"
         },
         {
@@ -376,7 +377,7 @@
             },
             {
               "name": "xDist",
-              "ioValue": 21,
+              "ioValue": 100,
               "currentEquation": "size"
             },
             {
@@ -398,7 +399,7 @@
           "ioValues": [
             {
               "name": "diameter",
-              "ioValue": 10.5,
+              "ioValue": 50,
               "currentEquation": "size/2"
             }
           ]
@@ -412,7 +413,7 @@
             {
               "name": "shape 2",
               "ioValue": {
-                "geometry": "circle-5.25",
+                "geometry": "circle-25",
                 "dimension": "2D",
                 "tags": [],
                 "plane": {
@@ -460,7 +461,7 @@
           "ioValues": [
             {
               "name": "innerSize",
-              "ioValue": 7,
+              "ioValue": 33.333333333333336,
               "currentEquation": "size/3"
             },
             {
@@ -505,7 +506,7 @@
               "ioValues": [
                 {
                   "name": "diameter",
-                  "ioValue": 14,
+                  "ioValue": 66.66666666666667,
                   "currentEquation": "innerSize*2"
                 }
               ]
@@ -539,7 +540,7 @@
                 },
                 {
                   "name": "diameter",
-                  "ioValue": 2.8,
+                  "ioValue": 13.333333333333334,
                   "currentEquation": "innerSize*2/5"
                 }
               ]
@@ -8679,6 +8680,10 @@
                         {
                           "name": "distZ",
                           "ioValue": 0
+                        },
+                        {
+                          "name": "Shape",
+                          "ioValue": "__GEOMETRY_INPUT__"
                         }
                       ],
                       "codeVersion": 1,
@@ -8744,10 +8749,6 @@
                         {
                           "name": "distZ",
                           "ioValue": 0
-                        },
-                        {
-                          "name": "Shape",
-                          "ioValue": "__GEOMETRY_INPUT__"
                         }
                       ],
                       "codeVersion": 1,
@@ -10731,10 +10732,6 @@
                         {
                           "name": "distZ",
                           "ioValue": 0
-                        },
-                        {
-                          "name": "Shape",
-                          "ioValue": "__GEOMETRY_INPUT__"
                         }
                       ],
                       "codeVersion": 1,
@@ -11144,10 +11141,6 @@
                         {
                           "name": "distZ",
                           "ioValue": 0
-                        },
-                        {
-                          "name": "Shape",
-                          "ioValue": "__GEOMETRY_INPUT__"
                         }
                       ],
                       "codeVersion": 1,
@@ -12435,6 +12428,46 @@
       },
       "unitsKey": "MM",
       "fileTypeVersion": 1
+    },
+    {
+      "atomType": "Code",
+      "x": 0.6223175965665235,
+      "y": 0.6475903614457831,
+      "uniqueID": "id-2719",
+      "ioValues": [
+        {
+          "name": "number1",
+          "ioValue": 100,
+          "currentEquation": "BaseSize"
+        },
+        {
+          "name": "number2",
+          "ioValue": 5,
+          "currentEquation": "Thickness"
+        },
+        {
+          "name": "shape",
+          "ioValue": "__GEOMETRY_INPUT__"
+        }
+      ],
+      "codeVersion": 1,
+      "code": "\n// Example Code\nconst Inputs = [\n  \n  { inputName: \"shape\", type: \"geometry\", defaultValue: null },\n  { inputName: \"number1\", type: \"number\", defaultValue: 5 },\n  { inputName: \"number2\", type: \"number\", defaultValue: 10 }\n];\n\nreturn number1+number2\n"
+    },
+    {
+      "atomType": "Rectangle",
+      "x": 0.7193133047210301,
+      "y": 0.8644578313253012,
+      "uniqueID": "id-2726",
+      "ioValues": [
+        {
+          "name": "x length",
+          "ioValue": 105
+        },
+        {
+          "name": "y length",
+          "ioValue": 10
+        }
+      ]
     }
   ],
   "allConnectors": [
@@ -12479,6 +12512,11 @@
       "ap2ID": "id-822"
     },
     {
+      "ap2Name": "shape",
+      "ap1ID": "id-758",
+      "ap2ID": "id-2719"
+    },
+    {
       "ap2Name": "geometry",
       "ap1ID": "id-764",
       "ap2ID": "id-758"
@@ -12517,6 +12555,11 @@
       "ap2Name": "number or geometry",
       "ap1ID": "id-level1-outer",
       "ap2ID": 1746568598187
+    },
+    {
+      "ap2Name": "x length",
+      "ap1ID": "id-2719",
+      "ap2ID": "id-2726"
     }
   ],
   "unitsKey": "MM",
