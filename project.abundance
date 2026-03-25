@@ -173,7 +173,7 @@
     {
       "atomType": "Equation",
       "x": 0.14863593603010347,
-      "y": 0.5662650602409639,
+      "y": 0.569277108433735,
       "uniqueID": "id-3360",
       "name": "BaseSize + Thickness",
       "currentEquation": "BaseSize + Thickness"
@@ -526,14 +526,15 @@
         },
         {
           "atomType": "Equation",
-          "x": 0.2624647224835372,
-          "y": 0.3674698795180723,
+          "x": 0.2558795860771402,
+          "y": 0.3885542168674699,
           "uniqueID": "id-3349",
           "name": "BaseSize + y",
           "ioValues": [
             {
               "name": "y",
-              "ioValue": 1
+              "ioValue": 5,
+              "currentEquation": "5"
             }
           ],
           "currentEquation": "BaseSize + y"
@@ -546,7 +547,7 @@
           "ioValues": [
             {
               "name": "diameter",
-              "ioValue": 51
+              "ioValue": 105
             }
           ]
         },
@@ -584,6 +585,51 @@
         }
       ],
       "fileTypeVersion": 1
+    },
+    {
+      "atomType": "Readme",
+      "x": 0.3151458137347131,
+      "y": 0.6114457831325302,
+      "uniqueID": "id-3439",
+      "name": "README",
+      "ioValues": [
+        {
+          "name": "value",
+          "ioValue": "__GEOMETRY_INPUT__"
+        }
+      ],
+      "readMeText": "BaseSize + Thickness in top level",
+      "global": true
+    },
+    {
+      "atomType": "Equation",
+      "x": 0.1561618062088429,
+      "y": 0.783132530120482,
+      "uniqueID": "id-3441",
+      "name": "BaseSize + y",
+      "ioValues": [
+        {
+          "name": "y",
+          "ioValue": 5,
+          "currentEquation": "5"
+        }
+      ],
+      "currentEquation": "BaseSize + y"
+    },
+    {
+      "atomType": "Readme",
+      "x": 0.3000940733772342,
+      "y": 0.8524096385542169,
+      "uniqueID": "id-3444",
+      "name": "README",
+      "ioValues": [
+        {
+          "name": "value",
+          "ioValue": "__GEOMETRY_INPUT__"
+        }
+      ],
+      "readMeText": "BaseSize + y in top level",
+      "global": true
     }
   ],
   "allConnectors": [
@@ -621,6 +667,16 @@
       "ap2Name": "Shape 2",
       "ap1ID": "id-2995",
       "ap2ID": "id-2991"
+    },
+    {
+      "ap2Name": "value",
+      "ap1ID": "id-3360",
+      "ap2ID": "id-3439"
+    },
+    {
+      "ap2Name": "value",
+      "ap1ID": "id-3441",
+      "ap2ID": "id-3444"
     }
   ],
   "unitsKey": "MM",
