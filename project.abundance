@@ -7,13 +7,11 @@
   "ioValues": [
     {
       "name": "BaseSize",
-      "ioValue": 50,
-      "currentEquation": "50"
+      "ioValue": 50
     },
     {
       "name": "Thickness",
-      "ioValue": 3,
-      "currentEquation": "3"
+      "ioValue": 3
     }
   ],
   "topLevel": true,
@@ -40,7 +38,7 @@
     {
       "atomType": "Input",
       "x": 0.025384615384615384,
-      "y": 0.25903614457831325,
+      "y": 0.24615384615384617,
       "uniqueID": "id-628",
       "name": "Thickness"
     },
@@ -178,6 +176,50 @@
       "uniqueID": "id-3360",
       "name": "BaseSize + Thickness",
       "currentEquation": "BaseSize + Thickness"
+    },
+    {
+      "atomType": "Readme",
+      "x": 0.3151458137347131,
+      "y": 0.6114457831325302,
+      "uniqueID": "id-3439",
+      "name": "README",
+      "ioValues": [
+        {
+          "name": "value",
+          "ioValue": "__GEOMETRY_INPUT__"
+        }
+      ],
+      "readMeText": "BaseSize + Thickness in top level",
+      "global": true
+    },
+    {
+      "atomType": "Equation",
+      "x": 0.1561618062088429,
+      "y": 0.783132530120482,
+      "uniqueID": "id-3441",
+      "name": "BaseSize + y",
+      "ioValues": [
+        {
+          "name": "y",
+          "ioValue": 5
+        }
+      ],
+      "currentEquation": "BaseSize + y"
+    },
+    {
+      "atomType": "Readme",
+      "x": 0.3000940733772342,
+      "y": 0.8524096385542169,
+      "uniqueID": "id-3444",
+      "name": "README",
+      "ioValues": [
+        {
+          "name": "value",
+          "ioValue": "__GEOMETRY_INPUT__"
+        }
+      ],
+      "readMeText": "BaseSize + y in top level",
+      "global": true
     },
     {
       "atomType": "GitHubMolecule",
@@ -534,8 +576,7 @@
           "ioValues": [
             {
               "name": "y",
-              "ioValue": 5,
-              "currentEquation": "5"
+              "ioValue": 5
             }
           ],
           "currentEquation": "BaseSize + y"
@@ -548,7 +589,7 @@
           "ioValues": [
             {
               "name": "diameter",
-              "ioValue": 105
+              "ioValue": 55
             }
           ]
         },
@@ -586,51 +627,6 @@
         }
       ],
       "fileTypeVersion": 1
-    },
-    {
-      "atomType": "Readme",
-      "x": 0.3151458137347131,
-      "y": 0.6114457831325302,
-      "uniqueID": "id-3439",
-      "name": "README",
-      "ioValues": [
-        {
-          "name": "value",
-          "ioValue": "__GEOMETRY_INPUT__"
-        }
-      ],
-      "readMeText": "BaseSize + Thickness in top level",
-      "global": true
-    },
-    {
-      "atomType": "Equation",
-      "x": 0.1561618062088429,
-      "y": 0.783132530120482,
-      "uniqueID": "id-3441",
-      "name": "BaseSize + y",
-      "ioValues": [
-        {
-          "name": "y",
-          "ioValue": 5,
-          "currentEquation": "5"
-        }
-      ],
-      "currentEquation": "BaseSize + y"
-    },
-    {
-      "atomType": "Readme",
-      "x": 0.3000940733772342,
-      "y": 0.8524096385542169,
-      "uniqueID": "id-3444",
-      "name": "README",
-      "ioValues": [
-        {
-          "name": "value",
-          "ioValue": "__GEOMETRY_INPUT__"
-        }
-      ],
-      "readMeText": "BaseSize + y in top level",
-      "global": true
     }
   ],
   "allConnectors": [
