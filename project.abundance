@@ -7,12 +7,12 @@
   "ioValues": [
     {
       "name": "BaseSize",
-      "ioValue": 99
+      "ioValue": 100,
+      "currentEquation": "100"
     },
     {
       "name": "Thickness",
-      "ioValue": 70,
-      "currentEquation": "70"
+      "ioValue": 70
     }
   ],
   "topLevel": true,
@@ -32,7 +32,7 @@
     {
       "atomType": "Input",
       "x": 0.025384615384615384,
-      "y": 0.3795180722891566,
+      "y": 0.15384615384615385,
       "uniqueID": "id-625",
       "name": "BaseSize"
     },
@@ -169,6 +169,14 @@
           "ioValue": 0
         }
       ]
+    },
+    {
+      "atomType": "Equation",
+      "x": 0.14863593603010347,
+      "y": 0.5662650602409639,
+      "uniqueID": "id-3360",
+      "name": "BaseSize + Thickness",
+      "currentEquation": "BaseSize + Thickness"
     },
     {
       "atomType": "GitHubMolecule",
@@ -518,23 +526,44 @@
         },
         {
           "atomType": "Equation",
-          "x": 0.22953904045155224,
-          "y": 0.4939759036144578,
+          "x": 0.2624647224835372,
+          "y": 0.3674698795180723,
           "uniqueID": "id-3349",
-          "name": "BaseSize + Thickness",
-          "currentEquation": "BaseSize + Thickness"
+          "name": "BaseSize + y",
+          "ioValues": [
+            {
+              "name": "y",
+              "ioValue": 1
+            }
+          ],
+          "currentEquation": "BaseSize + y"
         },
         {
           "atomType": "Circle",
-          "x": 0.5371589840075259,
-          "y": 0.5090361445783133,
+          "x": 0.5691439322671684,
+          "y": 0.286144578313253,
           "uniqueID": "id-3353",
           "ioValues": [
             {
               "name": "diameter",
-              "ioValue": 60
+              "ioValue": 51
             }
           ]
+        },
+        {
+          "atomType": "Readme",
+          "x": 0.4393226716839135,
+          "y": 0.6686746987951807,
+          "uniqueID": "id-3436",
+          "name": "README",
+          "ioValues": [
+            {
+              "name": "value",
+              "ioValue": "__GEOMETRY_INPUT__"
+            }
+          ],
+          "readMeText": "BaseSize + y",
+          "global": true
         }
       ],
       "allConnectors": [
@@ -544,20 +573,17 @@
           "ap2ID": "id-3353"
         },
         {
+          "ap2Name": "value",
+          "ap1ID": "id-3349",
+          "ap2ID": "id-3436"
+        },
+        {
           "ap2Name": "number or geometry",
           "ap1ID": "id-3353",
           "ap2ID": "id-3344"
         }
       ],
       "fileTypeVersion": 1
-    },
-    {
-      "atomType": "Equation",
-      "x": 0.15239887111947317,
-      "y": 0.5813253012048193,
-      "uniqueID": "id-3360",
-      "name": "BaseSize + Thickness",
-      "currentEquation": "BaseSize + Thickness"
     }
   ],
   "allConnectors": [
