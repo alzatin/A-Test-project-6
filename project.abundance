@@ -66,8 +66,7 @@
         },
         {
           "name": "xDist",
-          "ioValue": 50,
-          "currentEquation": "50"
+          "ioValue": 50
         },
         {
           "name": "yDist",
@@ -97,8 +96,8 @@
     },
     {
       "atomType": "Gcode",
-      "x": 0.7572906867356539,
-      "y": 0.32228915662650603,
+      "x": 0.7497648165569144,
+      "y": 0.3373493975903614,
       "uniqueID": "id-2984",
       "ioValues": [
         {
@@ -107,7 +106,7 @@
         },
         {
           "name": "Tool Size",
-          "ioValue": 6.35
+          "ioValue": 5.35
         },
         {
           "name": "Passes",
@@ -132,8 +131,8 @@
     },
     {
       "atomType": "Assembly",
-      "x": 0.6641580432737535,
-      "y": 0.7198795180722891,
+      "x": 0.6707431796801505,
+      "y": 0.6566265060240964,
       "uniqueID": "id-2991",
       "ioValues": [
         {
@@ -158,12 +157,12 @@
         },
         {
           "name": "xDist",
-          "ioValue": 0
+          "ioValue": 15,
+          "currentEquation": "15"
         },
         {
           "name": "yDist",
-          "ioValue": 30,
-          "currentEquation": "30"
+          "ioValue": 30
         },
         {
           "name": "zDist",
