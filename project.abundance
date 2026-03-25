@@ -7,8 +7,7 @@
   "ioValues": [
     {
       "name": "BaseSize",
-      "ioValue": 100,
-      "currentEquation": "100"
+      "ioValue": 100
     },
     {
       "name": "Thickness",
@@ -308,6 +307,44 @@
       ]
     },
     {
+      "atomType": "Code",
+      "x": 0.6223175965665235,
+      "y": 0.6475903614457831,
+      "uniqueID": "id-2719",
+      "ioValues": [
+        {
+          "name": "number1",
+          "ioValue": 100
+        },
+        {
+          "name": "number2",
+          "ioValue": 5
+        },
+        {
+          "name": "shape",
+          "ioValue": "__GEOMETRY_INPUT__"
+        }
+      ],
+      "codeVersion": 1,
+      "code": "\n// Example Code\nconst Inputs = [\n  \n  { inputName: \"shape\", type: \"geometry\", defaultValue: null },\n  { inputName: \"number1\", type: \"number\", defaultValue: 5 },\n  { inputName: \"number2\", type: \"number\", defaultValue: 10 }\n];\n\nreturn number1+number2\n"
+    },
+    {
+      "atomType": "Rectangle",
+      "x": 0.7193133047210301,
+      "y": 0.8644578313253012,
+      "uniqueID": "id-2726",
+      "ioValues": [
+        {
+          "name": "x length",
+          "ioValue": 105
+        },
+        {
+          "name": "y length",
+          "ioValue": 10
+        }
+      ]
+    },
+    {
       "atomType": "Molecule",
       "x": 0.35536480686695276,
       "y": 0.14457831325301204,
@@ -437,6 +474,19 @@
             {
               "name": "Shape 1",
               "ioValue": null
+            }
+          ]
+        },
+        {
+          "atomType": "Circle",
+          "x": 0.28068669527896994,
+          "y": 0.6174698795180722,
+          "uniqueID": "id-2736",
+          "ioValues": [
+            {
+              "name": "diameter",
+              "ioValue": 100,
+              "currentEquation": "BaseSize"
             }
           ]
         },
@@ -611,19 +661,6 @@
             }
           ],
           "fileTypeVersion": 1
-        },
-        {
-          "atomType": "Circle",
-          "x": 0.28068669527896994,
-          "y": 0.6174698795180722,
-          "uniqueID": "id-2736",
-          "ioValues": [
-            {
-              "name": "diameter",
-              "ioValue": 100,
-              "currentEquation": "BaseSize"
-            }
-          ]
         }
       ],
       "allConnectors": [
@@ -651,42 +688,40 @@
       "fileTypeVersion": 1
     },
     {
-      "atomType": "Code",
-      "x": 0.6223175965665235,
-      "y": 0.6475903614457831,
-      "uniqueID": "id-2719",
+      "atomType": "Label",
+      "x": 0.27210300429184553,
+      "y": 0.8192771084337349,
+      "uniqueID": "id-2850",
       "ioValues": [
         {
-          "name": "number1",
-          "ioValue": 100,
-          "currentEquation": "BaseSize"
-        },
-        {
-          "name": "number2",
-          "ioValue": 5,
-          "currentEquation": "Thickness"
-        },
-        {
-          "name": "shape",
+          "name": "geometry",
           "ioValue": "__GEOMETRY_INPUT__"
-        }
-      ],
-      "codeVersion": 1,
-      "code": "\n// Example Code\nconst Inputs = [\n  \n  { inputName: \"shape\", type: \"geometry\", defaultValue: null },\n  { inputName: \"number1\", type: \"number\", defaultValue: 5 },\n  { inputName: \"number2\", type: \"number\", defaultValue: 10 }\n];\n\nreturn number1+number2\n"
-    },
-    {
-      "atomType": "Rectangle",
-      "x": 0.7193133047210301,
-      "y": 0.8644578313253012,
-      "uniqueID": "id-2726",
-      "ioValues": [
-        {
-          "name": "x length",
-          "ioValue": 105
         },
         {
-          "name": "y length",
-          "ioValue": 10
+          "name": "text",
+          "ioValue": "label",
+          "currentEquation": "label"
+        },
+        {
+          "name": "startPosition",
+          "ioValue": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "endPosition",
+          "ioValue": [
+            10,
+            10,
+            0
+          ]
+        },
+        {
+          "name": "color",
+          "ioValue": "#dd863b",
+          "currentEquation": "#dd863b"
         }
       ]
     }
@@ -773,14 +808,14 @@
       "ap2ID": "id-855"
     },
     {
-      "ap2Name": "number or geometry",
-      "ap1ID": "id-level1-outer",
-      "ap2ID": 1746568598187
-    },
-    {
       "ap2Name": "x length",
       "ap1ID": "id-2719",
       "ap2ID": "id-2726"
+    },
+    {
+      "ap2Name": "number or geometry",
+      "ap1ID": "id-level1-outer",
+      "ap2ID": 1746568598187
     }
   ],
   "unitsKey": "MM",
