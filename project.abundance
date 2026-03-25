@@ -7,12 +7,12 @@
   "ioValues": [
     {
       "name": "BaseSize",
-      "ioValue": 50,
-      "currentEquation": "50"
+      "ioValue": 99
     },
     {
       "name": "Thickness",
-      "ioValue": 5
+      "ioValue": 70,
+      "currentEquation": "70"
     }
   ],
   "topLevel": true,
@@ -32,7 +32,7 @@
     {
       "atomType": "Input",
       "x": 0.025384615384615384,
-      "y": 0.15384615384615385,
+      "y": 0.3795180722891566,
       "uniqueID": "id-625",
       "name": "BaseSize"
     },
@@ -498,8 +498,8 @@
     },
     {
       "atomType": "Molecule",
-      "x": 0.2333019755409219,
-      "y": 0.29819277108433734,
+      "x": 0.2361241768579492,
+      "y": 0.21385542168674698,
       "uniqueID": "id-3342",
       "name": "Molecule",
       "topLevel": false,
@@ -518,8 +518,8 @@
         },
         {
           "atomType": "Equation",
-          "x": 0.277516462841016,
-          "y": 0.5240963855421688,
+          "x": 0.22953904045155224,
+          "y": 0.4939759036144578,
           "uniqueID": "id-3349",
           "name": "BaseSize + Thickness",
           "currentEquation": "BaseSize + Thickness"
@@ -532,7 +532,7 @@
           "ioValues": [
             {
               "name": "diameter",
-              "ioValue": 55
+              "ioValue": 60
             }
           ]
         }
@@ -553,8 +553,8 @@
     },
     {
       "atomType": "Equation",
-      "x": 0.17309501411100658,
-      "y": 0.641566265060241,
+      "x": 0.15239887111947317,
+      "y": 0.5813253012048193,
       "uniqueID": "id-3360",
       "name": "BaseSize + Thickness",
       "currentEquation": "BaseSize + Thickness"
