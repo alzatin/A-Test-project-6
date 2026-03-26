@@ -20,6 +20,10 @@
     {
       "name": "Make_Box",
       "ioValue": 10
+    },
+    {
+      "name": "Input",
+      "ioValue": 10
     }
   ],
   "topLevel": true,
@@ -653,6 +657,36 @@
       "uniqueID": "id-3629",
       "name": "Make_Box",
       "type": "boolean"
+    },
+    {
+      "atomType": "GitHubMolecule",
+      "x": 0.48410535876475935,
+      "y": 0.7259036144578314,
+      "uniqueID": "id-3633",
+      "name": "Github Molecule",
+      "topLevel": false,
+      "allAtoms": [
+        {
+          "atomType": "Output",
+          "x": 0.98,
+          "y": 0.5,
+          "uniqueID": "id-3635",
+          "ioValues": [
+            {
+              "name": "number or geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            }
+          ]
+        }
+      ],
+      "allConnectors": [],
+      "fileTypeVersion": 1
+    },
+    {
+      "atomType": "Input",
+      "x": 0.025384615384615384,
+      "y": 0.6977293790546802,
+      "uniqueID": "id-3637"
     }
   ],
   "allConnectors": [
