@@ -16,6 +16,10 @@
     {
       "name": "Rangeinput",
       "ioValue": 51
+    },
+    {
+      "name": "Make_Box",
+      "ioValue": 10
     }
   ],
   "topLevel": true,
@@ -151,8 +155,8 @@
     },
     {
       "atomType": "Move",
-      "x": 0.6179378531073446,
-      "y": 0.7379518072289156,
+      "x": 0.6212534059945504,
+      "y": 0.7620481927710844,
       "uniqueID": "id-2995",
       "ioValues": [
         {
@@ -237,8 +241,8 @@
     },
     {
       "atomType": "GitHubMolecule",
-      "x": 0.6836158192090396,
-      "y": 0.21987951807228914,
+      "x": 0.6866485013623979,
+      "y": 0.20481927710843373,
       "uniqueID": "id-3275",
       "name": "Shell",
       "ioValues": [
@@ -641,6 +645,14 @@
         }
       ],
       "fileTypeVersion": 1
+    },
+    {
+      "atomType": "Input",
+      "x": 0.025384615384615384,
+      "y": 0.6054216867469879,
+      "uniqueID": "id-3629",
+      "name": "Make_Box",
+      "type": "boolean"
     }
   ],
   "allConnectors": [
