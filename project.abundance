@@ -87,8 +87,7 @@
       "ioValues": [
         {
           "name": "diameter",
-          "ioValue": 5,
-          "currentEquation": "5"
+          "ioValue": 5
         }
       ]
     },
@@ -105,6 +104,30 @@
         {
           "name": "height",
           "ioValue": 14
+        }
+      ]
+    },
+    {
+      "atomType": "Move",
+      "x": 0.6185286103542235,
+      "y": 0.39457831325301207,
+      "uniqueID": "id-4204",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "xDist",
+          "ioValue": 6
+        },
+        {
+          "name": "yDist",
+          "ioValue": 0
+        },
+        {
+          "name": "zDist",
+          "ioValue": 0
         }
       ]
     },
@@ -152,8 +175,7 @@
             },
             {
               "name": "height",
-              "ioValue": 5,
-              "currentEquation": "5"
+              "ioValue": 5
             }
           ]
         }
@@ -171,30 +193,6 @@
         }
       ],
       "fileTypeVersion": 1
-    },
-    {
-      "atomType": "Move",
-      "x": 0.6503178928247049,
-      "y": 0.4939759036144578,
-      "uniqueID": "id-4204",
-      "ioValues": [
-        {
-          "name": "geometry",
-          "ioValue": "__GEOMETRY_INPUT__"
-        },
-        {
-          "name": "xDist",
-          "ioValue": 6
-        },
-        {
-          "name": "yDist",
-          "ioValue": 0
-        },
-        {
-          "name": "zDist",
-          "ioValue": 0
-        }
-      ]
     }
   ],
   "allConnectors": [
