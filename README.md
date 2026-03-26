@@ -6,19 +6,5 @@
 
 
 
- ### Molecule
-
-BaseSize + y
-
-**Value:** 55
-
-BaseSize + Thickness in top level
-
-**Value:** 53
-
-BaseSize + y in top level
-
-**Value:** 55
-
-
+ 
 
