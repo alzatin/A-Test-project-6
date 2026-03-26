@@ -55,21 +55,33 @@
       "name": "Thickness"
     },
     {
-      "atomType": "Circle",
-      "x": 0.26430517711171664,
-      "y": 0.3734939759036145,
-      "uniqueID": "id-2971",
+      "atomType": "Move",
+      "x": 0.3997175141242938,
+      "y": 0.4006024096385542,
+      "uniqueID": "id-2974",
       "ioValues": [
         {
-          "name": "diameter",
-          "ioValue": 10
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "xDist",
+          "ioValue": 50
+        },
+        {
+          "name": "yDist",
+          "ioValue": 0
+        },
+        {
+          "name": "zDist",
+          "ioValue": 0
         }
       ]
     },
     {
       "atomType": "Extrude",
-      "x": 0.5231607629427794,
-      "y": 0.3795180722891566,
+      "x": 0.5007062146892656,
+      "y": 0.2891566265060241,
       "uniqueID": "id-2980",
       "ioValues": [
         {
@@ -119,8 +131,8 @@
     },
     {
       "atomType": "Assembly",
-      "x": 0.7366030881017257,
-      "y": 0.46987951807228917,
+      "x": 0.737511353315168,
+      "y": 0.47289156626506024,
       "uniqueID": "id-2991",
       "ioValues": [
         {
@@ -135,8 +147,8 @@
     },
     {
       "atomType": "Move",
-      "x": 0.6884650317892824,
-      "y": 0.6987951807228915,
+      "x": 0.6212534059945504,
+      "y": 0.7620481927710844,
       "uniqueID": "id-2995",
       "ioValues": [
         {
@@ -167,8 +179,8 @@
     },
     {
       "atomType": "Readme",
-      "x": 0.22797456857402362,
-      "y": 0.6174698795180722,
+      "x": 0.3151458137347131,
+      "y": 0.6114457831325302,
       "uniqueID": "id-3439",
       "name": "README",
       "ioValues": [
@@ -233,22 +245,6 @@
       "y": 0.5230769230769231,
       "uniqueID": "id-3637",
       "type": "number"
-    },
-    {
-      "atomType": "Rectangle",
-      "x": 0.31970935513169846,
-      "y": 0.25301204819277107,
-      "uniqueID": "id-3822",
-      "ioValues": [
-        {
-          "name": "x length",
-          "ioValue": 10
-        },
-        {
-          "name": "y length",
-          "ioValue": 10
-        }
-      ]
     },
     {
       "atomType": "GitHubMolecule",
@@ -659,9 +655,9 @@
     },
     {
       "atomType": "GitHubMolecule",
-      "x": 0.5649409627611263,
-      "y": 0.7439759036144579,
-      "uniqueID": "id-3787",
+      "x": 0.4750227066303361,
+      "y": 0.6295180722891566,
+      "uniqueID": "id-3652",
       "name": "Filet_Vertical_Edges",
       "ioValues": [
         {
@@ -670,7 +666,7 @@
         },
         {
           "name": "Radius",
-          "ioValue": 0.5
+          "ioValue": 10
         },
         {
           "name": "Bounding_Box",
@@ -683,7 +679,7 @@
           "atomType": "Output",
           "x": 0.98,
           "y": 0.5,
-          "uniqueID": "id-3776",
+          "uniqueID": "id-3641",
           "ioValues": [
             {
               "name": "number or geometry",
@@ -693,9 +689,9 @@
         },
         {
           "atomType": "Code",
-          "x": 0.6115819209039548,
-          "y": 0.17469879518072287,
-          "uniqueID": "id-3777",
+          "x": 0.5509259259259259,
+          "y": 0.2590529247910863,
+          "uniqueID": "id-3642",
           "ioValues": [
             {
               "name": "shape",
@@ -713,7 +709,7 @@
           "atomType": "Input",
           "x": 0.025384615384615384,
           "y": 0.15384615384615385,
-          "uniqueID": "id-3778",
+          "uniqueID": "id-3643",
           "name": "Shape",
           "type": "geometry"
         },
@@ -721,14 +717,14 @@
           "atomType": "Input",
           "x": 0.025384615384615384,
           "y": 0.24615384615384617,
-          "uniqueID": "id-3779",
+          "uniqueID": "id-3644",
           "name": "Radius"
         },
         {
           "atomType": "Rectangle",
-          "x": 0.3290960451977401,
-          "y": 0.16265060240963855,
-          "uniqueID": "id-3780",
+          "x": 0.2976190476190476,
+          "y": 0.3259052924791086,
+          "uniqueID": "id-3645",
           "ioValues": [
             {
               "name": "x length",
@@ -742,9 +738,9 @@
         },
         {
           "atomType": "Extrude",
-          "x": 0.4159604519774011,
-          "y": 0.2319277108433735,
-          "uniqueID": "id-3781",
+          "x": 0.39761904761904765,
+          "y": 0.3259052924791086,
+          "uniqueID": "id-3646",
           "ioValues": [
             {
               "name": "geometry",
@@ -757,10 +753,32 @@
           ]
         },
         {
+          "atomType": "Code",
+          "x": 0.6058201058201058,
+          "y": 0.6350974930362118,
+          "uniqueID": "id-3647",
+          "ioValues": [
+            {
+              "name": "shape",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "radius",
+              "ioValue": 10
+            },
+            {
+              "name": "region",
+              "ioValue": "__GEOMETRY_INPUT__"
+            }
+          ],
+          "codeVersion": 1,
+          "code": "const Inputs = [\n  { inputName: \"shape\", type: \"geometry\", defaultValue: null },\n  { inputName: \"radius\", type: \"number\", defaultValue: 2 },\n  { inputName: \"region\", type: \"geometry\", defaultValue: null },\n];\n\nlet assembly = library[shape];\n\nlet edgeFilter;\nif (region !== null) {\n  let bounds = await GetBounds(region);\n  edgeFilter = (e) => e.inDirection(\"Z\").inBox(bounds.min, bounds.max);\n} else {\n  edgeFilter = (e) => e.inDirection(\"Z\");\n}\n\nreturn await AssemblyMap(assembly, async (leaf) => {\n  let solid = leaf.geometry[0];\n  let filleted = solid.fillet(radius, edgeFilter);\n  return { ...leaf, geometry: [filleted] };\n});\n"
+        },
+        {
           "atomType": "Rectangle",
-          "x": 0.1963276836158192,
-          "y": 0.8132530120481928,
-          "uniqueID": "id-3782",
+          "x": 0.27050264550264547,
+          "y": 0.9526462395543175,
+          "uniqueID": "id-3648",
           "ioValues": [
             {
               "name": "x length",
@@ -774,9 +792,9 @@
         },
         {
           "atomType": "Extrude",
-          "x": 0.3135593220338983,
-          "y": 0.8042168674698795,
-          "uniqueID": "id-3783",
+          "x": 0.37050264550264544,
+          "y": 0.9526462395543175,
+          "uniqueID": "id-3649",
           "ioValues": [
             {
               "name": "geometry",
@@ -790,9 +808,9 @@
         },
         {
           "atomType": "Move",
-          "x": 0.3764124293785311,
-          "y": 0.8945783132530121,
-          "uniqueID": "id-3784",
+          "x": 0.5,
+          "y": 0.8969359331476323,
+          "uniqueID": "id-3650",
           "ioValues": [
             {
               "name": "geometry",
@@ -816,89 +834,68 @@
           "atomType": "Input",
           "x": 0.025384615384615384,
           "y": 0.3384615384615385,
-          "uniqueID": "id-3785",
+          "uniqueID": "id-3651",
           "name": "Bounding_Box",
           "type": "geometry"
-        },
-        {
-          "atomType": "Code",
-          "x": 0.530426884650318,
-          "y": 0.5271084337349398,
-          "uniqueID": "id-3786",
-          "ioValues": [
-            {
-              "name": "shape",
-              "ioValue": "__GEOMETRY_INPUT__"
-            },
-            {
-              "name": "radius",
-              "ioValue": 0.5
-            },
-            {
-              "name": "region",
-              "ioValue": "__GEOMETRY_INPUT__"
-            }
-          ],
-          "codeVersion": 1,
-          "code": "const Inputs = [\n  { inputName: \"shape\", type: \"geometry\", defaultValue: null },\n  { inputName: \"radius\", type: \"number\", defaultValue: 2 },\n  { inputName: \"region\", type: \"geometry\", defaultValue: null },\n];\n\nlet assembly = library[shape];\nconsole.log(region)\nlet edgeFilter;\nif (region !== '__GEOMETRY_INPUT__') {\n  let bounds = await GetBounds(region);\n  edgeFilter = (e) => e.inDirection(\"Z\").inBox(bounds.min, bounds.max);\n} else {\n  edgeFilter = (e) => e.inDirection(\"Z\");\n}\n\nreturn await AssemblyMap(assembly, async (leaf) => {\n  let solid = leaf.geometry[0];\n  let filleted = solid.fillet(radius, edgeFilter);\n  return { ...leaf, geometry: [filleted] };\n});\n"
         }
       ],
       "allConnectors": [
         {
           "ap2Name": "shape",
-          "ap1ID": "id-3778",
-          "ap2ID": "id-3786"
+          "ap1ID": "id-3643",
+          "ap2ID": "id-3647"
         },
         {
           "ap2Name": "radius",
-          "ap1ID": "id-3779",
-          "ap2ID": "id-3786"
+          "ap1ID": "id-3644",
+          "ap2ID": "id-3647"
         },
         {
           "ap2Name": "geometry",
-          "ap1ID": "id-3780",
-          "ap2ID": "id-3781"
-        },
-        {
-          "ap2Name": "geometry",
-          "ap1ID": "id-3782",
-          "ap2ID": "id-3783"
-        },
-        {
-          "ap2Name": "geometry",
-          "ap1ID": "id-3783",
-          "ap2ID": "id-3784"
-        },
-        {
-          "ap2Name": "region",
-          "ap1ID": "id-3785",
-          "ap2ID": "id-3786"
+          "ap1ID": "id-3645",
+          "ap2ID": "id-3646"
         },
         {
           "ap2Name": "number or geometry",
-          "ap1ID": "id-3786",
-          "ap2ID": "id-3776"
+          "ap1ID": "id-3647",
+          "ap2ID": "id-3641"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-3648",
+          "ap2ID": "id-3649"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-3649",
+          "ap2ID": "id-3650"
+        },
+        {
+          "ap2Name": "region",
+          "ap1ID": "id-3651",
+          "ap2ID": "id-3647"
         }
       ],
       "parentRepo": {
+        "lastFoundGit": "2026-03-26T10:23:39.361Z",
         "privateRepo": false,
         "repoName": "Filet_Vertical_Edges",
-        "dateCreated": "2026-03-26T16:35:10Z",
-        "readMe": "https://raw.githubusercontent.com/alzatin/Filet_Vertical_Edges/master/README.md?sanitize=true",
+        "dateCreated": "2026-03-25T23:26:25Z",
+        "readMe": "https://raw.githubusercontent.com/BarbourSmith/Filet_Vertical_Edges/master/README.md?sanitize=true",
         "yyyy": 2026,
         "topMoleculeID": "id-448",
         "githubMoleculesUsed": [],
-        "html_url": "https://github.com/alzatin/Filet_Vertical_Edges",
+        "html_url": "https://github.com/BarbourSmith/Filet_Vertical_Edges",
         "topics": [],
-        "parentRepo": "BarbourSmith/Filet_Vertical_Edges",
+        "parentRepo": null,
         "forks": 0,
-        "dateModified": "739701",
+        "dateModified": "739700",
         "ranking": 0,
-        "searchField": "filet_vertical_edges alzatin fillets only the vertical edges of the input shape ",
-        "owner": "alzatin",
+        "searchField": "filet_vertical_edges barboursmith fillets only the vertical edges of the input shape ",
+        "owner": "BarbourSmith",
         "description": "Fillets only the vertical edges of the input shape",
-        "contentURL": "https://raw.githubusercontent.com/alzatin/Filet_Vertical_Edges/master/project.abundance?sanitize=true",
-        "svgURL": "https://raw.githubusercontent.com/alzatin/Filet_Vertical_Edges/master/project.svg?sanitize=true",
+        "contentURL": "https://raw.githubusercontent.com/BarbourSmith/Filet_Vertical_Edges/master/project.abundance?sanitize=true",
+        "svgURL": "https://raw.githubusercontent.com/BarbourSmith/Filet_Vertical_Edges/master/project.svg?sanitize=true",
         "isLocal": false
       },
       "unitsKey": "MM",
@@ -906,9 +903,9 @@
     },
     {
       "atomType": "Rectangle",
-      "x": 0.32425068119891004,
-      "y": 0.5210843373493976,
-      "uniqueID": "id-3947",
+      "x": 0.2970027247956403,
+      "y": 0.3132530120481927,
+      "uniqueID": "id-3773",
       "ioValues": [
         {
           "name": "x length",
@@ -919,50 +916,19 @@
           "ioValue": 10
         }
       ]
-    },
-    {
-      "atomType": "Extrude",
-      "x": 0.38510445049954584,
-      "y": 0.6144578313253012,
-      "uniqueID": "id-3951",
-      "ioValues": [
-        {
-          "name": "geometry",
-          "ioValue": "__GEOMETRY_INPUT__"
-        },
-        {
-          "name": "height",
-          "ioValue": 10
-        }
-      ]
-    },
-    {
-      "atomType": "Move",
-      "x": 0.45322434150772023,
-      "y": 0.8644578313253012,
-      "uniqueID": "id-3956",
-      "ioValues": [
-        {
-          "name": "geometry",
-          "ioValue": "__GEOMETRY_INPUT__"
-        },
-        {
-          "name": "xDist",
-          "ioValue": 5
-        },
-        {
-          "name": "yDist",
-          "ioValue": 5,
-          "currentEquation": "5"
-        },
-        {
-          "name": "zDist",
-          "ioValue": 0
-        }
-      ]
     }
   ],
   "allConnectors": [
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-2974",
+      "ap2ID": "id-2980"
+    },
+    {
+      "ap2Name": "Shape",
+      "ap1ID": "id-2974",
+      "ap2ID": "id-3652"
+    },
     {
       "ap2Name": "Shape 1",
       "ap1ID": "id-2980",
@@ -979,19 +945,9 @@
       "ap2ID": "id-3275"
     },
     {
-      "ap2Name": "Shape",
-      "ap1ID": "id-2980",
-      "ap2ID": "id-3787"
-    },
-    {
       "ap2Name": "geometry",
       "ap1ID": "id-2991",
       "ap2ID": "id-2984"
-    },
-    {
-      "ap2Name": "number or geometry",
-      "ap1ID": "id-2991",
-      "ap2ID": 1746568598187
     },
     {
       "ap2Name": "Shape 2",
@@ -1010,23 +966,8 @@
     },
     {
       "ap2Name": "geometry",
-      "ap1ID": "id-3822",
-      "ap2ID": "id-2980"
-    },
-    {
-      "ap2Name": "geometry",
-      "ap1ID": "id-3947",
-      "ap2ID": "id-3951"
-    },
-    {
-      "ap2Name": "geometry",
-      "ap1ID": "id-3951",
-      "ap2ID": "id-3956"
-    },
-    {
-      "ap2Name": "Bounding_Box",
-      "ap1ID": "id-3956",
-      "ap2ID": "id-3787"
+      "ap1ID": "id-3773",
+      "ap2ID": "id-2974"
     }
   ],
   "unitsKey": "MM",
