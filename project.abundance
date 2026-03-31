@@ -157,14 +157,14 @@
     },
     {
       "atomType": "Fusion",
-      "x": 0.7220708446866485,
-      "y": 0.3885542168674699,
+      "x": 0.6597222222222222,
+      "y": 0.4879518072289156,
       "uniqueID": "id-4252",
       "ioValues": [
         {
           "name": "Shape 1",
           "ioValue": {
-            "geometry": "rotate-extrude-circle-2.5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-14-90-0-0",
+            "geometry": "extrude-circle-2.5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-14",
             "dimension": "3D",
             "tags": [],
             "plane": {
@@ -191,12 +191,9 @@
         {
           "name": "Shape 3",
           "ioValue": {
-            "geometry": "move-extrude-circle-2.5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-14-0-13.2-0",
+            "geometry": "move-rotate-extrude-circle-2.5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-14-90-0-0-0-13.2-0",
             "dimension": "3D",
-            "tags": [
-              "glass",
-              "luck"
-            ],
+            "tags": [],
             "plane": {
               "origin": [
                 0,
@@ -222,68 +219,6 @@
       "unionType": "Fusion"
     },
     {
-      "atomType": "Tag",
-      "x": 0.5201388888888889,
-      "y": 0.31626506024096385,
-      "uniqueID": "id-4285",
-      "name": "luck",
-      "ioValues": [
-        {
-          "name": "geometry",
-          "ioValue": "__GEOMETRY_INPUT__"
-        }
-      ],
-      "tags": [
-        "luck"
-      ]
-    },
-    {
-      "atomType": "ExtractTag",
-      "x": 0.7652777777777778,
-      "y": 0.8042168674698795,
-      "uniqueID": "id-4288",
-      "name": "Extract Tag",
-      "ioValues": [
-        {
-          "name": "geometry",
-          "ioValue": "__GEOMETRY_INPUT__"
-        }
-      ],
-      "tag": "luck",
-      "tagIndex": 0
-    },
-    {
-      "atomType": "ExtractTag",
-      "x": 0.7645833333333333,
-      "y": 0.5933734939759037,
-      "uniqueID": "id-4291",
-      "name": "Extract Tag",
-      "ioValues": [
-        {
-          "name": "geometry",
-          "ioValue": "__GEOMETRY_INPUT__"
-        }
-      ],
-      "tag": "luck",
-      "tagIndex": 0
-    },
-    {
-      "atomType": "Tag",
-      "x": 0.3993055555555555,
-      "y": 0.7439759036144579,
-      "uniqueID": "id-4294",
-      "name": "glass",
-      "ioValues": [
-        {
-          "name": "geometry",
-          "ioValue": "__GEOMETRY_INPUT__"
-        }
-      ],
-      "tags": [
-        "glass"
-      ]
-    },
-    {
       "atomType": "Color",
       "x": 0.8138888888888889,
       "y": 0.2921686746987952,
@@ -295,6 +230,13 @@
         }
       ],
       "selectedColor": "Red"
+    },
+    {
+      "atomType": "Constant",
+      "x": 0.1840277777777778,
+      "y": 0.7710843373493976,
+      "uniqueID": "id-4340",
+      "value": 5
     }
   ],
   "allConnectors": [
@@ -309,14 +251,14 @@
       "ap2ID": "id-4240"
     },
     {
-      "ap2Name": "geometry",
+      "ap2Name": "Shape 1",
       "ap1ID": "id-4174",
-      "ap2ID": "id-4294"
+      "ap2ID": "id-4252"
     },
     {
-      "ap2Name": "Shape 1",
+      "ap2Name": "geometry",
       "ap1ID": "id-4240",
-      "ap2ID": "id-4252"
+      "ap2ID": "id-4246"
     },
     {
       "ap2Name": "Shape 3",
@@ -325,33 +267,13 @@
     },
     {
       "ap2Name": "geometry",
-      "ap1ID": "id-4246",
-      "ap2ID": "id-4288"
-    },
-    {
-      "ap2Name": "geometry",
-      "ap1ID": "id-4246",
-      "ap2ID": "id-4291"
-    },
-    {
-      "ap2Name": "geometry",
       "ap1ID": "id-4252",
       "ap2ID": "id-4297"
     },
     {
-      "ap2Name": "geometry",
-      "ap1ID": "id-4285",
-      "ap2ID": "id-4246"
-    },
-    {
-      "ap2Name": "number or geometry",
-      "ap1ID": "id-4291",
-      "ap2ID": 1746568598187
-    },
-    {
-      "ap2Name": "geometry",
-      "ap1ID": "id-4294",
-      "ap2ID": "id-4285"
+      "ap2Name": "diameter",
+      "ap1ID": "id-4340",
+      "ap2ID": "id-4171"
     }
   ],
   "unitsKey": "MM",
